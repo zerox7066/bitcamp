@@ -1,20 +1,36 @@
-// # 자바에서 값 표현(Literal) 하기
+// ## 메모리 준비
+// Class 사용자 정의 변수를 정의해서 사용하고, 메소드를 분류하는 용도
 
 package bitcamp.java100;
 
 public class Test12_1 {
-    public static void main( String[] args ) {
-        
-        System.out.println("ABC");
-        System.out.println("가각간");
 
-        // 자바는 문자열과 문자를 구분한다.
-        System.out.println("가");  //문자열
-        System.out.println('가');  //문자
+    public static void main(String[] args) {
+        byte b;
+        short s;
+        int i;
+        long l;
+        float f;
+        double d;
+        boolean bool;
+        char c;
 
-        System.out.println("ABC\n가각간");
-        System.out.println("ABC\uAC00\uac00똘똠똥");
+        b = 100;
+        s = 100;
+        i = 100;
+        l = 100;
+        f = 3.14f;
+        d = 3.14;
+        bool = true;
+        c = 44032;
 
-        System.out.println("");
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(bool);
+        System.out.println(c);
     }
 }
