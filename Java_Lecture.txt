@@ -19,33 +19,21 @@ Vim  ,   pix2code
 https://gradle.org/releases/   압축푼후  환경변수에 추가
 
 
-git config --global user.name   "자신의 닉네임"
-git config --global user.email    "자신의 이메일"
+
+* git 사용법
+
+자격 삭제 : 사용자 계정 및 가족보호 => Windows 자격 증명 관리에서 git 제거
+
+
+git> git config --global user.name "zerox7066"
+git> git config --global user.email "zerox7066@gmail.com"
 
 
 git init
 
 
-@ github 업로드
 
-1. 로컬 저장소에 백업할 명단 작성 
-   
-   >git add .      => 모든 파일 및 폴드
-
-   >git add <파일이름>
-
-
-2. 로컬 저장소에 백업
-
-   >git commit -m '백업이유'
-   >git commit -m '.'
-
-3. 서버의 원격 저장소에 업로드
-   >git push
-
-
-
-@ github 다운로드
+@ github 복사
 
   - git clone /로컬/저장소/경로
 
@@ -54,7 +42,30 @@ git init
 
   ex)  Clone or download 버튼 클릭
 
-    >git clone https://github.com/zerox7066/myrep.git
+    git> git clone https://github.com/zerox7066/bitcamp.git
+
+
+@ github 업로드
+
+1. 로컬 저장소에 백업할 명단 작성 
+   
+   bitcamp> git add .      => 모든 파일 및 폴드
+
+   bitcamp> git add <파일이름>
+
+
+2. 로컬 저장소에 백업
+
+   bitcamp> git commit -m '백업이유'
+   bitcamp> git commit -m '.'
+
+3. 서버의 원격 저장소에 업로드  =>  로그인 화면이 나타남
+   >git push
+
+
+@ github 다운로드
+  
+  java100> git pull
 
 
 
