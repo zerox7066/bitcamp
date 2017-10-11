@@ -1,0 +1,173 @@
+@  npm 사용   npm이란 Node Package Modules의 약자다.
+
+https://github.com/eomcs/eomcs-codebook
+
+git 다운로드
+
+git> git clone https://github.com/eomcs/eomcs-codebook.git
+
+* electron
+
+git\eomcs-codebook> npm install
+
+
+git\eomcs-codebook> npm start
+
+
+
+
+@  이클립스에서 jdk9 실행
+
+   -- eclipse jdk9 검색
+
+
+C:\Users\bit-user\eclipse\jee-oxygen 에서 eclipse.ini  수정
+
+
+
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+
+-Dosgi.requiredJavaVersion=1.8
+
+
+
+-Dosgi.requiredJavaVersion=9       =====>  수정
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+--add-modules=ALL-SYSTEM           =====>  추가
+-Dosgi.requiredJavaVersion=9       =====>  수정
+
+
+
+Perferences 
+
+
+General  =>  Editors  =>  Text Editors
+    
+             Insert space for tabs
+             Show print margin
+             Show line numbers
+             Show whitespace charaters   Carriage Return, Line Feed 체크 해제
+
+
+General =>  Workspace  =>  Text file encoing   Other UTF-8 설정
+
+
+Java  =>  Code Style  =>  Formatter    New my로  Tab policy  Spaces only 설정
+
+
+
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 설정
+
+
+Installed JREs  =>  Add 버튼 클릭 =>  Standard VM 선택  =>  Next 버튼 클릭
+               
+                =>  JRE home에서 => Diretory 버튼 클릭해서 jdk-9 폴더 선택
+
+
+
+
+Help   =>  Elclipse Martketplace
+
+
+Java jdk9 설치 확인
+
+
+
+
+* build.gradle             https://docs.gradle.org/4.2.1/userguide/eclipse_plugin.html
+
+apply plugin: 'eclipse'
+
+
+java-basic> gradle init --type java-application
+
+
+java-basic> gradlew tasks --all
+
+
+java-basic> gradlew EclipseProject
+
+
+java-basic> gradlew cleanEclipseProject
+
+
+
+java-basic> gradlew EclipseClasspath
+
+
+java-basic> gradlew cleanEclipseProject
+
+
+
+java-basic> gradlew Eclipse
+
+java-basic> gradlew cleanEclipse
+
+
+
+
+
+* build.gradle 수정해서  .project 파일, .classpath파일과 org.eclipse.jdt.core.prefs 파일 생성
+
+
+
+apply plugin: 'eclipse'
+
+
+eclipse {
+  jdt {
+    //if you want to alter the java versions (by default they are configured with gradle java plugin settings):
+    sourceCompatibility = 9
+    targetCompatibility = 9
+    javaRuntimeName = "JavaSE-9"
+
+    file {
+      whenMerged { jdt
+      }
+
+      withProperties { properties ->
+        properties["org.eclipse.jdt.core.compiler.codegen.targetPlatform"] = "9"
+        properties["org.eclipse.jdt.core.compiler.source"] = "9"
+        properties["org.eclipse.jdt.core.compiler.compliance"] = "9"
+      }
+    }
+  }
+}
+
+
+
+@ Eclipse에서 Git 사용
+
+
+  Window  =>  Show View  =>  Other  =>  Git Repositories / Git Staging
+
+
+  Git Repoitories 에서 해당 git에서 오른쪽 Context Menu  =>  Push to Stream
+
+
+
+@ Eclipse에서 Git 자동로그인 해제
+
+  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab에서 삭제
+
+
+
+@ Eclipse에서 Project Explorer / Navigator  /  Outline / Task List
+
+  Window  =>  Show View  =>  Other  에서 맨위에서 검색
+
+
+
+@ 블록 복사   =>   Shift + Alt + a  => 마우스가 십자가로 바뀜
+
+  
+
+
+
+
+

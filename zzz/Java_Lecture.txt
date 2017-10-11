@@ -1,0 +1,238 @@
+
+기트허브 :  https://git-scm.com
+
+Atom : https://atom.io/
+
+REPL
+read
+evaluate
+print
+loop
+
+
+jshell
+
+
+Vim  ,   pix2code
+
+* gradle  =>  gradle-4.2-bin   binary only
+https://gradle.org/releases/   압축푼후  환경변수에 추가
+
+
+
+* git 사용법
+
+자격 삭제 : 사용자 계정 및 가족보호 => Windows 자격 증명 관리에서 git 제거
+
+
+git> git config --global user.name "zerox7066"
+git> git config --global user.email "zerox7066@gmail.com"
+
+
+git init
+
+
+
+@ github 복사
+
+  - git clone /로컬/저장소/경로
+
+  - git clone 사용자명@호스트:/원격/저장소/경로
+
+
+  ex)  Clone or download 버튼 클릭
+
+    git> git clone https://github.com/zerox7066/bitcamp.git
+
+
+@ github 업로드
+
+1. 로컬 저장소에 백업할 명단 작성 
+   
+   bitcamp> git add .      => 모든 파일 및 폴드
+
+   bitcamp> git add <파일이름>
+
+
+2. 로컬 저장소에 백업
+
+   bitcamp> git commit -m '백업이유'
+   bitcamp> git commit -m '.'
+
+3. 서버의 원격 저장소에 업로드  =>  로그인 화면이 나타남
+   >git push
+
+
+@ github 다운로드
+  
+  java100> git pull
+
+
+
+
+https://spring.io/
+
+
+
+https://www.egovframe.go.kr
+
+
+https://cs50.harvard.edu/
+
+
+https://www.edx.org/professional-certificate/uc3mx-introduction-java-programming
+
+
+http://mooc.org/
+
+
+
+* github desktop용
+
+https://desktop.github.com/
+
+
+https://gradle.org/
+
+
+
+빌게이츠 생각의 속도
+
+스티브 잡스(보급판)
+
+조너선 아이브
+
+Refactoring
+
+
+
+* 클래스 파일이 있는 경로로 classpath 설정
+
+>set CLASSPATH=C:\workspace\java-basic\build\classes\java\main
+
+
+* jar : 배포파일
+
+
+
+* gradle 설치
+  - 환경변수의 시스템 변수 - path에 gradle 압축푼 경로로 삽입
+C:\gradle-4.2\bin  삽입
+
+
+* gradle 생성
+C:\workspace\java-basic\test>gradle init --type java-application
+
+* gradle build
+C:\workspace\java-basic\test>gradle build
+
+
+* gradle run
+C:\workspace\java-basic\test>gradle run
+
+
+* gradle 컴파일
+C:\workspace\java-basic\test>gradle compilejava
+
+
+* gradle tasks
+
+
+
+git scm
+
+gradle
+
+
+d2coding
+
+
+구글 한중일 폰트
+
+google noto fonts       South Korea
+
+
+"editor.fontFamily": "D2Coding, Consolas"
+
+
+80칸 준수
+
+
+
+
+* gradlew run
+
+
+
+* java-basic> java -cp .\build\classes\java\main bitcamp.java100.Test10
+
+
+
+
+* Classpath 설정
+
+java-basic> set CLASSPATH=.\build\classes\java\main
+
+java-basic> java bitcamp.java100.Test10
+
+
+
+
+https://docs.oracle.com/javase/8/docs/api/
+
+http://docs.oracle.com/javase/9/docs/api/index.html?overview-summary.html
+
+
+
+// java script Node.js 설치
+
+https://nodejs.org/en/
+
+
+
+
+
+// 자바 스크립트로 만든 모듈 설치 ( Node Package Modules ) : 크롬의 오픈소스 엔진
+  - npm이란 Node Package Modules의 약자다. Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다.
+
+https://electron.atom.io/
+
+아무폴더> npm install -g electron
+
+
+java-basic> node     exit : ctrl + d
+
+
+java-basic> jshell     exit : ctrl + d
+
+
+
+
+
+https://codefights.com/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
