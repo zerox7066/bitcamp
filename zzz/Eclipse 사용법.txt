@@ -1,0 +1,91 @@
+@ Eclipse 환경설정
+Perferences 
+
+General  =>  Editors  =>  Text Editors
+    
+             Insert space for tabs
+             Show print margin
+             Show line numbers
+             Show whitespace charaters   Carriage Return, Line Feed 체크 해제
+
+General =>  Workspace  =>  Text file encoing   Other UTF-8 설정
+
+Java  =>  Code Style  =>  Formatter    New my로  Tab policy  Spaces only 설정
+
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 설정
+
+
+Installed JREs  =>  Add 버튼 클릭 =>  Standard VM 선택  =>  Next 버튼 클릭
+               
+                =>  JRE home에서 => Diretory 버튼 클릭해서 jdk-9 폴더 선택
+
+Help   =>  Elclipse Martketplace  :  Java jdk9 설치 확인
+
+
+
+
+
+        i = 4885223;
+        int count = 0;
+        int[] cnt = new int[10];
+        while(i > 0) {
+            cnt[i % 10]++;
+            i /= 10;
+        }
+        
+        int x = 0;
+        while (x < cnt.length) {
+            System.out.printf("%d = %d\n", x, cnt[x]);
+            x++;
+        }
+
+@ 단축키
+  Ctrl + M : 현재 활성화된 뷰나 에디터 최대화
+  Ctrl +F6 : 소스탭 이동
+  Ctrl + PageUp, Ctrl + PageDown : 소스탭 이동
+  Ctrl + F7 : 뷰간 이동
+  F12 : 에디터 활성화
+  Alt + 방향키 : 소스 한줄이나 블록을 이동
+  블록 복사   =>   Shift + Alt + a  => 마우스가 십자가로 바뀜
+
+@ Eclipse에서 Git 사용
+  Window  =>  Show View  =>  Other  =>  Git Repositories / Git Staging
+
+  Git Repoitories 에서 해당 git에서 오른쪽 Context Menu  =>  Push to Stream
+
+@ Eclipse에서 Git 자동로그인 해제
+
+  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab에서 삭제
+
+@ Eclipse에서 Project Explorer / Navigator  /  Outline / Task List
+  Window  =>  Show View  =>  Other  에서 맨위에서 검색
+
+@ View 초기화
+  Window => Perspective  => Open Perspective  => Other  => Java EE
+
+
+Java SE
+Java ME : Embedded Java
+Java EE
+Public Key        Private Key
+
+http://tomcat.apache.org/
+
+
+@ 에러 메시지 처리 :  
+ # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+   - Bin 폴더 삭제
+   - Projcet => Clean
+
+
+@ Codebook
+마크다운 : //  =>  //:   
+
+@ 가변 메소드
+    static void sum(int... values) {
+        int s = 0;
+        for (int v : values) {
+            s += v;
+        }
+        System.out.printf("합계: %d\n", s);
+    }
