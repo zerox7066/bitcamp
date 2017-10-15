@@ -1,27 +1,265 @@
-@ Eclipse È¯°æ¼³Á¤
-Perferences 
+ï»¿C:\Program Files\Java\jdk-9\bin;
+
+@ ì´í´ë¦½ìŠ¤ì„¤ì¹˜
+
+  - Eclipse IDE for Java EE Developers ì„¤ì¹˜
+
+
+
+@ ì´í´ë¦½ìŠ¤ì—ì„œ jdk9 ì‹¤í–‰ ì„¤ì •
+
+
+1) eclipse.ini  ìˆ˜ì •
+
+C:\Users\bit-user\eclipse\jee-oxygen ì—ì„œ eclipse.ini  ìˆ˜ì •
+
+
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+
+-Dosgi.requiredJavaVersion=1.8
+
+
+
+-Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+--add-modules=ALL-SYSTEM           =====>  ì¶”ê°€
+-Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
+
+
+2) jdk9 ì„¤ì¹˜ í™•ì¸
+
+Help  =>  Elclipse Martketplace ì—ì„œ Java 9 ê²€ìƒ‰í•´ì„œ Java 9 Support for Oxygen 4.7 ì„¤ì¹˜
+
+Perferences  =>  Java  =>  Installed JREs  =>  Add ë²„íŠ¼ í´ë¦­ =>  Standard VM ì„ íƒ  
+             =>  Next ë²„íŠ¼ í´ë¦­ =>  JRE homeì—ì„œ => Diretory ë²„íŠ¼ í´ë¦­í•´ì„œ jdk-9 í´ë” ì„ íƒ
+
+
+- Java jdk9 ì„¤ì¹˜ í™•ì¸
+- eclipse jdk9 ê²€ìƒ‰
+
+
+
+
+@ Import ì—ëŸ¬
+
+  ì˜¤ë¥˜: ê¸°ë³¸ í´ëž˜ìŠ¤ bitcamp.java100.Test16_1ì„(ë¥¼) ì°¾ê±°ë‚˜ ë¡œë“œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+  ì›ì¸: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
+
+  Project Context Menu => Proerties => Java Build Path ì—ì„œ jar ê²½ë¡œí™•ì¸
+  gitì—ì„œ ë‹¤ìš´ ë°›ì•˜ê¸° ë•Œë¬¸ì— Users ê°€ bit-userë¡œ ë˜ì–´ ìžˆìŒ
+  ë…¸íŠ¸ë¶ì€ Users ê°€ userë¡œ ë˜ì–´ ìžˆìŒ
+
+  gradleì„ ì´ìš©í•´ì„œ .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
+
+  java-basic> gradlew cleanEclipse
+
+  java-basic> gradlew Eclipse
+
+  í•œ í›„ ë‹¤ì‹œ Import í•œë‹¤.
+
+
+
+@ workspace ì—ëŸ¬ ë°œìƒí•  ê²½ìš° í´ë” ì´ë¦„ ë³€ê²½í›„ ì†ŒìŠ¤ íŒŒì¼ ë³µì‚¬
+   An error has occured. See the log file
+   C:\Users\User\elcipse-workspace\.metadata\.log
+
+
+@ Run í• ë•Œ ì—ëŸ¬ ë©”ì‹œì§€ ì²˜ë¦¬ :  
+ # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+   - Bin í´ë” ì‚­ì œ
+   - Projcet => Clean
+
+
+
+@ Perferences ì„¤ì • 
+
+General  =>  Apperance  =>  Theme  =>  Dark
+
+General  =>  Apperance  =>  Colors and Font  =>  Basic  =>  Edit Text
+             : ê¸°ë³¸ Console Font
+             => D2Coding
+
+General => Content Types => Java Class Fiel => Default encoding => UTF-8 => Update
 
 General  =>  Editors  =>  Text Editors
     
              Insert space for tabs
              Show print margin
              Show line numbers
-             Show whitespace charaters   Carriage Return, Line Feed Ã¼Å© ÇØÁ¦
+             Show whitespace charaters   Carriage Return, Line Feed ì²´í¬ í•´ì œ
+                                         Transparency level( . íˆ¬ëª…ë„)
 
-General =>  Workspace  =>  Text file encoing   Other UTF-8 ¼³Á¤
+General => Editors => Text Editors => Spelling => Encoding => Default(UTF-8)
 
-Java  =>  Code Style  =>  Formatter    New my·Î  Tab policy  Spaces only ¼³Á¤
+General =>  Workspace  =>  Text file encoing   Other UTF-8 ì„¤ì •
 
-Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ¼³Á¤
-
-
-Installed JREs  =>  Add ¹öÆ° Å¬¸¯ =>  Standard VM ¼±ÅÃ  =>  Next ¹öÆ° Å¬¸¯
-               
-                =>  JRE home¿¡¼­ => Diretory ¹öÆ° Å¬¸¯ÇØ¼­ jdk-9 Æú´õ ¼±ÅÃ
-
-Help   =>  Elclipse Martketplace  :  Java jdk9 ¼³Ä¡ È®ÀÎ
+Java  =>  Code Style  =>  Formatter  =>  New í´ë¦­ my ìž…ë ¥í›„ OK í´ë¦­
+                                         Tab policyì—ì„œ  Spaces only ì„¤ì •
 
 
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ì„¤ì •
+
+
+
+í°íŠ¸ d2coding ì‚¬ìš© 
+  https://github.com/naver/d2codingfont/releases
+  "C:\Windows\Fonts\" ê²½ë¡œì— ë³µì‚¬
+
+  í¬ë¡¬ ê¸°ë³¸ ê¸€ê¼´ : ë§žì¶¤
+  ìµìŠ¤í”Œë¡œì–´ ê¸°ë³¸ ê¸€ê¼´ : ì›¹ íŽ˜ì´ì§€ ê¸€ê¼´(Gulim), ì¼ë°˜ í…ìŠ¤íŠ¸ ê¸€ê¼´(GulimChe)
+
+
+
+@ View ì´ˆê¸°í™”
+  Window => Perspective  => Open Perspective  => Other  => Java EE
+
+@ Eclipseì—ì„œ Project Explorer / Navigator  /  Outline / Task List
+  Window  =>  Show View  =>  Other  ì—ì„œ ë§¨ìœ„ì—ì„œ ê²€ìƒ‰
+
+
+
+
+
+
+@ Projec Import Gragle ì‚¬ìš©
+
+
+1) gradle ëª…ë ¹ì–´ ëª¨ìŒ
+
+build.gradle             https://docs.gradle.org/4.2.1/userguide/eclipse_plugin.html
+
+apply plugin: 'eclipse'
+
+
+java-basic> gradle init --type java-application
+
+
+java-basic> gradlew tasks --all
+
+
+java-basic> gradlew EclipseProject
+
+
+java-basic> gradlew cleanEclipseProject
+
+
+java-basic> gradlew EclipseClasspath
+
+
+java-basic> gradlew cleanEclipseProject
+
+
+java-basic> gradlew Eclipse
+
+
+java-basic> gradlew cleanEclipse
+
+
+
+
+2) build.gradle ìˆ˜ì •í•´ì„œ jdk9ìœ¼ë¡œ ì„¤ì •
+
+
+apply plugin: 'eclipse'
+
+
+eclipse {
+  jdt {
+    //if you want to alter the java versions (by default they are configured with gradle java plugin settings):
+    sourceCompatibility = 9
+    targetCompatibility = 9
+    javaRuntimeName = "JavaSE-9"
+
+    file {
+      whenMerged { jdt
+      }
+
+      withProperties { properties ->
+        properties["org.eclipse.jdt.core.compiler.codegen.targetPlatform"] = "9"
+        properties["org.eclipse.jdt.core.compiler.source"] = "9"
+        properties["org.eclipse.jdt.core.compiler.compliance"] = "9"
+      }
+    }
+  }
+}
+
+
+3) gradleì„ ì´ìš©í•´ì„œ .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
+
+java-basic> gradlew cleanEclipse
+
+java-basic> gradlew Eclipse
+
+
+4) eclipse ì— Import
+
+File => Import => General => Existing Projects into WorkSpace => Browse(í´ë”ì„ íƒ)
+        - Select root directory : ì••ì¶• í•´ì œëœ í”„ë¡œì íŠ¸ í´ë”
+        - Select archive file   : ì••ì¶• ìƒíƒœì¸ í”„ë¡œì íŠ¸ ì••ì¶•íŒŒì¼
+
+
+
+
+
+
+
+
+@@ Eclipseì—ì„œ Git ì‚¬ìš©
+
+
+@ Git Push ë° Pull
+
+  Window  =>  Show View  =>  Other  =>  Git Repositories
+  Window  =>  Show View  =>  Other  =>  Git Staging
+
+  Git Repoitories ì—ì„œ í•´ë‹¹ gitì—ì„œ ì˜¤ë¥¸ìª½ Context Menu  =>  Push to Stream
+
+
+
+@ Eclipseì—ì„œ Git ìžë™ë¡œê·¸ì¸ í•´ì œ
+
+  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tabì—ì„œ ì‚­ì œ
+
+
+
+
+
+@ ë‹¨ì¶•í‚¤
+  F11 : Debug
+  Ctrl +F11 : Run
+  Ctrl + M : í˜„ìž¬ í™œì„±í™”ëœ ë·°ë‚˜ ì—ë””í„° ìµœëŒ€í™”
+  Ctrl +F6 : ì†ŒìŠ¤íƒ­ ì´ë™
+  Ctrl + PageUp, Ctrl + PageDown : ì†ŒìŠ¤íƒ­ ì´ë™
+  Ctrl + F7 : ë·°ê°„ ì´ë™
+  F12 : ì—ë””í„° í™œì„±í™”
+  Alt + ë°©í–¥í‚¤ : ì†ŒìŠ¤ í•œì¤„ì´ë‚˜ ë¸”ë¡ì„ ì´ë™
+  ë¸”ë¡ ë³µì‚¬   =>   Shift + Alt + a  => ë§ˆìš°ìŠ¤ê°€ ì‹­ìžê°€ë¡œ ë°”ë€œ
+
+
+Java SE : 
+Java ME : Embedded Java
+Java EE
+Public Key        Private Key
+
+http://tomcat.apache.org/
+
+
+@ Codebook
+ë§ˆí¬ë‹¤ìš´ : //  =>  //:   
+
+@ ê°€ë³€ ë©”ì†Œë“œ
+    static void sum(int... values) {
+        int s = 0;
+        for (int v : values) {
+            s += v;
+        }
+        System.out.printf("í•©ê³„: %d\n", s);
+    }
 
 
 
@@ -38,54 +276,3 @@ Help   =>  Elclipse Martketplace  :  Java jdk9 ¼³Ä¡ È®ÀÎ
             System.out.printf("%d = %d\n", x, cnt[x]);
             x++;
         }
-
-@ ´ÜÃàÅ°
-  Ctrl + M : ÇöÀç È°¼ºÈ­µÈ ºä³ª ¿¡µðÅÍ ÃÖ´ëÈ­
-  Ctrl +F6 : ¼Ò½ºÅÇ ÀÌµ¿
-  Ctrl + PageUp, Ctrl + PageDown : ¼Ò½ºÅÇ ÀÌµ¿
-  Ctrl + F7 : ºä°£ ÀÌµ¿
-  F12 : ¿¡µðÅÍ È°¼ºÈ­
-  Alt + ¹æÇâÅ° : ¼Ò½º ÇÑÁÙÀÌ³ª ºí·ÏÀ» ÀÌµ¿
-  ºí·Ï º¹»ç   =>   Shift + Alt + a  => ¸¶¿ì½º°¡ ½ÊÀÚ°¡·Î ¹Ù²ñ
-
-@ Eclipse¿¡¼­ Git »ç¿ë
-  Window  =>  Show View  =>  Other  =>  Git Repositories / Git Staging
-
-  Git Repoitories ¿¡¼­ ÇØ´ç git¿¡¼­ ¿À¸¥ÂÊ Context Menu  =>  Push to Stream
-
-@ Eclipse¿¡¼­ Git ÀÚµ¿·Î±×ÀÎ ÇØÁ¦
-
-  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab¿¡¼­ »èÁ¦
-
-@ Eclipse¿¡¼­ Project Explorer / Navigator  /  Outline / Task List
-  Window  =>  Show View  =>  Other  ¿¡¼­ ¸ÇÀ§¿¡¼­ °Ë»ö
-
-@ View ÃÊ±âÈ­
-  Window => Perspective  => Open Perspective  => Other  => Java EE
-
-
-Java SE
-Java ME : Embedded Java
-Java EE
-Public Key        Private Key
-
-http://tomcat.apache.org/
-
-
-@ ¿¡·¯ ¸Þ½ÃÁö Ã³¸® :  
- # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
-   - Bin Æú´õ »èÁ¦
-   - Projcet => Clean
-
-
-@ Codebook
-¸¶Å©´Ù¿î : //  =>  //:   
-
-@ °¡º¯ ¸Þ¼Òµå
-    static void sum(int... values) {
-        int s = 0;
-        for (int v : values) {
-            s += v;
-        }
-        System.out.printf("ÇÕ°è: %d\n", s);
-    }

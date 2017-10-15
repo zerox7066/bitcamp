@@ -1,8 +1,8 @@
-@  npm »ç¿ë   npmÀÌ¶õ Node Package ModulesÀÇ ¾àÀÚ´Ù.
+ï»¿@  npm ì‚¬ìš©   npmì´ëž€ Node Package Modulesì˜ ì•½ìžë‹¤.
 
 https://github.com/eomcs/eomcs-codebook
 
-git ´Ù¿î·Îµå
+git ë‹¤ìš´ë¡œë“œ
 
 git> git clone https://github.com/eomcs/eomcs-codebook.git
 
@@ -16,12 +16,12 @@ git\eomcs-codebook> npm start
 
 
 
-@  ÀÌÅ¬¸³½º¿¡¼­ jdk9 ½ÇÇà
+@  ì´í´ë¦½ìŠ¤ì—ì„œ jdk9 ì‹¤í–‰
 
-   -- eclipse jdk9 °Ë»ö
+   -- eclipse jdk9 ê²€ìƒ‰
 
 
-C:\Users\bit-user\eclipse\jee-oxygen ¿¡¼­ eclipse.ini  ¼öÁ¤
+C:\Users\bit-user\eclipse\jee-oxygen ì—ì„œ eclipse.ini  ìˆ˜ì •
 
 
 
@@ -34,12 +34,12 @@ C:\Users\bit-user\eclipse\jee-oxygen ¿¡¼­ eclipse.ini  ¼öÁ¤
 
 
 
--Dosgi.requiredJavaVersion=9       =====>  ¼öÁ¤
+-Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
 -Dosgi.instance.area.default=@user.home/eclipse-workspace
 -XX:+UseG1GC
 -XX:+UseStringDeduplication
---add-modules=ALL-SYSTEM           =====>  Ãß°¡
--Dosgi.requiredJavaVersion=9       =====>  ¼öÁ¤
+--add-modules=ALL-SYSTEM           =====>  ì¶”ê°€
+-Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
 
 
 
@@ -51,22 +51,22 @@ General  =>  Editors  =>  Text Editors
              Insert space for tabs
              Show print margin
              Show line numbers
-             Show whitespace charaters   Carriage Return, Line Feed Ã¼Å© ÇØÁ¦
+             Show whitespace charaters   Carriage Return, Line Feed ì²´í¬ í•´ì œ
 
 
-General =>  Workspace  =>  Text file encoing   Other UTF-8 ¼³Á¤
+General =>  Workspace  =>  Text file encoing   Other UTF-8 ì„¤ì •
 
 
-Java  =>  Code Style  =>  Formatter    New my·Î  Tab policy  Spaces only ¼³Á¤
+Java  =>  Code Style  =>  Formatter    New myë¡œ  Tab policy  Spaces only ì„¤ì •
 
 
 
-Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ¼³Á¤
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ì„¤ì •
 
 
-Installed JREs  =>  Add ¹öÆ° Å¬¸¯ =>  Standard VM ¼±ÅÃ  =>  Next ¹öÆ° Å¬¸¯
+Installed JREs  =>  Add ë²„íŠ¼ í´ë¦­ =>  Standard VM ì„ íƒ  =>  Next ë²„íŠ¼ í´ë¦­
                
-                =>  JRE home¿¡¼­ => Diretory ¹öÆ° Å¬¸¯ÇØ¼­ jdk-9 Æú´õ ¼±ÅÃ
+                =>  JRE homeì—ì„œ => Diretory ë²„íŠ¼ í´ë¦­í•´ì„œ jdk-9 í´ë” ì„ íƒ
 
 
 
@@ -74,7 +74,7 @@ Installed JREs  =>  Add ¹öÆ° Å¬¸¯ =>  Standard VM ¼±ÅÃ  =>  Next ¹öÆ° Å¬¸¯
 Help   =>  Elclipse Martketplace
 
 
-Java jdk9 ¼³Ä¡ È®ÀÎ
+Java jdk9 ì„¤ì¹˜ í™•ì¸
 
 
 
@@ -112,7 +112,7 @@ java-basic> gradlew cleanEclipse
 
 
 
-* build.gradle ¼öÁ¤ÇØ¼­  .project ÆÄÀÏ, .classpathÆÄÀÏ°ú org.eclipse.jdt.core.prefs ÆÄÀÏ »ý¼º
+* build.gradle ìˆ˜ì •í•´ì„œ  .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
 
 
 
@@ -141,29 +141,29 @@ eclipse {
 
 
 
-@ Eclipse¿¡¼­ Git »ç¿ë
+@ Eclipseì—ì„œ Git ì‚¬ìš©
 
 
   Window  =>  Show View  =>  Other  =>  Git Repositories / Git Staging
 
 
-  Git Repoitories ¿¡¼­ ÇØ´ç git¿¡¼­ ¿À¸¥ÂÊ Context Menu  =>  Push to Stream
+  Git Repoitories ì—ì„œ í•´ë‹¹ gitì—ì„œ ì˜¤ë¥¸ìª½ Context Menu  =>  Push to Stream
 
 
 
-@ Eclipse¿¡¼­ Git ÀÚµ¿·Î±×ÀÎ ÇØÁ¦
+@ Eclipseì—ì„œ Git ìžë™ë¡œê·¸ì¸ í•´ì œ
 
-  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab¿¡¼­ »èÁ¦
-
-
-
-@ Eclipse¿¡¼­ Project Explorer / Navigator  /  Outline / Task List
-
-  Window  =>  Show View  =>  Other  ¿¡¼­ ¸ÇÀ§¿¡¼­ °Ë»ö
+  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tabì—ì„œ ì‚­ì œ
 
 
 
-@ ºí·Ï º¹»ç   =>   Shift + Alt + a  => ¸¶¿ì½º°¡ ½ÊÀÚ°¡·Î ¹Ù²ñ
+@ Eclipseì—ì„œ Project Explorer / Navigator  /  Outline / Task List
+
+  Window  =>  Show View  =>  Other  ì—ì„œ ë§¨ìœ„ì—ì„œ ê²€ìƒ‰
+
+
+
+@ ë¸”ë¡ ë³µì‚¬   =>   Shift + Alt + a  => ë§ˆìš°ìŠ¤ê°€ ì‹­ìžê°€ë¡œ ë°”ë€œ
 
   
 

@@ -1,5 +1,5 @@
-
-±âÆ®Çãºê :  https://git-scm.com
+ï»¿
+ê¸°íŠ¸í—ˆë¸Œ :  https://git-scm.com
 
 Atom : https://atom.io/
 
@@ -16,13 +16,13 @@ jshell
 Vim  ,   pix2code
 
 * gradle  =>  gradle-4.2-bin   binary only
-https://gradle.org/releases/   ¾ÐÃàÇ¬ÈÄ  È¯°æº¯¼ö¿¡ Ãß°¡
+https://gradle.org/releases/   ì••ì¶•í‘¼í›„  í™˜ê²½ë³€ìˆ˜ì— ì¶”ê°€
 
 
 
-* git »ç¿ë¹ý
+* git ì‚¬ìš©ë²•
 
-ÀÚ°Ý »èÁ¦ : »ç¿ëÀÚ °èÁ¤ ¹× °¡Á·º¸È£ => Windows ÀÚ°Ý Áõ¸í °ü¸®¿¡¼­ git Á¦°Å
+ìžê²© ì‚­ì œ : ì‚¬ìš©ìž ê³„ì • ë° ê°€ì¡±ë³´í˜¸ => Windows ìžê²© ì¦ëª… ê´€ë¦¬ì—ì„œ git ì œê±°
 
 
 git> git config --global user.name "zerox7066"
@@ -33,37 +33,37 @@ git init
 
 
 
-@ github º¹»ç
+@ github ë³µì‚¬
 
-  - git clone /·ÎÄÃ/ÀúÀå¼Ò/°æ·Î
+  - git clone /ë¡œì»¬/ì €ìž¥ì†Œ/ê²½ë¡œ
 
-  - git clone »ç¿ëÀÚ¸í@È£½ºÆ®:/¿ø°Ý/ÀúÀå¼Ò/°æ·Î
+  - git clone ì‚¬ìš©ìžëª…@í˜¸ìŠ¤íŠ¸:/ì›ê²©/ì €ìž¥ì†Œ/ê²½ë¡œ
 
 
-  ex)  Clone or download ¹öÆ° Å¬¸¯
+  ex)  Clone or download ë²„íŠ¼ í´ë¦­
 
     git> git clone https://github.com/zerox7066/bitcamp.git
 
 
-@ github ¾÷·Îµå
+@ github ì—…ë¡œë“œ
 
-1. ·ÎÄÃ ÀúÀå¼Ò¿¡ ¹é¾÷ÇÒ ¸í´Ü ÀÛ¼º 
+1. ë¡œì»¬ ì €ìž¥ì†Œì— ë°±ì—…í•  ëª…ë‹¨ ìž‘ì„± 
    
-   bitcamp> git add .      => ¸ðµç ÆÄÀÏ ¹× Æúµå
+   bitcamp> git add .      => ëª¨ë“  íŒŒì¼ ë° í´ë“œ
 
-   bitcamp> git add <ÆÄÀÏÀÌ¸§>
+   bitcamp> git add <íŒŒì¼ì´ë¦„>
 
 
-2. ·ÎÄÃ ÀúÀå¼Ò¿¡ ¹é¾÷
+2. ë¡œì»¬ ì €ìž¥ì†Œì— ë°±ì—…
 
-   bitcamp> git commit -m '¹é¾÷ÀÌÀ¯'
+   bitcamp> git commit -m 'ë°±ì—…ì´ìœ '
    bitcamp> git commit -m '.'
 
-3. ¼­¹öÀÇ ¿ø°Ý ÀúÀå¼Ò¿¡ ¾÷·Îµå  =>  ·Î±×ÀÎ È­¸éÀÌ ³ªÅ¸³²
+3. ì„œë²„ì˜ ì›ê²© ì €ìž¥ì†Œì— ì—…ë¡œë“œ  =>  ë¡œê·¸ì¸ í™”ë©´ì´ ë‚˜íƒ€ë‚¨
    >git push
 
 
-@ github ´Ù¿î·Îµå
+@ github ë‹¤ìš´ë¡œë“œ
   
   java100> git pull
 
@@ -87,7 +87,7 @@ http://mooc.org/
 
 
 
-* github desktop¿ë
+* github desktopìš©
 
 https://desktop.github.com/
 
@@ -96,31 +96,31 @@ https://gradle.org/
 
 
 
-ºô°ÔÀÌÃ÷ »ý°¢ÀÇ ¼Óµµ
+ë¹Œê²Œì´ì¸  ìƒê°ì˜ ì†ë„
 
-½ºÆ¼ºê Àâ½º(º¸±ÞÆÇ)
+ìŠ¤í‹°ë¸Œ ìž¡ìŠ¤(ë³´ê¸‰íŒ)
 
-Á¶³Ê¼± ¾ÆÀÌºê
+ì¡°ë„ˆì„  ì•„ì´ë¸Œ
 
 Refactoring
 
 
 
-* Å¬·¡½º ÆÄÀÏÀÌ ÀÖ´Â °æ·Î·Î classpath ¼³Á¤
+* í´ëž˜ìŠ¤ íŒŒì¼ì´ ìžˆëŠ” ê²½ë¡œë¡œ classpath ì„¤ì •
 
 >set CLASSPATH=C:\workspace\java-basic\build\classes\java\main
 
 
-* jar : ¹èÆ÷ÆÄÀÏ
+* jar : ë°°í¬íŒŒì¼
 
 
 
-* gradle ¼³Ä¡
-  - È¯°æº¯¼öÀÇ ½Ã½ºÅÛ º¯¼ö - path¿¡ gradle ¾ÐÃàÇ¬ °æ·Î·Î »ðÀÔ
-C:\gradle-4.2\bin  »ðÀÔ
+* gradle ì„¤ì¹˜
+  - í™˜ê²½ë³€ìˆ˜ì˜ ì‹œìŠ¤í…œ ë³€ìˆ˜ - pathì— gradle ì••ì¶•í‘¼ ê²½ë¡œë¡œ ì‚½ìž…
+C:\gradle-4.2\bin  ì‚½ìž…
 
 
-* gradle »ý¼º
+* gradle ìƒì„±
 C:\workspace\java-basic\test>gradle init --type java-application
 
 * gradle build
@@ -131,7 +131,7 @@ C:\workspace\java-basic\test>gradle build
 C:\workspace\java-basic\test>gradle run
 
 
-* gradle ÄÄÆÄÀÏ
+* gradle ì»´íŒŒì¼
 C:\workspace\java-basic\test>gradle compilejava
 
 
@@ -147,7 +147,7 @@ gradle
 d2coding
 
 
-±¸±Û ÇÑÁßÀÏ ÆùÆ®
+êµ¬ê¸€ í•œì¤‘ì¼ í°íŠ¸
 
 google noto fonts       South Korea
 
@@ -155,7 +155,7 @@ google noto fonts       South Korea
 "editor.fontFamily": "D2Coding, Consolas"
 
 
-80Ä­ ÁØ¼ö
+80ì¹¸ ì¤€ìˆ˜
 
 
 
@@ -169,7 +169,7 @@ google noto fonts       South Korea
 
 
 
-* Classpath ¼³Á¤
+* Classpath ì„¤ì •
 
 java-basic> set CLASSPATH=.\build\classes\java\main
 
@@ -184,7 +184,7 @@ http://docs.oracle.com/javase/9/docs/api/index.html?overview-summary.html
 
 
 
-// java script Node.js ¼³Ä¡
+// java script Node.js ì„¤ì¹˜
 
 https://nodejs.org/en/
 
@@ -192,12 +192,12 @@ https://nodejs.org/en/
 
 
 
-// ÀÚ¹Ù ½ºÅ©¸³Æ®·Î ¸¸µç ¸ðµâ ¼³Ä¡ ( Node Package Modules ) : Å©·ÒÀÇ ¿ÀÇÂ¼Ò½º ¿£Áø
-  - npmÀÌ¶õ Node Package ModulesÀÇ ¾àÀÚ´Ù. Node.js¿¡¼­ »ç¿ë°¡´ÉÇÑ ¸ðµâµéÀ» ÆÐÅ°ÁöÈ­½ÃÄÑ ¸ð¾Æ³õÀº °ÍÀÌ´Ù.
+// ìžë°” ìŠ¤í¬ë¦½íŠ¸ë¡œ ë§Œë“  ëª¨ë“ˆ ì„¤ì¹˜ ( Node Package Modules ) : í¬ë¡¬ì˜ ì˜¤í”ˆì†ŒìŠ¤ ì—”ì§„
+  - npmì´ëž€ Node Package Modulesì˜ ì•½ìžë‹¤. Node.jsì—ì„œ ì‚¬ìš©ê°€ëŠ¥í•œ ëª¨ë“ˆë“¤ì„ íŒ¨í‚¤ì§€í™”ì‹œì¼œ ëª¨ì•„ë†“ì€ ê²ƒì´ë‹¤.
 
 https://electron.atom.io/
 
-¾Æ¹«Æú´õ> npm install -g electron
+ì•„ë¬´í´ë”> npm install -g electron
 
 
 java-basic> node     exit : ctrl + d
