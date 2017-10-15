@@ -214,6 +214,25 @@ https://codefights.com/
 
 
 
+@  npm 사용   npm이란 Node Package Modules의 약자다.
+
+https://github.com/eomcs/eomcs-codebook
+
+git 다운로드
+
+git> git clone https://github.com/eomcs/eomcs-codebook.git
+
+* electron
+
+git\eomcs-codebook> npm install
+
+
+git\eomcs-codebook> npm start
+
+
+
+
+
 
 
 
