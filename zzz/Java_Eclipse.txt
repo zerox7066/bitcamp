@@ -225,6 +225,15 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
   Git Repoitories 에서 해당 git에서 오른쪽 Context Menu  =>  Push to Stream
 
+  Git Staging 에서 Unstaged Changes 에서 Staged Changes 로 파일 이동하고
+  Commit Message에 메시지 입력
+
+  Commit and Push 클릭해서 로그인
+
+  한번 Commit 하면 이클립스 다시 실행
+
+
+
 
 
 @ Eclipse에서 Git 자동로그인 해제
