@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'bitcamp-java-basic'
+rootProject.name = 'java-basic'

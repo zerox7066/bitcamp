@@ -212,6 +212,17 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
   한 후 다시 Import 한다.
 
 
+6) Import 의 Project 명이 폴더명과 다른경우(다른 폴더 복사했을 경우)
+
+  - settings.gradle 파일에서 rootProject.name 변경
+
+    rootProject.name = 'bitcamp-java-basic' => rootProject.name = 'java-basic'
+
+  - .project 파일에서 <projectDescription> 변경
+ 
+    <name>bitcamp-java-basic</name>  =>  <name>java-basic</name> 
+
+
 
 
 
