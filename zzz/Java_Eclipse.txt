@@ -1,17 +1,17 @@
-È¯°æº¯¼ö ¼³Á¤ => C:\Program Files\Java\jdk-9\bin;
+ï»¿í™˜ê²½ë³€ìˆ˜ ì„¤ì • => C:\Program Files\Java\jdk-9\bin;
 
-@ ÀÌÅ¬¸³½º¼³Ä¡
+@ ì´í´ë¦½ìŠ¤ì„¤ì¹˜
 
-  - Eclipse IDE for Java EE Developers ¼³Ä¡
-
-
-
-@ ÀÌÅ¬¸³½º¿¡¼­ jdk9 ½ÇÇà ¼³Á¤
+  - Eclipse IDE for Java EE Developers ì„¤ì¹˜
 
 
-1) eclipse.ini  ¼öÁ¤
 
-C:\Users\bit-user\eclipse\jee-oxygen ¿¡¼­ eclipse.ini  ¼öÁ¤
+@ ì´í´ë¦½ìŠ¤ì—ì„œ jdk9 ì‹¤í–‰ ì„¤ì •
+
+
+1) eclipse.ini  ìˆ˜ì •
+
+C:\Users\bit-user\eclipse\jee-oxygen ì—ì„œ eclipse.ini  ìˆ˜ì •
 
 
 -Dosgi.requiredJavaVersion=1.8
@@ -23,45 +23,45 @@ C:\Users\bit-user\eclipse\jee-oxygen ¿¡¼­ eclipse.ini  ¼öÁ¤
 
 
 
--Dosgi.requiredJavaVersion=9       =====>  ¼öÁ¤
+-Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
 -Dosgi.instance.area.default=@user.home/eclipse-workspace
 -XX:+UseG1GC
 -XX:+UseStringDeduplication
---add-modules=ALL-SYSTEM           =====>  Ãß°¡
--Dosgi.requiredJavaVersion=9       =====>  ¼öÁ¤
+--add-modules=ALL-SYSTEM           =====>  ì¶”ê°€
+-Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
 
 
-2) jdk9 ¼³Ä¡ È®ÀÎ
+2) jdk9 ì„¤ì¹˜ í™•ì¸
 
-Help  =>  Elclipse Martketplace ¿¡¼­ Java 9 °Ë»öÇØ¼­ Java 9 Support for Oxygen 4.7 ¼³Ä¡
+Help  =>  Elclipse Martketplace ì—ì„œ Java 9 ê²€ìƒ‰í•´ì„œ Java 9 Support for Oxygen 4.7 ì„¤ì¹˜
 
-Perferences  =>  Java  =>  Installed JREs  =>  Add ¹öÆ° Å¬¸¯ =>  Standard VM ¼±ÅÃ  
-             =>  Next ¹öÆ° Å¬¸¯ =>  JRE home¿¡¼­ => Diretory ¹öÆ° Å¬¸¯ÇØ¼­ jdk-9 Æú´õ ¼±ÅÃ
-
-
-- Java jdk9 ¼³Ä¡ È®ÀÎ
-- eclipse jdk9 °Ë»ö
+Perferences  =>  Java  =>  Installed JREs  =>  Add ë²„íŠ¼ í´ë¦­ =>  Standard VM ì„ íƒ  
+             =>  Next ë²„íŠ¼ í´ë¦­ =>  JRE homeì—ì„œ => Diretory ë²„íŠ¼ í´ë¦­í•´ì„œ jdk-9 í´ë” ì„ íƒ
 
 
+- Java jdk9 ì„¤ì¹˜ í™•ì¸
+- eclipse jdk9 ê²€ìƒ‰
 
-@ workspace ¿¡·¯ ¹ß»ıÇÒ °æ¿ì Æú´õ ÀÌ¸§ º¯°æÈÄ ¼Ò½º ÆÄÀÏ º¹»ç
+
+
+@ workspace ì—ëŸ¬ ë°œìƒí•  ê²½ìš° í´ë” ì´ë¦„ ë³€ê²½í›„ ì†ŒìŠ¤ íŒŒì¼ ë³µì‚¬
    An error has occured. See the log file
    C:\Users\User\elcipse-workspace\.metadata\.log
 
 
-@ Run ÇÒ¶§ ¿¡·¯ ¸Ş½ÃÁö Ã³¸® :  
+@ Run í• ë•Œ ì—ëŸ¬ ë©”ì‹œì§€ ì²˜ë¦¬ :  
  # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
-   - Bin Æú´õ »èÁ¦
+   - Bin í´ë” ì‚­ì œ
    - Projcet => Clean
 
 
 
-@ Perferences ¼³Á¤ 
+@ Perferences ì„¤ì • 
 
 General  =>  Apperance  =>  Theme  =>  Dark
 
 General  =>  Apperance  =>  Colors and Font  =>  Basic  =>  Edit Text
-             : ±âº» Console Font
+             : ê¸°ë³¸ Console Font
              => D2Coding
 
 General => Content Types => Java Class Fiel => Default encoding => UTF-8 => Update
@@ -71,45 +71,45 @@ General  =>  Editors  =>  Text Editors
              Insert space for tabs
              Show print margin
              Show line numbers
-             Show whitespace charaters   Carriage Return, Line Feed Ã¼Å© ÇØÁ¦
-                                         Transparency level( . Åõ¸íµµ)
+             Show whitespace charaters   Carriage Return, Line Feed ì²´í¬ í•´ì œ
+                                         Transparency level( . íˆ¬ëª…ë„)
 
 General => Editors => Text Editors => Spelling => Encoding => Default(UTF-8)
 
-General =>  Workspace  =>  Text file encoing   Other UTF-8 ¼³Á¤
+General =>  Workspace  =>  Text file encoing   Other UTF-8 ì„¤ì •
 
-Java  =>  Code Style  =>  Formatter  =>  New Å¬¸¯ my ÀÔ·ÂÈÄ OK Å¬¸¯
-                                         Tab policy¿¡¼­  Spaces only ¼³Á¤
-
-
-Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ¼³Á¤
+Java  =>  Code Style  =>  Formatter  =>  New í´ë¦­ my ì…ë ¥í›„ OK í´ë¦­
+                                         Tab policyì—ì„œ  Spaces only ì„¤ì •
 
 
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ì„¤ì •
 
-ÆùÆ® d2coding »ç¿ë 
+
+
+í°íŠ¸ d2coding ì‚¬ìš© 
   https://github.com/naver/d2codingfont/releases
-  "C:\Windows\Fonts\" °æ·Î¿¡ º¹»ç
+  "C:\Windows\Fonts\" ê²½ë¡œì— ë³µì‚¬
 
-  Å©·Ò ±âº» ±Û²Ã : ¸ÂÃã
-  ÀÍ½ºÇÃ·Î¾î ±âº» ±Û²Ã : À¥ ÆäÀÌÁö ±Û²Ã(Gulim), ÀÏ¹İ ÅØ½ºÆ® ±Û²Ã(GulimChe)
+  í¬ë¡¬ ê¸°ë³¸ ê¸€ê¼´ : ë§ì¶¤
+  ìµìŠ¤í”Œë¡œì–´ ê¸°ë³¸ ê¸€ê¼´ : ì›¹ í˜ì´ì§€ ê¸€ê¼´(Gulim), ì¼ë°˜ í…ìŠ¤íŠ¸ ê¸€ê¼´(GulimChe)
 
 
 
-@ View ÃÊ±âÈ­
+@ View ì´ˆê¸°í™”
   Window => Perspective  => Open Perspective  => Other  => Java EE
 
-@ Eclipse¿¡¼­ Project Explorer / Navigator  /  Outline / Task List
-  Window  =>  Show View  =>  Other  ¿¡¼­ ¸ÇÀ§¿¡¼­ °Ë»ö
+@ Eclipseì—ì„œ Project Explorer / Navigator  /  Outline / Task List
+  Window  =>  Show View  =>  Other  ì—ì„œ ë§¨ìœ„ì—ì„œ ê²€ìƒ‰
 
 
 
 
 
 
-@ Projec Import Gragle »ç¿ë
+@ Projec Import Gragle ì‚¬ìš©
 
 
-1) gradle ¸í·É¾î ¸ğÀ½
+1) gradle ëª…ë ¹ì–´ ëª¨ìŒ
 
 build.gradle             https://docs.gradle.org/4.2.1/userguide/eclipse_plugin.html
 
@@ -142,7 +142,7 @@ java-basic> gradlew cleanEclipse
 
 
 
-2) build.gradle ¼öÁ¤ÇØ¼­ jdk9À¸·Î ¼³Á¤
+2) build.gradle ìˆ˜ì •í•´ì„œ jdk9ìœ¼ë¡œ ì„¤ì •
 
 
 apply plugin: 'eclipse'
@@ -169,82 +169,82 @@ eclipse {
 }
 
 
-3) gradleÀ» ÀÌ¿ëÇØ¼­ .project ÆÄÀÏ, .classpathÆÄÀÏ°ú org.eclipse.jdt.core.prefs ÆÄÀÏ »ı¼º
+3) gradleì„ ì´ìš©í•´ì„œ .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
 
 java-basic> gradlew cleanEclipse
 
 java-basic> gradlew Eclipse
 
 
-- C:\Users\bit-user\git\bitcamp\java-basic Æú´õ¿¡¼­ .classpath ÆÄÀÏ¿¡¼­ JavaSE-9 ¼³Á¤ È®ÀÎ
+- C:\Users\bit-user\git\bitcamp\java-basic í´ë”ì—ì„œ .classpath íŒŒì¼ì—ì„œ JavaSE-9 ì„¤ì • í™•ì¸
   	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/
          org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9/"/>
 
-- C:\Users\bit-user\git\bitcamp\java-basic\.settings Æú´õ¿¡¼­ org.eclipse.jdt.core.prefs È®ÀÎ
+- C:\Users\bit-user\git\bitcamp\java-basic\.settings í´ë”ì—ì„œ org.eclipse.jdt.core.prefs í™•ì¸
   org.eclipse.jdt.core.compiler.codegen.targetPlatform=9
   org.eclipse.jdt.core.compiler.source=9
   org.eclipse.jdt.core.compiler.compliance=9
 
 
-4) eclipse ¿¡ Import
+4) eclipse ì— Import
 
-File => Import => General => Existing Projects into WorkSpace => Browse(Æú´õ¼±ÅÃ)
-        - Select root directory : ¾ĞÃà ÇØÁ¦µÈ ÇÁ·ÎÁ§Æ® Æú´õ
-        - Select archive file   : ¾ĞÃà »óÅÂÀÎ ÇÁ·ÎÁ§Æ® ¾ĞÃàÆÄÀÏ
+File => Import => General => Existing Projects into WorkSpace => Browse(í´ë”ì„ íƒ)
+        - Select root directory : ì••ì¶• í•´ì œëœ í”„ë¡œì íŠ¸ í´ë”
+        - Select archive file   : ì••ì¶• ìƒíƒœì¸ í”„ë¡œì íŠ¸ ì••ì¶•íŒŒì¼
 
 
 
-5) Import ¿¡·¯
+5) Import ì—ëŸ¬
 
-  ¿À·ù: ±âº» Å¬·¡½º bitcamp.java100.Test16_1À»(¸¦) Ã£°Å³ª ·ÎµåÇÒ ¼ö ¾ø½À´Ï´Ù.
-  ¿øÀÎ: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
+  ì˜¤ë¥˜: ê¸°ë³¸ í´ë˜ìŠ¤ bitcamp.java100.Test16_1ì„(ë¥¼) ì°¾ê±°ë‚˜ ë¡œë“œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+  ì›ì¸: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
 
-  Project Context Menu => Proerties => Java Build Path ¿¡¼­ jar °æ·ÎÈ®ÀÎ
-  git¿¡¼­ ´Ù¿î ¹Ş¾Ò±â ¶§¹®¿¡ Users °¡ bit-user·Î µÇ¾î ÀÖÀ½
-  ³ëÆ®ºÏÀº Users °¡ user·Î µÇ¾î ÀÖÀ½
+  Project Context Menu => Proerties => Java Build Path ì—ì„œ jar ê²½ë¡œí™•ì¸
+  gitì—ì„œ ë‹¤ìš´ ë°›ì•˜ê¸° ë•Œë¬¸ì— Users ê°€ bit-userë¡œ ë˜ì–´ ìˆìŒ
+  ë…¸íŠ¸ë¶ì€ Users ê°€ userë¡œ ë˜ì–´ ìˆìŒ
 
-  gradleÀ» ÀÌ¿ëÇØ¼­ .project ÆÄÀÏ, .classpathÆÄÀÏ°ú org.eclipse.jdt.core.prefs ÆÄÀÏ »ı¼º
+  gradleì„ ì´ìš©í•´ì„œ .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
 
   java-basic> gradlew cleanEclipse
 
   java-basic> gradlew Eclipse
 
-  ÇÑ ÈÄ ´Ù½Ã Import ÇÑ´Ù.
+  í•œ í›„ ë‹¤ì‹œ Import í•œë‹¤.
 
 
 
 
 
-@@ Eclipse¿¡¼­ Git »ç¿ë
+@@ Eclipseì—ì„œ Git ì‚¬ìš©
 
 
-@ Git Push ¹× Pull
+@ Git Push ë° Pull
 
   Window  =>  Show View  =>  Other  =>  Git Repositories
   Window  =>  Show View  =>  Other  =>  Git Staging
 
-  Git Repoitories ¿¡¼­ ÇØ´ç git¿¡¼­ ¿À¸¥ÂÊ Context Menu  =>  Push to Stream
+  Git Repoitories ì—ì„œ í•´ë‹¹ gitì—ì„œ ì˜¤ë¥¸ìª½ Context Menu  =>  Push to Stream
 
 
 
-@ Eclipse¿¡¼­ Git ÀÚµ¿·Î±×ÀÎ ÇØÁ¦
+@ Eclipseì—ì„œ Git ìë™ë¡œê·¸ì¸ í•´ì œ
 
-  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab¿¡¼­ »èÁ¦
-
-
+  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tabì—ì„œ ì‚­ì œ
 
 
 
-@ ´ÜÃàÅ°
+
+
+@ ë‹¨ì¶•í‚¤
   F11 : Debug
   Ctrl +F11 : Run
-  Ctrl + M : ÇöÀç È°¼ºÈ­µÈ ºä³ª ¿¡µğÅÍ ÃÖ´ëÈ­
-  Ctrl +F6 : ¼Ò½ºÅÇ ÀÌµ¿
-  Ctrl + PageUp, Ctrl + PageDown : ¼Ò½ºÅÇ ÀÌµ¿
-  Ctrl + F7 : ºä°£ ÀÌµ¿
-  F12 : ¿¡µğÅÍ È°¼ºÈ­
-  Alt + ¹æÇâÅ° : ¼Ò½º ÇÑÁÙÀÌ³ª ºí·ÏÀ» ÀÌµ¿
-  ºí·Ï º¹»ç   =>   Shift + Alt + a  => ¸¶¿ì½º°¡ ½ÊÀÚ°¡·Î ¹Ù²ñ
+  Ctrl + M : í˜„ì¬ í™œì„±í™”ëœ ë·°ë‚˜ ì—ë””í„° ìµœëŒ€í™”
+  Ctrl +F6 : ì†ŒìŠ¤íƒ­ ì´ë™
+  Ctrl + PageUp, Ctrl + PageDown : ì†ŒìŠ¤íƒ­ ì´ë™
+  Ctrl + F7 : ë·°ê°„ ì´ë™
+  F12 : ì—ë””í„° í™œì„±í™”
+  Alt + ë°©í–¥í‚¤ : ì†ŒìŠ¤ í•œì¤„ì´ë‚˜ ë¸”ë¡ì„ ì´ë™
+  ë¸”ë¡ ë³µì‚¬   =>   Shift + Alt + a  => ë§ˆìš°ìŠ¤ê°€ ì‹­ìê°€ë¡œ ë°”ë€œ
 
 
 Java SE : 
@@ -258,15 +258,15 @@ http://tomcat.apache.org/
 
 
 @ Codebook
-¸¶Å©´Ù¿î : //  =>  //:   
+ë§ˆí¬ë‹¤ìš´ : //  =>  //:   
 
-@ °¡º¯ ¸Ş¼Òµå
+@ ê°€ë³€ ë©”ì†Œë“œ
     static void sum(int... values) {
         int s = 0;
         for (int v : values) {
             s += v;
         }
-        System.out.printf("ÇÕ°è: %d\n", s);
+        System.out.printf("í•©ê³„: %d\n", s);
     }
 
 
