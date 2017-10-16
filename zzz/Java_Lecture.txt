@@ -1,5 +1,5 @@
-ï»¿
-ê¸°íŠ¸í—ˆë¸Œ :  https://git-scm.com
+
+±âÆ®Çãºê :  https://git-scm.com
 
 Atom : https://atom.io/
 
@@ -16,13 +16,13 @@ jshell
 Vim  ,   pix2code
 
 * gradle  =>  gradle-4.2-bin   binary only
-https://gradle.org/releases/   ì••ì¶•í‘¼í›„  í™˜ê²½ë³€ìˆ˜ì— ì¶”ê°€
+https://gradle.org/releases/   ¾ÐÃàÇ¬ÈÄ  È¯°æº¯¼ö¿¡ Ãß°¡
 
 
 
-* git ì‚¬ìš©ë²•
+* git »ç¿ë¹ý
 
-ìžê²© ì‚­ì œ : ì‚¬ìš©ìž ê³„ì • ë° ê°€ì¡±ë³´í˜¸ => Windows ìžê²© ì¦ëª… ê´€ë¦¬ì—ì„œ git ì œê±°
+ÀÚ°Ý »èÁ¦ : »ç¿ëÀÚ °èÁ¤ ¹× °¡Á·º¸È£ => Windows ÀÚ°Ý Áõ¸í °ü¸®¿¡¼­ git Á¦°Å
 
 
 git> git config --global user.name "zerox7066"
@@ -33,37 +33,37 @@ git init
 
 
 
-@ github ë³µì‚¬
+@ github º¹»ç
 
-  - git clone /ë¡œì»¬/ì €ìž¥ì†Œ/ê²½ë¡œ
+  - git clone /·ÎÄÃ/ÀúÀå¼Ò/°æ·Î
 
-  - git clone ì‚¬ìš©ìžëª…@í˜¸ìŠ¤íŠ¸:/ì›ê²©/ì €ìž¥ì†Œ/ê²½ë¡œ
+  - git clone »ç¿ëÀÚ¸í@È£½ºÆ®:/¿ø°Ý/ÀúÀå¼Ò/°æ·Î
 
 
-  ex)  Clone or download ë²„íŠ¼ í´ë¦­
+  ex)  Clone or download ¹öÆ° Å¬¸¯
 
     git> git clone https://github.com/zerox7066/bitcamp.git
 
 
-@ github ì—…ë¡œë“œ
+@ github ¾÷·Îµå
 
-1. ë¡œì»¬ ì €ìž¥ì†Œì— ë°±ì—…í•  ëª…ë‹¨ ìž‘ì„± 
+1. ·ÎÄÃ ÀúÀå¼Ò¿¡ ¹é¾÷ÇÒ ¸í´Ü ÀÛ¼º 
    
-   bitcamp> git add .      => ëª¨ë“  íŒŒì¼ ë° í´ë“œ
+   bitcamp> git add .      => ¸ðµç ÆÄÀÏ ¹× Æúµå
 
-   bitcamp> git add <íŒŒì¼ì´ë¦„>
+   bitcamp> git add <ÆÄÀÏÀÌ¸§>
 
 
-2. ë¡œì»¬ ì €ìž¥ì†Œì— ë°±ì—…
+2. ·ÎÄÃ ÀúÀå¼Ò¿¡ ¹é¾÷
 
-   bitcamp> git commit -m 'ë°±ì—…ì´ìœ '
+   bitcamp> git commit -m '¹é¾÷ÀÌÀ¯'
    bitcamp> git commit -m '.'
 
-3. ì„œë²„ì˜ ì›ê²© ì €ìž¥ì†Œì— ì—…ë¡œë“œ  =>  ë¡œê·¸ì¸ í™”ë©´ì´ ë‚˜íƒ€ë‚¨
+3. ¼­¹öÀÇ ¿ø°Ý ÀúÀå¼Ò¿¡ ¾÷·Îµå  =>  ·Î±×ÀÎ È­¸éÀÌ ³ªÅ¸³²
    >git push
 
 
-@ github ë‹¤ìš´ë¡œë“œ
+@ github ´Ù¿î·Îµå
   
   java100> git pull
 
@@ -87,7 +87,7 @@ http://mooc.org/
 
 
 
-* github desktopìš©
+* github desktop¿ë
 
 https://desktop.github.com/
 
@@ -96,31 +96,31 @@ https://gradle.org/
 
 
 
-ë¹Œê²Œì´ì¸  ìƒê°ì˜ ì†ë„
+ºô°ÔÀÌÃ÷ »ý°¢ÀÇ ¼Óµµ
 
-ìŠ¤í‹°ë¸Œ ìž¡ìŠ¤(ë³´ê¸‰íŒ)
+½ºÆ¼ºê Àâ½º(º¸±ÞÆÇ)
 
-ì¡°ë„ˆì„  ì•„ì´ë¸Œ
+Á¶³Ê¼± ¾ÆÀÌºê
 
 Refactoring
 
 
 
-* í´ëž˜ìŠ¤ íŒŒì¼ì´ ìžˆëŠ” ê²½ë¡œë¡œ classpath ì„¤ì •
+* Å¬·¡½º ÆÄÀÏÀÌ ÀÖ´Â °æ·Î·Î classpath ¼³Á¤
 
 >set CLASSPATH=C:\workspace\java-basic\build\classes\java\main
 
 
-* jar : ë°°í¬íŒŒì¼
+* jar : ¹èÆ÷ÆÄÀÏ
 
 
 
-* gradle ì„¤ì¹˜
-  - í™˜ê²½ë³€ìˆ˜ì˜ ì‹œìŠ¤í…œ ë³€ìˆ˜ - pathì— gradle ì••ì¶•í‘¼ ê²½ë¡œë¡œ ì‚½ìž…
-C:\gradle-4.2\bin  ì‚½ìž…
+* gradle ¼³Ä¡
+  - È¯°æº¯¼öÀÇ ½Ã½ºÅÛ º¯¼ö - path¿¡ gradle ¾ÐÃàÇ¬ °æ·Î·Î »ðÀÔ
+C:\gradle-4.2\bin  »ðÀÔ
 
 
-* gradle ìƒì„±
+* gradle »ý¼º
 C:\workspace\java-basic\test>gradle init --type java-application
 
 * gradle build
@@ -131,7 +131,7 @@ C:\workspace\java-basic\test>gradle build
 C:\workspace\java-basic\test>gradle run
 
 
-* gradle ì»´íŒŒì¼
+* gradle ÄÄÆÄÀÏ
 C:\workspace\java-basic\test>gradle compilejava
 
 
@@ -147,7 +147,7 @@ gradle
 d2coding
 
 
-êµ¬ê¸€ í•œì¤‘ì¼ í°íŠ¸
+±¸±Û ÇÑÁßÀÏ ÆùÆ®
 
 google noto fonts       South Korea
 
@@ -155,7 +155,7 @@ google noto fonts       South Korea
 "editor.fontFamily": "D2Coding, Consolas"
 
 
-80ì¹¸ ì¤€ìˆ˜
+80Ä­ ÁØ¼ö
 
 
 
@@ -169,7 +169,7 @@ google noto fonts       South Korea
 
 
 
-* Classpath ì„¤ì •
+* Classpath ¼³Á¤
 
 java-basic> set CLASSPATH=.\build\classes\java\main
 
@@ -184,7 +184,7 @@ http://docs.oracle.com/javase/9/docs/api/index.html?overview-summary.html
 
 
 
-// java script Node.js ì„¤ì¹˜
+// java script Node.js ¼³Ä¡
 
 https://nodejs.org/en/
 
@@ -192,12 +192,12 @@ https://nodejs.org/en/
 
 
 
-// ìžë°” ìŠ¤í¬ë¦½íŠ¸ë¡œ ë§Œë“  ëª¨ë“ˆ ì„¤ì¹˜ ( Node Package Modules ) : í¬ë¡¬ì˜ ì˜¤í”ˆì†ŒìŠ¤ ì—”ì§„
-  - npmì´ëž€ Node Package Modulesì˜ ì•½ìžë‹¤. Node.jsì—ì„œ ì‚¬ìš©ê°€ëŠ¥í•œ ëª¨ë“ˆë“¤ì„ íŒ¨í‚¤ì§€í™”ì‹œì¼œ ëª¨ì•„ë†“ì€ ê²ƒì´ë‹¤.
+// ÀÚ¹Ù ½ºÅ©¸³Æ®·Î ¸¸µç ¸ðµâ ¼³Ä¡ ( Node Package Modules ) : Å©·ÒÀÇ ¿ÀÇÂ¼Ò½º ¿£Áø
+  - npmÀÌ¶õ Node Package ModulesÀÇ ¾àÀÚ´Ù. Node.js¿¡¼­ »ç¿ë°¡´ÉÇÑ ¸ðµâµéÀ» ÆÐÅ°ÁöÈ­½ÃÄÑ ¸ð¾Æ³õÀº °ÍÀÌ´Ù.
 
 https://electron.atom.io/
 
-ì•„ë¬´í´ë”> npm install -g electron
+¾Æ¹«Æú´õ> npm install -g electron
 
 
 java-basic> node     exit : ctrl + d
@@ -206,19 +206,17 @@ java-basic> node     exit : ctrl + d
 java-basic> jshell     exit : ctrl + d
 
 
-
-
-
+@ ÄÚµå ¾Ë°í¸®Áò
 https://codefights.com/
 
 
 
 
-@  npm ì‚¬ìš©   npmì´ëž€ Node Package Modulesì˜ ì•½ìžë‹¤.
+@  npm »ç¿ë   npmÀÌ¶õ Node Package ModulesÀÇ ¾àÀÚ´Ù.
 
 https://github.com/eomcs/eomcs-codebook
 
-git ë‹¤ìš´ë¡œë“œ
+git ´Ù¿î·Îµå
 
 git> git clone https://github.com/eomcs/eomcs-codebook.git
 
@@ -231,6 +229,12 @@ git\eomcs-codebook> npm start
 
 
 
+call by value : È£ÃâÇÒ ¶§ °ªÀ» ³Ñ±è
+call by reference : È£ÃâÇÒ ¶§ ÁÖ¼Ò¸¦ ³Ñ±è
+
+
+Stack Memory : ·ÎÄÃ º¯¼ö´Â ½ºÅÃ ¸Þ¸ð¸®¿¡ »ý¼º
+Heap Memory :  new ¿¬»êÀÚ¸¦ ÅëÇØ ¸¸µç ¹è¿­°ú »ç¿ëÀÚ Á¤À¹ °´Ã¼´Â Heap ¿µ¿ª¿¡ »ý¼º
 
 
 
@@ -245,13 +249,131 @@ git\eomcs-codebook> npm start
 
 
 
+@ ¹è¿­ / »ç¿ëÀÚ Á¤ÀÇ for ¹®
+public class Score {
+    String name;
+    int[] subjects = new int[3];
+    int sum;
+    float aver;
+}
+
+static void compute(Score score) {
+    // ¹è¿­ for ¹®
+    for (int sub : score.subjects) {
+        score.sum += sub;
+    }		
+    score.aver = score.sum / 3f;
+}
+
+public static void main(String[] args) {
+    Score[] scores = {new Score(), new Score(), new Score()};
+    
+    init(scores[0], "È«±æµ¿", 100, 90, 80);
+    init(scores[1], "ÀÓ²©Á¤", 80, 80, 80);
+    init(scores[2], "À¯°ü¼ø", 100, 100, 100);
+    
+    // »ç¿ëÀÚ Á¤ÀÇ °´Ã¼ for ¹®
+    for (Score s : scores) {
+        Score.print(s);
+    }
+}
+
+
+@ ¸Þ¼­µå ¸®ÅÏ°ªÀÌ Å¸ÀÔÀÌ ´Ù¸¥ ¿©·¯°³ÀÇ °ªÀ» ¹ÝÈ¯
+java.util.ArrayList<String> list = new java.util.ArrayList<String>();
+list.add("È«±æµ¿");
+list.add("ÀÓ²©Á¤");
+
+java.util.ArrayList<Integer> list = new java.util.ArrayList<Integer>();
+list.add(1);
+list.add(2);
+
+public class Test17_7 {
+    // Å¸ÀÔÀÌ ´Ù¸¥ ¿©·¯°³ÀÇ °ªÀ» ¹ÝÈ¯
+    static java.util.ArrayList m1() {
+        java.util.ArrayList list = new java.util.ArrayList();
+        list.add("È«±æµ¿");
+        list.add(20);
+        list.add(false);
+        list.add(4.12f);
+        list.add('M');
+
+        // °´Ã¼(»óÀÚ)¸¦ ¸®ÅÏÇÏ´Â °ÍÀÌ ¾Æ´Ï¶ó, °´Ã¼ÀÇ ÁÖ¼Ò¸¦ ¸®ÅÏÇÑ´Ù.
+        return list;
+    }
+    
+    public static void main(String[] args) {
+        java.util.ArrayList a = m1();
+        
+        // ArrayList ¿¡¼­ for ¹®
+        for (Object v : a) {
+            System.out.println(v);
+        }
+        System.out.println("--------------------------------------------------");
+    }
+}
+
+
+@ ¹è¿­ LengthÀ» ÀÌ¿ëÇÏ´Â ¹æ¹ý
+for (int i = 0; i < scores.length; i++) {
+    for (int j = 0; j < scores[i].arr1.length; j++) {
+        for (int k = 0; k < scores[i].arr1[j].length; k++) {
+            System.out.printf("%4s, %4d, %4d, %4d, %4d, %5.1f, %-4d\n",
+            scores[i].name, scores[i].kor, scores[i].eng, scores[i].math, 
+            scores[i].sum, scores[i].aver, scores[i].arr1[j][k]);
+        }
+    }
+}
+
+
+java.util.HashSet<String> set = new java.util.HashSet<String>();
+set.add("È«±æµ¿");
+set.add("ÀÓ²©Á¤");
+for (String n : set) {
+    System.out.println(n);
+}
+
+String[] names = {"È«±æµ¿", "ÀÓ²©Á¤", "À¯°ü¼ø", "¾ÈÁß±Ù", "À±ºÀ±æ"};
+for (String n : names) 
+    System.out.println(n);
+
+int[] kor = {100, 90, 80, 90, 50, 80};
+for (int score : kor) {
+    System.out.println(score);
+}
+
+
+//: ¸Þ¸ð¸® ÁØºñ °ª ÀúÀå
+static Score createScore(String name, int kor, int eng, int math) {        
+    //: ¸Þ¸ð¸® ÁØºñ
+    Score s = new Score();
+    
+    //: ¸Þ¸ð¸®¿¡ µ¥ÀÌÅ¸ ³Ö±â
+    s.name = name;
+    s.kor = kor;
+    s.eng = eng;
+    s.math = math;
+    s.sum = s.kor + s.eng + s.math;
+    s.aver = s.sum /3f;
+    
+    //: ¸Þ¸ð¸® ÁÖ¼Ò ¸®ÅÏ
+    return s;
+}
+
+static void m1(int... values) {
+    System.out.printf("¾Æ±Ô¸ÕÆ® °¹¼ö : %d\n", values.length);
+    for (int v : values) {
+        System.out.println(v);
+    }
+    System.out.println("--------------------------------------------------");
+}
 
 
 
+mutable
+immutable
 
-
-
-
-
-
+@ String Class
+  8ÀÌÇÏ´Â private final char value[];
+  9¿¡¼­´Â private final byte[] value;
 

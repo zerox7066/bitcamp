@@ -64,9 +64,9 @@ public class Test14_6 {
         scores[2].arr1[1][0] =  999;
         scores[2].arr1[1][1] =  9999;
 
-        for(int i = 0; i < scores.length; i++){
-            for(int j = 0; j < scores[i].arr1.length; j++){
-                for(int k = 0; k < scores[i].arr1[j].length; k++){
+        for (int i = 0; i < scores.length; i++) {
+            for (int j = 0; j < scores[i].arr1.length; j++) {
+                for (int k = 0; k < scores[i].arr1[j].length; k++) {
                     System.out.printf("%4s, %4d, %4d, %4d, %4d, %5.1f, %-4d\n",
                     scores[i].name, scores[i].kor, scores[i].eng, scores[i].math, scores[i].sum, scores[i].aver, scores[i].arr1[j][k]);
                 }
