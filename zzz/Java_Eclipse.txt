@@ -220,7 +220,16 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
   - .project 파일에서 <projectDescription> 변경
  
-    <name>bitcamp-java-basic</name>  =>  <name>java-basic</name> 
+    <name>bitcamp-java-basic</name>  =>  <name>java-basic</name>
+
+
+7) Synchronize gradle projects with workspace failed due to an error configuring eclipse
+
+  java-basic> gradlew cleanEclipse
+
+  java-basic> gradlew Eclipse
+   
+   
 
 
 
