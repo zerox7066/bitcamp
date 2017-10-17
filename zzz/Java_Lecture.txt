@@ -379,3 +379,20 @@ immutable
   8이하는 private final char value[];
   9에서는 private final byte[] value;
 
+
+
+// static method(class method) : 인스턴스의 값을 사용하려면 반드시 파라미터로 받아야 한다.
+// non static method(instance method) : 메서드의 내장변수 this를 사용
+
+
+
+@ class 문법
+
+1) 새로운 데이타 타입을 정의할 때(새로운 메모리 설계)
+   새 메모리의 값을 다룰 수 있는 연산자가 필요할 때
+   인스턴스 메서드
+
+
+2) 연관된 메서드를 분류 
+
+
