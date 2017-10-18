@@ -61,8 +61,7 @@ public class Test21_8 {
         while(true) {
             name.add(console.readLine("이름? "));
             email.add(console.readLine("이메일? "));
-            tel_no.add(console.readLine("전화? "));
-            
+            tel_no.add(console.readLine("전화? "));            
 
             if (console.readLine("저장하시겠습니까?(y/n) ").equals("y")) {
                 System.out.println("저장하였습니다.");
