@@ -65,7 +65,7 @@ public class Test21_5 {
             } else if (num < 1) {
                 System.out.println("다음에 다시 만나요.");
                 System.out.println("-----------------------------------");
-                //break;
+                break;
             }
         }
     }
