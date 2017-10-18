@@ -19,12 +19,13 @@ public class Test18_6 {
         
         System.out.println("--------------------------------------------------");
         
-        String str = "홍길동(hong@test.com),임꺽정(leem@test.com" +
+        String str = "홍길동(hong@test.com),임꺽정(leem@test.com )," +
                      "유관순(yoo@test.com),안중근(ahn@test.com),윤봉길(yoon@test.com)";
         
         // 해당 문자열에서 주어진 규칙을 갖는 문자열을 찾아 출력
         // 정규표현식 규칙을 생성
-        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("\\w+@\\w+\\.\\w+");
+        //java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("\\w+@\\w+\\.\\w+");
+        java.util.regex.Pattern pattern = java.util.regex.Pattern.compile("^[a-z]([-.\\w]*[0-9A-Z])*$");
         
         // 정규표현식
         java.util.regex.Matcher matcher = pattern.matcher(str);
@@ -32,26 +33,27 @@ public class Test18_6 {
         
         int startIndex = 0;
         while (matcher.find(startIndex)) {
-            System.out.println(startIndex);
+            //System.out.println(startIndex);
             String matcherString = matcher.group();
             
-            startIndex = matcher.end();
+            System.out.println("group(" + startIndex + ") = " + matcherString);
             
-            System.out.println(matcherString);
+            startIndex = matcher.end();
+            System.out.println(startIndex);
         }
         
         System.out.println("--------------------------------------------------");
         
         //int startIndex = 0;
-        if (matcher.matches()) {
-            for(int i = 0; i <= matcher.groupCount(); i++) {
-                System.out.println(matcher.group(i));
-            }
-        } else {
-            System.out.println("Not Found");
-        }
+        //if (matcher.matches()) {
+        //    for(int i = 0; i <= matcher.groupCount(); i++) {
+        //        System.out.println(matcher.group(i));
+        //    }
+        //} else {
+        //    System.out.println("Not Found");
+        //}
         
-        System.out.println("--------------------------------------------------");
+        //System.out.println("--------------------------------------------------");
     }
 }
 
