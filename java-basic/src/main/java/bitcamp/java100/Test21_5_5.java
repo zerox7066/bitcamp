@@ -20,29 +20,19 @@ package bitcamp.java100;
 
 import java.io.Console;
 
-// 1단계: if ~ else if ~ else
-public class Test21_5 {
+// 5단계: 정교하게 예외처리 하기
+public class Test21_5_5 {
     
-    // 예외를 구분하기 위해 새로운 예외를 만든다.
-    // => 이때 기존의 기능을 바탕으로 새 예외를 만든다.
-    static class ConsoleCreationException extends RuntimeException {
-        // 특별하게 새 기능을 추가하지는 않는다.
-        // 다만 이름으로 예외를 구분하기 위해 새 클래스를 만든 것이다.
-    }
-    
-    static class InvalidGugudanException extends RuntimeException {
-        // 특별하게 새 기능을 추가하기 위해 만든 클래스가 아니라,
-        // 단지 예외를 구분하기 위해 만든 클래스이다.
-    }
-    
+    // 클래스 변수
+    // => 클래스를 실행하기 위해 HDD에서 메모리로 로딩할 때 생성되는 변수이다.
+    // => new 명령으로 생성되는 변수가 아니다.
     static Console console;
     
     static void prepareInput() {
         console = System.console();
 
         if (console == null) {
-            // 예외 상황을 만나면 호출자에게 알린다.
-            throw new ConsoleCreationException();
+            throw new RuntimeException("콘솔 생성 오류입니다!");
         }
     }
     
@@ -52,7 +42,7 @@ public class Test21_5 {
         
         if (value < 0 || value == 1 || value >= 10) {
             // 예외 상황을 만나면 호출자에게 알린다.
-            throw new InvalidGugudanException();
+            throw new RuntimeException("구구단의 범위를 초과했습니다.");
         }        
         
         return value;
@@ -68,29 +58,28 @@ public class Test21_5 {
         // 메서드를 실행하다가 예외 상황을 보고하면 처리한다.
         try {
             prepareInput();
-
-            while (true) {
-                int value = 0;
-                try {
-                    value = promptGugudan();
-                    
-                    if (value == 0) break;
-                    if (value == 1 || value >= 10) continue;
-                    
-                    printGugudan(value);
-                } catch (InvalidGugudanException e) {
-                    System.err.println("구구단의 범위가 아닙니다.");
-                }
-            }
-
-            System.out.println("프로그램을 종료합니다.");
-
-        } catch (ConsoleCreationException e) {
+        } catch (RuntimeException e) {
             System.err.println("콘솔 입력을 지원하지 않습니다.");
+            System.exit(1);
         }
+        
+        while (true) {
+            int value = 0;
+            try {
+                value = promptGugudan();
+                
+                if (value == 0) break;
+                if (value == 1 || value >= 10) continue;
+                
+                printGugudan(value);
+            } catch (RuntimeException e) {
+                System.err.println("구구단의 범위가 아닙니다.");
+            }
+        }
+            
+        System.out.println("프로그램을 종료합니다.");
     }
 }
-
 
 
 

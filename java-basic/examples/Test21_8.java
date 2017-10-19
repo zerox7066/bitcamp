@@ -36,13 +36,14 @@ package bitcamp.java100;
 import java.io.Console;
 import java.util.ArrayList;
 
-public class Test21_8 {   
-    class PersonInfo {
+public class Test21_8 {
+
+    // 사용자 정의 데이타 타입
+    static class Contact {
         String name;
         String email;
-        String tel_no;
+        String tel;
     }
-
     public static void main(String[] args) {
         // 콘솔 객체를 준비한다.
         Console console = System.console();
@@ -52,39 +53,36 @@ public class Test21_8 {
             System.exit(1); // JVM을 종료한다.
         }
         
-        ArrayList name = new ArrayList();
-        ArrayList email = new ArrayList();
-        ArrayList tel_no = new ArrayList();
+        // 레퍼런스 100개         객체 100(x)
+        Contact[] contacts = new Contact[100];
         
-        int idx = 0;
+        // 값이 저장된 위치
+        int cursor = 0;
         
-        while(true) {
-            name.add(console.readLine("이름? "));
-            email.add(console.readLine("이메일? "));
-            tel_no.add(console.readLine("전화? "));            
-
-            if (console.readLine("저장하시겠습니까?(y/n) ").equals("y")) {
-                System.out.println("저장하였습니다.");
-                idx++;
-            } else {
-                name.remove(idx);
-                email.remove(idx);
-                tel_no.remove(idx);
-                System.out.println("저장 취소하였습니다.");
+        while(cursor < contacts.length) {
+            Contact contact = new Contact();
+            contact.name = console.readLine("이름? ");
+            contact.email = console.readLine("이메일? ");
+            contact.tel = console.readLine("전화번호? ");
+            
+            String response = console.readLine("저장하시겠습니까?(y/n) ");
+            if (response.toLowerCase().equals("y") ||
+                    response.toLowerCase().equals("yes")) {
+                // 인스턴스 주소를 배열에 저장
+                contacts[cursor] = contact;                
+                cursor++;
             }
             
-            if (console.readLine("계속입력하시겠습니까?(y/n) ").equals("n")) {
+            response = console.readLine("계속 입력하시겠습니까?(y/n) ");
+            if (!(response.toLowerCase().equals("y") ||
+                  response.toLowerCase().equals("yes")))
                 break;
-            }
         }
         
-        for (int i = 0; i < idx ; i++) {
-            System.out.printf("%-10s", name.get(i));
-            System.out.printf("%-20s", email.get(i));
-            System.out.printf("%-20s", tel_no.get(i));
-            System.out.println();
+        for (int i = 0; i < cursor; i++) {
+            System.out.printf("%s %s %s\n", 
+                    contacts[i].name, contacts[i].email, contacts[i].tel);
         }
-        
     }
 }
 

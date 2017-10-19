@@ -20,8 +20,8 @@ package bitcamp.java100;
 
 import java.io.Console;
 
-// 1단계: if ~ else if ~ else
-public class Test21_5 {
+// 6단계: 예외를 구분하기
+public class Test21_5_6 {
     
     // 예외를 구분하기 위해 새로운 예외를 만든다.
     // => 이때 기존의 기능을 바탕으로 새 예외를 만든다.
@@ -88,6 +88,7 @@ public class Test21_5 {
         } catch (ConsoleCreationException e) {
             System.err.println("콘솔 입력을 지원하지 않습니다.");
         }
+
     }
 }
 
