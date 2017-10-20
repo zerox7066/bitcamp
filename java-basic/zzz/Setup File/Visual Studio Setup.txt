@@ -1,0 +1,14 @@
+﻿{
+
+    "editor.fontSize": 15,
+    "editor.rulers":[80],
+    "editor.fontFamily": "D2Coding, Consolas, 'Courier New', monospace",    
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.renderControlCharacters": false,
+    "workbench.activityBar.visible": true,
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "wordWrapColumn",
+    "java.home": "c:\\Program Files\\Java\\jdk-9",
+    "workbench.startupEditor": "newUntitledFile"
+}  

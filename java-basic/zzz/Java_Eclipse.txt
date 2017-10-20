@@ -1,0 +1,319 @@
+﻿환경변수 설정 => C:\Program Files\Java\jdk-9\bin;
+
+JAVA_HOME : C:\Program Files\Java\jdk-9
+
+Path  : C:\Program Files\Java\jdk-9\bin;C:\gradle-4.2\bin;C:\cygwin64\usr\include;C:\cygwin64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\64bit\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\gradle-4.2\bin
+
+@ 이클립스설치
+
+  - Eclipse IDE for Java EE Developers 설치
+
+
+
+@ 이클립스에서 jdk9 실행 설정
+
+
+1) eclipse.ini  수정
+
+C:\Users\bit-user\eclipse\jee-oxygen 에서 eclipse.ini  수정
+
+
+-Dosgi.requiredJavaVersion=1.8
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+
+-Dosgi.requiredJavaVersion=1.8
+
+
+
+-Dosgi.requiredJavaVersion=9       =====>  수정
+-Dosgi.instance.area.default=@user.home/eclipse-workspace
+-XX:+UseG1GC
+-XX:+UseStringDeduplication
+--add-modules=ALL-SYSTEM           =====>  추가
+-Dosgi.requiredJavaVersion=9       =====>  수정
+
+
+2) jdk9 설치 확인
+
+Help  =>  Elclipse Martketplace 에서 Java 9 검색해서 Java 9 Support for Oxygen 4.7 설치
+
+Perferences  =>  Java  =>  Installed JREs  =>  Add 버튼 클릭 =>  Standard VM 선택  
+             =>  Next 버튼 클릭 =>  JRE home에서 => Diretory 버튼 클릭해서 jdk-9 폴더 선택
+
+
+- Java jdk9 설치 확인
+- eclipse jdk9 검색
+
+
+
+@ workspace 에러 발생할 경우 폴더 이름 변경후 소스 파일 복사
+   An error has occured. See the log file
+   C:\Users\User\elcipse-workspace\.metadata\.log
+
+
+@ Run 할때 에러 메시지 처리 :  
+ # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
+   - Bin 폴더 삭제
+   - Projcet => Clean
+
+
+
+@ Perferences 설정 
+
+General  =>  Apperance  =>  Theme  =>  Dark
+
+General  =>  Apperance  =>  Colors and Font  =>  Basic  =>  Edit Text
+             : 기본 Console Font
+             => D2Coding
+
+General => Content Types => Java Class Fiel => Default encoding => UTF-8 => Update
+
+General  =>  Editors  =>  Text Editors
+    
+             Insert space for tabs
+             Show print margin
+             Show line numbers
+             Show whitespace charaters   Carriage Return, Line Feed 체크 해제
+                                         Transparency level( . 투명도)
+
+General => Editors => Text Editors => Spelling => Encoding => Default(UTF-8)
+
+General =>  Workspace  =>  Text file encoing   Other UTF-8 설정
+
+Java  =>  Code Style  =>  Formatter  =>  New 클릭 my 입력후 OK 클릭
+                                         Tab policy에서  Spaces only 설정
+
+
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 설정
+
+
+
+폰트 d2coding 사용 
+  https://github.com/naver/d2codingfont/releases
+  "C:\Windows\Fonts\" 경로에 복사
+
+  크롬 기본 글꼴 : 맞춤
+  익스플로어 기본 글꼴 : 웹 페이지 글꼴(Gulim), 일반 텍스트 글꼴(GulimChe)
+
+
+
+@ View 초기화
+  Window => Perspective  => Open Perspective  => Other  => Java EE
+
+@ Eclipse에서 Project Explorer / Navigator  /  Outline / Task List
+  Window  =>  Show View  =>  Other  에서 맨위에서 검색
+
+
+
+
+
+
+@ Projec Import Gragle 사용
+
+
+1) gradle 명령어 모음
+
+build.gradle             https://docs.gradle.org/4.2.1/userguide/eclipse_plugin.html
+
+apply plugin: 'eclipse'
+
+
+java-basic> gradle init --type java-application
+
+
+java-basic> gradlew tasks --all
+
+
+java-basic> gradlew EclipseProject
+
+
+java-basic> gradlew cleanEclipseProject
+
+
+java-basic> gradlew EclipseClasspath
+
+
+java-basic> gradlew cleanEclipseProject
+
+
+java-basic> gradlew Eclipse
+
+
+java-basic> gradlew cleanEclipse
+
+
+
+
+2) build.gradle 수정해서 jdk9으로 설정
+
+
+apply plugin: 'eclipse'
+
+
+eclipse {
+  jdt {
+    //if you want to alter the java versions (by default they are configured with gradle java plugin settings):
+    sourceCompatibility = 9
+    targetCompatibility = 9
+    javaRuntimeName = "JavaSE-9"
+
+    file {
+      whenMerged { jdt
+      }
+
+      withProperties { properties ->
+        properties["org.eclipse.jdt.core.compiler.codegen.targetPlatform"] = "9"
+        properties["org.eclipse.jdt.core.compiler.source"] = "9"
+        properties["org.eclipse.jdt.core.compiler.compliance"] = "9"
+      }
+    }
+  }
+}
+
+
+3) gradle을 이용해서 .project 파일, .classpath파일과 org.eclipse.jdt.core.prefs 파일 생성
+
+java-basic> gradlew cleanEclipse
+
+java-basic> gradlew Eclipse
+
+
+- C:\Users\bit-user\git\bitcamp\java-basic 폴더에서 .classpath 파일에서 JavaSE-9 설정 확인
+  	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/
+         org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9/"/>
+
+- C:\Users\bit-user\git\bitcamp\java-basic\.settings 폴더에서 org.eclipse.jdt.core.prefs 확인
+  org.eclipse.jdt.core.compiler.codegen.targetPlatform=9
+  org.eclipse.jdt.core.compiler.source=9
+  org.eclipse.jdt.core.compiler.compliance=9
+
+
+4) eclipse 에 Import
+
+File => Import => General => Existing Projects into WorkSpace => Browse(폴더선택)
+        - Select root directory : 압축 해제된 프로젝트 폴더
+        - Select archive file   : 압축 상태인 프로젝트 압축파일
+
+
+
+5) Import 에러
+
+  오류: 기본 클래스 bitcamp.java100.Test16_1을(를) 찾거나 로드할 수 없습니다.
+  원인: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
+
+  Project Context Menu => Proerties => Java Build Path 에서 jar 경로확인
+  git에서 다운 받았기 때문에 Users 가 bit-user로 되어 있음
+  노트북은 Users 가 user로 되어 있음
+
+  gradle을 이용해서 .project 파일, .classpath파일과 org.eclipse.jdt.core.prefs 파일 생성
+
+  java-basic> gradlew cleanEclipse
+
+  java-basic> gradlew Eclipse
+
+  한 후 다시 Import 한다.
+
+
+6) Import 의 Project 명이 폴더명과 다른경우(다른 폴더 복사했을 경우)
+
+  - settings.gradle 파일에서 rootProject.name 변경
+
+    rootProject.name = 'bitcamp-java-basic' => rootProject.name = 'java-basic'
+
+  - .project 파일에서 <projectDescription> 변경
+ 
+    <name>bitcamp-java-basic</name>  =>  <name>java-basic</name>
+
+
+7) Synchronize gradle projects with workspace failed due to an error configuring eclipse
+
+  java-basic> gradlew cleanEclipse
+
+  java-basic> gradlew Eclipse
+   
+   
+
+
+
+
+
+@@ Eclipse에서 Git 사용
+
+
+@ Git Push 및 Pull
+
+  Window  =>  Show View  =>  Other  =>  Git Repositories
+  Window  =>  Show View  =>  Other  =>  Git Staging
+
+  Git Repoitories 에서 해당 git에서 오른쪽 Context Menu  =>  Push to Stream
+
+  Git Staging 에서 Unstaged Changes 에서 Staged Changes 로 파일 이동하고
+  Commit Message에 메시지 입력
+
+  Commit and Push 클릭해서 로그인
+
+  한번 Commit 하면 이클립스 다시 실행
+
+
+
+
+
+@ Eclipse에서 Git 자동로그인 해제
+
+  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab에서 삭제
+
+
+
+
+
+@ 단축키
+  F11 : Debug
+  Ctrl +F11 : Run
+  Ctrl + M : 현재 활성화된 뷰나 에디터 최대화
+  Ctrl +F6 : 소스탭 이동
+  Ctrl + PageUp, Ctrl + PageDown : 소스탭 이동
+  Ctrl + F7 : 뷰간 이동
+  F12 : 에디터 활성화
+  Alt + 방향키 : 소스 한줄이나 블록을 이동
+  블록 복사   =>   Shift + Alt + a  => 마우스가 십자가로 바뀜
+
+
+Java SE : 
+Java ME : Embedded Java
+Java EE
+
+
+Public Key        Private Key
+
+http://tomcat.apache.org/
+
+
+@ Codebook
+마크다운 : //  =>  //:   
+
+@ 가변 메소드
+    static void sum(int... values) {
+        int s = 0;
+        for (int v : values) {
+            s += v;
+        }
+        System.out.printf("합계: %d\n", s);
+    }
+
+
+
+        i = 4885223;
+        int count = 0;
+        int[] cnt = new int[10];
+        while(i > 0) {
+            cnt[i % 10]++;
+            i /= 10;
+        }
+        
+        int x = 0;
+        while (x < cnt.length) {
+            System.out.printf("%d = %d\n", x, cnt[x]);
+            x++;
+        }

@@ -1,0 +1,60 @@
+﻿@ 클래스 배열 @
+@ 클래스 배열 @
+
+
+class Score {
+    String name;
+    int kor;
+    int eng;
+    int math;
+    int sum;
+    float aver;
+    int[][] arr1 = new int[2][2];
+
+    // operator = method = message = function
+    void compute() {
+        sum = kor + eng + math;
+        aver = sum / 3.0f;
+    }
+}
+
+Score[] scores = new Score[3];
+
+for(int i = 0; i < scores.length; i++) {
+    scores[i] = new Score();
+}
+
+
+@ Array Length을 이용한 for 문
+
+for(int i = 0; i < scores.length; i++){
+    for(int j = 0; j < scores[i].arr1.length; j++){
+        for(int k = 0; k < scores[i].arr1[j].length; k++){
+            System.out.printf("%4s, %4d, %4d, %4d, %4d, %5.1f, %-4d\n",
+            scores[i].name, scores[i].kor, scores[i].eng, scores[i].math, scores[i].arr1[j][k]);
+        }
+    }
+}
+
+
+
+
+
+@ 함수 리턴값이 Array인 경우
+
+int[] arr = m1();
+for (int i : arr) {
+    System.out.println(i);
+}
+
+
+@ 함수 리턴값이 ArrayList인 경우
+
+java.util.ArrayList list = m1();
+for (Object v : list) {
+    System.out.println(v);
+}
+
+
+@ 함수 리턴값이 사용자 정의 객체인 경우
+Member mem = m1();
