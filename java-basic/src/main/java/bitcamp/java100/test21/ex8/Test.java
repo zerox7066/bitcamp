@@ -31,23 +31,12 @@
 // 안중근      ahn@test.com 1111-1114
 // > 
 
-package bitcamp.java100;
+package bitcamp.java100.test21.ex8;
 
 import java.io.Console;
 
-public class Test21_8 {
+public class Test {
     static Console console;
-    
-    // 레퍼런스 100개         객체 100(x)
-    static Contact[] contacts = new Contact[100];
-    static int cursor = 0;
-
-    // 사용자 정의 데이타 타입
-    static class Contact {
-        String name;
-        String email;
-        String tel;
-    }
     
     static Contact  inputContact() {
         Contact contact = new Contact();
@@ -68,26 +57,13 @@ public class Test21_8 {
     }
     
     static void printContacts() {
-        for (int i = 0; i < size(); i++) {
-            Contact contact = get(i);
+        for (int i = 0; i < ContactArray.size(); i++) {
+            Contact contact = ContactArray.get(i);
             System.out.printf("%s %s %s\n", 
                     contact.name, 
                     contact.email, 
                     contact.tel);
         }
-    }
-    
-    static void add(Contact contact) {
-        contacts[cursor] = contact;
-        cursor++;
-    }
-    
-    static Contact get(int index) { 
-        return contacts[index];
-    }
-    
-    static int size() {
-        return cursor;
     }
     
     public static void main(String[] args) {   
@@ -98,13 +74,18 @@ public class Test21_8 {
             System.exit(1); // JVM을 종료한다.
         }
         
-
-        while(cursor < contacts.length) {
+        while(true) {
             
             Contact contact = inputContact();            
             
-            if (confirm("저장하시겠습니까?")) 
-                add(contact);
+            if (confirm("저장하시겠습니까?")) {
+                try {
+                    ContactArray.add(contact);
+                } catch (RuntimeException e) {
+                    System.err.println("최대 저장 개수를 초과하였습니다");
+                    break;
+                }
+            }
             
             // 계속 입력하지 않겠습니까?
             if (!confirm("계속 입력하시겠습니까?"))
