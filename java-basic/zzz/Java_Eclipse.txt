@@ -1,8 +1,12 @@
 ﻿환경변수 설정 => C:\Program Files\Java\jdk-9\bin;
 
+   (Parentheses:Round Bracket)    [Square Bracket]    <Angle Bracket>    {Brace}
+
 JAVA_HOME : C:\Program Files\Java\jdk-9
 
 Path  : C:\Program Files\Java\jdk-9\bin;C:\gradle-4.2\bin;C:\cygwin64\usr\include;C:\cygwin64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\64bit\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\gradle-4.2\bin
+
+
 
 @ 이클립스설치
 
@@ -11,7 +15,6 @@ Path  : C:\Program Files\Java\jdk-9\bin;C:\gradle-4.2\bin;C:\cygwin64\usr\includ
 
 
 @ 이클립스에서 jdk9 실행 설정
-
 
 1) eclipse.ini  수정
 
@@ -265,112 +268,99 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
   Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab에서 삭제
 
 
-@ Windows 단축키    
-    
-    창위치 이동 : Alt + Space  =>  M(이동) => 방향키  => Enter
-
-    프로그램 종료 : Alt + Space =>  c
-
-    Windows Snap 관련
-    
-    Windows Key+Left — 활성 창을 왼쪽으로.
-    Windows Key+Right — 활성 창을 오른쪽으로.
-    Windows Key+Up — 활성 창을 위쪽으로.
-    Windows Key+Down — 활성 창을 아래쪽으로.
-
-    Windows Key+Shift+Up — 세로 방향으로 최대화.
-    Windows Key+Shift+Down — 창 크기 복구.
 
 
-    가상 데스크톱 관련
-    
-    Windows Key+Ctrl+D — 새 가상 데스크톱 만들기.
-    Windows Key+Ctrl+Left — 왼쪽 가상 데스크톱으로 이동.
-    Windows Key+Ctrl+Right — 오른쪽 가상 데스크톱으로 이동.
-    Windows Key+Ctrl+F4 — 현재 가상 데스크톱 닫기.
-    Windows Key+Tab — 모든 가상 데스크톱과 동작 앱(응용 프로그램 확인) : 작업 뷰 페이지.
 
+@ 단축키   [Ctrl + Shift + L]
 
-    Cortana 및 설정 관련
-    
-    Windows Key+Q — Cortana가 음성을 인식하도록 대기.
-    Windows Key+S — Cortana가 키보드 입력을 인식하도록 대기.
-    Windows Key+I — Windows 10 설정 패널 열기.
-    Windows Key+A — Windows 10 알림 센터 열기.
-
-
-    명령 프롬프트 관련
-    
-    Shift+Left — 커서의 왼쪽으로 텍스트 하이라이트.
-    Shift+Right — 커서의 오른쪽으로 텍스트 하이라이트.
-    Ctrl+Shift+Left (or Right) — 한자씩이 아닌, 단어 단위 하이라이트.
-    Ctrl+C — 선택된 단어 복사.
-    Ctrl+V — 복사된 단어 붙여넣기.
-    Ctrl+A — 전체 선택.
-
-
-    기타
-    
-    Windows Key+, — 일시적으로 앱을 감춰, 데스크톱 보기.
-    Windows Key+D — 모든 앱 최소화.
-    Ctrl+Shift+M — 모든 최소화된 창 최대화.
-    Windows Key+Home — 현재 사용중인 창을 제외한 모든 창 최소화.
-    Windows Key+L — PC 잠그기.
-    Windows Key+E — 탐색기.
-    Alt+Up — 파일 탐색기내 한 수준 올라가기.
-    Alt+Left — 파일 탐색기내 이전 폴더로.
-    Alt+Right — 파일 탐색기내 다음 폴더로.
-    Alt+Tab — 창간 이동.
-    Alt+F4 — 현재 창 닫기.
-    Windows Key+Shift+Left (or Right) — 창을 연결된 다른 모니터로 이동.
-    Windows Key+T — 작업 표시줄내 앱간 이동. (엔터를 치면 해당 창으로 이동, 또는 실행).
-    Windows Key+Any Number Key — 작업 표시줄내 앱 실행(앱 순서가 번호)
-
-
-    고급 단축키
-    
-    Ctrl+Shift+Esc — 작업 관리자 실행.
-    Windows Key+R — 실행 창 열기.
-    Shift+Delete — 휴지통을 거치지 않고, 영구 삭제.
-    Alt+Enter — 현재 선택된 파일의 속성 창.
-    Windows Key+U — 접근성 센터 열기.
-    Windows Key+Space — 입력 언어 및 키보드 전환.
-    Windows Key+Shift+Any Number Key — 작업 표시줄내 앱 새 창 실행
-    Windows Key+Ctrl+Shift+Any Number Key — 작업 표시줄내 앱 새 창 실행(관리자 권한)
-
-
-    그림, 비디오, 디스플레이 관련
-    
-    Windows Key+PrtScr — 그림 폴더내로 스크린샷 저장.
-    Windows Key+G — 게임 DVR 레코더 열기(그래픽 카드가 지원하는 경우).
-    Windows Key+Alt+G — 현재 창내 작업 녹화 시작(DVR).
-    Windows Key+Alt+R — 녹화 중지(DVR).
-    Windows Key+P — 디스플레이 모드 전환(프로젝터나 모니터 연결용).
-    Windows Key+plus — 줌 인.
-    Windows Key+minus — 줌 아웃.
-
-
-@ 단축키
 ===== 소스 네비게이션 =====
+
+ -. 자동 완성 해제
+
+    Windows > Preferences > Java > Editor > Typing > Automatically close 에서 필요 없는 기능 선택해제
+
+ -. window > New Window  :  이클립스 새창
+
  -. Ctrl + 마우스커서(혹은 F3) : 클래스나 메소드 혹은 멤버를 상세하게 검색하고자 할때
- -. Alt + ->, Alt + <- : 이후, 이전
- -. Ctrl + o : 해당 소스의 메소드 리스트를 확인하려 할때
- -. F4 : 클래스명을 선택하고 누르면 해당 클래스의 Hierarchy 를 볼 수 있다.
 
  -. Ctrl + M : 현재 활성화된 뷰나 에디터 최대화
  -. Ctrl + F6 : 소스간 이동
- -. Ctrl + F7 : 뷰간 이동
+ -. Ctrl + F7 : 뷰간 이동 ( 에디터 최대창에서 Project Explorer 창 보인)
+
+ -. F3         : 선언된 변수로 이동, 메소드 정의부로 이동
+ -. F4         : 클래스명을 선택하고 누르면 해당 클래스의 Hierarchy 를 볼 수 있다.
+ -. Ctrl + O   : 해당 소스의 메소드 리스트를 확인하려 할때
  -. Ctrl + PageUp, Ctrl + PageDown : 소스탭 이동
+ -. Alt + 방향키 : 이전 소스 위치 이동
 
 
 
-  F11 : Debug
-  Ctrl +F11 : Run
+===== 소스 코드 편집 =====
+
+ -. Ctrl + Space       :  컨텐트 어시스트
+ -. Ctrl + Shift + M : 특정 클래스 Import
+ -. Ctrl + Shift + O : 자동으로 Import
+
+ -. Ctrl + /           :  주석 토글
+ -. Ctrl + Shift + /   :  블록 주석 추가
+ -. Ctrl + Shift + \   :  블록 주석 삭제
+
+ -. Ctrl + 방향키  : 문자열 이동
+ -. Ctrl + Shift + 방향키 : 문자열 선택
+ -. Alt + Shift + 방향키 : 블록 선택 
+
+ -. Shift + Alt + a : 블록 복사 => 마우스가 십자가로 바뀜
+
+
+
+
+
+
+===== 실행 및 디버깅 =====
+
+ -. Ctrl + Shift + B : 현 커서의 위치에 브레이크 포인터 설정/해제
+
+ -. F11 : 디버깅 시작
+
+ -. F8 : 디버깅 계속
+
+ -. F6 : 한 줄씩 실행(Step Over)
+
+ -. F5 : 한 줄씩 실행하되 함수일 경우 그 함수 내부로 들어감(Step Into)
+
+ -. Ctrl + R : 현재 라인까지 실행(Run to Line)
+
+ -. Ctrl + F11 : Run 파일 실행
 
 
   F12 : 에디터 활성화
-  Alt + 방향키 : 소스 한줄이나 블록을 이동
-  블록 복사   =>   Shift + Alt + a  => 마우스가 십자가로 바뀜
+
+
+===== 코드 템플릿 사용하기 =====
+
+1. Class에 주석 넣기
+
+   Window > Preferences > Java > Code Style > 
+            Code Templates > Comments > Types > Edit 버튼 클릭
+
+   내용 수정
+   
+/**
+ * <pre>
+ * ${package_name}
+ * ${file_name}
+ * </pre>
+ *
+ * @Author  : ${user}
+ * @Date    : ${date}
+ * @Version : 
+ * ${tags}
+ */ 
+
+
+
+
+========================================================================================
 
 
 Java SE : 
