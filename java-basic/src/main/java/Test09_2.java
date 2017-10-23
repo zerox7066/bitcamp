@@ -5,7 +5,7 @@
 
 // 소스 파일에서 제일 처음에 패키지를 선언한다.
 // 그러면 이후에 선언되는 모든 클래스들은 이 패키지에 소속된다.
-package a;
+//package a;
 
 public class Test09_2 {
   public static void main(String[] ags) {

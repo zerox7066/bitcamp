@@ -6,6 +6,8 @@
 
     프로그램 종료 : Alt + Space =>  c
 
+    한프로그램만 최소화 : Windows kY + Down
+
     Windows Snap 관련
     
     Windows Key+Left — 활성 창을 왼쪽으로.
