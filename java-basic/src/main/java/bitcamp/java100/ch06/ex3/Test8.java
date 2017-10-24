@@ -108,6 +108,7 @@ public class Test8 {
         a.m1();
         
         // 컴파일 오류!
+        
         //A.m1();
         
         // static method

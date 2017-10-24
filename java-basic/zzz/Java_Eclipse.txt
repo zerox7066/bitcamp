@@ -315,6 +315,28 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Shift + Alt + a : 블록 복사 => 마우스가 십자가로 바뀜
 
 
+ -. Ctrl + H 단축키를 Open Search Dialog을 File Search로 변경 : 단축키 변경관 같음
+    
+    Open Search Dialog 기본 정보 : Binding(Ctrl + H), When(In Windows)
+    
+    
+ -. Window > Preference > Keys > Command에서 File Search 이동 > 
+    
+    Binding 에 원하는 단축키 클릭 / In Windows > Apply
+
+
+ -. Ctrl + Shift + V : File Search (단축키 개인 등록)
+    
+
+ -. CTRL+ F : 현재 파일에서 특정 문자를 찾거나 찾은 문자를 교체하는 방법
+
+ -. CTRL+ SHIFT + R : 프로젝트에 포함된 리소스(여기서는 파일)중에 찾는 방법
+
+ -. CTRL+ H : 자세하고 가장 다양한 방법으로 찾을 수 있는 방법 정규표현식 및 다채롭게 찾을수 있습니다.
+
+ -. CTRL + SHIFT + G : 함수를 호출하는 함수를 찾아준다.
+
+ -. CTRL + ALT + H : 함수를 호출하는 함수를 찾아준다.(처음 호출해지는 함수까지 찾아준다.)
 
 
 
@@ -437,7 +459,8 @@ JavaFX
 =============================================================================
 
 
-// 클래스 로딩되는 시점
+@ 클래스 로딩되는 시점
+
 // 1) 클래스 변수를 사용할 때 
 //MyClass2.v1 = 200;
 
@@ -473,103 +496,284 @@ public class MyClass2 {
 }
 
 =======================================================================
+// 스태틱 변수는 JVM 종료할 때 메모리에서 해제
+// 스태틱 변수는 JVM 종료할 때 메모리에서 해제하기 때문에 메모리를 많이 차지
+// 클래스 static 변수는 Method Area에 만들어진다.
+
+// Heap에 있는 변수는 가비지 컬렉터가 메모리를 해제한다.
+
+// new로 선언된 변수는 인스턴스변수는 무조건 Heap에 만들어진다.
+
+
+// 그외는 Local 변수, 로컬에 선언된 레퍼런스 변수는 Stack에 만들어진다.
+
+
+
+
+
+
+=======================================================================
 
 
 // 스태틱 변수 스태틱 메서드 : 인스턴스 변수 인스턴스 메서드
-package bitcamp.java100.ch06.ex3;
+package bitcamp.java100.ch06.ex6;
 
-public class Test8 {
-    // 컴파일 오류!
-    //int i;
+import bitcamp.java100.ch06.ex5.Score2;
+
+public class Test9 {
     
-    static int i;
+    // main(static method) 함수에서 instance variable 사용 불가
+    // static class 에서 instance variable 사용 가능
+    int ginstvar;
     
-    // 컴파일 오류!
-    // static 추가
-    /*class A {
-        int a1;
-        static int a2;
-        
-        void m1() {
-            System.out.println("m1()");
-        }
-        
-        static void m2() {
-            
-        }
-    }*/
+    // main(static method) 함수에서 static variable 사용 가능
+    // static class 에서 static variable 사용 가능
+    static int gstatvar;
     
-    static class A {
-        int a1;
-        static int a2;
+    // main(static method) 함수에서 instance method 호출 불가
+    void ginstMethod() {
+        // instance variable 사용 가능
+        ginstvar += 100;
         
-        void m1() {
-            this.a1 = 100;
-            this.a2 = 200;
-            System.out.println("m1() this.a1 = " + this.a1);
-            System.out.println("m1() this.a2 = " + this.a2);
-        }
+        // static variable 사용 가능
+        gstatvar += 100;
         
-        static void m2() {
-            // 컴파일 오류!
-            //this.b1 = 100;
-            //this.b2 = 200;
-            
-            // 스태틱 메서드 안에는 인스턴스 변수 사용 안됨
-            //a1 = 300;  // 컴파일 오류!
-            a2 = 400;
-            
-            //System.out.println("m2() this.b1 = " + a1);  // 컴파일 오류
-            System.out.println("m2() this.b2 = " + a2);
-        }
+        System.out.println("ginstMethod() ginstvar = " + ginstvar);
+        System.out.println("ginstMethod() gstatvar = " + gstatvar);
+        
+        // instance method에서 static method 호출 가능
+        gstatMethod();
+        
+
+        // instance variable / method  선언
+        StatClass statclass = new StatClass();
+        
+        // instance.instance 사용 가능
+        statclass.instvar += 100;
+        statclass.instMethod();
+
+        // instance.static 사용 가능 : 권장하지 않음
+        // classnaem.static 으로 사용 권장
+        statclass.statvar += 100;
+        statclass.statMethod();
+        
+        
+        // classname.instance 사용 불가
+        //StatClass.instvar += 100;  // 컴파일 오류!
+        //StatClass.instMethod();    // 컴파일 오류!
+        
+        // classname.static 사용 가능(static method)
+        StatClass.statvar += 100;
+        StatClass.statMethod();
     }
     
-    // 컴파일 오류!
-    // static 추가
-    /*public void m3() {
-        System.out.println("m3()");
-    }*/
-    
+    // main 함수에서 static method에서 호출 가능
+    // static class에서 호출가능
+    static void gstatMethod() {
+        // static method에서 instance variable 사용 불가
+        //ginstvar = 100;  // 컴파일 오류
+        
+        // static method에서 static variable 사용 가능
+        gstatvar += 100;
+        
+        //System.out.println("ginstMethod() ginstvar = " + ginstvar);  // 컴파일 오류!
+        System.out.println("gstatMethod() gstatvar = " + gstatvar);
+        
+        // static method에서 instance method 호출 불가
+        //ginstMethod();  // 컴파일 오류!
+        
+        // instance variable / method  선언
+        StatClass statclass = new StatClass();
+        
+        // instance.instance 사용 가능
+        statclass.instvar += 100;
+        statclass.instMethod();
 
-    static void m3() {
-        System.out.println("m3()");
+        // instance.static 사용 가능 : 권장하지 않음
+        // classname.static 으로 사용 권장
+        statclass.statvar += 100;
+        statclass.statMethod();
+        
+        
+        // classname.instance 사용 불가
+        //StatClass.instvar += 100;  // 컴파일 오류!
+        //StatClass.instMethod();    // 컴파일 오류!
+        
+        // classname.static 사용 가능(static method)
+        StatClass.statvar += 100;
+        StatClass.statMethod();
+    }
+    
+    
+    // ***********************************************************
+    // non-public, non-static class 선언가능하나 사용할 수 없음
+    //class NonStatClass {     // 사용할 수 없음
+    //}
+    // ***********************************************************
+    
+    
+    static class StatClass {
+        // instance variable 초기값은 '0'
+        int instvar;
+
+        // static variable 초기값은 '0'
+        static int statvar;
+        
+        // instance method(non-static method)는 this를 내장하고 있다.
+        void instMethod() {
+            this.instvar += 100;
+            
+            // static variable는 this사용 가능 : 권장하지 않음
+            // this 생략 권장
+            this.statvar += 100;
+            
+            // instance method 에서 class 밖에 있는 instance method 호출 불가
+            //ginstMethod();    // 컴파일 오류!
+            
+            // instance method 에서 class 밖에 있는 static method 호출 가능
+            // 단, 예제처럼 gstatMethod 함수에서 StatClass 객체나 인스턴스 사용하면 컴파일 오류
+            //gstatMethod();  // 컴파일 오류!
+            
+            //instMethod();
+            // instance method 에서 static method 호출 가능
+            statMethod();
+            
+            System.out.println("instMethod() instvar = " + this.instvar);
+            
+            // static variable는 this사용 가능 : 권장하지 않음
+            // this 생략 권장
+            System.out.println("instMethod() statvar = " + this.statvar); 
+        }
+        
+        // static method(class method) 에서 this 사용할 수 없다.
+        static void statMethod() {
+            // static method에서 instance 내장변수 this 사용 불가
+            //this.instvar += 100;  // 컴파일 오류!
+            //this.statvar += 100;  // 컴파일 오류!
+            
+            // static class에서 class 밖에 있는 instance method 호출 불가
+            //ginstMethod();    // 컴파일 오류!
+            
+            // instance method 에서 class 밖에 있는 static method 호출 가능
+            // 단, 예제처럼 gstatMethod 함수에서 StatClass 객체나 인스턴스 사용하면 컴파일 오류
+            //gstatMethod();  // 컴파일 오류!
+            
+            
+            // static method에서 instance method 호출 불가
+            //instMethod();  // 컴파일 오류!
+            
+            // static method에서 instance variable 사용 불가
+            //instvar += 100;  // 컴파일 오류!
+            
+            // static method에서 static variable 사용 가능
+            statvar += 100;
+            
+            // static method에서 instance variable 사용 불가
+            //System.out.println("m2() instvar = " + instvar);  // 컴파일 오류
+            System.out.println("m2() statvar = " + statvar);
+        }
     }
     
     public static void main(String[] args) {
         //A a = null;
         
-        A a = new A();
+        // main(static method) 에서 instance variable / method 사용 불가
+        //ginstvar += 100;   // 컴파일 오류!
+        //ginstMethod();      // 컴파일 오류!
         
-        a.a1 = 100;
+        // main(static method) 에서 static variable / method 사용 가능
+        gstatvar += 100;
+        gstatMethod();
+
+        System.out.println("gstatvar = " + gstatvar);
         
-        System.out.println("a.a1 = " + a.a1);
         
-        a.m1();
+        //######################################################################################
+        // instance reference 변수 선언과 동시에 클래스(변수, 메서드)가 Method Area에 로딩된다.
+        // Heap에 인스턴스 변수만 메모리 생성되고 인스턴스 메서드는 생성되지 않음.
+        // (클래스 메서드 즉 Method Area에 있는 함수를 호출)
+        //######################################################################################
+
+        // 인스턴스은 클래스 메서드(Method Area)를 호출한다.   
+        // static 붙은 메서드는 클래스명.메서드명()
+        // static 없는 메서드는 인스턴스명.메서드명()
         
-        // 컴파일 오류!
-        //A.m1();
+        // new를 사용해서 instance variable 를 계속 선언하면 힙에 계속해서 인스턴스 메모리가 생성
+        StatClass statclass1 = new StatClass();
+        StatClass statclass2 = new StatClass();
         
-        // static method
-        A.m2();
+
+        // instance.instance 사용 가능
+        statclass1.instvar += 100;
+        statclass1.instMethod();
         
-        i = 200;
-        System.out.println(i);
+        System.out.println("statclass1.instvar = " + statclass1.instvar);
+
+        // instance.static 사용 가능 : 권장하지 않음
+        // classname.static 으로 사용 권장
+        statclass2.statvar += 100;
+        statclass2.statMethod();
         
-        m3();
+        System.out.println("statclass2.statvar = " + statclass2.statvar);
+        
+        // classname.instance 사용 불가
+        //StatClass.instvar += 100;  // 컴파일 오류!
+        //StatClass.instMethod();    // 컴파일 오류!
+
+        // classname.static 사용 가능
+        StatClass.statvar += 100;
+        StatClass.statMethod();
+        
+        System.out.println("StatClass.statvar = " + StatClass.statvar);
+        
+        // 클래스 배열 : 인스턴스를 배열로 만들수 없음
+        // 배열을 인스턴스로 정의해야 한다.
+        StatClass[] statclass3 = new StatClass[3];
+        statclass3[0] = new StatClass();
+        statclass3[1] = new StatClass();
+        statclass3[2] = new StatClass();
+        
+        // classarray.instance 사용 가능
+        statclass3[0].instvar = 100;
+        statclass3[0].instMethod();
+        
+        System.out.println("statclasss[0].instvar = " + statclass3[0].instvar);
+
+        // classarray.static 사용 가능 : 권장하지 않음
+        // classname.static 으로 사용 권장
+        statclass3[0].statvar = 100;
+        statclass3[0].statMethod();
+        
+        System.out.println("statclass3[0].statvar = " + statclass3[0].statvar);
+        
+        // 클래스 배열 : 인스턴스를 배열로 만들수 없음
+        StatClass[] statclass4 = new StatClass[3];
+
+        statclass4[0] = statclass1;
+        
+        System.out.println("statclass4[0].instvar = " + statclass4[0].instvar);
+        System.out.println("statclass4[0].instvar = " + statclass4[0].statvar);
     }
 }
 
 
 
+인스턴스는 배열을 만들지 못하고 레퍼런스 배열을 만든다.
+레퍼런스 배열을 인스턴스한다.
+
+static 변수는 this을 붙여도 되나 굳이 붙일 필요가 없다.
 
 ================================================================================
 
 
 
+UML과 패턴의 적용   분석 설계
 
 
+The Art of Computer Programming    도널드 커누스
 
 
+https://github.com/samchon?tab=repositories
 
 
 
