@@ -646,6 +646,63 @@ static int[] countNumber(StringBuffer value) {
 
 
 
+abstract        추상 클래스 또는 메소드
+break	        현재 루프를 멈추거나 레이블이 붙은 수행문을 멈춘다
+byte	        부호 있는 8비트 정수타입
+case	        switch 문에서의 레이블
+char	        16비트 유니코드 문자타입
+continue	루프 본문에서 남은 부분을 뛰어넘는다
+default	        switch 문에서 기본 레이블
+do	        본문이 적어도 한 번 실행되는 루프
+extends	        이 클래스가 다른 클래스의 하위 클래스임을 나타냄
+implements	클래스가 인터페이스를 구현한다는 걸 나타냄
+import	        패키지 이름없이 클래스 이름만으로 사용하는 걸 허용
+instanceof	객체 타입이 주어진 타입 또는 그 타입의 하위타입인지 판단
+interface	오직 추상 메서드와 상수만 포함하는 추상타입
+native	        자바가 아닌 코드로 구현된 메서드
+new	        객체에 메모리 할당
+null	        아무 객체도 참조하지 않는 참조값
+private	        같은 클래스의 메서드로만 접근가능
+protected	같은 클래스, 하위 클래스, 같은 패키지에 있는 클래스의 메서드에서만 접근가능
+short	        16비트 정수타입
+static	        개별적인 인스턴스가 아닌, 하나의 클래스에서 정의되는 요소
+super	        상위 클래스의 생성자나 메서드 호출
+synchronized    한 번에 하나의 스레드만 접근할 수 있는 코드 부분
+throw	        예외를 던진다
+throws	        메서드가 던질 수 있는 예외
+transient	연속되지 않는 필드
+volatile	동기화 과정 없이 여러 개 스레드에 의해 갱신될 수 있는 필드
+
+
+기본 자료형 boolean, byte, char, short, int, long, float, double
+
+접근 지정자 private, default, protected, public
+
+클래스 관련 키워드 class, extends, abstract, interface, implements
+
+객체 관련 키워드  new, this, super, null, instanceof
+
+메소드 관련 키워드  void, return
+
+제어문  if, else, switch, case, default, for, do, while, break, continue
+
+논리 값  true, false
+
+예외 처리  try, catch, finally, throw, throws
+
+기타  package, import, static, final, volatile, transient, synchronized, native, strictfp
+
+사용되지 않는 키워드 goto, const
+
+
+get/set , add/remove , create/destroy , start/stop , insert/delete , increment/decrement , old/new , begin/end , first/last , up/down , min/max , next/previous , old/new , open/close , show/hide , suspend/resume 
+
+
+
+get/set, add/remove, create/destroy, start/stop, insert/delete, increment/decrement,
+old/new, begin/end, first/last, up/down, min/max, next/previous, old/new, open/close
+show/hide, suspend/resume
+
 
 
 
