@@ -309,10 +309,13 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
  -. Ctrl + Shift + M : 특정 클래스 Import
  -. Ctrl + Shift + O : 자동으로 Import
- -. Ctrl + Shift + F : 코드 자동 정리 ( Ctrl + I )
- -. Ctrl + Shift + W : 에디터창 모두 닫기
- 
- -. Alt + Q  : 에디터창 모두 닫기(단축키 개인 등록, In Windows)
+
+ -. Ctrl + Shift + F : 전체 코드 자동 정리 
+ -. Ctrl + I : 선택 블록 코드 자동 정리
+
+
+ -. Ctrl + Shift + W : 에디터창 모두 닫기 
+ -. Alt + Z  : 에디터창 모두 닫기(단축키 개인 등록, In Windows)
  -. Alt + X  : 현재 에디터창 제외 모두 닫기(단축키 개인 등록, In Windows)
 
  -. Ctrl + /           :  주석 토글
@@ -333,11 +336,11 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Shift + Alt + a : 블록 복사 => 마우스가 십자가로 바뀜
 
 
- -. CTRL+ F : 현재 파일에서 특정 문자를 찾거나 찾은 문자를 교체하는 방법
+ -. Ctrl + F : 현재 파일에서 특정 문자를 찾거나 찾은 문자를 교체하는 방법
 
- -. CTRL+ SHIFT + R : 프로젝트에 포함된 리소스(여기서는 파일)중에 찾는 방법
+ -. Ctrl + Shift + R : 프로젝트에 포함된 리소스(여기서는 파일)중에 찾는 방법
 
- -. CTRL + SHIFT + G : 현재 패키지에 함수를 호출하는 위치를 모두 찾아준다.
+ -. Ctrl + Shift + G : 현재 패키지에 함수를 호출하는 위치를 모두 찾아준다.
 
 
 
@@ -351,7 +354,9 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
     Binding 에 원하는 단축키 클릭 / In Windows > Apply
 
 
- -. Ctrl + Shift + V : File Search (단축키 개인 등록)
+ -. Setters and Getters 자동 추가
+    context menu > source > Generate Setters and Getters
+
     
 
 
@@ -845,7 +850,7 @@ https://github.com/samchon?tab=repositories
 http://blog.eairship.kr/116
 
 
-
+http://www.e-cartouche.ch/content_reg/cartouche/formats/en/html/Browser_learningObject1.html
 
 
 

@@ -1,25 +1,25 @@
-import java.util.Scanner;
+package java100.app;
 
+import java.util.Scanner;
 
 //: ## 사용자 정의 데이터 타입
 //: 학생의 성적을 저장할 때 사용할 사용자 정의 데이터 타입을 만든다. 
 //: > '사용자 정의 데이터 타입'은 데이터를 저장할 *메모리를 설계*하는 것이다.
 public class Score {
     
-    String name;
-    //int[] subjects = new int[3];
-    int[] subjects;
-    int sum;
-    float aver;
+    protected String name;
+    protected int[] subjects;
+    protected int sum;
+    protected float aver;
         
     // 생성자 : 메모리를 만든후 최소한의 상태를 만드는것
     // 즉 배열의 초기 상태을 만듬
-    Score() {
+    public Score() {
         this.subjects = new int[3];
     }
 
 
-    Score(String name, int kor, int eng, int math) {  // 가변 파라미터
+    public Score(String name, int kor, int eng, int math) {  // 가변 파라미터
         this.name = name;        // this.name(instance variable 과 name(local variable, method parameter)
         //this.subjects[0] = kor;
         //this.subjects[1] = eng;
@@ -30,7 +30,7 @@ public class Score {
         this.compute();
     }
 
-    void input() {
+    public void input() {
         Scanner keyScan = new Scanner(System.in);
         
         System.out.print("이름? ");
@@ -53,7 +53,7 @@ public class Score {
     }
     
     //: 합계와 평균을 계산하는 코드를 다음과 같이 별도의 메서드로 분리한다.
-    void compute() {
+    private void compute() {
         for (int sub : this.subjects) {
             this.sum += sub;
         }
@@ -61,7 +61,7 @@ public class Score {
     }
     
     //: 성적 데이터를 출력하는 코드를 별도의 메서드로 분리한다.
-    void print() {
+    public void print() {
         System.out.printf("%-4s, %4d, %4d, %4d, %4d, %6.1f\n",  
                 this.name, 
                 this.subjects[0], 

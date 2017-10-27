@@ -7,10 +7,15 @@ public class Test1 {
     public static void main(String[] args) {
         Vehicle v;
         v = new Vehicle();
+        System.out.println(Integer.toHexString(v.hashCode()));
         v = new Boat();
+        System.out.println(Integer.toHexString(v.hashCode()));
         v = new Car();
+        System.out.println(Integer.toHexString(v.hashCode()));
         v = new Truck();
+        System.out.println(Integer.toHexString(v.hashCode()));
         v = new Sedan();
+        System.out.println(Integer.toHexString(v.hashCode()));
         
         Boat b;
         b = new Boat();

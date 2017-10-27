@@ -1,3 +1,5 @@
+package java100.app;
+
 import java.util.Scanner;
 
 //: ## ver 08
@@ -27,7 +29,7 @@ public class App {
     }
     
     public static void main(String[] args) {
-        ScoreDao scoreDao = new ScoreDao();
+        ArrayList list = new ArrayList();
         //Score[] scores = new Score[100];
         //int cursor = 0;
         
@@ -37,15 +39,20 @@ public class App {
             
             score.input();
             
-            scoreDao.add(score);;
+            list.add(score);;
             
             if (!confirm("계속하시겠습니까?"))
                 break;
         }
         
         //: 학생 성적을 출력한다.
-        for (int i = 0; i < scoreDao.size(); i++) {
-            scoreDao.get(i).print();
+        for (int i = 0; i < list.size(); i++) {
+            //Score s = (Score) list.get(i);
+            //s.print();
+            
+            ((Score)list.get(i)).print();
+            
+            
         }
     }
 }
