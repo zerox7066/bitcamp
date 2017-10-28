@@ -66,7 +66,7 @@ Perferences  =>  Java  =>  Installed JREs  =>  Add 버튼 클릭 =>  Standard VM
 
 
 
-@ Perferences 설정 
+@ Preferences 설정 
 
 General  =>  Apperance  =>  Theme  =>  Dark
 
@@ -116,7 +116,7 @@ Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 설정
 
 
 
-@ Projec Import Gragle 사용
+@ Project Import Gradle 사용
 
 
 1) gradle 명령어 모음
@@ -279,8 +279,9 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 ===== 소스 네비게이션 =====
 
  -. 자동 완성 해제
+    Windows > Preferences > Java > Editor > Content Assist > Enable auto activation : 컨텐트 어시트 해제(Ctrl + Space하면 나타남)
 
-    Windows > Preferences > Java > Editor > Typing > Automatically close 에서 필요 없는 기능 선택해제
+    Windows > Preferences > Java > Editor > Typing > Automatically close : 괄호 자동완성 해제
 
  -. window > New Window  :  이클립스 새창
 
@@ -315,8 +316,8 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 
  -. Ctrl + Shift + W : 에디터창 모두 닫기 
- -. Alt + Z  : 에디터창 모두 닫기(단축키 개인 등록, In Windows)
- -. Alt + X  : 현재 에디터창 제외 모두 닫기(단축키 개인 등록, In Windows)
+ -. Alt + Q  : 에디터창 모두 닫기(단축키 개인 등록, In Windows)
+ -. Alt + Z  : 현재 에디터창 제외 모두 닫기(단축키 개인 등록, In Windows)
 
  -. Ctrl + /           :  주석 토글
  -. Ctrl + Shift + /   :  블록 주석 추가
@@ -355,7 +356,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 
  -. Setters and Getters 자동 추가
-    context menu > source > Generate Setters and Getters
+    content menu > source > Generate Setters and Getters
 
     
 
