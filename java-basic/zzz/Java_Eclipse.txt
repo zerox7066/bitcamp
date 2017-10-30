@@ -238,6 +238,9 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
   java-basic> gradlew cleanEclipse
 
   java-basic> gradlew Eclipse
+
+
+8) Project 오른쪽 마우스(context menu)  >  Properties > Java Compiler => Version 확인
    
    
 
@@ -274,14 +277,34 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 
 
-@ 단축키   [Ctrl + Shift + L]
+ @ 단축키 등록 보기   [Ctrl + Shift + L]
 
-===== 소스 네비게이션 =====
+
+
+========================= 기타 설정 ==============================
+     
+ @ 단축키 등록
+
+ -. Window > Preference > General > Keys > Command에서 File Search 이동 > 
+    
+    Binding 에 원하는 단축키 클릭 / In Windows > Apply
+
+ 
+ @ 자동 완성 설정 해제
 
  -. 자동 완성 해제
-    Windows > Preferences > Java > Editor > Content Assist > Enable auto activation : 컨텐트 어시트 해제(Ctrl + Space하면 나타남)
 
-    Windows > Preferences > Java > Editor > Typing > Automatically close : 괄호 자동완성 해제
+    Windows > Preferences > Java > Editor > Content Assist > Enable auto activation : 
+
+ -. 컨텐트 어시트 해제되어 있어도 Ctrl + Space하면 컨텐트 어시트 나타남
+
+ 
+ @ 괄호 자동 완성 해제
+
+ -. Windows > Preferences > Java > Editor > Typing > Automatically close
+
+
+========================= 소스 네비게이션 =========================
 
  -. window > New Window  :  이클립스 새창
 
@@ -294,8 +317,8 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 
 
+========================= 소스 코드 편집 =========================
 
-===== 소스 코드 편집 =====
 
  -. 상위 주석 펼치기 : Window > Preference > Java > Folding > Header Comments
 
@@ -349,19 +372,9 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
     
     Open Search Dialog 기본 정보 : Binding(Ctrl + H), When(In Windows)
     
-    
- -. Window > Preference > General > Keys > Command에서 File Search 이동 > 
-    
-    Binding 에 원하는 단축키 클릭 / In Windows > Apply
 
 
- -. Setters and Getters 자동 추가
-    content menu > source > Generate Setters and Getters
-
-    
-
-
-===== 실행 및 디버깅 =====
+========================= 실행 및 디버깅 =========================
 
  -. Ctrl + Shift + B : 현 커서의 위치에 브레이크 포인터 설정/해제
 
@@ -383,7 +396,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. F12 : 컴파일 중 에러등으로 포커스가 다른데로 갔을 때 Editor 로 커서 이동
 
 
-===== 코드 템플릿 사용하기 =====
+========================= 코드 템플릿 사용하기 =========================
 
 1. Class에 주석 넣기
 
@@ -405,14 +418,34 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  */ 
 
 
-===== Refactoring =====
+========================= Refactoring =========================
+    
 
- * Super Class 만들기
-   context menu > Refactor > Extract SuperClass  => Generalization
+ @ Setters and Getters 자동 추가
+
+    Content Menu > Source > Generate Setters and Getters
 
 
+ @ Super Class 만들기
 
-========================================================================================
+   Content Menu > Refactor > Extract SuperClass  => Generalization
+
+ 
+ @ 기본 Overiding 만들기
+
+   클래스 파일에서 Ctrl + Space 한 후 오버라이딩할 메서드 선택
+
+
+ @ toString(), hashCode(), equals() 오버라이딩 만들기
+
+   Content Menu > Source > Generate toString()
+
+   Content Menu > Source > Generate hashCode() and equals()
+
+   
+
+
+================================================================
 
 
 Java SE : 
@@ -458,28 +491,18 @@ http://tomcat.apache.org/
 =================================================================================
 
 
-Java Window 프로그램
+@ Java Window 프로그램
 
 
-AWT
+        AWT
 
- |
+         |
 
-Swing  + alpha  =>  SWT
+  Swing  + alpha  =>  SWT
 
- |
+         |
 
-
-JavaFX
-
-
-
-
-
-
-
-
-
+       JavaFX
 
 
 
@@ -522,20 +545,34 @@ public class MyClass2 {
     
 }
 
-=======================================================================
-// 스태틱 변수는 JVM 종료할 때 메모리에서 해제
-// 스태틱 변수는 JVM 종료할 때 메모리에서 해제하기 때문에 메모리를 많이 차지
-// 클래스 static 변수는 Method Area에 만들어진다.
-
-// Heap에 있는 변수는 가비지 컬렉터가 메모리를 해제한다.
-
-// new로 선언된 변수는 인스턴스변수는 무조건 Heap에 만들어진다.
+===================== 메모리 생성 및 해제 =============================
 
 
-// 그외는 Local 변수, 로컬에 선언된 레퍼런스 변수는 Stack에 만들어진다.
+ 클래스 static 변수는 Method Area에 생성된다.
+
+
+ 스태틱 변수는 JVM 종료할 때 메모리에서 해제
+ 스태틱 변수는 JVM 종료할 때 메모리에서 해제하기 때문에 메모리를 많이 차지
+
+
+ new로 선언된 변수는 인스턴스변수는 무조건 Heap에 만들어진다.
+ Heap에 있는 변수는 가비지 컬렉터가 메모리를 해제한다.
+
+
+ 그외는 Local 변수, 로컬에 선언된 레퍼런스 변수는 Stack에 만들어진다.
+
+
+ 인스턴스는 배열을 만들지 못하고 레퍼런스 배열을 만든다.
+
+ 클래스 배열을 정의(StatClass[] statclass3 = new StatClass[3];) 하면 statck 메모리에 생성
+
+ 메서드만 사용할 경우 인스턴스 변수( statclass3[0] = new StatClass(); )를 선언하지 않아도 된다.
+
+ statclass3[0] = new StatClass(); 정의하면 instance 메모리에 배열의 값이 저장될 인스턴스 메모리가 생성된다.
 
 
 
+ static 변수는 this을 붙여도 되나 굳이 붙일 필요가 없다.
 
 
 
@@ -787,45 +824,195 @@ public class Test9 {
 
 
 
-인스턴스는 배열을 만들지 못하고 레퍼런스 배열을 만든다.
-레퍼런스 배열을 인스턴스한다.
 
 
-클래스 배열을 정의(StatClass[] statclass3 = new StatClass[3];)하고 
-
-메서드만 사용할 경우 인스턴스 변수(statclass3[0] = new StatClass(); )를 선언하지 않아도 된다.
-
-
-static 변수는 this을 붙여도 되나 굳이 붙일 필요가 없다.
-
-//================================================================================
-//***********************   생성자  **********************************************
-//================================================================================
+================================== 클래스 생성자 =============================================
         
-// 생성자 : 메모리를 만든후 최소한의 상태를 만드는것
-// 인스턴스를 사용 가능하도록 유효한 상태로 만드는 것
-// 즉 변수의 초기값 설정과 배열의 초기 상태을 만들기 위해서 사용
+
+ @ 생성자 : 메모리를 만든후 최소한의 상태를 만드는것
+
+   - 인스턴스를 사용 가능하도록 유효한 상태로 만드는 것
+
+   - 즉 변수의 초기값 설정과 배열의 초기 상태을 만들기 위해서 사용
 
 
-// 생성자 : 메모리를 만든후 최소한의 상태를 만드는것
-// 즉 배열의 초기 상태을 만듬
-Score() {
-    this.subjects = new int[3];
-}
+   - 생성자는 클래스명과 같다(생략 가능하며, 컴파일러가 자동 추가)
+     classname () {}
 
+   - 수퍼클래스의 생성자(생략 가능하며, 컴파일러가 자동 추가)
+     super();
+  
 
-Score(String name, int kor, int eng, int math) {  // 가변 파라미터
-    this.name = name;        // this.name(instance variable 과 name(local variable, method parameter)
-    //this.subjects[0] = kor;
-    //this.subjects[1] = eng;
-    //this.subjects[2] = math;
+    //생성자 : 메모리를 만든후 최소한의 상태를 만드는것
+    //즉 배열의 초기 상태을 만듬
+
+    Score() {
+     this.subjects = new int[3];
+    }
     
-    this.subjects = new int[] {kor, eng, math}; // 초기값 할당과 구분
     
-    this.compute();
-}
+    Score(String name, int kor, int eng, int math) {  // 가변 파라미터
+     this.name = name;        // this.name(instance variable) 과 name(local variable, method parameter)
+     //this.subjects[0] = kor;
+     //this.subjects[1] = eng;
+     //this.subjects[2] = math;
+     
+     this.subjects = new int[] {kor, eng, math}; // 초기값 할당과 구분
+     
+     this.compute();
+    }
 
-================================================================================
+
+
+================================== 클래스 상속(Inheritance) ====================================
+
+
+  class 클래스명 extends 기존클래스명 {...}
+
+  상속을 해주는 클래스를 "수퍼(super)/부모(parent) 클래스"라고 부른다.
+
+  상속을 받는 클래스를 "서버(sub)/자식(child) 클래스"라고 부른다.
+
+  최상위 수퍼클래스는 Object 클래스이다.
+
+  기존 클래스의 링크 정보를 등록하여 수퍼클래스의 멤버(필드, 메서드)를 상속 받는다.
+
+  수퍼클래스의 멤버(변수, 메서드)를 상속받아 새로운 변수 및 기능을 추가한다.
+
+  수퍼클래스 코드에 문제가 있으면 그 코드를 수정하면 즉시 서브 클래스들은 수정된 코드를 사용하게 된다.
+
+  
+  @ 상속의 종류
+
+    1) Specialization
+
+       - 수퍼 클래스를 상속 받아 기능을 추가하여 더 특별한 서브 클래스를 만드는 것.
+
+    2) Generalization
+
+       - 서브 클래스들의 공통 변수나 공통 메서드를 추출하여 수퍼 클래스를 정의하는 것.
+
+       - Content Menu > Refactor > Extract SuperClass  => Generalization
+
+
+
+================================== 클래스 캡슐화(Encapsulation) ================================
+
+
+ 클래스 멤버(필드, 메서드)에 접근을 제어하는 기법
+
+ - public    : 같은 패키지와 다른 패키지에 모두 공개
+ - protected : 같은 패키지와 다른 패키지에 있는 자손 클래스에게 공개
+ - (default) : 같은 패키지에 소속된 클래스에게만 공개
+ - private   : 비공개
+
+
+ - 패키지 멤버 클래스는 public, default 만 가능하며, 
+   패키지에 선언되었기 때문에 같은 패키지만 공개하면 된다.
+
+
+ - 클래스 안에 선언된 클래스를 "중첩(nested) 클래스"라 부른다.
+
+ - 캡슐화의 존재 이유 : 인스턴스 변수에 무효한 값이 저장되는 것을 방지함으로써 추상화가 무너지는 것을 막는다.
+
+ - 추상화(Abstraction) : 사물이나 사람, 업무 등을 데이터와 메서드로 표현하는 것
+
+ - 필드(주로 값의 입력)를 접근 제한하면 필드의 값을 설정하는 메서드(Setter, Getter)는 전체 공개를 해야하고, 
+   외부에서 필요없는 메서드(계산처리)는 접근 제한한다.
+  
+
+
+=============================== 다형적 변수 (Polymorphism) ========================================
+
+ 수퍼 클래스의 레퍼런스는 서브 클래스의 인스턴스를 주소를 저장할 수 있다.
+
+ 서브 클래스의 인스턴스는 무조건 수퍼 클래스의 인스턴스를 모두 갖고 있기 때문이다.
+
+ 이렇게 상속 관계에 따라 한 레퍼런스에 다양한 클래스의 객체 주소를 저장할 수 있다고 해서 "다형적 변수" 라고 부른다.
+
+ 구체적인 타입을 지정하기 보다는 그것의 상위 타입을 지정함으로써 
+ 그 자리에 다양한 타입의 객체를 넣을 수 있다.
+ 
+ public class Car extends Vehicle {}
+ public class Truck extends Car {}
+ c = new Car();
+ c = new Truck();  // Car의 멤버를 사용할 수 있다.
+
+ Sedan c2 = (Sedan)c;  // 명시적 형변환을 해주면 Car의 멤버를 사용할 수 있다.
+
+
+
+======================= 오버라이딩 Overrigind(Polymorphism) =====================================
+
+
+@ 오버라이딩의 메서드 호출
+
+  수퍼클래스의 메서드를 상속받아 메서드 기능을 재정의
+
+  @Override을 메서드명 앞에 붙여 에러를 방지한다.
+
+
+  오버라이딩 규칙 
+    => 접근 범위 : 같거나 확장 (private < default < protected < public)
+    => 접근 범위 축소하면 컴파일 오류
+
+    => 리턴 타입 : 반드시 일치
+    => 메서드명  : 반드시 일치
+    => 파라미터 타입 및 개수 및 순서 : 반드시 일치
+    => 파라미터명 : 상관없음
+
+    => 메서드명은 같지만 파라미터의 타입이 다르거나 갯수, 순서가 다른 경우 새 메서드를 추가한것
+  
+
+  현재 클래스에 메서드가 정의되었는지 확인하고, 없으면 수퍼 클래스에서 정이 되었는지 확인
+  this.compute();   
+
+
+  현재 클래스가 아니라 수퍼클래스에서 정의되었는지 확인
+  super.compute();
+
+
+
+  오버라이딩 된 메서드는 호출되는 것은 클래스의 인스턴스 주소에 따라서 결정
+
+
+  HashSet은 ArrayList 나 MashMap, HashTable 처럼 객체의 주소를 보관
+
+  HashSet는 개체의 주소를 중복해서 보관하지 않는다.
+
+
+  Object에서 상속받은 toString(), hashCode(), equals() 함수를 오버라이딩 해서 사용
+  
+  toString() : 인스턴스 변수의 값을 확인
+
+  hashCode(), equals() : 인스턴스의 변수의 값이 같은지 확인
+
+
+  StringBuffer는 equals()를 재정의하지 않았기 때문에 Object의 equals()를 그대로 사용한다.
+
+  hash값 : 각 인스턴스를 구분할 때 사용할 디지털 지문!
+
+
+
+========================= 오버로딩 Overloading(Polymorphism) =================================
+
+
+  파라미터의 갯수, 타입, 순서가 다르더라도 같은 기능을 수행하는 메서드에 
+  같은 이름을 부여하여 사용할 수 있게하는 문법
+
+  메서드 호출 구분은 갯수, 타입, 순서로 구분한다. 
+
+  리턴 값을 받느냐 안 받느냐로 호출할 메서드를 구분할 수 없다.
+
+  리턴 타입만 다른 메서드는 추가할 수 없고, 파라미터의 갯수, 타입, 순서가 다르게 해야한다.
+
+  파라미터 타입이 메서드와 다를 때는 암시적 타입 캐스팅으로 가능한 메서드를 호출한다.
+
+  수퍼 클래스에서 상속 받은 메서드와 이름은 같지만 파라미터가 다른 메서드를 추가하면 오버로딩이다.
+
+
+
+
 
 
 UML과 패턴의 적용   분석 설계
