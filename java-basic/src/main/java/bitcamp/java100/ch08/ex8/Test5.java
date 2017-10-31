@@ -18,11 +18,10 @@ public class Test5 {
     }
     
     static protected int m1(int a, String b, int c) {
-        System.out.println("m1(int,String, int)");
+        System.out.println("m1(int, String, int)");
         return 1;
     }
-        
-
+    
     static void m1(String a, int b) {
         System.out.println("m1(String, int)");
     }

@@ -1014,6 +1014,11 @@ public class Test9 {
 
 
 
+arr[cursor++] = 80;   // Auto_Boxing => new Integer(80)
+
+
+
+
 
 UML과 패턴의 적용   분석 설계
 
@@ -1039,6 +1044,11 @@ http://blog.eairship.kr/116
 
 
 http://www.e-cartouche.ch/content_reg/cartouche/formats/en/html/Browser_learningObject1.html
+
+
+
+@ 알고리즘 사이트
+https://visualgo.net/en
 
 
 
