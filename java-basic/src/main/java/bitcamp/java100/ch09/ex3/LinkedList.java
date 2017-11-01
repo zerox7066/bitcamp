@@ -2,8 +2,6 @@
 
 package bitcamp.java100.ch09.ex3;
 
-import bitcamp.java100.ch09.ex4.Box;
-
 public class LinkedList {
     
     // non-static nested class => inner class 
