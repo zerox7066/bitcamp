@@ -31,6 +31,7 @@ public class Score {
     }
 
     public void input() {
+        @SuppressWarnings("resource")
         Scanner keyScan = new Scanner(System.in);
         
         System.out.print("이름? ");
@@ -51,12 +52,64 @@ public class Score {
         
         this.compute();
     }
+
+    public void update() {
+        @SuppressWarnings("resource")
+        Scanner keyScan = new Scanner(System.in); 
+        
+        System.out.printf("국어?(%d) ", this.subjects[0]);
+        int kor = this.subjects[0];
+        try {
+            kor = Integer.parseInt(keyScan.nextLine());
+        } catch(Exception e) {}
+        
+
+        System.out.printf("영어?(%d) ", this.subjects[1]);
+        int eng = this.subjects[1];
+        try {
+            eng = Integer.parseInt(keyScan.nextLine());
+        } catch(Exception e) {}
+
+        
+        System.out.printf("수학?(%d) ", this.subjects[2]);
+        int math = this.subjects[2];
+        try {
+            math = Integer.parseInt(keyScan.nextLine());
+        } catch(Exception e) {}
+        
+        
+        if (confirm2("변경하시겠습니까?(y/N) ")) {
+            this.subjects[0] = kor;
+            this.subjects[1] = eng;
+            this.subjects[2] = math;
+            
+            this.compute();
+            
+            System.out.println("변경하였습니다.");
+        } else {
+            System.out.println("변경을 취소하였습니다.");
+        }
+    }
+    
+    static boolean confirm2(String message) {
+        @SuppressWarnings("resource")
+        Scanner keyScan = new Scanner(System.in);        
+        System.out.print(message);
+        String response = keyScan.nextLine().trim().toLowerCase();
+        
+        if (response.equals("n") || response.equals("no") || response.equals("")) {
+            return false;
+        }        
+        return true;
+    }
     
     //: 합계와 평균을 계산하는 코드를 다음과 같이 별도의 메서드로 분리한다.
     private void compute() {
+        int sum = 0;
         for (int sub : this.subjects) {
-            this.sum += sub;
+            sum += sub;
         }
+        this.sum = sum;
         this.aver = (float) this.sum / this.subjects.length;
     }
     
@@ -67,6 +120,19 @@ public class Score {
                 this.subjects[0], 
                 this.subjects[1], 
                 this.subjects[2], 
+                this.sum, 
+                this.aver);
+    }
+    public void print(String name, int sum, float aver) {
+        System.out.printf("%-4s, %4d, %6.1f\n",  
+                name, 
+                sum, 
+                aver);
+    }
+    
+    public void printDetail() {
+        System.out.printf("%-4s, %4d, %6.1f\n",  
+                this.name, 
                 this.sum, 
                 this.aver);
     }

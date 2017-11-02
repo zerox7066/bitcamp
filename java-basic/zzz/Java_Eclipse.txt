@@ -1029,6 +1029,13 @@ public class Test9 {
   
   Type의 약자인 T를 주로 사용
 
+  E - Element (used extensively by the Java Collections Framework)
+  K - Key
+  N - Number
+  T - Type
+  V - Value
+  S,U,V etc. - 2nd, 3rd, 4th types
+
 
   Stack<Contact> contacts = new Stack<>();
   contacts.push(new Contact("홍길동", "hong@test.com", "1111-1111"));  // Contact 생성자
@@ -1054,6 +1061,37 @@ public class Test9 {
   }
 
 
+
+=========================== @SuppressWarnings Annotation ========================================
+
+  
+
+    @SuppressWarnings("unchecked")
+    T get(int index) {
+        if (index < 0 || index >= this.cursor) {
+            return null;
+        }
+        return (T)this.list[index];
+    }
+
+    return (T)this.list[index]; => 
+      => 제네릭 하면서 타입 캐스팅에 확신이 없을 때 
+         커서를 소스위에 올리고, add @SuppressWarnings("unchecked") 추가
+
+
+    1. all : 모든 경고를 억제
+    2. cast : 캐스트 연산자 관련 경고 억제
+    3. dep-ann : 사용하지 말아야 할 주석 관련 경고 억제
+    4. deprecation : 사용하지 말아야 할 메소드 관련 경고 억제
+    5. fallthrough : switch문에서의 break 누락 관련 경고 억제
+    6. finally : 반환하지 않는 finally 블럭 관련 경고 억제
+    7. null : null 분석 관련 경고 억제
+    8. rawtypes : 제네릭을 사용하는 클래스 매개 변수가 불특정일 때의 경고 억제
+    9. unchecked : 검증되지 않은 연산자 관련 경고 억제
+    10. unused : 사용하지 않는 코드 관련 경고 억제
+
+
+
 ======================================= 컬렉션 프레임워크 =====================================
 
   컬렉션즈 프래임워크라는 것은 다른 말로는 컨테이너라고도 부른다. 
@@ -1063,7 +1101,7 @@ public class Test9 {
 
   
   List : 순서가 있는 데이터의 집합, 데이터의 중복을 허용한다.
-         ArrayList, LinkedList, Stack
+         ArrayList, LinkedList, Stack, Queue
 
 
   Set : 순서를 유지하지 않는 데이터의 집합, 데이터의 중복을 허용하지 않는다.
@@ -1089,12 +1127,50 @@ public class Test9 {
         String[] arr = set.toArray(new String[set.size()]);
 
 
+        // ArrayList
+        Iterator<String> iterator = list.iterator();
+        
+
+        // HashSet
+        Iterator<String> iterator = set.iterator();
 
 
-
+        // HashMap
+        Iterator<Contact> iterator = map.values().iterator();
 
     
+        // 값 출력
+        while(iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+
+
      arr[cursor++] = 80;   // Auto_Boxing => new Integer(80)
+
+
+
+
+===================== 이터레이터(Iterator) 인터페이스 객체 ==========================
+
+- 모든 컬렉션(Collection)으로 부터 정보를 얻을 수 있는 인터페이스 입니다.
+
+  Iterator<제네릭 타입> interator = list.iterator();
+
+  ex) List 계열, Set 계열
+      ArrayList<Score> list = new ArrayList<>();
+      Iterator<Score> iterator = list.iterator();
+
+     
+  ex) Map 계열
+      HashMap<String, Contact> map = new HashMap<>();
+      Iterator<Contact> iterator = map.values().iterator();
+
+      while(iterator.hasNext()) {
+          System.out.println(iterator.next());
+          iterator.remove();
+      }
+
 
 
 
@@ -1137,6 +1213,9 @@ https://visualgo.net/en
 
 @ 가상 머신 OS별 이미지
 http://www.osboxes.org
+
+
+@ Design Pattern : Best Practice, Gang of Four
 
 
 

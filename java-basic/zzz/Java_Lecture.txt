@@ -176,7 +176,12 @@ google noto fonts       South Korea
 
 
 
-* java-basic> java -cp .\build\classes\java\main bitcamp.java100.Test10
+* Eclipse 
+  java-basic> java -cp .\bin bitcamp.java100.Test10
+
+
+* Classpath 을 build로 설정했을 때 
+  // 확인 필요 java-basic> java -cp .\build\classes\java\main bitcamp.java100.Test10
 
 
 
