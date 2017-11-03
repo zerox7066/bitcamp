@@ -1076,7 +1076,7 @@ public class Test9 {
 
     return (T)this.list[index]; => 
       => 제네릭 하면서 타입 캐스팅에 확신이 없을 때 
-         커서를 소스위에 올리고, add @SuppressWarnings("unchecked") 추가
+         커서를 소스위에 올리고(단축키 F2)  add @SuppressWarnings("unchecked") 추가
 
 
     1. all : 모든 경고를 억제
@@ -1154,6 +1154,21 @@ public class Test9 {
 ===================== 이터레이터(Iterator) 인터페이스 객체 ==========================
 
 - 모든 컬렉션(Collection)으로 부터 정보를 얻을 수 있는 인터페이스 입니다.
+
+  public interface Iterator {
+    boolean hasNext();
+    Object next();
+    void remove();
+  }
+
+
+
+출처: http://vaert.tistory.com/108 [Vaert Street]
+
+
+
+
+
 
   Iterator<제네릭 타입> interator = list.iterator();
 
