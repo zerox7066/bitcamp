@@ -271,7 +271,8 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 @ Eclipse에서 Git 자동로그인 해제
 
-  Window  =>  Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab에서 삭제
+  Window  => Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab에서 삭제
+          => Default Secure Strorage => Git  =>  Delete
 
 
 
