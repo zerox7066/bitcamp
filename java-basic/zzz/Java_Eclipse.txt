@@ -74,7 +74,7 @@ General  =>  Apperance  =>  Colors and Font  =>  Basic  =>  Edit Text
              : 기본 Console Font
              => D2Coding
 
-General => Content Types => Java Class Fiel => Default encoding => UTF-8 => Update
+General => Content Types => Java Class File => Default encoding => UTF-8 => Update
 
 General  =>  Editors  =>  Text Editors
     
