@@ -297,6 +297,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
     Windows > Preferences > Java > Editor > Content Assist > Enable auto activation : 
 
+
  -. 컨텐트 어시트 해제되어 있어도 Ctrl + Space하면 컨텐트 어시트 나타남
 
  
