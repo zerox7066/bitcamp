@@ -3,14 +3,13 @@
 //:   단 자식 클래스에서는 직접 접근할 수 있게 허락한다.
 //: 
 package java100.app.domain;
-import java.util.Scanner;
 
 public class Score {  
     
     protected String name;
     protected int kor;
     protected int eng;
-    protected int math; 
+    protected int math;
     protected int sum;
     protected float aver;
 
@@ -27,6 +26,7 @@ public class Score {
         this.compute();
     }
     
+    
     public String getName() {
         return name;
     }
@@ -34,7 +34,7 @@ public class Score {
     public void setName(String name) {
         this.name = name;
     }
-    
+
     public int getKor() {
         return kor;
     }
@@ -69,11 +69,10 @@ public class Score {
     public float getAver() {
         return aver;
     }
-    
-    //: > 내부에서만 사용할 메서드이기 때문에 공개하지 않는다.
+
     private void compute() {
         this.sum = this.kor + this.eng + this.math;
-        this.aver = (float)this.sum / 3f;
+        this.aver = this.sum / 3f;
     }
     
 }
