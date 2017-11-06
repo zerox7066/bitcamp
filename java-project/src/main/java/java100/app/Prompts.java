@@ -5,11 +5,23 @@ import java.util.Scanner;
 public class Prompts {
     static Scanner keyScan = new Scanner(System.in);
     
-    // 인스턴스 변수를 사용하지 않기 때문에 클래스 메서드로 둔다.
+    // 이들 메서드는 별도의 인스턴스 변수를 사용하지 않기 때문에
+    // 클래스 메서드(스태틱 메서드)로 둔다.
+    // 외부에서 사용할 메서드이기 때문에 완전 공개한다.
+    @Deprecated
     public static String input(String message) {
-        System.out.println();
-        System.out.print(message);
+        System.out.printf(message);
         return keyScan.nextLine();
+    }
+    
+    public static String inputString(String message, Object...values) {
+        System.out.printf(message, values);
+        return keyScan.nextLine();
+    }
+    
+    public static int inputInt(String message, Object...values) {
+        System.out.printf(message, values);
+        return Integer.parseInt(keyScan.nextLine());
     }
     
     public static boolean confirm(String message) {

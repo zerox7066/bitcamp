@@ -1,28 +1,32 @@
-package java100.app;
+//: ## 캡슐화 적용
+//: - 모든 필드에 대해 외부 접근을 차단한다.
+//:   단 자식 클래스에서는 직접 접근할 수 있게 허락한다.
+//: 
+package java100.app.domain;
 
-public class Score {
+public class Score {  
+    
     protected String name;
     protected int kor;
     protected int eng;
     protected int math;
     protected int sum;
     protected float aver;
-    
+
+    //: ### 생성자
+    //: > 다른 패키지에서도 호출할 수 있도록 public으로 공개한다.
     public Score() {}
     
     public Score(String name, int kor, int eng, int math) {
         this.name = name;
         this.kor = kor;
         this.eng = eng;
-        this.math = math;        
+        this.math = math;
+        
+        this.compute();
     }
-
-    @Override
-    public String toString() {
-        return "Score [name=" + name + ", kor=" + kor + ", eng=" + eng + ", math=" + math + ", sum=" + sum + ", aver="
-                + aver + "]";
-    }
-
+    
+    
     public String getName() {
         return name;
     }
@@ -37,6 +41,7 @@ public class Score {
 
     public void setKor(int kor) {
         this.kor = kor;
+        this.compute();
     }
 
     public int getEng() {
@@ -45,6 +50,7 @@ public class Score {
 
     public void setEng(int eng) {
         this.eng = eng;
+        this.compute();
     }
 
     public int getMath() {
@@ -53,35 +59,20 @@ public class Score {
 
     public void setMath(int math) {
         this.math = math;
+        this.compute();
     }
 
     public int getSum() {
         return sum;
     }
 
-    public void setSum(int sum) {
-        this.sum = sum;
-    }
-
     public float getAver() {
         return aver;
     }
 
-    public void setAver(float aver) {
-        this.aver = aver;
-    }
-    
-    
-    public void compute() {
+    private void compute() {
         this.sum = this.kor + this.eng + this.math;
         this.aver = this.sum / 3f;
     }
     
-    public void print() {
-        System.out.printf("%s, %d, %d, %d, %d, %f\n",
-                this.name, this.kor, this.eng, this.math, this.sum, this.aver);
-    }
-    
-    
-
 }
