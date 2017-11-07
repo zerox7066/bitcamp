@@ -1,20 +1,16 @@
 package java100.app.control;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Scanner;
 
 import java100.app.domain.Room;
 import java100.app.util.Prompts;
 
-public class RoomController extends GenericController<Room> {
+public class RoomController extends ArrayList<Room> implements Controller {
     
-    // 수퍼 클래스로부터 상속 받은 execute() 메서드는 
-    // 추상 메서드이기 때문에 반드시 오버라이딩 해야한다.
-    // 만약 오버라이딩을 하지 않는다면 
-    // 이 클래스 또한 추상 클래스가 되어야 하고,
-    // 추상 클래스가 되는 순간 이 클래스의 인스턴스를 생성할 수 없다.
-    // 
-    // 즉 서브 클래스에게 반드시 오버라이딩 하도록 강제하는 문법이 
-    // 바로 "추상 메서드"이다.
+    Scanner keyScan = new Scanner(System.in);
+    
     @Override // 이 애노테이션은 붙이지 않아도 된다.
     public void execute() {
         loop:
@@ -37,7 +33,7 @@ public class RoomController extends GenericController<Room> {
     private void doList() {
         System.out.println("[강의실 목록]");
         
-        Iterator<Room> iterator = list.iterator();
+        Iterator<Room> iterator = this.iterator();
         while (iterator.hasNext()) {
             Room room = iterator.next();
             System.out.printf("%s, %s, %d\n",  
@@ -59,7 +55,7 @@ public class RoomController extends GenericController<Room> {
         room.setLocation(Prompts.inputString("지역? "));
         room.setCapacity(Prompts.inputInt("수용인원? "));
         
-        list.add(room);
+        this.add(room);
     } 
     
     private void doDelete() {
@@ -74,7 +70,7 @@ public class RoomController extends GenericController<Room> {
         }
         
         if (Prompts.confirm2("정말 삭제하시겠습니까?(y/N) ")) {
-            list.remove(room);
+            this.remove(room);
             System.out.println("삭제하였습니다.");
         } else {
             System.out.println("삭제를 취소하였습니다.");
@@ -82,7 +78,7 @@ public class RoomController extends GenericController<Room> {
     }
     
     private Room find(String roomName) {
-        Iterator<Room> iterator = list.iterator();
+        Iterator<Room> iterator = this.iterator();
         while (iterator.hasNext()) {
             Room room = iterator.next();
             if (room.getName().equals(roomName)) {
