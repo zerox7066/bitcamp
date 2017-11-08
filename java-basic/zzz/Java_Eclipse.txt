@@ -307,7 +307,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + M : 현재 활성화된 뷰나 에디터 최대화
  -. Ctrl + F6 : 소스간 이동
  -. Ctrl + F7 : 뷰간 이동 ( 에디터 최대창에서 Project Explorer 창 보인)
-    Ctrl + P (단축키 사용자 등록)
+    Ctrl + P (단축키 사용자 등록  Next View)
 
  -. Ctrl + F8 : 다음 Perspective로 이동(Debug, JavaEE)
 
@@ -373,6 +373,20 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + Shift + R : 프로젝트에 포함된 리소스(여기서는 파일)중에 찾는 방법
 
  -. Ctrl + Shift + G : 현재 패키지에 함수를 호출하는 위치를 모두 찾아준다.
+
+
+
+ -. 폴딩 설정 : Window > Preference > Java > Editor > Folding
+ -. Ctrl + Numpad(-) : 해당소스 폴딩 닫기
+ -. Ctrl + Numpad(+) : 해당소스 폴딩 열기
+
+ -. Ctrl + Numpad(/) : 전체 폴딩 닫기
+ -. Ctrl + Numpad(*) : 전체 폴딩 열기
+
+
+ -. Alt + /          : 단어 자동완성
+ -. Ctrl + Shift + x : 대문자로
+ -. Ctrl + Shift + y : 소문자로
 
 
 
