@@ -302,12 +302,17 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 ========================= 소스 네비게이션 =========================
 
+
+ -. Ctrl + [  : New Package
+ -. Ctrl + ]  : New Class
+
+
  -. window > New Window  :  이클립스 새창
 
  -. Ctrl + M : 현재 활성화된 뷰나 에디터 최대화
  -. Ctrl + F6 : 소스간 이동
  -. Ctrl + F7 : 뷰간 이동 ( 에디터 최대창에서 Project Explorer 창 보인)
-    Ctrl + P (단축키 사용자 등록  Next View)
+    Ctrl + \ (단축키 사용자 등록  Next View)
 
  -. Ctrl + F8 : 다음 Perspective로 이동(Debug, JavaEE)
 
@@ -317,12 +322,11 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + , : 현재 커서에서 이전 에러 난 곳으로의 커서 이동
  -. Ctrl + . : 현재 커서에서 이후 에러 난 곳으로의 커서 이동
 
+
+
  @ 단축키 등록 보기   [Ctrl + Shift + L]
 이클립스 단축키 저장 파일
 %workspace%\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs
-
-
-출처: http://fuzzy.tistory.com/171 [퍼지기능의 막가는 블로그]
 
 
 ========================= 소스 코드 편집 =========================
