@@ -324,7 +324,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + , : 현재 커서에서 이전 에러 난 곳으로의 커서 이동
  -. Ctrl + . : 현재 커서에서 이후 에러 난 곳으로의 커서 이동
 
-
+  
 
  @ 단축키 등록 보기   [Ctrl + Shift + L]
 이클립스 단축키 저장 파일
