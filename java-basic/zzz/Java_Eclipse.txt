@@ -276,12 +276,6 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 
 
-
-
- @ 단축키 등록 보기   [Ctrl + Shift + L]
-
-
-
 ========================= 기타 설정 ==============================
      
  @ 단축키 등록
@@ -313,10 +307,22 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + M : 현재 활성화된 뷰나 에디터 최대화
  -. Ctrl + F6 : 소스간 이동
  -. Ctrl + F7 : 뷰간 이동 ( 에디터 최대창에서 Project Explorer 창 보인)
+    Ctrl + P (단축키 사용자 등록)
+
  -. Ctrl + F8 : 다음 Perspective로 이동(Debug, JavaEE)
 
  -. Ctrl + PageUp, Ctrl + PageDown : 소스탭 이동
 
+
+ -. Ctrl + , : 현재 커서에서 이전 에러 난 곳으로의 커서 이동
+ -. Ctrl + . : 현재 커서에서 이후 에러 난 곳으로의 커서 이동
+
+ @ 단축키 등록 보기   [Ctrl + Shift + L]
+이클립스 단축키 저장 파일
+%workspace%\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs
+
+
+출처: http://fuzzy.tistory.com/171 [퍼지기능의 막가는 블로그]
 
 
 ========================= 소스 코드 편집 =========================
@@ -388,10 +394,11 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
  -. F5 : 한 줄씩 실행하되 함수일 경우 그 함수 내부로 들어감(Step Into)
 
- -. Ctrl + R : 현재 라인까지 실행(Run to Line)
+ -. Ctrl + R : 디버거 중 현재 라인까지 실행(Run to Line)
 
  -. Ctrl + F11 : Run 파일 실행
-
+ 
+ -. Ctrl + R : 현재 라인까지 실행(Run to Line)
 
  -. F12 : 에디터 활성화
 
@@ -418,6 +425,17 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  * @Version : 
  * ${tags}
  */ 
+
+Refactoring 단축키
+Alt + Shift + T : Refactor Quick Menu - 리펙토링 메뉴 바로가기
+Alt + Shift + R: 이름 변경(Rename)
+Alt + Shift + V : 이동(Move)
+Alt + Shift + C : Change Method Signature
+Alt + Shift + M : Extract Method
+Alt + Shift + L : Extract Local Variable
+Alt + Shift + I : Inline
+
+출처: http://fuzzy.tistory.com/171 [퍼지기능의 막가는 블로그]
 
 
 ========================= Refactoring =========================
@@ -1315,6 +1333,7 @@ public class Test9 {
 
 ======================================= 인터페이스 ======================================
 
+
  -. 인터페이스는 사용자(caller)와 사용되는자(callee) 사이의 호출 규칙을 정의할 때 사용하는 문법이다.
 
 
@@ -1390,8 +1409,148 @@ public class Test9 {
 
 
 
+======================================= 예외 처리 ======================================
 
 
+    Object - Throwable - Error - LinkageError, ThreadDeath, VirtualMachineError
+
+                       - Exception - RuntimeException - ArithmeticException, 
+                                   |                  - NullPointerException
+                                   |                  - IndexOutOfBoundException
+                                   |                  - SecurityException
+                                   |
+                                    - IOException     - EOFException
+                                                      - FileNotFoundexception
+                                                      - InterrupedIOException
+                                                      - CloseNotFoundException
+
+
+
+ 예외의 종류: 
+ 1) try...catch... 사용을 강제하지 않는 예외
+    => Error와 RuntimeException(Exception의 서브 클래스) 계열의 예외
+    => try...catch...로 예외를 처리하지 않더라도 컴파일 오류는 아니다!
+ 
+ 2) try...catch... 사용을 강제하는 예외
+    => Exception 계열의 예외 
+    => 즉 try...catch로 예외를 처리하지 않으면 컴파일 오류 발생!
+
+
+ 3) try...catch...finally
+    -. finally 블록은 try 블록을 나가기 전에 반드시 실행한다.
+    -. catch 블록 없이 사용할 수 있다.
+    -. 사용한 자원을 자동으로 해제시킬때 사용
+
+    PrintWriter out = null;
+    try {
+        out = new PrintWriter(new FileWriter("OutFile.txt"));
+        ...
+    } catch (IOException e) {
+        ...
+    } finally {
+        if (out != null) 
+            out.close();
+    }
+
+
+ 4) try-with-resources (JDK 7 추가문법)
+
+        try (
+            // java.lang.AutoCloseable 규칙에 따라 만든 클래스의 객체여야 한다.
+            // AutoCloseable 인터페이스를 구현한 클래스는 사용할 수 있다.
+            // ( class MyClass implements AutoCloseable {   =>  블록에 close() 메서드 오버라이딩 )
+            // FileWriter AutoCloseable 구현체( AutoCloseable 규칙에 따라 close() 메서드가 있다)
+             MyClass obj = new MyClass()
+        ) {
+            System.out.println("try 블록 실행");
+            
+            switch (str) {
+            case "a": throw new Exception();
+            case "b": throw new IOException();
+            case "c": throw new FileNotFoundException();
+            case "d": throw new SQLException();
+            }
+            
+            System.out.println(str);  
+        } catch (IOException|SQLException e) {
+            // 파라미터를 선언할 때 자식 클래스부터 나열
+            // 형제 관계의 예외 클래스는 이렇게 OR 연산자를 사용하여
+            // 파라미터 타입을 나열할 수 있다.
+            System.out.println("IOException|SQLException 예외 처리");
+            
+        } catch (Exception e) {
+            // 예외 클래스 중에서 수퍼 클래는 이렇게 별도로 선언한다.
+            System.out.println("Exception 예외 처리");
+        }
+
+
+
+ 5) 커스텀 예외 클래스를 이용하여 예외를 구분하기
+
+
+    // 특별한 예외 클래스를 정의한다.
+    public class EmptyStringException extends Exception {
+        public EmptyStringException() {
+            super(); // 그냥 수퍼 클래스의 기본 생성자를 호출한다.
+        }
+    
+        public EmptyStringException(String message) {
+            super(message); // 그냥 수퍼 클래스의 메시지를 받는 생성자를 호출한다.
+        }
+    
+        // 그 밖에 필드나 메서드를 추가할 필요가 없다.
+        // 이 클래스의 목적은 클래스 타입으로 예외를 구분하기 위함이다.
+        // 단 간단한 메시지는 저장할 수 있도록 생성자를 정의하라!
+    
+    }
+
+
+    static void input() throws Exception {
+        Score score = new Score();
+        
+        System.out.print("이름? ");
+        score.name = keyScan.nextLine();
+        
+        if (score.name.length() == 0) {
+            // 예외 객체를 던진다.
+            throw new EmptyStringException("이름이 빈 문자열입니다.");
+        }
+        
+        System.out.print("국어? ");
+        score.kor = Integer.parseInt(keyScan.nextLine());
+        if (score.kor < 0 || score.kor > 100)
+            // 예외 객체를 던진다.
+            throw new ScoreOutOfBoundsException();
+        
+        list.add(score);
+    }
+
+
+    public static void main(String[] args) {
+        while (true) {
+            // input()에서 예외 클래스를 이용하여 예외 상황을 전달하기 때문에 
+            // input()을 호출하는 쪽에서는 catch 블록으로 예외를 쉽게 구분할 수 있다.
+            try {
+                input();
+                // 다음과 같이 예외가 발생할 때 클래스 타입으로 구분하기 때문에
+                // 코드를 해석하기 쉽다. 즉 유지보수가 쉽다.
+            } catch (EmptyStringException e) {
+                System.out.println("입력 문자열이 비어 있습니다.");
+                
+            } catch (ScoreOutOfBoundsException e) {
+                System.out.println("점수의 범위를 벗어났습니다.");
+                
+            } catch (NumberFormatException e) {
+                System.out.println("숫자 형식이 아닙니다.");
+                
+            } catch (Exception e) {
+                // 기타 예외는 어떤 상황인지 유추하기 힘들다.
+                // 이런 경우 어디에서 예외가 발생했는지 상세하게 조사할 필요가 있다.
+                // 이때 사용하는게 호출 단계를 출력해 보는 것이다.
+                e.printStackTrace();
+            }
+        }
+    }
 
 
 
@@ -1441,6 +1600,12 @@ http://www.osboxes.org
 
 
 http://codingdojang.com/
+
+
+https://rebeccacho.gitbooks.io/java-study-group/content/index.html
+
+
+https://www.gitbook.com/
 
 
 
