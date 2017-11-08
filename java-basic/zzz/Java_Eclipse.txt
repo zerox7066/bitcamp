@@ -306,6 +306,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + \  :  View Move (단축키 사용자 등록  Next View)
  -. Ctrl + [  :  New Package
  -. Ctrl + ]  :  New Class
+ -. Ctrl + ;  :  단어 자동완성 (Alt + / , Word Completion, Editing Text)
 
 
  -. window > New Window  :  이클립스 새창
