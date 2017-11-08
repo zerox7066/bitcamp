@@ -6,7 +6,9 @@
 
     프로그램 종료 : Alt + Space =>  c
 
-    한프로그램만 최소화 : Windows kY + Down
+    Windows Key + T : 작업 표시줄내 앱간 이동. (엔터를 치면 해당 창으로 이동, 또는 실행).
+
+    Windows Key + Down : 한프로그램만 최소화 
 
     Windows Snap 관련
     
