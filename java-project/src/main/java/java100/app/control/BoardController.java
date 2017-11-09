@@ -1,15 +1,62 @@
 package java100.app.control;
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.Date;
 import java.util.Iterator;
+import java.util.Scanner;
 
 import java100.app.domain.Board;
 import java100.app.util.Prompts;
 
 public class BoardController extends GenericController<Board> {
+
+    private String dataFilePath;
     
-    // 수퍼 클래스 GenericController에서 상속 받은 메서드를 
-    // 재정의하기 때문에 오버라이딩을 검증하도록 애노테이션을 붙인다.
+    public BoardController(String dataFilePath) {
+        this.dataFilePath = dataFilePath;
+        this.init();
+    }
+    
+    @Override
+    public void destroy() {
+        
+        try (FileWriter out = new FileWriter(this.dataFilePath);) {
+            for (Board board : this.list) {
+                out.write(board.toCSVString() + "\n");
+            }
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    @Override
+    public void init() {
+        
+        try (
+                FileReader in = new FileReader(this.dataFilePath);
+                Scanner lineScan = new Scanner(in);) {
+            
+            String csv = null;
+            while (lineScan.hasNextLine()) {
+                csv = lineScan.nextLine();
+                try {
+                    list.add(new Board(csv));
+                } catch (CSVFormatException e) {
+                    System.err.println("CSV 데이터 형식 오류!");
+                    e.printStackTrace();
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }    
+    
+    // 실제 이 클래스가 오버라이딩 하는 메서드는 
+    // GenericController가 따른다고 한 Controller 인터페이스의 
+    // 추상 메서드이다.
     @Override
     public void execute() {
         loop:

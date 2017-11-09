@@ -1,6 +1,7 @@
- 
+
 package java100.app;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -14,16 +15,16 @@ public class App {
     
     static Scanner keyScan = new Scanner(System.in);
     
-    static HashMap<String,Controller> controllerMap = new HashMap<>();
+    static HashMap<String,Controller> controllerMap = 
+            new HashMap<>();
     
     public static void main(String[] args) {
         
         // go 명령어를 수행할 컨트롤러를 등록한다.
-        controllerMap.put("1", new ScoreController());
-        controllerMap.put("2", new MemberController());
-        controllerMap.put("3", new BoardController());
-        
-        controllerMap.put("4", new RoomController());
+        controllerMap.put("1", new ScoreController("./data/score.csv"));
+        controllerMap.put("2", new MemberController("./data/member.csv"));
+        controllerMap.put("3", new BoardController("./data/board.csv"));
+        controllerMap.put("4", new RoomController("./data/room.csv")); 
         
         loop:
         while (true) {
@@ -71,6 +72,7 @@ public class App {
         System.out.println("1 성적관리");
         System.out.println("2 회원관리");
         System.out.println("3 게시판");
+        System.out.println("4 강의실");
     }
 
     private static void doError() {
@@ -78,13 +80,13 @@ public class App {
     }
 
     private static void doQuit() {
+        Collection<Controller> controls = controllerMap.values();
+        for (Controller control : controls) {
+            control.destroy(); // 각 컨트롤러에게 마무리 기회를 준다.
+        }
         System.out.println("프로그램을 종료합니다.");
     }
 
-
-
-
-        
 }
 
 

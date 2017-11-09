@@ -1,5 +1,7 @@
 package java100.app.domain;
 
+import java100.app.control.CSVFormatException;
+
 public class Room {
     protected String location;
     protected String name;
@@ -7,10 +9,31 @@ public class Room {
     
     public Room() {}
     
+    
     public Room(String location, String name, int capacity) {
         this.location = location;
         this.name = name;
         this.capacity = capacity;
+    }
+    
+    public Room(String csv) throws CSVFormatException {
+        String[] rec = csv.split(",");
+        if (rec.length != 3) 
+            throw new CSVFormatException("CSV 데이터 항목의 개수가 올바르지 않습니다.");
+        try {
+            this.location = rec[0]; 
+            this.name = rec[1]; 
+            this.capacity = Integer.parseInt(rec[2]);
+        } catch (Exception e) {
+            throw new CSVFormatException("CSV 데이터 항목의 형식이 올바르지 않습니다.");
+        }
+    }
+
+    public String toCSVString() {
+        return String.format("%s,%s,%d", 
+                this.getLocation(), 
+                this.getName(),
+                this.getCapacity());
     }
 
     @Override

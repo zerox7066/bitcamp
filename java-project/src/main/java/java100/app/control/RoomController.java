@@ -1,5 +1,8 @@
 package java100.app.control;
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -7,11 +10,57 @@ import java.util.Scanner;
 import java100.app.domain.Room;
 import java100.app.util.Prompts;
 
+// RoomController는 ArrayList를 상속 받은 서브 클래스이기도 하지만,
+// Controller라는 규칙을 따르는 클래스이기도 하다!
 public class RoomController extends ArrayList<Room> implements Controller {
     
+    // Scanner 객체를 준비한다.
     Scanner keyScan = new Scanner(System.in);
+    private String dataFilePath;
+
+    public RoomController(String dataFilePath) {
+        this.dataFilePath = dataFilePath;
+        this.init();
+    }
+
+    @Override
+    public void destroy() {
+        
+        try (FileWriter out = new FileWriter(this.dataFilePath);) {
+            for (Room room : this) {
+                out.write(room.toCSVString() + "\n");
+            }
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
     
-    @Override // 이 애노테이션은 붙이지 않아도 된다.
+
+    @Override
+    public void init() {
+        
+        try (
+                FileReader in = new FileReader(this.dataFilePath);
+                Scanner lineScan = new Scanner(in);) {
+            
+            String csv = null;
+            while (lineScan.hasNextLine()) {
+                csv = lineScan.nextLine();
+                try {
+                    this.add(new Room(csv));
+                } catch (CSVFormatException e) {
+                    System.err.println("CSV 데이터 형식 오류!");
+                    e.printStackTrace();
+                }
+            }
+            
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    @Override
     public void execute() {
         loop:
         while (true) {
