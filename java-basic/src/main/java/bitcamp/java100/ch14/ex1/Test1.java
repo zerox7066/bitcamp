@@ -8,9 +8,9 @@ import java.sql.Date;
 public class Test1 {
     
     public static void main(String[] args) throws Exception {
-        //File file = new File(".");
+        File file = new File(".");
         //File file = new File("../..");
-        File file = new File("../java-project/build.gradle");
+        //File file = new File("../java-project/build.gradle");
         
         System.out.printf("파일명 = %s\n", file.getName());
         System.out.printf("파일객체를 생성할 때 넘겨준 경로 = %s\n", file.getPath());
