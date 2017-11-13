@@ -11,6 +11,14 @@ Path  : C:\Program Files\Java\jdk-9\bin;C:\gradle-4.2\bin;C:\cygwin64\usr\includ
 
 
 
+
+JAVA_HOME :  C:\Program Files\Java\jdk1.8.0_144
+
+%JAVA_HOME%\bin;C:\gradle-4.2\bin;C:\cygwin64\usr\include;C:\cygwin64\bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\64bit\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd
+
+
+
+
 @ 이클립스설치
 
   - Eclipse IDE for Java EE Developers 설치
@@ -63,6 +71,16 @@ Perferences  =>  Java  =>  Installed JREs  =>  Add 버튼 클릭 =>  Standard VM
  # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
    - Bin 폴더 삭제
    - Projcet => Clean
+
+
+
+@ Console 한글 깨질 경우
+
+  -. cmd 에서 java -version 확인
+  -. 환경변수에서 JAVA-HOME 확인 =>  C:\Program Files\Java\jdk1.8.0_144
+  -. 환경변수에서 path 에서 확인 =>  %JAVA_HOME%\bin;
+  -. eclipse 폴더에서 eclipse.ini 에서 자바 버전 확인  =>  --add-modules=ALL-SYSTEM 삭제
+  -. Window > Preference > Java > Installed JREs 에서 jdk1.8.0_144 확인
 
 
 
@@ -177,6 +195,37 @@ eclipse {
     }
   }
 }
+
+
+
+
+
+eclipse {
+  jdt {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    javaRuntimeName = "JavaSE-1.8"
+    
+    /*
+    file {
+      whenMerged { jdt
+      }
+
+      // .settings/org.eclipse.jdt.core.prefs 파일에 들어갈 값 설정
+      withProperties { properties ->
+        properties["org.eclipse.jdt.core.compiler.codegen.targetPlatform"] = "9"
+        properties["org.eclipse.jdt.core.compiler.source"] = "9"
+        properties["org.eclipse.jdt.core.compiler.compliance"] = "9"
+      }
+    }
+    */
+  }
+}
+
+
+
+
+
 
 
 3) gradle을 이용해서 .project 파일, .classpath파일과 org.eclipse.jdt.core.prefs 파일 생성
@@ -1604,6 +1653,137 @@ public class Test9 {
             }
         }
     }
+
+
+
+
+
+======================================= 파일 입출력 ======================================
+
+
+
+
+
+ 입출력을 다루는 클래스의 분류
+ 1) Data Sink Stream 클래스
+ => 데이터를 저장소에 직접 저장하고 읽는 클래스이다.
+ => 바이너리 스트림 클래스 예) 
+    - FileInputStream/FileOutputStream => 파일 
+    - ByteArrayInputStream/ByteArrayOutputStream => 메모리
+    - PipedInputStream/PipedOutputStream => 다른 프로그램(프로세스)
+ => 캐릭터 스트림 클래스 예)
+    - FileReader/FileWriter => 파일 
+    - CharArrayReader/CharArrayWriter => 메모리 
+    - StringReader/StringWriter => 메모리 
+    - PipedReader/PipedWriter => 다른 프로그램(프로세스)
+ 
+ 2) Data Processing Stream 클래스 
+ => 읽은 데이터 또는 출력할 데이터를 가공하는 클래스이다.
+ => 바이너리 스트림 클래스 예)
+    - BufferedInputStream/BufferedOutputStream
+    - DataInputStream/DataOutputStream
+    - ObjectInputStream/ObjectOutputStream
+    - PrintStream
+ 
+ => 캐릭터 스트림 클래스 예)
+    - BufferedReader/BufferedWriter
+    - LineNumberReader
+    - FilterReader/FilterWriter
+    - PrintWriter
+
+
+
+
+ 1) Data Sink Stream 클래스
+
+        // 1) 바이트 단위로 데이터를 읽어주는 객체 준비
+        FileInputStream in = new FileInputStream(
+                                    new File("sample/a.jpg"));
+        
+        // 2) 바이트 단위로 데이터를 출력할 객체 준비
+        FileOutputStream out = new FileOutputStream(
+                                    new File("sample/a2.jpg"));
+                
+        
+        // 3) 바이트를 읽어서 그대로 출력한다.
+        int b; 
+        while ((b = in.read()) != -1) {
+            out.write(b);
+        }
+        
+        // 4) 항상 사용을 마친 자원은 해제시킨다.
+        in.close();
+        out.close();
+        
+
+
+
+
+// Data Processing Stream 캐릭터 스트림 클래스 사용법 
+
+
+
+    // FileInputStream 객체를 별도 레퍼런스에 저장하지 않고
+    // 바로 BufferedInputStream에 전달한다.
+
+    BufferedInputStream in = new BufferedInputStream(
+            new FileInputStream(new File("sample/jls9.pdf")));
+
+    
+    // FileOutputStream 객체를 별도의 레퍼런스에 저장하지 않고
+    // 바로 BufferedOutputStream에 전달한다.
+
+    BufferedOutputStream out = new BufferedOutputStream(
+            new FileOutputStream(new File("sample/jls9-4.pdf")));
+
+
+
+        in.close();
+        out.close();
+
+    
+     항상 사용을 마친 자원은 해제시킨다.
+     BufferedInputStream을 close() 하면 
+     이 클래스가 의존하는 FileInputStream도 함께 close() 된다.
+     BufferedOutputStream도 마찬가지이다.
+
+
+
+
+
+
+// Data Processing Stream 바이너리 클래스 사용법 - DataInputStream 사용하기
+
+
+        DataInputStream in = new DataInputStream(
+                                   new FileInputStream("test3.dat"));
+        
+        s.setName(in.readUTF());
+        s.setKor(in.readInt());
+
+
+
+// Data Processing Stream 바이너리 클래스 사용법 - DataOutputStream 사용하기
+
+   DataOutputStream out = new DataOutputStream(
+                                    new FileOutputStream("test3.dat"));
+        
+   out.writeUTF(s.getName());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

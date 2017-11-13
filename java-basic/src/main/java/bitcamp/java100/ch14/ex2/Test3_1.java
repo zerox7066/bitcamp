@@ -6,21 +6,28 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class Test3 {
+public class Test3_1 {
     
     public static void main(String[] args) throws Exception {
         
         //File file = new File("sample/b.jpg");
         
         // 바이트 단위로 데이터를 읽어주는 객체
-        FileInputStream in = new FileInputStream(new File("sample/a.jpg"));
+        FileInputStream in = new FileInputStream(new File("sample/jls9.pdf"));
         
-        FileOutputStream out = new FileOutputStream(new File("sample/a2.jpg"));
+        FileOutputStream out = new FileOutputStream(new File("sample/jls9-2.pdf"));
         
-        int b;        
+        int b;
+        
+        long start = System.currentTimeMillis();
+        
         while((b = in.read()) != -1) {
             out.write(b);
         }
+        
+        long end = System.currentTimeMillis();
+        
+        System.out.printf("걸린시간 = %d\n", end - start);
         
         in.close();
         out.close();

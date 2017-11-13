@@ -15,8 +15,7 @@ public class App {
     
     static Scanner keyScan = new Scanner(System.in);
     
-    static HashMap<String,Controller> controllerMap = 
-            new HashMap<>();
+    static HashMap<String,Controller> controllerMap = new HashMap<>();
     
     public static void main(String[] args) {
         
@@ -24,7 +23,7 @@ public class App {
         controllerMap.put("1", new ScoreController("./data/score.csv"));
         controllerMap.put("2", new MemberController("./data/member.csv"));
         controllerMap.put("3", new BoardController("./data/board.csv"));
-        controllerMap.put("4", new RoomController("./data/room.csv")); 
+        controllerMap.put("4", new RoomController("./data/room.csv"));
         
         loop:
         while (true) {

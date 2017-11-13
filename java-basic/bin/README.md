@@ -1,1 +1,1 @@
-# src/test/resources/README.md
+# src/main/resources/README.md
