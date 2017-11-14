@@ -82,6 +82,9 @@ Perferences  =>  Java  =>  Installed JREs  =>  Add 버튼 클릭 =>  Standard VM
   -. eclipse 폴더에서 eclipse.ini 에서 자바 버전 확인  =>  --add-modules=ALL-SYSTEM 삭제
   -. Window > Preference > Java > Installed JREs 에서 jdk1.8.0_144 확인
 
+  -. Project > Context Menu > Properties > Java Build Path > Libraries Tab 클릭 > 
+     > JRE System Library [jdk1.8.0_144] 더블클릭 > Alternate JRE에서 jdk1.8.0_144 를 선택
+
 
 
 @ Preferences 설정 
@@ -258,7 +261,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
   오류: 기본 클래스 bitcamp.java100.Test16_1을(를) 찾거나 로드할 수 없습니다.
   원인: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
 
-  Project Context Menu => Proerties => Java Build Path 에서 jar 경로확인
+  Project > Context Menu => Proerties => Java Build Path 에서 jar 경로확인
   git에서 다운 받았기 때문에 Users 가 bit-user로 되어 있음
   노트북은 Users 가 user로 되어 있음
 
@@ -515,12 +518,12 @@ Alt + Shift + I : Inline
 
  @ Setters and Getters 자동 추가
 
-    Content Menu > Source > Generate Setters and Getters
+    Context Menu > Source > Generate Setters and Getters
 
 
  @ Super Class 만들기
 
-   Content Menu > Refactor > Extract SuperClass  => Generalization
+   Context Menu > Refactor > Extract SuperClass  => Generalization
 
  
  @ 기본 Overiding 만들기
@@ -530,9 +533,9 @@ Alt + Shift + I : Inline
 
  @ toString(), hashCode(), equals() 오버라이딩 만들기
 
-   Content Menu > Source > Generate toString()
+   Context Menu > Source > Generate toString()
 
-   Content Menu > Source > Generate hashCode() and equals()
+   Context Menu > Source > Generate hashCode() and equals()
 
    
 
@@ -994,7 +997,7 @@ public class Test9 {
 
        - 서브 클래스들의 공통 변수나 공통 메서드를 추출하여 수퍼 클래스를 정의하는 것.
 
-       - Content Menu > Refactor > Extract SuperClass  => Generalization
+       - Context Menu > Refactor > Extract SuperClass  => Generalization
 
 
 
@@ -1658,6 +1661,221 @@ public class Test9 {
 
 
 
+======================================= 익명클래스 ======================================
+
+  인터페이스 클래스 구현체 > 중첩 클래스 > 로컬 클래스 
+                           > 익명 클래스(인터페이스, 수퍼클래스 생성자) > 익명클래를 함수안에 추가
+
+
+ 
+
+  1) FileNameFilter을 MyFileNameFilter 클래스로 구현
+
+        
+    public class Test5_1 {
+    
+        public static void main(String[] args) {
+            
+            File file = new File(".");
+    
+            // 디렉토리에 들어 있는 파일이나 디렉토리 이름을 알아낼 때 
+            // 특정 조건에 부합하는 이름만 꺼내고 싶을 때가 있다.
+            // 그럴 때 list()의 파라미터로 필터 기능을 수행하는 객체를 
+            // 전달하라! 이름을 꺼낼 때 그 필터를 사용하여
+            // 리턴하는 배열에 포함할지 여부를 결정한다.
+            //
+            // ver 1: list()에서 사용할 필터 클래스는 패키지 멤버로 만든다.
+            // => 오직 이 클래스에서만 사용하는 클래스인데
+            //    굳이 패키지 멤버로 만들 필요가 있을까?
+            String[] filenames = file.list(new MyFilenameFilter());
+            
+            for (String name : filenames) {
+                System.out.println(name);
+            }
+        }
+    
+    }
+
+
+    public class MyFilenameFilter implements FilenameFilter {
+    
+        @Override
+        public boolean accept(File dir, String name) {
+            File file = new File(dir, name);
+            if (file.isDirectory())
+                return true;
+            else 
+                return false;
+        }
+    }
+
+
+
+  2) 중첩클래스
+
+    
+    public class Test5_2 {
+    
+        // 파일만 걸러내는 필터
+        static class MyFilenameFilter implements FilenameFilter {
+            @Override
+            public boolean accept(File dir, String name) {
+                File file = new File(dir, name);
+                if (file.isDirectory())
+                    return false;
+                else 
+                    return true;
+            }
+        }
+        
+        public static void main(String[] args) {
+            
+            File file = new File(".");
+
+            // ver 2: list()에서 사용할 필터 클래스를 중첩 클래스로 만든다.
+            // => 오직 이 클래스에서만 사용하는 클래스로 선언한다.
+            String[] filenames = file.list(new MyFilenameFilter());
+            
+            for (String name : filenames) {
+                System.out.println(name);
+            }
+        }
+    
+    }
+
+
+
+  3) 로컬 클래스
+
+    
+    public class Test5_3 {
+    
+        public static void main(String[] args) {
+            // 파일명이나 디렉토리명이 .으로 시작하는 경우는 
+            // 결과에서 제외하자!
+            class MyFilenameFilter implements FilenameFilter {
+                @Override
+                public boolean accept(File dir, String name) {
+                    if (name.startsWith("."))
+                        return false;
+                    else 
+                        return true;
+                }
+            }
+            
+            File file = new File(".");
+
+            // ver 3: list()에서 사용할 필터 클래스를 로컬 클래스로 만든다.
+            // => 오직 이 클래스의 main()에서만 사용하는 클래스로 선언한다.
+            String[] filenames = file.list(new MyFilenameFilter());
+            
+            for (String name : filenames) {
+                System.out.println(name);
+            }
+        }
+    
+    }
+
+
+
+
+
+  4) 익명 클래스(인터페이스, 수퍼클래스 생성자)
+    
+    public class Test5_4 {
+    
+        public static void main(String[] args) {
+            // .으로 시작하는 파일이나 디렉토리만 결과에 포함시킨다.
+            FilenameFilter filter = new FilenameFilter() {
+                @Override
+                public boolean accept(File dir, String name) {
+                    if (name.startsWith("."))
+                        return true;
+                    else 
+                        return false;
+                }
+            };
+            
+            File file = new File(".");
+
+            // ver 4: list()에서 사용할 필터 클래스를 익명 클래스로 만든다.
+            // => 오직 한 개의 객체만 생성할 클래스라면 익명 클래스로 
+            //    만들어도 된다.
+            String[] filenames = file.list(filter);
+            
+            for (String name : filenames) {
+                System.out.println(name);
+            }
+        }
+    
+    }
+
+
+
+
+  5) 익명클래를 함수안에 추가(안드로이드에서 주로 사용)
+
+    
+    public class Test5_5 {
+    
+        public static void main(String[] args) {
+            File file = new File(".");
+
+            // ver 5: list()에서 사용할 필터 클래스를 익명 클래스로 만든다.
+            // => 단 저 위에 멀리 익명 클래스의 코드를 두지 말고,
+            //    그 익명 클래스를 사용하는 코드 가까이에 두어라.
+            //
+            String[] filenames = file.list(new FilenameFilter() {
+                @Override
+                public boolean accept(File dir, String name) {
+                    if (name.startsWith("."))
+                        return true;
+                    else 
+                        return false;
+                }
+            });
+            
+            for (String name : filenames) {
+                System.out.println(name);
+            }
+        }
+    
+    }
+
+
+
+
+======================================= 파일 구분 ======================================
+
+
+
+     파일 쓰기: Byte 스트림 사용 => 바이너리 파일 쓰기
+     바이너리 파일
+     - 메모장과 같은 텍스트 편집기로 유효한 편집할 수 없는 파일 
+     - 전용 편집기가 필요하다.
+     - 예) .hwp, .doc, .xls, .ppt, .avi, .mp3, .exe, .class, .psd,
+           .gif, .jpeg, .tiff 등
+     
+     텍스트 파일
+     - 메모장과 같은 단순 텍스트 편집기로 편집할 수 있는 파일
+     - 문자집합에 따라 인코딩된 바이트 데이터이다.
+     - 예) .txt, .csv, .html, .css, .js, .c, .cpp, .rtf, .bat, .sh 등
+     
+     인코딩(encoding)
+     - 어떤 규칙에 따라 특정 바이트 값으로 변환하는 것.
+     - 예) 아날로그로 입력된 소리 ==> .wav 파일 생성
+       예) 일반 데이터를 ==> 암호화데이터 
+       예) .bmp ==> .jpeg
+    
+     디코딩(decoding)
+     - 어떤 규칙에 따라 원래의 값으로 변환하는 것.
+     - 예) .jpeg ==> .bmp
+       예) 암호화된 데이터 ==> 원래 데이터
+    
+
+
+
+
 ======================================= 파일 입출력 ======================================
 
 
@@ -1667,25 +1885,33 @@ public class Test9 {
  입출력을 다루는 클래스의 분류
  1) Data Sink Stream 클래스
  => 데이터를 저장소에 직접 저장하고 읽는 클래스이다.
- => 바이너리 스트림 클래스 예) 
-    - FileInputStream/FileOutputStream => 파일 
+
+ => 바이너리 스트림 클래스 예)  InputStream / OutputStream 의 서브 클래스들
+    - 2 바이트 유니코드 값으로 변환
+
+    - FileInputStream/FileOutputStream => 파일    바이트 단위로 데이터를 읽는다
     - ByteArrayInputStream/ByteArrayOutputStream => 메모리
     - PipedInputStream/PipedOutputStream => 다른 프로그램(프로세스)
- => 캐릭터 스트림 클래스 예)
+
+ => 캐릭터 스트림 클래스 예)  Reader / Writer 종류
+    - 변환과정 없이 바이트 값으로 출력(File Foramt으로 데이타 분석)
+
     - FileReader/FileWriter => 파일 
     - CharArrayReader/CharArrayWriter => 메모리 
     - StringReader/StringWriter => 메모리 
     - PipedReader/PipedWriter => 다른 프로그램(프로세스)
  
+
  2) Data Processing Stream 클래스 
  => 읽은 데이터 또는 출력할 데이터를 가공하는 클래스이다.
- => 바이너리 스트림 클래스 예)
+
+ => 바이너리 스트림 클래스 예)    InputStream / OutputStream 의 서브 클래스들
     - BufferedInputStream/BufferedOutputStream
     - DataInputStream/DataOutputStream
     - ObjectInputStream/ObjectOutputStream
     - PrintStream
  
- => 캐릭터 스트림 클래스 예)
+ => 캐릭터 스트림 클래스 예)     Reader / Writer 종류
     - BufferedReader/BufferedWriter
     - LineNumberReader
     - FilterReader/FilterWriter
@@ -1718,34 +1944,232 @@ public class Test9 {
 
 
 
+// 데코레이터(Decorator)
+
+
+    // 상속을 이용하여 기능을 확장하는 대신에
+    // 기존 객체를 포함하고 여기에 기능을 덧붙이는 형태! 
+    public class MyBufferedInputStream2 {
+        
+        // 왜 InputStream 레퍼런스를 선언했는가?
+        // => InputStream 레퍼런스는 FileInputStream 외에도 
+        //    그 하위 클래스의 모든 객체를 가리킬 수 있기 때문이다.
+        // => 즉 더 많은 종류의 객체를 포함하기 위해서 이 타입으로 선언했다.
+        InputStream worker;
+        
+        byte[] buf = new byte[8192];
+        int len; // 버퍼에 저장한 바이트 개수
+        int cursor; // 버퍼에서 읽을 바이트 위치
+        
+        public MyBufferedInputStream2(InputStream worker) {
+            this.worker = worker;
+        }
+        
+        public int read() throws IOException {
+            if (cursor >= len) { // 버퍼가 비었으면 다시 버퍼를 채운다.
+                cursor = 0; // 커서는 다시 0으로 초기화시킨다.
+                len = worker.read(buf);
+                if (len == -1) // 파일에서 읽을 데이터가 없다면 
+                    return -1;
+            }
+            
+            return buf[cursor++] & 0x000000FF;
+        }
+    }
+
+
+
+
+    public class Test2_5 {
+        public static void main(String[] args) throws Exception {
+            
+            // 데이터 준비 
+            // => 랜덤 메서드를 사용하여 임의의 값을 400만개를 준비한다.
+            int[] data = new int[4000000];
+            
+            for (int i = 0; i < data.length; i++) {
+                data[i] = (int)(Math.random() * 100000);
+            }
+            
+            // 파일에 출력할 객체 생성
+            FileOutputStream out = new FileOutputStream("./test3.dat");
+            
+            // 중간에서 버퍼 기능을 제공할 객체 생성
+            // 실제 출력하는 일은 위에서 생성한 FileOutputStream이 할 것이다.
+            MyBufferedOutputStream2 out2 = new MyBufferedOutputStream2(out);
+            
+            // 4백만개의 데이터를 출력해보고, 걸린 시간을 알아보자!
+            
+            long start = System.currentTimeMillis();
+            
+            for (int b : data) {
+                out2.write(b);
+            }
+            
+            // 버퍼에 남은 마지막 찌끄러기 출력하기
+            out2.flush();
+            
+            long end = System.currentTimeMillis();
+            System.out.printf("걸린시간 = %d\n", end - start);
+            
+            out.close();
+            
+        }
+    }
+ 
+
+
+
+
+
 
 // Data Processing Stream 캐릭터 스트림 클래스 사용법 
 
+      
+
+      BufferedInputStream 
 
 
-    // FileInputStream 객체를 별도 레퍼런스에 저장하지 않고
-    // 바로 BufferedInputStream에 전달한다.
+      public class Test3_4 {
+        public static void main(String[] args) throws Exception {
+            
+            // FileInputStream 객체를 별도 레퍼런스에 저장하지 않고
+            // 바로 BufferedInputStream에 전달한다.
+            BufferedInputStream in = new BufferedInputStream(
+                    new FileInputStream(new File("sample/jls9.pdf")));
+            
+            // FileOutputStream 객체를 별도의 레퍼런스에 저장하지 않고
+            // 바로 BufferedOutputStream에 전달한다.
+            BufferedOutputStream out = new BufferedOutputStream(
+                    new FileOutputStream(new File("sample/jls9-4.pdf")));
+            
+            
+            // 데이터를 읽어서 출력한다.
+            int b;
+            long start = System.currentTimeMillis();
+            
+            while ((b = in.read()) != -1) {
+                // 내부적으로 버퍼에 읽고, 버퍼의 내용을 출력한다.
+                out.write(b);
+            }
+            
+            // 버퍼에 남은 잔여 데이터를 출력해야 한다.
+            out.flush();
+            
+            long end = System.currentTimeMillis();
+            System.out.printf("걸린시간 = %d\n", end - start);
+            
+            // 항상 사용을 마친 자원은 해제시킨다.
+            // BufferedInputStream을 close() 하면 
+            // 이 클래스가 의존하는 FileInputStream도 함께 close() 된다.
+            // BufferedOutputStream도 마찬가지이다.
+            in.close();
+            out.close();
+            
+            System.out.println("파일 복사 완료했음!");
+        }
+    }
 
-    BufferedInputStream in = new BufferedInputStream(
-            new FileInputStream(new File("sample/jls9.pdf")));
 
     
-    // FileOutputStream 객체를 별도의 레퍼런스에 저장하지 않고
-    // 바로 BufferedOutputStream에 전달한다.
 
-    BufferedOutputStream out = new BufferedOutputStream(
-            new FileOutputStream(new File("sample/jls9-4.pdf")));
+    BufferedOutputStream 
 
 
-
-        in.close();
-        out.close();
-
+    public class Test2_6 {
+        public static void main(String[] args) throws Exception {
+            
+            // 데이터 준비 
+            // => 랜덤 메서드를 사용하여 임의의 값을 400만개를 준비한다.
+            int[] data = new int[4000000];
+            
+            for (int i = 0; i < data.length; i++) {
+                data[i] = (int)(Math.random() * 100000);
+            }
+            
+            // 파일에 출력할 객체 생성
+            FileOutputStream out = new FileOutputStream("./test3.dat");
+            
+            // 중간에서 버퍼 기능을 제공할 객체 생성
+            // 실제 출력하는 일은 위에서 생성한 FileOutputStream이 할 것이다.
+            BufferedOutputStream out2 = new BufferedOutputStream(out);
+            
+            // 4백만개의 데이터를 출력해보고, 걸린 시간을 알아보자!
+            
+            long start = System.currentTimeMillis();
+            
+            for (int b : data) {
+                out2.write(b);
+            }
+            
+            // 버퍼에 남은 마지막 찌끄러기 출력하기
+            out2.flush();
+            
+            long end = System.currentTimeMillis();
+            System.out.printf("걸린시간 = %d\n", end - start);
+            
+            out.close();
+            
+        }
+    }
     
-     항상 사용을 마친 자원은 해제시킨다.
-     BufferedInputStream을 close() 하면 
-     이 클래스가 의존하는 FileInputStream도 함께 close() 된다.
-     BufferedOutputStream도 마찬가지이다.
+    // BufferedOutputStream
+    // => 중간에서 출력할 데이터를 버퍼에 보관하고 있다가
+    //    버퍼가 차면 출력 객체를 통해 출력하는 일을 한다.
+    // => 이렇게 중간에서 가공하는 일을 하는 클래스를
+    //    "Data Processing Stream Class"라고 부른다.
+    // => 데코레이터 패턴에서 "데코레이터(Decorator)" 역할을 수행한다.
+    // 
+
+
+
+
+
+// 파일 복사하기  Byte 스트림 응용
+
+
+
+    public class Test3_4 {
+        public static void main(String[] args) throws Exception {
+            
+            // FileInputStream 객체를 별도 레퍼런스에 저장하지 않고
+            // 바로 BufferedInputStream에 전달한다.
+            BufferedInputStream in = new BufferedInputStream(
+                    new FileInputStream(new File("sample/jls9.pdf")));
+            
+            // FileOutputStream 객체를 별도의 레퍼런스에 저장하지 않고
+            // 바로 BufferedOutputStream에 전달한다.
+            BufferedOutputStream out = new BufferedOutputStream(
+                    new FileOutputStream(new File("sample/jls9-4.pdf")));
+            
+            
+            // 데이터를 읽어서 출력한다.
+            int b;
+            long start = System.currentTimeMillis();
+            
+            while ((b = in.read()) != -1) {
+                // 내부적으로 버퍼에 읽고, 버퍼의 내용을 출력한다.
+                out.write(b);
+            }
+            
+            // 버퍼에 남은 잔여 데이터를 출력해야 한다.
+            out.flush();
+            
+            long end = System.currentTimeMillis();
+            System.out.printf("걸린시간 = %d\n", end - start);
+            
+            // 항상 사용을 마친 자원은 해제시킨다.
+            // BufferedInputStream을 close() 하면 
+            // 이 클래스가 의존하는 FileInputStream도 함께 close() 된다.
+            // BufferedOutputStream도 마찬가지이다.
+            in.close();
+            out.close();
+            
+            System.out.println("파일 복사 완료했음!");
+        }
+    }
+
+
 
 
 
@@ -1776,13 +2200,251 @@ public class Test9 {
 
 
 
+// FileWriter와 FileInputStream의 차이점
+
+
+    // FileWriter
+
+    public static void main(String[] args) throws Exception {
+        // FileReader 
+        // => 텍스트 데이터를 읽을 때 사용한다.
+        // => read()를 호출하면 텍스트의 형식에 따라 
+        //    1 ~ 4바이트를 읽어서 유니코드 2바이트로 변환하여 리턴한다.
+        // => 변환규칙
+        //    영어 : 1바이트 --> 2바이트 유니코드
+        //    UTF-8: 1 ~ 4바이트 --> 2바이트 유니코드 
+        
+        FileReader in = new FileReader("test.txt");
+
+        int b;
+        
+        while ((b = in.read()) != -1) {
+            System.out.println(Integer.toHexString(b));
+        }
+        
+        in.close();
+    }
+
+
+
+    // FileInputStream
+
+    public static void main(String[] args) throws Exception {
+        // FileInputStream 
+        // => 바이너리 데이터를 읽을 때 사용한다.
+        // => read()를 호출하면 1바이트를 읽어 리턴한다.
+        
+        FileInputStream in = new FileInputStream("test.txt");
+
+        int b;
+        
+        while ((b = in.read()) != -1) {
+            System.out.println(Integer.toHexString(b));
+        }
+        
+        in.close();
+    }
 
 
 
 
 
+// FileWriter와 FileOutputStream의 차이점
 
 
+
+    // FileWriter
+
+    public static void main(String[] args) throws Exception {
+        
+        // FileWriter로 텍스트를 출력해보자!
+        
+        FileWriter out = new FileWriter("test3.txt");
+        
+        String str = "ABC가각";
+        
+        // String 객체의 데이터를 파일로 출력할 때
+        // 자바의 2바이트 유니코드 값을 
+        // JVM 실행 옵션인 "file.encoding"의 값으로 설정된
+        // 문자 집합의 규칙에 따라 변환하여 출력한다.
+        // 그냥 출력하는 것이 아니다.
+        // 인코딩의 기준은 JVM의 file.encoding에 설정된 값을 사용한다.
+        // Windows OS => 기본이 MS949
+        // MacOS, Linux => 기본이 UTF-8
+        // 실행할 때 인코딩을 명시하는 방법
+        // => java -cp bin -Dfile.encoding=UTF-8 클래스명
+        out.write(str);
+        
+        out.close();
+        
+        System.out.println("출력했습니다!");
+
+    }
+
+
+    // FileOutputStream
+
+    public static void main(String[] args) throws Exception {
+        
+        // FileOutputStream으로 텍스트를 출력해보자!
+        
+        FileOutputStream out = new FileOutputStream("test2.txt");
+        
+        String str = "ABC가각";
+        
+        // 문자열을 출력하려면 개발자가 직접 바이트 배열을 만들어야 한다.
+        byte[] bytes = str.getBytes("UTF-8");
+        
+        out.write(bytes);
+        
+        out.close();
+        
+        System.out.println("출력했습니다!");
+
+    }
+
+
+
+
+     Character 스트림 클래스와 Binary 스트림 클래스
+     1) 캐릭터 스트림 클래스
+        - Reader/Writer의 서브 클래스들.
+        - 보통 클래스 이름이 Reader/Writer로 끝난다.
+        - 출력할 때 자바의 유니코드 데이터를 지정한 문자집합의 바이트로 
+          변환하여 출력한다.
+        - 읽어들일 때 바이트의 값들을 자바의 2바이트 유니코드 값으로 
+          변환하여 리턴한다.
+        - 주의!
+          이미지 파일과 같은 바이너리 파일을 이 클래스를 사용하여 읽으면
+          문자로 간주하여 유니코드로 변환한 값을 리턴하기 때문에
+          원래의 데이터가 깨지는 문제가 발생한다.
+          절대로 이 클래스로 바이너리 데이터를 읽어서는 안된다.
+     
+     2) 바이너리 스트림 클래스
+        - InputStream/OutputStream 의 서브 클래스들.
+        - 보통 클래스 이름이 InputStream/OutputStream 으로 끝난다.
+        - 데이터를 출력하거나 읽어들일 때 별도의 변환과정 없이
+          바이트 단위 그대로 출력하고 읽는다.
+        - 이 클래스를 사용하여 텍스트 데이터를 읽을 수 있지만,
+          읽은 데이터를 유니코드로 변환하는 과정을 코딩해야 한다.
+          불편하다.
+
+
+
+
+// 데이터 프로세싱 스트림 클래스 사용법 - ObjectInputStream / ObjectOutputStream 사용하기
+
+
+
+    public static void main(String[] args) throws Exception {
+        
+        // ObjectInputStream 클래스를 사용하여
+        // 파일에 저장된 인스턴스 변수의 값을 읽어 보자!
+        ObjectInputStream in = new ObjectInputStream(
+                                    new FileInputStream("test1.dat"));
+        
+        Score2 s = (Score2)in.readObject(); 
+        
+        in.close();
+        
+        System.out.println(s);
+    }
+
+
+    public static void main(String[] args) throws Exception {
+        
+        Score s = new Score("홍길동", 800, 900, 1000);
+        
+        // ObjectOutputStream 클래스를 사용하여 인스턴스 변수의 값을 
+        // 출력해보자!
+        ObjectOutputStream out = new ObjectOutputStream(
+                                    new FileOutputStream("test0.dat"));
+        
+        // ObjectOutputStream은 인스턴스 변수의 값을 
+        // 바이트 배열로 만들어 출력한다.
+        // => "직렬화(serialization)"이라 부른다.
+        // 
+        // 조건
+        // => serialization을 허락해야만 직렬화를 수행할 수 있다.
+        //
+        // 허락하는 방법?
+        // => 클래스 선언부에 java.io.Serializable 규칙을 따른다고 선언!
+        //
+        out.writeObject(s); // Score 클래스는 직렬화를 허락하지 않았기 
+                            // 때문에 실행 오류가 발생한다!
+        
+        out.close();
+        
+        System.out.println("출력을 완료했습니다.");
+    }
+
+
+
+
+
+======================================= serialize  ======================================
+
+
+// 스트림 클래스가 인스턴스 변수의 값을 serialize 할 수 있도록 허락한다.
+// => java.io.Serializable 인터페이스를 구현하면 된다.
+// => Serializable 인터페이스에는 아무런 메서드가 없다.
+//    이 인터페이스의 목적은 단지 어떤 클래스에 대해 
+//    직렬화를 허용할 것인지 여부를 지정하기 위해 
+//    표시하는 용도로 사용한다.
+
+// serialVersionUID 변수의 용도
+// => java.io.Serializable 인터페이스를 구현한 클래스는 
+//    자동으로 생성되는 변수이다.
+// => 만약 개발자가 serialVersionUID를 지정하지 않는다면 
+//    컴파일할 때 컴파일러가 임의의 값으로 설정한다.
+// => serialize 데이터의 버전을 구분하기 위해 사용한다.
+// => 데이터를 읽는 쪽에서는 데이터에 기록된 클래스의 버전과 
+//    자신이 갖고 있는 클래스의 버전을 비교하여  
+//    다르다면 예외를 발생시킴으로써 
+//    데이터를 잘못 읽는 것을 방지한다.
+// 
+// => 클래스를 바꾼 후 serialize 한 데이터를 
+//    바꾸기 전 클래스로 읽을 수 있게 하려면,
+//    serialVersionUID 변수의 값을 일치시키면 된다.
+// 
+
+// 인스턴스 변수 중에는 serialize 대상이 되는 필드가 있고,
+// 굳이 serialize 할 필요가 없는 필드가 있다.
+// 예) 
+// music 필드를 추가한 후 Score3의 값을 파일로 출력하였다.
+// 데이터를 읽는 쪽에서는 Score3 클래스에 아직 music 필드가 
+// 추가되지 않은 상태였다.
+// 그러나 데이터를 읽어 출력해보면 합계와 평균은 
+// music 데이터 값을 포함한 계산 값이었다. 
+// 왜 이런 문제가 발생하였는가?
+// 국,영,수,음 외에 합계와 평균도 출력했기 때문에
+// 사실 합계와 평균은 과목 점수를 계산하여 나온 값이다.
+// 이런 값을 출력하게 되면 
+// 읽는 쪽에서 잘못된 결과를 사용할 수 있다.
+// 이를 방지하기 위해서 자바에서는 
+// serialize 대상에서 필드를 제외시키는 문법을 제공한다.
+// => transient modifier 이다. 
+// => transient의 사전적 의미를 보면 "일시적인", "잠깐 머무르는"의 
+//    뜻을 갖고 있다.
+// => 직렬화 대상에서 제외하고 싶은 필드가 있다면 
+//    transient를 붙여라!
+//    그러면 직렬화할 때 그 값은 제외된다.
+//    특히 sum이나 aver 필드처럼 다른 필드의 값을 가지고 
+//    도출하는 값인 경우 transient를 붙이도록 하라!
+//  
+
+public class Score4 implements Serializable {
+    private static final long serialVersionUID = 1L;
+    
+    private String name;
+    private int kor;
+    private int eng;
+    private int math;
+    private int music;// 이 필드를 추가한다.
+    
+    // transient가 붙은 필드의 값을 serialize 되지 않는다.
+    transient private int sum;
+    private transient float aver;
 
 
 
@@ -1844,6 +2506,218 @@ https://www.gitbook.com/
 Low Coupling
 
 High Cohesion
+
+
+
+
+
+
+======================================= Amazon Web Services ======================================
+
+
+
+Amazon Web Services  서버   https://aws.amazon.com  무료 계정 생성
+
+
+
+모든 서비스 > EC2
+
+
+단계 1 : Amazon Machine Image 선택  : Amazon Linux AMI 2017.09 (HVM)  선택
+
+
+단계 2 : General purpose   t2.micro   오른쪽 상단에서 서울 선택  > 검토 및 시작
+
+
+단계 7 : 시작 클릭
+
+
+    기존 키 페어 선택 또는 새키 페어 생성 : 새 키페어 생성
+    
+    키페어 이름 : seoul-amazon
+
+    키페어 다운로드    seoul-amazon.pem 다운로드
+
+
+    인스턴스 시작 클릭
+
+
+
+시작 상태
+
+  서비스 > EC2 > 실행중인 인스턴스
+
+    퍼블릭 IP 확인
+
+
+   @ seoul-amazon.pem seoul-amazon.ppk 변환
+
+     Parameters > Type of key to generate 에서     RSA 선택
+
+     puttygen 으로 변환  Load 클릭해서 seoul-amazon.pem 선택해서 변환
+
+
+
+
+  @ putty 0.7 연결
+
+  https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+     MSI (‘Windows Installer’)   putty-64bit-0.70-installer.msi 다운로드
+
+
+  환경설정
+
+  - Session > Putty Host Name에  퍼블릭 IP  입력
+
+              saved sessions : IP 그냥 입력
+
+
+
+ - connection > ssh > auth > private key file for auther 에서 seoul-amazon.ppk 파일 경로 선택
+
+   open 클릭 하고 예(yes) 클릭
+
+
+ - putty에서  login as : ec2-user              아마존 유저 로그인
+
+
+
+
+  검색 : ec2 apache install    http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/install-LAMP.html
+
+  
+  @ Apache Web Server 설치
+
+
+  [ec2-user ~]$ sudo yum update -y                  sudo (super user do)
+
+
+  [ec2-user ~]$ sudo yum install -y httpd24 php70 mysql56-server php70-mysqlnd    => LAMP  Apache 웹 서버, MySQL, PHP
+
+
+  [ec2-user ~]$ sudo service httpd start           Apache 웹 서버를 시작
+
+
+  [ec2-user ~]$ sudo chkconfig httpd on           Apache 웹 서버가 매번 시스템이 부팅할 때마다 시작되도록 합니다
+    
+
+  [ec2-user ~]$ chkconfig --list httpd
+
+
+  [ec2-user ~]$ runlevel                         linux run level 확인
+
+
+  인스턴스에서 보안그룹 생성 확인  >   인바운드 22 port 
+
+  편집 > 규칙 추가 > HTTP 선택 저장  80 port 열기    80 port 열면 브라우저로 연결됨
+
+  브라우저에서 퍼블릭 IP 입력 
+
+
+  [ec2-user ~]$ cd /var     [ec2-user ~]$ cd www    [ec2-user ~]$ ls   [ec2-user ~]$ cd html    [ec2-user ~]$ ls -al
+
+
+  [ec2-user ~]$ sudo usermod -a -G apache ec2-user            ec2-user 아파치 그룹에 추가
+
+ 
+  [ec2-user ~]$ exit         ec2-user 아파치 그룹추가 후 로그아웃
+
+  
+  [ec2-user ~]$ ec2-user     다시 로그인
+
+
+  [ec2-user ~]$ groups               ec2-user wheel apache 그룹에 속해있음
+
+
+  [ec2-user ~]$ sudo chown -R ec2-user:apache /var/www    
+
+
+  [ec2-user ~]$ ls -al /var/www
+
+
+  그룹 쓰기 권한을 추가하여 나중에 하위 디렉터리에 대한 그룹 ID를 설정하려면 
+  /var/www와 그 하위 디렉터리의 디렉터리 권한을 변경합니다.
+  [ec2-user ~]$ sudo chmod 2775 /var/www
+  [ec2-user ~]$ find /var/www -type d -exec sudo chmod 2775 {} \;
+
+
+  그룹 쓰기 권한을 추가하려면 /var/www 및 그 하위 디렉터리의 파일 권한을 반복하여 변경
+  [ec2-user ~]$ find /var/www -type f -exec sudo chmod 0664 {} \;
+
+
+
+  [ec2-user ~]$ echo "<?php phpinfo(); ?>" > /var/www/html/phpinfo.php
+
+
+  [ec2-user ~]$ cat /var/www/html/phpinfo.php
+
+
+  브라우저에서 퍼블릭IP/var/www/html/phpinfo.phs 입력
+
+  
+  var/www/html 루트 디렉토리를 삭제하고 입력  > html 하위만 볼 수 있음
+
+  브라우저에서 퍼블릭IP/phpinfo.phs 입력
+
+
+  [ec2-user ~]$ cd var/www/html
+
+
+  [ec2-user ~]$ nano index.html       nano edit 실행해서 index.html 편집
+
+      <html>
+      <head>
+      <title>welcome</title>
+      </head>
+      <body>
+          <h1>welcome to My Page!</h1>
+      </body>
+      </html>
+
+
+
+     ctrl + O      write out
+
+     ctrl + x       exit
+
+     리플레쉬
+
+
+
+  [ec2-user ~]$ cat index.html      파일 확인
+
+
+
+
+  https://www.gabia.com/  도메인 등록     가비안 선택   웹호스팅 선택 안함
+
+
+  상단 mygabia  부가서비스 설정 > DNS 레코드 설정 > 신청
+
+     www.abc.xyz    공인아이피
+         abc.xyz    공인아이피   적용
+
+
+
+
+  
+
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+   
+
 
 
 

@@ -16,7 +16,6 @@ public class Test1_0 {
         out.write(bytes.length);        
         out.write(bytes);
         
-        
         out.write(s.getKor());
         out.write(s.getEng());
         out.write(s.getMath());
@@ -25,6 +24,6 @@ public class Test1_0 {
         
         System.out.println("출력 완료");
         
-    } 
+    }  
 
 }

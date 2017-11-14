@@ -1,23 +1,22 @@
 // 데이타 프로세싱 스트림 클래스 사용
 
-package bitcamp.java100.ch14.ex3;
+package bitcamp.java100.ch14.ex4;
 
-import java.io.DataOutputStream;
 import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 
-public class Test1_4 {
+public class Test1_0 {
     
     public static void main(String[] args) throws Exception {
         Score s = new Score("홍길동", 800, 900, 1000);
         
         //FileOutputStream out = new FileOutputStream("test3.dat");
         
-        DataOutputStream out = new DataOutputStream(new FileOutputStream("test3.dat"));
+        ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("test3.dat"));
         
-        out.writeUTF(s.getName());
-        out.writeInt(s.getKor());
-        out.writeInt(s.getEng()); 
-        out.writeInt(s.getMath());
+        // serialization(인스턴스 변수의 값을 바이트 배열로 만들어 출력
+        out.writeObject(s);
+        
         
         out.close(); 
         

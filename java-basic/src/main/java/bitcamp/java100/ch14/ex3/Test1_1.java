@@ -1,7 +1,7 @@
 // 데이타 프로세싱 스트림 클래스 사용
 
 package bitcamp.java100.ch14.ex3;
-
+ 
 import java.io.FileOutputStream;
 
 public class Test1_1 {
@@ -15,9 +15,7 @@ public class Test1_1 {
         
         out.write(bytes.length);         
         out.write(bytes);
-        
-        
-        
+         
         out.write(s.getKor() >> 24);
         out.write(s.getKor() >> 16);
         out.write(s.getKor() >> 8);
