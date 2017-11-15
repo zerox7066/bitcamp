@@ -13,7 +13,7 @@ public class Test1_0 {
         //FileOutputStream out = new FileOutputStream("test3.dat");
         
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("test3.dat"));
-        
+         
         // serialization(인스턴스 변수의 값을 바이트 배열로 만들어 출력
         out.writeObject(s);
         

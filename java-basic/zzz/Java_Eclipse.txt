@@ -2450,68 +2450,6 @@ public class Score4 implements Serializable {
 
 
 
-
-UML과 패턴의 적용   분석 설계
-
-
-@ UML(Unified Modeling Language)
-
-다른 사람들과의 의사소통 또는 설계 논의
-전체 시스템의 구조 및 클래스의 의존성 파악
-유지보수를 위한 설계의 back-end 문서
-
-UML: 클래스 다이어그램과 소스코드 매핑 http://www.nextree.co.kr/p6753/
-
-
-
-
-The Art of Computer Programming    도널드 커누스
-
-
-https://github.com/samchon?tab=repositories
-
-
-http://blog.eairship.kr/116
-
-
-http://www.e-cartouche.ch/content_reg/cartouche/formats/en/html/Browser_learningObject1.html
-
-
-
-@ 알고리즘 사이트
-https://visualgo.net/en
-
-@ 사이트 이동 경로 : breadcrumb
-
-@ cache = Pooling 기법  = Lighting weight
-
-
-@ 가상 머신 OS별 이미지
-http://www.osboxes.org
-
-
-@ Design Pattern : Best Practice, Gang of Four
-
-
-
-http://codingdojang.com/
-
-
-https://rebeccacho.gitbooks.io/java-study-group/content/index.html
-
-
-https://www.gitbook.com/
-
-
-Low Coupling
-
-High Cohesion
-
-
-
-
-
-
 ======================================= Amazon Web Services ======================================
 
 
@@ -2697,6 +2635,114 @@ Amazon Web Services  서버   https://aws.amazon.com  무료 계정 생성
 
      www.abc.xyz    공인아이피
          abc.xyz    공인아이피   적용
+
+
+
+
+======================================= 소켓 통신 ======================================
+
+
+
+Server에서는 개발자가 port 번호 결정   1024번 ~ 49151번: 등록된 포트 (registered port)
+
+Client은 OS 가 port 번호 결정   49152번 ~ 65535번: 동적 포트 (dynamic port)
+
+
+대기열(Queue Length)은 소켓 생성 개수가 아니다.
+
+
+
+- Network 프로그램의 운영순서
+
+. Server : ServerSocket 생성
+
+. Server : 포트감시 시작, Client의 접속을 기다림
+
+. Client : Socket 생성시에 인자 값으로 서버의 IP, PORT를 지정, 서버에 접속 요구
+
+. Server : Client의 요구를 받아 Socket 객체 생성
+
+. Server : 생성된 Socket 객체를 이용해 Client에게 데이터를 보냄
+
+. Client : Socket객체로 데이터를 받고 필요한 데이터를 다시 서버로 전송함
+
+
+
+
+
+
+
+
+
+
+
+
+UML과 패턴의 적용   분석 설계
+
+
+@ UML(Unified Modeling Language)
+
+다른 사람들과의 의사소통 또는 설계 논의
+전체 시스템의 구조 및 클래스의 의존성 파악
+유지보수를 위한 설계의 back-end 문서
+
+UML: 클래스 다이어그램과 소스코드 매핑 http://www.nextree.co.kr/p6753/
+
+
+
+
+The Art of Computer Programming    도널드 커누스
+
+
+https://github.com/samchon?tab=repositories
+
+
+http://blog.eairship.kr/116
+
+
+http://www.e-cartouche.ch/content_reg/cartouche/formats/en/html/Browser_learningObject1.html
+
+
+
+@ 알고리즘 사이트
+https://visualgo.net/en
+
+@ 사이트 이동 경로 : breadcrumb
+
+@ cache = Pooling 기법  = Lighting weight
+
+
+@ 가상 머신 OS별 이미지
+http://www.osboxes.org
+
+
+@ Design Pattern : Best Practice, Gang of Four
+
+
+
+http://codingdojang.com/
+
+
+https://rebeccacho.gitbooks.io/java-study-group/content/index.html
+
+
+https://www.gitbook.com/
+
+
+Low Coupling
+
+High Cohesion
+
+
+
+프로가 되기 위한 웹기술 입문
+
+
+Server에서는 개발자가 port 번호 결정   1024번 ~ 49151번: 등록된 포트 (registered port)
+
+Client은 OS 가 port 번호 결정   49152번 ~ 65535번: 동적 포트 (dynamic port)
+
+
 
 
 
