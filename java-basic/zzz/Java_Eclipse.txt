@@ -2668,6 +2668,38 @@ Client은 OS 가 port 번호 결정   49152번 ~ 65535번: 동적 포트 (dynami
 
 
 
+    
+    static void server() throws Exception {
+        ServerSocket ss = new ServerSocket(9999);
+        Socket socket = ss.accept();
+        
+        Scanner in = new Scanner(socket.getInputStream());
+        String line = in.nextLine();
+        
+        PrintStream out = new PrintStream(socket.getOutputStream());
+        out.println(line);
+        
+        in.close();
+        out.close();
+        socket.close();
+    }
+
+
+
+    
+    static void client() throws UnknownHostException, IOException {
+        Socket socket = new Socket("localhost", 9999);
+        
+        Scanner keyScan = new Scanner(System.in);
+        String message = keyScan.nextLine();
+        
+        PrintStream out = new PrintStream(socket.getOutputStream());
+        out.println(message);
+        
+        Scanner in = new Scanner(socket.getInputStream());
+        String line = in.nextLine();
+        System.out.println(line);
+    }
 
 
 
@@ -2748,18 +2780,31 @@ Client은 OS 가 port 번호 결정   49152번 ~ 65535번: 동적 포트 (dynami
 
 
   
-
-      
-
-
-
-
-
-  
-  
+자바 도큐멘트 모음 
+http://www.ith.kr/chair/index.html   
+http://changki.net/  한글 사이트
 
 
 
+
+RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1 - IETF Tools
+https://tools.ietf.org/html/rfc2616#section-5
+
+
+http://d2.naver.com/home
+
+
+
+URI(Uniform Resource Identifier) -------URL(Uniform Resource Location)
+                                  |
+                                  |-----URM(Uniform Resource Name)
+
+
+
+렌더링 엔진(rendering engine) 또는 레이아웃 엔진(layout engine)은 웹 콘텐츠(HTML, XML, 그림 파일 등)와 포맷 정보(CSS, XML 등)를 가져 와서 화면에 해당 콘텐츠를 정리하여 보여 주는 소프트웨어를 말한다
+
+
+자바스크립트 엔진(JavaScript engine)은 자바스크립트 코드를 실행하는 프로그램 또는 인터프리터이다. 
 
 
    

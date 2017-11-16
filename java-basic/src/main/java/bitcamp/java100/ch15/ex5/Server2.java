@@ -1,12 +1,14 @@
 package bitcamp.java100.ch15.ex5;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server {
+public class Server2 {
     
     public static void main(String[] args) throws Exception {
         
@@ -15,11 +17,14 @@ public class Server {
         
         Socket socket = ss.accept();
         
-        DataInputStream netIn = new DataInputStream(socket.getInputStream());
-        
+        DataInputStream netIn = new DataInputStream(
+                                new BufferedInputStream(
+                                socket.getInputStream()));
+
         String filename = netIn.readUTF();
         
-        FileOutputStream fileOut = new FileOutputStream("xx-" + filename);
+        BufferedOutputStream fileOut = new BufferedOutputStream(
+                                       new FileOutputStream("xx-" + filename));
         
         long length = netIn.readLong();
         
@@ -27,9 +32,15 @@ public class Server {
             fileOut.write(netIn.read());
         }
         
-        DataOutputStream netOut = new DataOutputStream(socket.getOutputStream());
+        fileOut.flush();
+        
+        DataOutputStream netOut = new DataOutputStream(
+                                  new BufferedOutputStream(
+                                  socket.getOutputStream()));
         
         netOut.writeUTF("success");
+
+        netOut.flush();
         
         fileOut.close();
         netIn.close();
