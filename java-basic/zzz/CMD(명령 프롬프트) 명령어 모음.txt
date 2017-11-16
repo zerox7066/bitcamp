@@ -2,6 +2,10 @@
 
   Windows Key + R
 
+
+  실행 파일 바로가기를 C:\Windows\System32폴더에 넣으면  시작 실행에서 실행할 수 있다.
+
+
 -. 무한 루프 종료 : Ctrl + c
 
 -. C:\Users\User\git\bitcamp\java-basic> cd\   => C:\> (루트로 이동)
@@ -13,6 +17,21 @@
    C:\> dir *.* > [백업 파일명]
 
    C:\> dir *.txt > filename.txt
+
+
+
+@ cd 하위폴더 지정하기
+    
+    > cd git\bitcamp
+    git/bitcamp > 
+
+    
+    > cd git/bitcamp
+    git/bitcamp > 
+
+    > cd   다음에 tab키 누르면 현재폴더가 나타남
+
+    > cd java-*    cd 와일드 카드
 
 
 
@@ -101,7 +120,8 @@ https://docs.google.com/document/d/1LAp8YqVLtnDsGT7zUwuGtff2rmLdlvU3r1m9szafhvw/
     tracert : 네트워크 경로 추적
 
 
-
+    
+   
 
     ASSOC : 파일 확장명 연결을 보여주거나 수정합니다.
     ATTRIB : 파일 속성을 표시하거나 바꿉니다.
