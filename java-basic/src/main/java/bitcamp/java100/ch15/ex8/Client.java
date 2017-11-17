@@ -20,7 +20,7 @@ public class Client {
         PrintStream out = new PrintStream(
                 new BufferedOutputStream(
                         socket.getOutputStream()));
-        
+         
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(socket.getInputStream()));
         

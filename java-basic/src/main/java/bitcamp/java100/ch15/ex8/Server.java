@@ -19,7 +19,7 @@ public class Server {
             System.out.printf("%s에서 접속하였습니다.\n",
                     socket.getInetAddress().getHostAddress());
             
-            service(socket);
+            service(socket); 
             System.out.println("접속 종료하였습니다.");
         }
                 

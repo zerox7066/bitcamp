@@ -17,9 +17,9 @@ public class ATM extends Thread {
             long money = account.withdraw(100);
             if (money == 0)
                 break;
-            
+             
             sum += money;
-        }
+        } 
         
         System.out.printf("%s = %d원\n", this.getName(), sum);
     }

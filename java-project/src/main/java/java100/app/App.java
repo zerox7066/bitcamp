@@ -62,7 +62,7 @@ public class App {
                     }
                     out.println();  // 응답 완료 전송
                     out.flush();
-                }
+                } 
             } catch (Exception e) {
                 e.printStackTrace();
             }

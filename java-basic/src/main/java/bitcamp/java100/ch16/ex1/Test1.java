@@ -17,8 +17,8 @@ public class Test1 {
         System.out.println(g3);
         
         System.out.println("-----------------------------------------------");
-        
-        
+         
+         
         ThreadGroup[] groups = new ThreadGroup[10];
         int len = g2.enumerate(groups, false);
         

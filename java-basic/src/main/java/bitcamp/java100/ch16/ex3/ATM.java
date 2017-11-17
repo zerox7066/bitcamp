@@ -20,7 +20,7 @@ public class ATM extends Thread {
             
             sum += money;
         }
-        
+          
         System.out.printf("%s = %d원\n", this.getName(), sum);
     }
     

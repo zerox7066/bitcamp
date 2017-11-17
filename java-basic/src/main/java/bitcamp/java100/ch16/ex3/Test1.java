@@ -17,8 +17,7 @@ public class Test1 {
         t2.start();
         t3.start();
         t4.start();
-        t5.start();
-        
+        t5.start(); 
         
         System.out.println("인출시작!");
     }

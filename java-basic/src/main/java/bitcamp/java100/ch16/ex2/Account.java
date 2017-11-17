@@ -14,11 +14,11 @@ public class Account {
     public long withdraw(long money) {
         long temp = this.balance;
         delay();
-        
+         
         if ((temp - money) < 0)
             return 0;
         delay();
-        
+         
         temp -= money;
         delay();
         

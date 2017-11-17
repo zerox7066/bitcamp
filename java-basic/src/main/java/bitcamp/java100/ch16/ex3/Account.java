@@ -18,12 +18,12 @@ public class Account {
         if ((temp - money) < 0)
             return 0;
         delay();
-        
+         
         temp -= money;
         delay();
         
         this.balance = temp;
-        delay();
+        delay(); 
         
         return money;
     }

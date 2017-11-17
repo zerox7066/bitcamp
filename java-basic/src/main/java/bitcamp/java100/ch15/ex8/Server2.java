@@ -50,7 +50,7 @@ public class Server2 {
                     
                     out.flush();
                     
-                }
+                } 
                 
                 in.close();
                 out.close();
