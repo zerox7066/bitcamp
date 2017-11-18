@@ -365,6 +365,9 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 ========================= 소스 네비게이션 =========================
 
 
+ -. Ctrl + P  :  Import 추가
+
+
  -. Ctrl + \  :  View Move (단축키 사용자 등록  Next View)
  -. Ctrl + [  :  New Package
  -. Ctrl + ]  :  New Class
@@ -383,6 +386,9 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
  -. Ctrl + F8 : 다음 Perspective로 이동(Debug, JavaEE)
 
+
+ -. Ctrl + E : 소스 탭 이동
+ -. Ctrl + F6 : 소스 탭 이동
  -. Ctrl + PageUp, Ctrl + PageDown : 소스탭 이동
 
 
@@ -402,6 +408,14 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. 상위 주석 펼치기 : Window > Preference > Java > Folding > Header Comments
 
 
+
+ -. Ctrl + ;  :  단어 자동완성 (Alt + / , Word Completion, Editing Text)
+ -. Ctrl + Shift + x : 대문자로
+ -. Ctrl + Shift + y : 소문자로
+
+
+
+ -. F2 : 에러 소스 위치에서 assist menu
  -. F3(Ctrl + 마우스커서) : 선언된 변수로 이동, 메소드 정의부로 이동
  -. F4         : 클래스명을 선택하고 누르면 해당 클래스의 Hierarchy 를 볼 수 있다.
 
@@ -411,11 +425,10 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + Space       :  컨텐트 어시스트
 
  -. Ctrl + Shift + M : 특정 클래스 Import
- -. Ctrl + Shift + O : 자동으로 Import
+ -. Ctrl + Shift + O : 자동으로 Import  => Ctrl + P 로 변경
 
- -. Ctrl + Shift + F : 전체 코드 자동 정리 
  -. Ctrl + I : 선택 블록 코드 자동 정리
-
+ -. Ctrl + Shift + F : 전체 코드 자동 정리 
 
  -. Ctrl + Shift + W : 에디터창 모두 닫기 
  -. Alt + Q  : 에디터창 모두 닫기(단축키 개인 등록, In Windows)
@@ -455,13 +468,10 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
  -. Ctrl + Numpad(*) : 전체 폴딩 열기
 
 
- -. Alt + /          : 단어 자동완성
- -. Ctrl + Shift + x : 대문자로
- -. Ctrl + Shift + y : 소문자로
 
+ -. Ctrl + H 단축키를 Open Search Dialog열릴때 기본 탭으로 File Search로 변경 :
 
-
- -. Ctrl + H 단축키를 Open Search Dialog을 File Search로 변경 : 단축키 변경관 같음
+    Open Search Dialog 단축키는 그대로 두고 File Search 단축키를 Ctrl + H 추가
     
     Open Search Dialog 기본 정보 : Binding(Ctrl + H), When(In Windows)
     

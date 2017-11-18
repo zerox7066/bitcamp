@@ -8,10 +8,6 @@
 
 -. 무한 루프 종료 : Ctrl + c
 
--. C:\Users\User\git\bitcamp\java-basic> cd\   => C:\> (루트로 이동)
-
--. C:\Users\User\> cd git\bitcamp\java-basic   => C:\Users\User\git\bitcamp\java-basic>
-
 -. 현재 디렉토리 파일명 텍스트에 저장
    
    C:\> dir *.* > [백업 파일명]
@@ -21,6 +17,10 @@
 
 
 @ cd 하위폴더 지정하기
+
+-. C:\Users\User\git\bitcamp\java-basic> cd\   => C:\> (루트로 이동)
+
+-. C:\Users\User\> cd git\bitcamp\java-basic   => C:\Users\User\git\bitcamp\java-basic>
     
     > cd git\bitcamp
     git/bitcamp > 
@@ -30,6 +30,8 @@
     git/bitcamp > 
 
     > cd   다음에 tab키 누르면 현재폴더가 나타남
+
+    > cd java  다음에 tab키 누르면 java 관련 폴더가 나타남
 
     > cd java-*    cd 와일드 카드
 
