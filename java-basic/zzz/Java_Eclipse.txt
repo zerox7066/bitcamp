@@ -310,7 +310,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더�
 
 
 
-@@ Eclipse에서 Git 사용
+@@ Eclipse에서 Git 사용   https://backlog.com/git-tutorial/kr/
 
 
 @ Git Push 및 Pull
