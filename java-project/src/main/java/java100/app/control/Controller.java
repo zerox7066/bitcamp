@@ -4,9 +4,9 @@ package java100.app.control;
 // 호출하는 메서드를 선언한 것이다.
 //
 public interface Controller {
-    /*public abstract*/ void execute();
+    /*public abstract*/ void execute(Request request, Response response);
     
-    default void init() { }
+    default void init() {}
     
     // 프로그램을 종료하기 전에 객체에게 마무리 작업을 시키는 메서드
     default void destroy() {}

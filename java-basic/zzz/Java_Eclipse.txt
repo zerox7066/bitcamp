@@ -2830,9 +2830,9 @@ URI(Uniform Resource Identifier) -------URL(Uniform Resource Location)
    
 
 
+statefull /stateless
 
-
-
+https://www.joinc.co.kr/w/Site/Network_Programing/AdvancedComm/HTTP
 
 
 
