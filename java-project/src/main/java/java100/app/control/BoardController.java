@@ -1,62 +1,25 @@
 package java100.app.control;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.io.PrintWriter;
-import java.sql.Date;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.Iterator;
 
 import java100.app.domain.Board;
 
 public class BoardController extends GenericController<Board> {
-
-    private String dataFilePath;
-    
-    public BoardController(String dataFilePath) {
-        this.dataFilePath = dataFilePath;
-        this.init();
-    }
     
     @Override
-    public void destroy() {
-
-        try ( 
-                PrintWriter out = new PrintWriter(
-                                    new BufferedWriter(
-                                        new FileWriter(this.dataFilePath))); 
-        ) {
-            for (Board board : this.list) {
-                out.println(board.toCSVString());
-            }
-            
-            out.flush();
-            
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+    public void destroy() {}
     
     @Override
     public void init() {
-        
-        try (
-                BufferedReader in = new BufferedReader(new FileReader(this.dataFilePath)); 
-        ) {
-            
-            String csv = null;
-            while((csv = in.readLine()) != null) {
-                try {
-                    list.add(new Board(csv));
-                } catch (CSVFormatException e) {
-                    System.err.println("CSV 데이터 형식 오류!");
-                    e.printStackTrace();
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+        try {
+            Class.forName("com.mysql.jdbc.Driver");
+        } catch (ClassNotFoundException ex) {
+            throw new RuntimeException("JDBC 드라이버 클래스를 찾을 수 없습니다.");
         }
     }    
     
@@ -79,115 +42,164 @@ public class BoardController extends GenericController<Board> {
     }
     
     private void doList(Request request, Response response) {
+        
         PrintWriter out = response.getWriter();
         out.println("[게시물 목록]");
         
-        Iterator<Board> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            Board board = iterator.next();
-            out.printf("%d, %s, %s, %d\n",  
-                    board.getNo(), 
-                    board.getTitle(),
-                    board.getRegDate().toString(),
-                    board.getViewCount());
+        try ( Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
+              
+              PreparedStatement pstmt = con.prepareStatement(
+                      "select no, title, conts, regdt, vwcnt from ex_board");
+              
+              ResultSet rs = pstmt.executeQuery();
+        ){
+            while (rs.next()) {
+                out.printf("%d, %s, %s, %s, %d\n",
+                        rs.getInt("no"),
+                        rs.getString("title"), 
+                        rs.getString("conts"),
+                        rs.getDate("regdt"),
+                        rs.getInt("vwcnt"));
+            }
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(e.getMessage());
         }
     }
 
     private void doAdd(Request request, Response response) {
+        
         PrintWriter out = response.getWriter();
         out.println("[게시물 등록]");
+                
+        try ( Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
+              
+              PreparedStatement pstmt = con.prepareStatement(
+                      "insert into ex_board(title, conts, regdt) values(?,?,now())");
+        ){
+            pstmt.setString(1, request.getParameter("title"));
+            pstmt.setString(2, request.getParameter("content"));
+            
+            pstmt.executeUpdate();
+            out.println("저장하였습니다.");
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(e.getMessage());
+        }
         
-        Board board = new Board(); 
-        board.setNo(Integer.parseInt(request.getParameter("no")));
-
-        if (findByNo(board.getNo()) != null) {
-            out.println("이미 등록된 번호입니다.");
-            return;
-        } 
-
-        board.setTitle(request.getParameter("title"));
-        board.setContent(request.getParameter("content"));
-        board.setRegDate(new Date(System.currentTimeMillis()));
-        
-        list.add(board);
-        out.println("등록하였습니다");
     } 
     
     private void doView(Request request, Response response) {
+        
         PrintWriter out = response.getWriter();
+        out.println("[게시물 상세 정보]");     
         
-        out.println("[게시물 상세 정보]");
 
-        int no = Integer.parseInt(request.getParameter("no"));
+        int boardno = 0;
+        int vwcnt = 0;
+        try ( Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
+              
+              PreparedStatement pstmt = con.prepareStatement(
+                      "select no, title, conts, regdt, vwcnt from ex_board where no=?");
+              
+        ){
+            pstmt.setInt(1, Integer.parseInt(request.getParameter("no")));
+            
+            ResultSet rs = pstmt.executeQuery();
+            
+            if (rs.next()) {
+                boardno = rs.getInt("no");
+                vwcnt = rs.getInt("vwcnt");
+                
+                out.printf("번호 : %d\n", boardno);
+                out.printf("제목 : %s\n", rs.getString("title"));
+                out.printf("내용 : %s\n", rs.getString("conts"));
+                out.printf("등록일 : %s\n", rs.getDate("regdt"));
+                out.printf("조회수 : %d\n", vwcnt);
+            } else {
+                out.printf("'%s'의 게시판 정보가 없습니다.\n", request.getParameter("no"));
+            }
+                        
+            //pstmt.close();
+            //rs.close();
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(e.getMessage());
+        }        
         
-        Board board = findByNo(no);
-        
-        if (board == null) {
-            out.printf("%d번 게시물이 없습니다.\n", no);
-            return;
+        try ( Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
+              
+              PreparedStatement pstmt = con.prepareStatement(
+                      "update ex_board set vwcnt=? where no=?");
+        ){
+            pstmt.setInt(1, vwcnt + 1);
+            pstmt.setInt(2, boardno);
+            pstmt.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(e.getMessage());
         }
-        
-        out.printf("제목: %s\n", board.getTitle());
-        out.printf("내용: %s\n", board.getContent());
-        out.printf("등록일: %s\n", board.getRegDate().toString());
-        board.setViewCount(board.getViewCount() + 1);
-        out.printf("조회수: %d\n", board.getViewCount());
-    } 
+    }
     
     private void doUpdate(Request request, Response response) {
+        
         PrintWriter out = response.getWriter();
-        
         out.println("[게시물 변경]");
-        int no = Integer.parseInt(request.getParameter("no"));        
-        Board board = findByNo(no);
         
-        if (board == null) {
-            out.printf("%d번 게시물이 없습니다.\n", no);
-            return;
-        } 
-
-        
-        ///board/update?no=10&title=aaax&content=bbbx
-        String title = request.getParameter("title");
-        
-        if (title.isEmpty()) {
-            title = board.getTitle();
+        try ( Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
+              
+              PreparedStatement pstmt = con.prepareStatement(
+                      "update ex_board set title=?, conts=? where no=?");
+        ){
+            pstmt.setString(1, request.getParameter("title"));
+            pstmt.setString(2, request.getParameter("content"));
+            pstmt.setInt(3, Integer.parseInt(request.getParameter("no")));
+            
+            if (pstmt.executeUpdate() > 0) {
+                out.println("변경하였습니다.");
+            } else {
+                out.printf("'%s'의 게시판 정보가 없습니다.\n", request.getParameter("no"));
+            }
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(e.getMessage());
         }
-        String content = request.getParameter("content");
-        
-            board.setTitle(title);
-            board.setContent(content);
-            board.setRegDate(new Date(System.currentTimeMillis()));
-            out.println("변경하였습니다.");
-
     }
     
     private void doDelete(Request request, Response response) {
+        
         PrintWriter out = response.getWriter();
-        
         out.println("[게시물 삭제]");
-        int no = Integer.parseInt(request.getParameter("no"));
         
-        Board board = findByNo(no);
-        
-        if (board == null) {
-            out.printf("%d번 게시물이 없습니다.\n", no);
-            return;
-        }
-        
-        list.remove(board);
-        out.println("삭제하였습니다.");
-    }
-    
-    private Board findByNo(int no) {
-        Iterator<Board> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            Board board = iterator.next();
-            if (board.getNo() == no) {
-                return board;
+        try ( Connection con = DriverManager.getConnection(
+                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
+              
+              PreparedStatement pstmt = con.prepareStatement(
+                      "delete from ex_board where no=?");
+              
+        ){
+            pstmt.setInt(1, Integer.parseInt(request.getParameter("no")));
+            
+            if (pstmt.executeUpdate() > 0) {
+                out.println("삭제하였습니다.");
+            } else {
+                out.printf("%s의 게시판 정보가 없습니다.\n",
+                        request.getParameter("no"));
             }
-        }
-        return null;
+            
+        } catch (Exception e) {
+            e.printStackTrace();
+            out.println(e.getMessage());
+        }        
     }
 }
 
