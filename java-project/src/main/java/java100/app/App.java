@@ -8,6 +8,8 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.sql.Connection;
+import java.sql.DriverManager;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Scanner;
@@ -28,8 +30,8 @@ public class App {
     
     HashMap<String,Controller> controllerMap = new HashMap<>();
     
-    
     void init() {
+        
         ScoreController scoreController = new ScoreController();
         scoreController.init();
         controllerMap.put("/score", scoreController);        

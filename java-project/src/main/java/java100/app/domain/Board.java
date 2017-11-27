@@ -17,6 +17,14 @@ public class Board {
             this.content = content; 
             this.viewCount = viewCount;
     }
+
+    public Board(int no, String title, String content, int viewCount, Date regDate) {
+            this.no = no; 
+            this.title = title; 
+            this.content = content; 
+            this.viewCount = viewCount;
+            this.regDate = regDate;
+    }
     
     
     @Override

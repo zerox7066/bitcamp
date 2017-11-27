@@ -1,28 +1,21 @@
 package java100.app.control;
 
 import java.io.PrintWriter;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.util.List;
+
+import java100.app.dao.MemberDao;
+import java100.app.domain.Member;
 
 public class MemberController implements Controller {
     
-    @Override
-    public void destroy() { }
+    MemberDao memberDao = new MemberDao();
     
     @Override
-    public void init() {
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-        } catch (ClassNotFoundException ex) {
-            throw new RuntimeException("JDBC 드라이버 클래스를 찾을 수 없습니다.");
-        }
-    }
+    public void destroy() {}
     
-    // 실제 이 클래스가 오버라이딩 하는 메서드는 
-    // GenericController가 따른다고 한 Controller 인터페이스의 
-    // 추상 메서드이다.
+    @Override
+    public void init() {}
+    
     @Override    
     public void execute(Request request, Response response) {
         switch (request.getMenuPath()) {
@@ -32,150 +25,123 @@ public class MemberController implements Controller {
         case "/member/update": this.doUpdate(request, response); break;
         case "/member/delete": this.doDelete(request, response); break;
         default: 
-            System.out.println("해당 명령이 없습니다.");
+            response.getWriter().println("해당 명령이 없습니다.");
         }
     }
     
     private void doList(Request request, Response response) {
-        
+
         PrintWriter out = response.getWriter();
         out.println("[회원 목록]");
         
-        try ( Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
-              
-              PreparedStatement pstmt = con.prepareStatement(
-                      "select no, name, email, regdt from ex_memb");
-              
-              ResultSet rs = pstmt.executeQuery();
-        ){
-            while (rs.next()) {
+        try {
+            
+            List<Member> list = memberDao.selectList();
+            
+            for (Member member : list) {
                 out.printf("%d, %s, %s, %s\n",
-                        rs.getInt("no"),
-                        rs.getString("name"),
-                        rs.getString("email"), 
-                        rs.getDate("regdt")
-                        );
+                        member.getNo(),
+                        member.getName(), 
+                        member.getEmail(),
+                        member.getCreatedDate());
             }
             
         } catch (Exception e) {
-            e.printStackTrace();
-            out.println(e.getMessage());
-        }        
+            e.printStackTrace(); // for developer
+            out.println(e.getMessage()); // for user
+        }
     }
     
     private void doAdd(Request request, Response response) {
-        
+
         PrintWriter out = response.getWriter();
         out.println("[회원 등록]");
         
-        try ( Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
-              
-              PreparedStatement pstmt = con.prepareStatement(
-                      "insert into ex_memb(name, email, pwd, regdt) "
-                      + "values(?,?,password(?),now())");
-        ){
-            pstmt.setString(1, request.getParameter("name"));
-            pstmt.setString(2, request.getParameter("email"));
-            pstmt.setString(3, request.getParameter("password"));
+        try {
             
-            pstmt.executeUpdate();
+            Member member = new Member();
+            member.setName(request.getParameter("name"));
+            member.setEmail(request.getParameter("email"));
+            member.setPassword(request.getParameter("password"));
+            
+            memberDao.insert(member);
+            
             out.println("저장하였습니다.");
             
         } catch (Exception e) {
-            e.printStackTrace();
-            out.println(e.getMessage());
-        }        
+            e.printStackTrace(); // for developer
+            out.println(e.getMessage()); // for user
+        }
     } 
     
     private void doView(Request request, Response response) {
-        
+
         PrintWriter out = response.getWriter();
         out.println("[회원 상세 정보]");
         
-        try ( Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
-              
-              PreparedStatement pstmt = con.prepareStatement(
-                      "select no, name, email, regdt from ex_memb where no=?");
-              
-        ){
-            pstmt.setInt(1, Integer.parseInt(request.getParameter("no")));
+        try {
             
-            ResultSet rs = pstmt.executeQuery();
+            int no = Integer.parseInt(request.getParameter("no"));
+            Member member = memberDao.selectOne(no);
             
-            if (rs.next()) {
-                out.printf("번호 : %d\n", rs.getInt("no"));
-                out.printf("이름 : %s\n", rs.getString("name"));
-                out.printf("이메일 : %s\n", rs.getString("email"));
-                out.printf("등록일 : %s\n", rs.getDate("regdt"));
-                
+            if (member != null) {
+                out.printf("번호: %d\n", member.getNo());
+                out.printf("이름: %s\n", member.getName());
+                out.printf("이메일: %s\n", member.getEmail());
+                out.printf("등록일: %s\n", member.getCreatedDate());
             } else {
-                out.printf("'%s'의 회원 정보가 없습니다.\n", request.getParameter("no"));
+                out.printf("'%d'번의 회원 정보가 없습니다.\n", no); 
             }
             
         } catch (Exception e) {
-            e.printStackTrace();
-            out.println(e.getMessage());
-        }        
+            e.printStackTrace(); // for developer
+            out.println(e.getMessage()); // for user
+        }
     } 
     
     private void doUpdate(Request request, Response response) {
-        
+
         PrintWriter out = response.getWriter();
         out.println("[회원 변경]");
         
-        try ( Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
-              
-              PreparedStatement pstmt = con.prepareStatement(
-                      "update ex_memb set name=?, email=?, pwd=? where no=?");
-        ){
-            pstmt.setString(1, request.getParameter("name"));
-            pstmt.setString(2, request.getParameter("email"));
-            pstmt.setString(3, request.getParameter("password"));
-            pstmt.setInt(4, Integer.parseInt(request.getParameter("no")));
+        try {
+            Member member = new Member();
+            member.setNo(Integer.parseInt(request.getParameter("no")));
+            member.setName(request.getParameter("name"));
+            member.setEmail(request.getParameter("email"));
+            member.setPassword(request.getParameter("password"));
             
-            if (pstmt.executeUpdate() > 0) {
+            if (memberDao.update(member) > 0) {
                 out.println("변경하였습니다.");
             } else {
-                out.printf("'%s'의 회원 정보가 없습니다.\n", request.getParameter("no"));
+                out.printf("'%d'번 회원의 정보가 없습니다.\n", member.getNo()); 
             }
             
         } catch (Exception e) {
-            e.printStackTrace();
-            out.println(e.getMessage());
+            e.printStackTrace(); // for developer
+            out.println(e.getMessage()); // for user
         }
-
     }
     
     private void doDelete(Request request, Response response) {
-        
+
         PrintWriter out = response.getWriter();
         out.println("[회원 삭제]");
         
-        try ( Connection con = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/studydb?useSSL=false&verifyServerCertificate=false", "study", "1111");
-              
-              PreparedStatement pstmt = con.prepareStatement(
-                      "delete from ex_memb where no=?");
-              
-        ){
-            pstmt.setInt(1, Integer.parseInt(request.getParameter("no")));
+        try {
             
-            if (pstmt.executeUpdate() > 0) {
-                out.println("삭제하였습니다.");
+            int no = Integer.parseInt(request.getParameter("no"));
+            
+            if (memberDao.delete(no) > 0) {
+                out.println("삭제했습니다.");
             } else {
-                out.printf("%s의 회원 정보가 없습니다.\n",
-                        request.getParameter("no"));
+                out.printf("'%d'번의 회원 정보가 없습니다.\n", no); 
             }
             
         } catch (Exception e) {
-            e.printStackTrace();
-            out.println(e.getMessage());
-        }        
-        
+            e.printStackTrace(); // for developer
+            out.println(e.getMessage()); // for user
+        }
     }
 }
 

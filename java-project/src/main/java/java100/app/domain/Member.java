@@ -12,10 +12,11 @@ public class Member {
     
     public Member() {}
     
-    public Member(int no, String name, String email) {
+    public Member(int no, String name, String email, Date createDate) {
         this.no = no;
         this.name = name;
         this.email = email;
+        this.createdDate = createDate;
     }
 
     @Override
