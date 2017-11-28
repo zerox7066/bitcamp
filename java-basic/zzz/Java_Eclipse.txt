@@ -1,16 +1,51 @@
 ﻿엄진영 강사 : 010-2634-4150  
 
 
-환경변수 설정 => C:\Program Files\Java\jdk-9\bin;
-
-   (Parentheses:Round Bracket)    [Square Bracket]    <Angle Bracket>    {Brace}
-
-JAVA_HOME : C:\Program Files\Java\jdk-9
-
-Path  : C:\Program Files\Java\jdk-9\bin;C:\gradle-4.2\bin;C:\cygwin64\usr\include;C:\cygwin64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\;C:\Program Files\Samsung\AllShare Framework DMS\1.3.23\64bit\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\gradle-4.2\bin
+(Parentheses:Round Bracket)    [Square Bracket]    <Angle Bracket>    {Brace}
 
 
 
+좋은 설계와 디자인 패턴에 대한 더 깊은 지식을 원한다면 아래 책들을 읽어보자.
+
+GOF의 디자인 패턴 - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+
+실전 코드로 배우는 실용주의 디자인 패턴 - Allen Holub
+
+Agile Software Development, Principles, Patterns, and Practices - Robert C. Martin
+
+
+
+좋은 설계는 좋은 코드로부터 나온다. 좋은 코드를 작성하는 방법이 궁금하다면 다음 책을 참고하자.
+
+켄트 벡의 구현 패턴 - Kent Beck
+
+이펙티브 자바 - Joshua Bloch
+
+Clean Code 클린 코드: 애자일 소프트웨어 장인 정신 - Robert C. Martin
+
+
+
+다음은 코드를 점진적으로 개선하고 좋은 설계로 바꿔 나가는데 도움을 주는 책이다.
+
+리팩토링: 코드 품질을 개선하는 객체지향 사고법 - Martin Fowler
+
+테스트 주도 개발: Test-Driven Development - Kent Beck
+
+레거시 코드 활용 전략 - Michael Feathers
+
+
+
+마지막으로 작성한 코드의 설계를 공유하거나 설계 초안을 만들 때 사용되는 다이어그램 작성 방법을 빠르게 익히고 싶다면 아래 책이 제격이다.
+
+UML Distilled: 표준 객체 모델링 언어 입문 - Martin Fowler
+
+
+
+출처: http://epicdevs.com/14 [Epic Developer]
+
+
+
+환경변수 설정 => C:\Program Files\Java\jdk1.8.0_144\bin;
 
 JAVA_HOME :  C:\Program Files\Java\jdk1.8.0_144
 
@@ -2898,6 +2933,34 @@ alter table jdbc_test
 
 
 
+
+
+
+IoC 용어 정리
+
+
+http://isstory83.tistory.com/91
+
+IoC 용어 정리
+bean - 스프링에서 제어권을 가지고 직접 만들고 관계를 부여하는 오브젝트
+자바빈, EJB의 빈과 비슷한 오브젝트 단위의 애플리케이션 컴포넌트를 말한다. 하지만 스프링을 사용하는 애플리케이션에서 만들어지는 모든 오브젝트가 빈은아니다. 스프링의 빈은 스프링 컨테이너가 생성과 관계설정, 사용등을 제어해주는 오브젝트를 가리킨다.
+
+bean factory - 스프링의 IoC를 담당하는 핵심 컨테이너
+빈을 등록/생성/조회/반환/관리한다. 보통은 bean factory 를 바로 사용하지 않고 이를 확장한 application context 를 이용한다. BeanFactory 는 bean factory 가 구현하는 interface 이다. (getBean()등의 메소드가 정의되어 있음)
+ 
+application context - bean factory를 확장한 IoC 컨테이너
+빈의 등록/생성/조회/반환/관리의 기능은 bean factory 와 같지만, 여기에 spring의 각종 부가 서비스를 추가로 제공한다. ApplicationContext는 application context가 구현해야 하는 interface이여, BeanFactory 를 상속한다.
+ 
+configuration metadata (설정정보/설정 메타정보)
+application context 혹은 bean factory 가 IoC를 적용하기 위해 사용하는 메타정보
+스프링의 설정정보는 컨테이너에 어떤 기능을 세팅하거나 조정하는 경우에도 사용하지만 주로 bean 을 생성/구성하는 용도로 사용된다.
+ 
+container (IoC container)
+IoC 방식으로 bean을 관리한다는 의미에서 bean factory 나 application context 를 가리킨다. 
+(spring container = application context) application context는 그 자체로 ApplicationContext 인터페이스를 구현한 오브젝트를 가리키기도 하는데, 하나의 애플리케이션에 보통 여러개의 ApplicationContext Object가 만들어진다. 이를 통칭해서 strping container라고 부를 수 있다.
+간단하게, 객체를 관리하는 컨테이너이다, 컨테이너에 객체를 담아 두고, 필요할 때에 컨테이너로부터 객체를 가져와 사용할 수 있도록 하고 있다.
+ 
+spring framework - IoC container, application context 를 포함해서 spring이 제공하는 모든 기능을 통칭한다.
 
 
 

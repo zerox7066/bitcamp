@@ -8,8 +8,12 @@ import java100.app.domain.Room;
 
 public class RoomController implements Controller {
     
-    RoomDao roomDao = new RoomDao();
+    RoomDao roomDao;
     
+    public void setRoomDao(RoomDao roomDao) {
+        this.roomDao = roomDao;
+    }
+
     @Override
     public void destroy() {}
     
