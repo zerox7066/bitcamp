@@ -2965,6 +2965,35 @@ spring framework - IoC container, application context 를 포함해서 spring이
 
 
 
+Java Example
+
+https://www.programcreek.com/java-api-examples/index.php
+
+http://tcpschool.com/java/java_intro_java8
+
+http://androphil.tistory.com/
+
+
+라이브러리 검색 사이트
+http://mvnrepository.com/
+
+reflection 아니고 reflections 검색해서 gradle
+
+// https://mvnrepository.com/artifact/org.reflections/reflections
+compile group: 'org.reflections', name: 'reflections', version: '0.9.11'
+
+주소를 가지고 와서 build.gradle 의 properties에 추가
+
+gradlew eclipse
+
+
+https://github.com/ronmamo/reflections
+
+
+
+
+
+
 
 
 

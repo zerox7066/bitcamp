@@ -1,50 +1,56 @@
 package java100.app.beans;
 
-import java.io.FileReader;
 import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.HashMap;
-import java.util.Properties;
 import java.util.Set;
 
+import org.reflections.Reflections;
+
+import java100.app.annotation.Component;
+
 public class ApplicationContext {
+    
+    String baseDir;
+    int startIndexOfPackageName;
     
     HashMap<String,Object> pool = new HashMap<>();
 
     public ApplicationContext() {}
     
-    public ApplicationContext(String propPath) {
-        Properties props = new Properties();
-        try (FileReader in = new FileReader(propPath)) {
+    /*public static void main(String[] args) {
+        new ApplicationContext("./bin");
+    }*/
+    
+    public ApplicationContext(String basePackage) {
+                
+        try {
+            Reflections reflections = new Reflections(basePackage);
             
-            props.load(in);
+            Set<Class<?>> classes = reflections.getTypesAnnotatedWith(Component.class);
             
-            Set<Object> keySet = props.keySet();
-            
-            for (Object key : keySet) {
-                //System.out.printf("%s ==> %s\n", key, props.get(key));
-
-                String name = (String)key;
-                Class<?> clazz = Class.forName(props.getProperty(name));
+            for (Class<?> clazz : classes) {
+                
+                Component compAnno = clazz.getAnnotation(Component.class);
+                if (compAnno == null) continue;
                 
                 Object obj = clazz.newInstance();
                 
-                pool.put(name, obj);
+                if (compAnno.value().length() == 0) {
+                    pool.put(clazz.getName(), obj);
+                } else {
+                    //System.out.println(compAnno.value());
+                    pool.put(compAnno.value(), obj);
+                }
             }
             
             injectDependency();
             
-            /*
-            Collection<Object> list = beanContainer.values();
-            for (Object obj : list) {
-                System.out.println(obj.getClass().getName());
-            }*/
-           
         } catch (Exception e) {
             throw new BeansException("프로퍼티 파일 로딩 중 오류 발생!");
         }
     }
-    
+
     public Object getBean(String name) {
         Object bean = pool.get(name);
         if (bean == null)

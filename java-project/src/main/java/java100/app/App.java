@@ -21,7 +21,8 @@ public class App {
         
     void init() {
         
-        beanContainer = new ApplicationContext("./bin/application-context.properties");
+        //beanContainer = new ApplicationContext("./bin/application-context.properties");
+        beanContainer = new ApplicationContext("java100.app");
         
         DataSource ds = new DataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
@@ -32,17 +33,6 @@ public class App {
         beanContainer.addBean("mysqlDataSource", ds);
         
         beanContainer.refreshBeanFactory();
-        
-        /*
-        String[] names = beanContainer.getBeanDefinitionNames();
-        for (String name : names) {
-            System.out.printf("%s = %s\n",
-                    name,
-                    beanContainer.getBean(name).getClass().getName());
-        }
-        */
-        
-        
     }
     
     void service() throws Exception {
