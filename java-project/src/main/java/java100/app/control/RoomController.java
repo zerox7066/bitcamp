@@ -3,18 +3,17 @@ package java100.app.control;
 import java.io.PrintWriter;
 import java.util.List;
 
-import java100.app.annotation.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java100.app.dao.RoomDao;
 import java100.app.domain.Room;
 
 @Component("/room")
 public class RoomController implements Controller {
     
+    @Autowired
     RoomDao roomDao;
-    
-    public void setRoomDao(RoomDao roomDao) {
-        this.roomDao = roomDao;
-    }
 
     @Override
     public void destroy() {}

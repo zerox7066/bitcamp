@@ -3,18 +3,17 @@ package java100.app.control;
 import java.io.PrintWriter;
 import java.util.List;
 
-import java100.app.annotation.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
 import java100.app.dao.BoardDao;
 import java100.app.domain.Board;
 
 @Component("/board")
 public class BoardController implements Controller {
     
+    @Autowired
     BoardDao boardDao;
-    
-    public void setBoardDao(BoardDao boardDao) {
-        this.boardDao = boardDao;
-    }
     
     @Override
     public void destroy() {}

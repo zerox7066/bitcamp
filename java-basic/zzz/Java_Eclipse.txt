@@ -2965,6 +2965,12 @@ spring framework - IoC container, application context 를 포함해서 spring이
 
 
 
+
+
+java log4j 설정
+
+
+
 Java Example
 
 https://www.programcreek.com/java-api-examples/index.php
@@ -2989,7 +2995,113 @@ gradlew eclipse
 
 https://github.com/ronmamo/reflections
 
+https://mdn.mozilla.org/ko/
 
+
+
+
+
+
+
+
+ * IoC 컨테이너   http://ooz.co.kr/170
+   어떠한 객체의 명세서를 작성하고, 스프링 라이브러리는 해당 명세대로 객체를 생성. 
+   생성된 객체(그리고 디펜던시)들을 보관하는 공간을 의미.
+
+
+
+
+* EJB : Enterprise Java Bean (엔터프라이즈 자바빈) 
+ – 효율적으로 서버 관리를 해주고, 또 프로그램 관련 문제들을 알아서 처리해준다는 개념.
+   (연결 관계가 복잡하고, 무겁고, 독립적이지 못하다)
+
+
+* DL : Dependency Lookup 
+
+* DI : Dependency Injection
+
+
+* DI (Dependecy Injection) 
+  – 각 class 사이의 의존관계를 빈 설정 정보를 바탕으로 
+    container가 자동적으로 연결해 주는 것을 말함. 
+    따라서 lookup과 관련된 코드들이 오브젝트 내에서 완전히 사라지고 
+    컨테이너에 의존적이지 않은 코드를 작성할 수 있음.
+    단지 빈 설정 파일에서 의존관계가 필요하다는 정보를 추가하면 됨.
+
+
+
+
+* xml namespace
+    xmlns:p="http://www.springframework.org/schema/p"
+
+
+
+
+
+
+1) Constructor Injection 
+   – 클래스 사이의 의존관계를 연결시키기 위하여 constructor를 이용하는 방법. 
+     constructor-arg tag 사용. 
+     <constructor-arg type="String" index="0" value="홍길동"/>
+
+
+    <bean class="bitcamp.java100.ch20.ex2.MyClass3" 
+          c:left="1.5" c:right="1.2"/>
+
+
+    <bean class="bitcamp.java100.ch20.ex2.MyClass3">
+        <constructor-arg ref="obj1"/>
+    </bean>
+
+2) Setter Injection 
+   - 클래스 사이의 의존관계를 연결시키기 위하여 setter 메소드를 이용하는 방법. 
+     property tag 사용. 
+     <property name="name" value="비트엔진"/>
+
+    <bean id="e1" class="bitcamp.java100.ch20.ex3.Engine"
+          p:name="비트엔진" p:cc="5000" p:valve="16"/>
+
+
+    <bean id="c2" class="bitcamp.java100.ch20.ex3.Car">
+        <property name="engine" ref="e1"/>
+    </bean>
+
+    <bean id="c3" class="bitcamp.java100.ch20.ex3.Car"
+          p:engine-ref="e1"/>
+
+
+3) Method Injection 
+   – 싱글톤(Singleton) 인스턴스와 non singleton 인스턴스의 
+     의존관계를 연결시킬 필요가 있을 때 사용하는 방법.
+
+
+
+
+    <!-- Map 컬렉션 객체 주입하기 
+        Car c1 = new Car();
+        
+        Map<String,String> map = new HashMap<>();
+        map.put("sunroof", "yes");
+        map.put("airbag", "yes");
+        map.put("blackbox", "no");
+        
+        c1.setOptions(map);    
+    -->
+
+    <bean id="c1" class="bitcamp.java100.ch20.ex4.Car">
+        <property name="options">
+          <map>
+            <entry>
+                <key><value>sunroof</value></key>
+                <value>yes</value>
+            </entry>
+            <entry key="airbig">
+                <value>yes</value>
+            </entry>
+            <entry key="blackbox" value="no"/>
+          </map>
+        </property>
+    </bean>
 
 
 
