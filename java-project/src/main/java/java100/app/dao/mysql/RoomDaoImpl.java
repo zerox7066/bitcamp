@@ -14,14 +14,19 @@ import java100.app.dao.RoomDao;
 import java100.app.domain.Room;
 import java100.app.util.DataSource;
 
-@Component
+@Component  // 이 클래스의 객체를 자동 생성해야 함을 표시!
 public class RoomDaoImpl implements RoomDao {
     
+    // 스프링 IoC 컨테이너가 DataSource 객체를 주입하도록 표시!
     @Autowired
     DataSource ds;
     
+    // DataSource를 주입 받았다 가정하고 다음 아래의 메서드들을 변경한다.
+    // => 이렇게하면 DataSource를 얻기 위해 ApplicationContext를 사용한
+    //    코드를 제거해도 된다. 
+    // => 즉 더이상 ApplicationContext에 종속되지 않는다.
+    //
     public List<Room> selectList() {
-
         Connection con = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
@@ -29,8 +34,8 @@ public class RoomDaoImpl implements RoomDao {
         try {
             con = ds.getConnection();
             pstmt = con.prepareStatement(
-                "select no,loc,name,capacity from ex_room");
-             rs = pstmt.executeQuery();
+                    "select no,loc,name,capacity from ex_room");
+            rs = pstmt.executeQuery();
             
             ArrayList<Room> list = new ArrayList<>();
             
@@ -56,18 +61,16 @@ public class RoomDaoImpl implements RoomDao {
     }
     
     public int insert(Room room) {
-
         Connection con = null;
         PreparedStatement pstmt = null;
         
         try {
             con = ds.getConnection();
             pstmt = con.prepareStatement(
-                "insert into ex_room(loc,name,capacity) values(?,?,?)");
-            
+                    "insert into ex_room(loc,name,capacity) values(?,?,?)");
             pstmt.setString(1, room.getLocation());
             pstmt.setString(2, room.getName());
-            pstmt.setInt(3, room.getCapacity());
+            pstmt.setInt(3, room.getNo());
             
             return pstmt.executeUpdate();
             
@@ -80,15 +83,13 @@ public class RoomDaoImpl implements RoomDao {
     }
     
     public int delete(int no) {
-
         Connection con = null;
         PreparedStatement pstmt = null;
         
         try {
             con = ds.getConnection();
             pstmt = con.prepareStatement(
-                "delete from ex_room where no=?");
-            
+                    "delete from ex_room where no=?");
             pstmt.setInt(1, no);
             
             return pstmt.executeUpdate();

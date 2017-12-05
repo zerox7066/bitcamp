@@ -9,24 +9,6 @@ public class Board {
     protected Date regDate;
     protected int viewCount;
     
-    public Board() {}
-
-    public Board(int no, String title, String content, int viewCount) {
-            this.no = no; 
-            this.title = title; 
-            this.content = content; 
-            this.viewCount = viewCount;
-    }
-
-    public Board(int no, String title, String content, int viewCount, Date regDate) {
-            this.no = no; 
-            this.title = title; 
-            this.content = content; 
-            this.viewCount = viewCount;
-            this.regDate = regDate;
-    }
-    
-    
     @Override
     public String toString() {
         return "Board [no=" + no + ", title=" + title + ", content=" + content + ", regDate=" + regDate + ", viewCount="

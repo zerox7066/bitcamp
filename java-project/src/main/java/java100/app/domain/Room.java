@@ -8,7 +8,6 @@ public class Room {
     
     public Room() {}
     
-    
     public Room(int no, String location, String name, int capacity) {
         this.no = no;
         this.location = location;
@@ -21,16 +20,13 @@ public class Room {
         return "Room [no=" + no + ", location=" + location + ", name=" + name + ", capacity=" + capacity + "]";
     }
 
-
     public int getNo() {
         return no;
     }
 
-
     public void setNo(int no) {
         this.no = no;
     }
-
 
     public String getLocation() {
         return location;

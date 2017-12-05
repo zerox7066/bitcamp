@@ -1,7 +1,7 @@
 package java100.app.dao;
 
 public class DaoException extends RuntimeException {
-    
+
     private static final long serialVersionUID = 1L;
 
     public DaoException() {
@@ -23,5 +23,4 @@ public class DaoException extends RuntimeException {
     public DaoException(Throwable cause) {
         super(cause);
     }
-
 }

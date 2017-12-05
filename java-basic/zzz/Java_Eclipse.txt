@@ -1,51 +1,51 @@
-ï»¿ì—„ì§„ì˜ ê°•ì‚¬ : 010-2634-4150  
+¾öÁø¿µ °­»ç : 010-2634-4150  
 
 
 (Parentheses:Round Bracket)    [Square Bracket]    <Angle Bracket>    {Brace}
 
 
 
-ì¢‹ì€ ì„¤ê³„ì™€ ë””ìžì¸ íŒ¨í„´ì— ëŒ€í•œ ë” ê¹Šì€ ì§€ì‹ì„ ì›í•œë‹¤ë©´ ì•„ëž˜ ì±…ë“¤ì„ ì½ì–´ë³´ìž.
+ÁÁÀº ¼³°è¿Í µðÀÚÀÎ ÆÐÅÏ¿¡ ´ëÇÑ ´õ ±íÀº Áö½ÄÀ» ¿øÇÑ´Ù¸é ¾Æ·¡ Ã¥µéÀ» ÀÐ¾îº¸ÀÚ.
 
-GOFì˜ ë””ìžì¸ íŒ¨í„´ - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
+GOFÀÇ µðÀÚÀÎ ÆÐÅÏ - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 
-ì‹¤ì „ ì½”ë“œë¡œ ë°°ìš°ëŠ” ì‹¤ìš©ì£¼ì˜ ë””ìžì¸ íŒ¨í„´ - Allen Holub
+½ÇÀü ÄÚµå·Î ¹è¿ì´Â ½Ç¿ëÁÖÀÇ µðÀÚÀÎ ÆÐÅÏ - Allen Holub
 
 Agile Software Development, Principles, Patterns, and Practices - Robert C. Martin
 
 
 
-ì¢‹ì€ ì„¤ê³„ëŠ” ì¢‹ì€ ì½”ë“œë¡œë¶€í„° ë‚˜ì˜¨ë‹¤. ì¢‹ì€ ì½”ë“œë¥¼ ìž‘ì„±í•˜ëŠ” ë°©ë²•ì´ ê¶ê¸ˆí•˜ë‹¤ë©´ ë‹¤ìŒ ì±…ì„ ì°¸ê³ í•˜ìž.
+ÁÁÀº ¼³°è´Â ÁÁÀº ÄÚµå·ÎºÎÅÍ ³ª¿Â´Ù. ÁÁÀº ÄÚµå¸¦ ÀÛ¼ºÇÏ´Â ¹æ¹ýÀÌ ±Ã±ÝÇÏ´Ù¸é ´ÙÀ½ Ã¥À» Âü°íÇÏÀÚ.
 
-ì¼„íŠ¸ ë²¡ì˜ êµ¬í˜„ íŒ¨í„´ - Kent Beck
+ÄËÆ® º¤ÀÇ ±¸Çö ÆÐÅÏ - Kent Beck
 
-ì´íŽ™í‹°ë¸Œ ìžë°” - Joshua Bloch
+ÀÌÆåÆ¼ºê ÀÚ¹Ù - Joshua Bloch
 
-Clean Code í´ë¦° ì½”ë“œ: ì• ìžì¼ ì†Œí”„íŠ¸ì›¨ì–´ ìž¥ì¸ ì •ì‹  - Robert C. Martin
-
-
-
-ë‹¤ìŒì€ ì½”ë“œë¥¼ ì ì§„ì ìœ¼ë¡œ ê°œì„ í•˜ê³  ì¢‹ì€ ì„¤ê³„ë¡œ ë°”ê¿” ë‚˜ê°€ëŠ”ë° ë„ì›€ì„ ì£¼ëŠ” ì±…ì´ë‹¤.
-
-ë¦¬íŒ©í† ë§: ì½”ë“œ í’ˆì§ˆì„ ê°œì„ í•˜ëŠ” ê°ì²´ì§€í–¥ ì‚¬ê³ ë²• - Martin Fowler
-
-í…ŒìŠ¤íŠ¸ ì£¼ë„ ê°œë°œ: Test-Driven Development - Kent Beck
-
-ë ˆê±°ì‹œ ì½”ë“œ í™œìš© ì „ëžµ - Michael Feathers
+Clean Code Å¬¸° ÄÚµå: ¾ÖÀÚÀÏ ¼ÒÇÁÆ®¿þ¾î ÀåÀÎ Á¤½Å - Robert C. Martin
 
 
 
-ë§ˆì§€ë§‰ìœ¼ë¡œ ìž‘ì„±í•œ ì½”ë“œì˜ ì„¤ê³„ë¥¼ ê³µìœ í•˜ê±°ë‚˜ ì„¤ê³„ ì´ˆì•ˆì„ ë§Œë“¤ ë•Œ ì‚¬ìš©ë˜ëŠ” ë‹¤ì´ì–´ê·¸ëž¨ ìž‘ì„± ë°©ë²•ì„ ë¹ ë¥´ê²Œ ìµížˆê³  ì‹¶ë‹¤ë©´ ì•„ëž˜ ì±…ì´ ì œê²©ì´ë‹¤.
+´ÙÀ½Àº ÄÚµå¸¦ Á¡ÁøÀûÀ¸·Î °³¼±ÇÏ°í ÁÁÀº ¼³°è·Î ¹Ù²ã ³ª°¡´Âµ¥ µµ¿òÀ» ÁÖ´Â Ã¥ÀÌ´Ù.
 
-UML Distilled: í‘œì¤€ ê°ì²´ ëª¨ë¸ë§ ì–¸ì–´ ìž…ë¬¸ - Martin Fowler
+¸®ÆÑÅä¸µ: ÄÚµå Ç°ÁúÀ» °³¼±ÇÏ´Â °´Ã¼ÁöÇâ »ç°í¹ý - Martin Fowler
+
+Å×½ºÆ® ÁÖµµ °³¹ß: Test-Driven Development - Kent Beck
+
+·¹°Å½Ã ÄÚµå È°¿ë Àü·« - Michael Feathers
 
 
 
-ì¶œì²˜: http://epicdevs.com/14 [Epic Developer]
+¸¶Áö¸·À¸·Î ÀÛ¼ºÇÑ ÄÚµåÀÇ ¼³°è¸¦ °øÀ¯ÇÏ°Å³ª ¼³°è ÃÊ¾ÈÀ» ¸¸µé ¶§ »ç¿ëµÇ´Â ´ÙÀÌ¾î±×·¥ ÀÛ¼º ¹æ¹ýÀ» ºü¸£°Ô ÀÍÈ÷°í ½Í´Ù¸é ¾Æ·¡ Ã¥ÀÌ Á¦°ÝÀÌ´Ù.
+
+UML Distilled: Ç¥ÁØ °´Ã¼ ¸ðµ¨¸µ ¾ð¾î ÀÔ¹® - Martin Fowler
 
 
 
-í™˜ê²½ë³€ìˆ˜ ì„¤ì • => C:\Program Files\Java\jdk1.8.0_144\bin;
+ÃâÃ³: http://epicdevs.com/14 [Epic Developer]
+
+
+
+È¯°æº¯¼ö ¼³Á¤ => C:\Program Files\Java\jdk1.8.0_144\bin;
 
 JAVA_HOME :  C:\Program Files\Java\jdk1.8.0_144
 
@@ -54,27 +54,27 @@ JAVA_HOME :  C:\Program Files\Java\jdk1.8.0_144
 
 
 
-@ í”„ë¡œê·¸ëž¨ ì‹¤í–‰í•  ë•Œ > ì„œë²„ì—ì„œ ì°¸ì¡°ë¥¼ ë°˜í™˜í–ˆìŠµë‹ˆë‹¤.
+@ ÇÁ·Î±×·¥ ½ÇÇàÇÒ ¶§ > ¼­¹ö¿¡¼­ ÂüÁ¶¸¦ ¹ÝÈ¯Çß½À´Ï´Ù.
 
-  ì‹¤í–‰íŒŒì¼ ë˜ëŠ” ë°”ë¡œê°€ê¸° ì•„ì´ì½˜ ìš°í´ë¦­ > ì†ì„± > í˜¸í™˜ì„± > ì œì¼ë°‘ì— ê¶Œí•œ ìˆ˜ì¤€ > ê´€ë¦¬ìž ê¶Œí•œìœ¼ë¡œ ì´ í”„ë¡œê·¸ëž¨ ì‹¤í–‰ ì²´í¬ > ì ìš© > í™•ì¸
+  ½ÇÇàÆÄÀÏ ¶Ç´Â ¹Ù·Î°¡±â ¾ÆÀÌÄÜ ¿ìÅ¬¸¯ > ¼Ó¼º > È£È¯¼º > Á¦ÀÏ¹Ø¿¡ ±ÇÇÑ ¼öÁØ > °ü¸®ÀÚ ±ÇÇÑÀ¸·Î ÀÌ ÇÁ·Î±×·¥ ½ÇÇà Ã¼Å© > Àû¿ë > È®ÀÎ
 
 
-  ì‹¤í–‰ íŒŒì¼ ë°”ë¡œê°€ê¸°ë¥¼ C:\Windows\System32í´ë”ì— ë„£ìœ¼ë©´  ì‹œìž‘ ì‹¤í–‰ì—ì„œ ì‹¤í–‰í•  ìˆ˜ ìžˆë‹¤.
-
- 
+  ½ÇÇà ÆÄÀÏ ¹Ù·Î°¡±â¸¦ C:\Windows\System32Æú´õ¿¡ ³ÖÀ¸¸é  ½ÃÀÛ ½ÇÇà¿¡¼­ ½ÇÇàÇÒ ¼ö ÀÖ´Ù.
 
  
-@ ì´í´ë¦½ìŠ¤ì„¤ì¹˜
 
-  - Eclipse IDE for Java EE Developers ì„¤ì¹˜
+ 
+@ ÀÌÅ¬¸³½º¼³Ä¡
+
+  - Eclipse IDE for Java EE Developers ¼³Ä¡
 
 
 
-@ ì´í´ë¦½ìŠ¤ì—ì„œ jdk9 ì‹¤í–‰ ì„¤ì •
+@ ÀÌÅ¬¸³½º¿¡¼­ jdk9 ½ÇÇà ¼³Á¤
 
-1) eclipse.ini  ìˆ˜ì •
+1) eclipse.ini  ¼öÁ¤
 
-C:\Users\bit-user\eclipse\jee-oxygen ì—ì„œ eclipse.ini  ìˆ˜ì •
+C:\Users\bit-user\eclipse\jee-oxygen ¿¡¼­ eclipse.ini  ¼öÁ¤
 
 
 -Dosgi.requiredJavaVersion=1.8
@@ -86,58 +86,58 @@ C:\Users\bit-user\eclipse\jee-oxygen ì—ì„œ eclipse.ini  ìˆ˜ì •
 
 
 
--Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
+-Dosgi.requiredJavaVersion=9       =====>  ¼öÁ¤
 -Dosgi.instance.area.default=@user.home/eclipse-workspace
 -XX:+UseG1GC
 -XX:+UseStringDeduplication
---add-modules=ALL-SYSTEM           =====>  ì¶”ê°€
--Dosgi.requiredJavaVersion=9       =====>  ìˆ˜ì •
+--add-modules=ALL-SYSTEM           =====>  Ãß°¡
+-Dosgi.requiredJavaVersion=9       =====>  ¼öÁ¤
 
 
-2) jdk9 ì„¤ì¹˜ í™•ì¸
+2) jdk9 ¼³Ä¡ È®ÀÎ
 
-Help  =>  Elclipse Martketplace ì—ì„œ Java 9 ê²€ìƒ‰í•´ì„œ Java 9 Support for Oxygen 4.7 ì„¤ì¹˜
+Help  =>  Elclipse Martketplace ¿¡¼­ Java 9 °Ë»öÇØ¼­ Java 9 Support for Oxygen 4.7 ¼³Ä¡
 
-Perferences  =>  Java  =>  Installed JREs  =>  Add ë²„íŠ¼ í´ë¦­ =>  Standard VM ì„ íƒ  
-             =>  Next ë²„íŠ¼ í´ë¦­ =>  JRE homeì—ì„œ => Diretory ë²„íŠ¼ í´ë¦­í•´ì„œ jdk-9 í´ë” ì„ íƒ
-
-
-- Java jdk9 ì„¤ì¹˜ í™•ì¸
-- eclipse jdk9 ê²€ìƒ‰
+Perferences  =>  Java  =>  Installed JREs  =>  Add ¹öÆ° Å¬¸¯ =>  Standard VM ¼±ÅÃ  
+             =>  Next ¹öÆ° Å¬¸¯ =>  JRE home¿¡¼­ => Diretory ¹öÆ° Å¬¸¯ÇØ¼­ jdk-9 Æú´õ ¼±ÅÃ
 
 
+- Java jdk9 ¼³Ä¡ È®ÀÎ
+- eclipse jdk9 °Ë»ö
 
-@ workspace ì—ëŸ¬ ë°œìƒí•  ê²½ìš° í´ë” ì´ë¦„ ë³€ê²½í›„ ì†ŒìŠ¤ íŒŒì¼ ë³µì‚¬
+
+
+@ workspace ¿¡·¯ ¹ß»ýÇÒ °æ¿ì Æú´õ ÀÌ¸§ º¯°æÈÄ ¼Ò½º ÆÄÀÏ º¹»ç
    An error has occured. See the log file
    C:\Users\User\elcipse-workspace\.metadata\.log
 
 
-@ Run í• ë•Œ ì—ëŸ¬ ë©”ì‹œì§€ ì²˜ë¦¬ :  
+@ Run ÇÒ¶§ ¿¡·¯ ¸Þ½ÃÁö Ã³¸® :  
  # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
-   - Bin í´ë” ì‚­ì œ
+   - Bin Æú´õ »èÁ¦
    - Projcet => Clean
 
 
 
-@ Console í•œê¸€ ê¹¨ì§ˆ ê²½ìš°
+@ Console ÇÑ±Û ±úÁú °æ¿ì
 
-  -. cmd ì—ì„œ java -version í™•ì¸
-  -. í™˜ê²½ë³€ìˆ˜ì—ì„œ JAVA-HOME í™•ì¸ =>  C:\Program Files\Java\jdk1.8.0_144
-  -. í™˜ê²½ë³€ìˆ˜ì—ì„œ path ì—ì„œ í™•ì¸ =>  %JAVA_HOME%\bin;
-  -. eclipse í´ë”ì—ì„œ eclipse.ini ì—ì„œ ìžë°” ë²„ì „ í™•ì¸  =>  --add-modules=ALL-SYSTEM ì‚­ì œ
-  -. Window > Preference > Java > Installed JREs ì—ì„œ jdk1.8.0_144 í™•ì¸
+  -. cmd ¿¡¼­ java -version È®ÀÎ
+  -. È¯°æº¯¼ö¿¡¼­ JAVA-HOME È®ÀÎ =>  C:\Program Files\Java\jdk1.8.0_144
+  -. È¯°æº¯¼ö¿¡¼­ path ¿¡¼­ È®ÀÎ =>  %JAVA_HOME%\bin;
+  -. eclipse Æú´õ¿¡¼­ eclipse.ini ¿¡¼­ ÀÚ¹Ù ¹öÀü È®ÀÎ  =>  --add-modules=ALL-SYSTEM »èÁ¦
+  -. Window > Preference > Java > Installed JREs ¿¡¼­ jdk1.8.0_144 È®ÀÎ
 
-  -. Project > Context Menu > Properties > Java Build Path > Libraries Tab í´ë¦­ > 
-     > JRE System Library [jdk1.8.0_144] ë”ë¸”í´ë¦­ > Alternate JREì—ì„œ jdk1.8.0_144 ë¥¼ ì„ íƒ
+  -. Project > Context Menu > Properties > Java Build Path > Libraries Tab Å¬¸¯ > 
+     > JRE System Library [jdk1.8.0_144] ´õºíÅ¬¸¯ > Alternate JRE¿¡¼­ jdk1.8.0_144 ¸¦ ¼±ÅÃ
 
 
 
-@ Preferences ì„¤ì • 
+@ Preferences ¼³Á¤ 
 
 General  =>  Apperance  =>  Theme  =>  Dark
 
 General  =>  Apperance  =>  Colors and Font  =>  Basic  =>  Edit Text
-             : ê¸°ë³¸ Console Font
+             : ±âº» Console Font
              => D2Coding
 
 General => Content Types => Java Class File => Default encoding => UTF-8 => Update
@@ -147,45 +147,45 @@ General  =>  Editors  =>  Text Editors
              Insert space for tabs
              Show print margin
              Show line numbers
-             Show whitespace charaters   Carriage Return, Line Feed ì²´í¬ í•´ì œ
-                                         Transparency level( . íˆ¬ëª…ë„)
+             Show whitespace charaters   Carriage Return, Line Feed Ã¼Å© ÇØÁ¦
+                                         Transparency level( . Åõ¸íµµ)
 
 General => Editors => Text Editors => Spelling => Encoding => Default(UTF-8)
 
-General =>  Workspace  =>  Text file encoing   Other UTF-8 ì„¤ì •
+General =>  Workspace  =>  Text file encoing   Other UTF-8 ¼³Á¤
 
-Java  =>  Code Style  =>  Formatter  =>  New í´ë¦­ my ìž…ë ¥í›„ OK í´ë¦­
-                                         Tab policyì—ì„œ  Spaces only ì„¤ì •
-
-
-Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ì„¤ì •
+Java  =>  Code Style  =>  Formatter  =>  New Å¬¸¯ my ÀÔ·ÂÈÄ OK Å¬¸¯
+                                         Tab policy¿¡¼­  Spaces only ¼³Á¤
 
 
+Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 ¼³Á¤
 
-í°íŠ¸ d2coding ì‚¬ìš© 
+
+
+ÆùÆ® d2coding »ç¿ë 
   https://github.com/naver/d2codingfont/releases
-  "C:\Windows\Fonts\" ê²½ë¡œì— ë³µì‚¬
+  "C:\Windows\Fonts\" °æ·Î¿¡ º¹»ç
 
-  í¬ë¡¬ ê¸°ë³¸ ê¸€ê¼´ : ë§žì¶¤
-  ìµìŠ¤í”Œë¡œì–´ ê¸°ë³¸ ê¸€ê¼´ : ì›¹ íŽ˜ì´ì§€ ê¸€ê¼´(Gulim), ì¼ë°˜ í…ìŠ¤íŠ¸ ê¸€ê¼´(GulimChe)
+  Å©·Ò ±âº» ±Û²Ã : ¸ÂÃã
+  ÀÍ½ºÇÃ·Î¾î ±âº» ±Û²Ã : À¥ ÆäÀÌÁö ±Û²Ã(Gulim), ÀÏ¹Ý ÅØ½ºÆ® ±Û²Ã(GulimChe)
 
 
 
-@ View ì´ˆê¸°í™”
+@ View ÃÊ±âÈ­
   Window => Perspective  => Open Perspective  => Other  => Java EE
 
-@ Eclipseì—ì„œ Project Explorer / Navigator  /  Outline / Task List
-  Window  =>  Show View  =>  Other  ì—ì„œ ë§¨ìœ„ì—ì„œ ê²€ìƒ‰
+@ Eclipse¿¡¼­ Project Explorer / Navigator  /  Outline / Task List
+  Window  =>  Show View  =>  Other  ¿¡¼­ ¸ÇÀ§¿¡¼­ °Ë»ö
 
 
 
 
 
 
-@ Project Import Gradle ì‚¬ìš©
+@ Project Import Gradle »ç¿ë
 
 
-1) gradle ëª…ë ¹ì–´ ëª¨ìŒ
+1) gradle ¸í·É¾î ¸ðÀ½
 
 build.gradle             https://docs.gradle.org/4.2.1/userguide/eclipse_plugin.html
 
@@ -218,7 +218,7 @@ java-basic> gradlew cleanEclipse
 
 
 
-2) build.gradle ìˆ˜ì •í•´ì„œ jdk9ìœ¼ë¡œ ì„¤ì •
+2) build.gradle ¼öÁ¤ÇØ¼­ jdk9À¸·Î ¼³Á¤
 
 
 apply plugin: 'eclipse'
@@ -259,7 +259,7 @@ eclipse {
       whenMerged { jdt
       }
 
-      // .settings/org.eclipse.jdt.core.prefs íŒŒì¼ì— ë“¤ì–´ê°ˆ ê°’ ì„¤ì •
+      // .settings/org.eclipse.jdt.core.prefs ÆÄÀÏ¿¡ µé¾î°¥ °ª ¼³Á¤
       withProperties { properties ->
         properties["org.eclipse.jdt.core.compiler.codegen.targetPlatform"] = "9"
         properties["org.eclipse.jdt.core.compiler.source"] = "9"
@@ -276,56 +276,56 @@ eclipse {
 
 
 
-3) gradleì„ ì´ìš©í•´ì„œ .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
+3) gradleÀ» ÀÌ¿ëÇØ¼­ .project ÆÄÀÏ, .classpathÆÄÀÏ°ú org.eclipse.jdt.core.prefs ÆÄÀÏ »ý¼º
 
 java-basic> gradlew cleanEclipse
 
 java-basic> gradlew Eclipse
 
 
-- C:\Users\bit-user\git\bitcamp\java-basic í´ë”ì—ì„œ .classpath íŒŒì¼ì—ì„œ JavaSE-9 ì„¤ì • í™•ì¸
+- C:\Users\bit-user\git\bitcamp\java-basic Æú´õ¿¡¼­ .classpath ÆÄÀÏ¿¡¼­ JavaSE-9 ¼³Á¤ È®ÀÎ
   	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/
          org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9/"/>
 
-- C:\Users\bit-user\git\bitcamp\java-basic\.settings í´ë”ì—ì„œ org.eclipse.jdt.core.prefs í™•ì¸
+- C:\Users\bit-user\git\bitcamp\java-basic\.settings Æú´õ¿¡¼­ org.eclipse.jdt.core.prefs È®ÀÎ
   org.eclipse.jdt.core.compiler.codegen.targetPlatform=9
   org.eclipse.jdt.core.compiler.source=9
   org.eclipse.jdt.core.compiler.compliance=9
 
 
-4) eclipse ì— Import
+4) eclipse ¿¡ Import
 
-File => Import => General => Existing Projects into WorkSpace => Browse(í´ë”ì„ íƒ)
-        - Select root directory : ì••ì¶• í•´ì œëœ í”„ë¡œì íŠ¸ í´ë”
-        - Select archive file   : ì••ì¶• ìƒíƒœì¸ í”„ë¡œì íŠ¸ ì••ì¶•íŒŒì¼
+File => Import => General => Existing Projects into WorkSpace => Browse(Æú´õ¼±ÅÃ)
+        - Select root directory : ¾ÐÃà ÇØÁ¦µÈ ÇÁ·ÎÁ§Æ® Æú´õ
+        - Select archive file   : ¾ÐÃà »óÅÂÀÎ ÇÁ·ÎÁ§Æ® ¾ÐÃàÆÄÀÏ
 
 
 
-5) Import ì—ëŸ¬
+5) Import ¿¡·¯
 
-  ì˜¤ë¥˜: ê¸°ë³¸ í´ëž˜ìŠ¤ bitcamp.java100.Test16_1ì„(ë¥¼) ì°¾ê±°ë‚˜ ë¡œë“œí•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
-  ì›ì¸: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
+  ¿À·ù: ±âº» Å¬·¡½º bitcamp.java100.Test16_1À»(¸¦) Ã£°Å³ª ·ÎµåÇÒ ¼ö ¾ø½À´Ï´Ù.
+  ¿øÀÎ: java.lang.ClassNotFoundException: bitcamp.java100.Test16_1
 
-  Project > Context Menu => Proerties => Java Build Path ì—ì„œ jar ê²½ë¡œí™•ì¸
-  gitì—ì„œ ë‹¤ìš´ ë°›ì•˜ê¸° ë•Œë¬¸ì— Users ê°€ bit-userë¡œ ë˜ì–´ ìžˆìŒ
-  ë…¸íŠ¸ë¶ì€ Users ê°€ userë¡œ ë˜ì–´ ìžˆìŒ
+  Project > Context Menu => Proerties => Java Build Path ¿¡¼­ jar °æ·ÎÈ®ÀÎ
+  git¿¡¼­ ´Ù¿î ¹Þ¾Ò±â ¶§¹®¿¡ Users °¡ bit-user·Î µÇ¾î ÀÖÀ½
+  ³ëÆ®ºÏÀº Users °¡ user·Î µÇ¾î ÀÖÀ½
 
-  gradleì„ ì´ìš©í•´ì„œ .project íŒŒì¼, .classpathíŒŒì¼ê³¼ org.eclipse.jdt.core.prefs íŒŒì¼ ìƒì„±
+  gradleÀ» ÀÌ¿ëÇØ¼­ .project ÆÄÀÏ, .classpathÆÄÀÏ°ú org.eclipse.jdt.core.prefs ÆÄÀÏ »ý¼º
 
   java-basic> gradlew cleanEclipse
 
   java-basic> gradlew Eclipse
 
-  í•œ í›„ ë‹¤ì‹œ Import í•œë‹¤.
+  ÇÑ ÈÄ ´Ù½Ã Import ÇÑ´Ù.
 
 
-6) Import ì˜ Project ëª…ì´ í´ë”ëª…ê³¼ ë‹¤ë¥¸ê²½ìš°(ë‹¤ë¥¸ í´ë” ë³µì‚¬í–ˆì„ ê²½ìš°)
+6) Import ÀÇ Project ¸íÀÌ Æú´õ¸í°ú ´Ù¸¥°æ¿ì(´Ù¸¥ Æú´õ º¹»çÇßÀ» °æ¿ì)
 
-  - settings.gradle íŒŒì¼ì—ì„œ rootProject.name ë³€ê²½
+  - settings.gradle ÆÄÀÏ¿¡¼­ rootProject.name º¯°æ
 
     rootProject.name = 'bitcamp-java-basic' => rootProject.name = 'java-basic'
 
-  - .project íŒŒì¼ì—ì„œ <projectDescription> ë³€ê²½
+  - .project ÆÄÀÏ¿¡¼­ <projectDescription> º¯°æ
  
     <name>bitcamp-java-basic</name>  =>  <name>java-basic</name>
 
@@ -337,7 +337,7 @@ File => Import => General => Existing Projects into WorkSpace => Browse(í´ë”ì„
   java-basic> gradlew Eclipse
 
 
-8) Project ì˜¤ë¥¸ìª½ ë§ˆìš°ìŠ¤(context menu)  >  Properties > Java Compiler => Version í™•ì¸
+8) Project ¿À¸¥ÂÊ ¸¶¿ì½º(context menu)  >  Properties > Java Compiler => Version È®ÀÎ
    
    
 
@@ -345,204 +345,205 @@ File => Import => General => Existing Projects into WorkSpace => Browse(í´ë”ì„
 
 
 
-@@ Eclipseì—ì„œ Git ì‚¬ìš©   https://backlog.com/git-tutorial/kr/
+@@ Eclipse¿¡¼­ Git »ç¿ë   https://backlog.com/git-tutorial/kr/
 
 
-@ Git Push ë° Pull
+@ Git Push ¹× Pull
 
   Window  =>  Show View  =>  Other  =>  Git Repositories
   Window  =>  Show View  =>  Other  =>  Git Staging
 
-  Git Repoitories ì—ì„œ í•´ë‹¹ gitì—ì„œ ì˜¤ë¥¸ìª½ Context Menu  =>  Push to Stream
+  Git Repoitories ¿¡¼­ ÇØ´ç git¿¡¼­ ¿À¸¥ÂÊ Context Menu  =>  Push to Stream
 
-  Git Staging ì—ì„œ Unstaged Changes ì—ì„œ Staged Changes ë¡œ íŒŒì¼ ì´ë™í•˜ê³ 
-  Commit Messageì— ë©”ì‹œì§€ ìž…ë ¥
+  Git Staging ¿¡¼­ Unstaged Changes ¿¡¼­ Staged Changes ·Î ÆÄÀÏ ÀÌµ¿ÇÏ°í
+  Commit Message¿¡ ¸Þ½ÃÁö ÀÔ·Â
 
-  Commit and Push í´ë¦­í•´ì„œ ë¡œê·¸ì¸
+  Commit and Push Å¬¸¯ÇØ¼­ ·Î±×ÀÎ
 
-  í•œë²ˆ Commit í•˜ë©´ ì´í´ë¦½ìŠ¤ ë‹¤ì‹œ ì‹¤í–‰
-
-
+  ÇÑ¹ø Commit ÇÏ¸é ÀÌÅ¬¸³½º ´Ù½Ã ½ÇÇà
 
 
 
-@ Eclipseì—ì„œ Git ìžë™ë¡œê·¸ì¸ í•´ì œ
 
-  Window  => Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tabì—ì„œ ì‚­ì œ
+
+@ Eclipse¿¡¼­ Git ÀÚµ¿·Î±×ÀÎ ÇØÁ¦
+
+  Window  => Preference  =>  General  =>  Security  =>  Secure Storage  =>  Contents Tab¿¡¼­ »èÁ¦
           => Default Secure Strorage => Git  =>  Delete
 
 
-
-========================= ê¸°íƒ€ ì„¤ì • ==============================
+//==============================================================================================
+//* ±âÅ¸ ¼³Á¤
+//==============================================================================================
      
- @ ë‹¨ì¶•í‚¤ ë“±ë¡
+ @ ´ÜÃàÅ° µî·Ï
 
- -. Window > Preference > General > Keys > Commandì—ì„œ File Search ì´ë™ > 
+ -. Window > Preference > General > Keys > Command¿¡¼­ File Search ÀÌµ¿ > 
     
-    Binding ì— ì›í•˜ëŠ” ë‹¨ì¶•í‚¤ í´ë¦­ / In Windows > Apply
+    Binding ¿¡ ¿øÇÏ´Â ´ÜÃàÅ° Å¬¸¯ / In Windows > Apply
 
  
- @ ìžë™ ì™„ì„± ì„¤ì • í•´ì œ
+ @ ÀÚµ¿ ¿Ï¼º ¼³Á¤ ÇØÁ¦
 
- -. ìžë™ ì™„ì„± í•´ì œ
+ -. ÀÚµ¿ ¿Ï¼º ÇØÁ¦
 
     Windows > Preferences > Java > Editor > Content Assist > Enable auto activation : 
 
 
- -. ì»¨í…íŠ¸ ì–´ì‹œíŠ¸ í•´ì œë˜ì–´ ìžˆì–´ë„ Ctrl + Spaceí•˜ë©´ ì»¨í…íŠ¸ ì–´ì‹œíŠ¸ ë‚˜íƒ€ë‚¨
+ -. ÄÁÅÙÆ® ¾î½ÃÆ® ÇØÁ¦µÇ¾î ÀÖ¾îµµ Ctrl + SpaceÇÏ¸é ÄÁÅÙÆ® ¾î½ÃÆ® ³ªÅ¸³²
 
  
- @ ê´„í˜¸ ìžë™ ì™„ì„± í•´ì œ
+ @ °ýÈ£ ÀÚµ¿ ¿Ï¼º ÇØÁ¦
 
  -. Windows > Preferences > Java > Editor > Typing > Automatically close
 
 
-========================= ì†ŒìŠ¤ ë„¤ë¹„ê²Œì´ì…˜ =========================
+========================= ¼Ò½º ³×ºñ°ÔÀÌ¼Ç =========================
 
 
- -. Ctrl + P  :  Import ì¶”ê°€
+ -. Ctrl + P  :  Import Ãß°¡
 
 
- -. Ctrl + \  :  View Move (ë‹¨ì¶•í‚¤ ì‚¬ìš©ìž ë“±ë¡  Next View)
+ -. Ctrl + \  :  View Move (´ÜÃàÅ° »ç¿ëÀÚ µî·Ï  Next View)
  -. Ctrl + [  :  New Package
  -. Ctrl + ]  :  New Class
- -. Ctrl + ;  :  ë‹¨ì–´ ìžë™ì™„ì„± (Alt + / , Word Completion, Editing Text)
+ -. Ctrl + ;  :  ´Ü¾î ÀÚµ¿¿Ï¼º (Alt + / , Word Completion, Editing Text)
 
 
- -. Shift + F12 : Open Attached Javadoc in a Browser(Shift + F2) ì‚¬ìš©ìž ì •ì˜
+ -. Shift + F12 : Open Attached Javadoc in a Browser(Shift + F2) »ç¿ëÀÚ Á¤ÀÇ
 
 
- -. window > New Window  :  ì´í´ë¦½ìŠ¤ ìƒˆì°½
+ -. window > New Window  :  ÀÌÅ¬¸³½º »õÃ¢
 
- -. Ctrl + M : í˜„ìž¬ í™œì„±í™”ëœ ë·°ë‚˜ ì—ë””í„° ìµœëŒ€í™”
- -. Ctrl + F6 : ì†ŒìŠ¤ê°„ ì´ë™
- -. Ctrl + F7 : ë·°ê°„ ì´ë™ ( ì—ë””í„° ìµœëŒ€ì°½ì—ì„œ Project Explorer ì°½ ë³´ì¸)
-    Ctrl + \ (ë‹¨ì¶•í‚¤ ì‚¬ìš©ìž ë“±ë¡  Next View)
+ -. Ctrl + M : ÇöÀç È°¼ºÈ­µÈ ºä³ª ¿¡µðÅÍ ÃÖ´ëÈ­
+ -. Ctrl + F6 : ¼Ò½º°£ ÀÌµ¿
+ -. Ctrl + F7 : ºä°£ ÀÌµ¿ ( ¿¡µðÅÍ ÃÖ´ëÃ¢¿¡¼­ Project Explorer Ã¢ º¸ÀÎ)
+    Ctrl + \ (´ÜÃàÅ° »ç¿ëÀÚ µî·Ï  Next View)
 
- -. Ctrl + F8 : ë‹¤ìŒ Perspectiveë¡œ ì´ë™(Debug, JavaEE)
-
-
- -. Ctrl + E : ì†ŒìŠ¤ íƒ­ ì´ë™
- -. Ctrl + F6 : ì†ŒìŠ¤ íƒ­ ì´ë™
- -. Ctrl + PageUp, Ctrl + PageDown : ì†ŒìŠ¤íƒ­ ì´ë™
+ -. Ctrl + F8 : ´ÙÀ½ Perspective·Î ÀÌµ¿(Debug, JavaEE)
 
 
- -. Ctrl + , : í˜„ìž¬ ì»¤ì„œì—ì„œ ì´ì „ ì—ëŸ¬ ë‚œ ê³³ìœ¼ë¡œì˜ ì»¤ì„œ ì´ë™
- -. Ctrl + . : í˜„ìž¬ ì»¤ì„œì—ì„œ ì´í›„ ì—ëŸ¬ ë‚œ ê³³ìœ¼ë¡œì˜ ì»¤ì„œ ì´ë™
+ -. Ctrl + E : ¼Ò½º ÅÇ ÀÌµ¿
+ -. Ctrl + F6 : ¼Ò½º ÅÇ ÀÌµ¿
+ -. Ctrl + PageUp, Ctrl + PageDown : ¼Ò½ºÅÇ ÀÌµ¿
+
+
+ -. Ctrl + , : ÇöÀç Ä¿¼­¿¡¼­ ÀÌÀü ¿¡·¯ ³­ °÷À¸·ÎÀÇ Ä¿¼­ ÀÌµ¿
+ -. Ctrl + . : ÇöÀç Ä¿¼­¿¡¼­ ÀÌÈÄ ¿¡·¯ ³­ °÷À¸·ÎÀÇ Ä¿¼­ ÀÌµ¿
 
   
 
- @ ë‹¨ì¶•í‚¤ ë“±ë¡ ë³´ê¸°   [Ctrl + Shift + L]
-ì´í´ë¦½ìŠ¤ ë‹¨ì¶•í‚¤ ì €ìž¥ íŒŒì¼
+ @ ´ÜÃàÅ° µî·Ï º¸±â   [Ctrl + Shift + L]
+ÀÌÅ¬¸³½º ´ÜÃàÅ° ÀúÀå ÆÄÀÏ
 %workspace%\.metadata\.plugins\org.eclipse.core.runtime\.settings\org.eclipse.ui.workbench.prefs
 
 
-========================= ì†ŒìŠ¤ ì½”ë“œ íŽ¸ì§‘ =========================
+========================= ¼Ò½º ÄÚµå ÆíÁý =========================
 
 
- -. ìƒìœ„ ì£¼ì„ íŽ¼ì¹˜ê¸° : Window > Preference > Java > Folding > Header Comments
-
-
-
- -. Ctrl + ;  :  ë‹¨ì–´ ìžë™ì™„ì„± (Alt + / , Word Completion, Editing Text)
- -. Ctrl + Shift + x : ëŒ€ë¬¸ìžë¡œ
- -. Ctrl + Shift + y : ì†Œë¬¸ìžë¡œ
+ -. »óÀ§ ÁÖ¼® ÆîÄ¡±â : Window > Preference > Java > Folding > Header Comments
 
 
 
- -. F2 : ì—ëŸ¬ ì†ŒìŠ¤ ìœ„ì¹˜ì—ì„œ assist menu
- -. F3(Ctrl + ë§ˆìš°ìŠ¤ì»¤ì„œ) : ì„ ì–¸ëœ ë³€ìˆ˜ë¡œ ì´ë™, ë©”ì†Œë“œ ì •ì˜ë¶€ë¡œ ì´ë™
- -. F4         : í´ëž˜ìŠ¤ëª…ì„ ì„ íƒí•˜ê³  ëˆ„ë¥´ë©´ í•´ë‹¹ í´ëž˜ìŠ¤ì˜ Hierarchy ë¥¼ ë³¼ ìˆ˜ ìžˆë‹¤.
-
- -. Ctrl + O   : í•´ë‹¹ ì†ŒìŠ¤ì˜ ë©”ì†Œë“œ ë¦¬ìŠ¤íŠ¸ë¥¼ í™•ì¸í•˜ë ¤ í• ë•Œ
- -. Ctrl + Shift + Down : Java Editorì—ì„œ ë‹¤ìŒ memberë¡œ ì´ë™
-
- -. Ctrl + Space       :  ì»¨í…íŠ¸ ì–´ì‹œìŠ¤íŠ¸
-
- -. Ctrl + Shift + M : íŠ¹ì • í´ëž˜ìŠ¤ Import
- -. Ctrl + Shift + O : ìžë™ìœ¼ë¡œ Import  => Ctrl + P ë¡œ ë³€ê²½
-
- -. Ctrl + I : ì„ íƒ ë¸”ë¡ ì½”ë“œ ìžë™ ì •ë¦¬
- -. Ctrl + Shift + F : ì „ì²´ ì½”ë“œ ìžë™ ì •ë¦¬ 
-
- -. Ctrl + Shift + W : ì—ë””í„°ì°½ ëª¨ë‘ ë‹«ê¸° 
- -. Alt + Q  : ì—ë””í„°ì°½ ëª¨ë‘ ë‹«ê¸°(ë‹¨ì¶•í‚¤ ê°œì¸ ë“±ë¡, In Windows)
- -. Alt + Z  : í˜„ìž¬ ì—ë””í„°ì°½ ì œì™¸ ëª¨ë‘ ë‹«ê¸°(ë‹¨ì¶•í‚¤ ê°œì¸ ë“±ë¡, In Windows)
-
- -. Ctrl + /           :  ì£¼ì„ í† ê¸€
- -. Ctrl + Shift + /   :  ë¸”ë¡ ì£¼ì„ ì¶”ê°€
- -. Ctrl + Shift + \   :  ë¸”ë¡ ì£¼ì„ ì‚­ì œ
+ -. Ctrl + ;  :  ´Ü¾î ÀÚµ¿¿Ï¼º (Alt + / , Word Completion, Editing Text)
+ -. Ctrl + Shift + x : ´ë¹®ÀÚ·Î
+ -. Ctrl + Shift + y : ¼Ò¹®ÀÚ·Î
 
 
 
- -. Alt + Left / Right Arrow  : ì´ì „ ì†ŒìŠ¤ ìœ„ì¹˜ë¡œ ì»¤ì„œ ì´ë™
- -. Alt + Up / Down Arrow   : ì„ íƒí•œ ì†ŒìŠ¤ ìœ„ì¹˜ ë³€ê²½
+ -. F2 : ¿¡·¯ ¼Ò½º À§Ä¡¿¡¼­ assist menu
+ -. F3(Ctrl + ¸¶¿ì½ºÄ¿¼­) : ¼±¾ðµÈ º¯¼ö·Î ÀÌµ¿, ¸Þ¼Òµå Á¤ÀÇºÎ·Î ÀÌµ¿
+ -. F4         : Å¬·¡½º¸íÀ» ¼±ÅÃÇÏ°í ´©¸£¸é ÇØ´ç Å¬·¡½ºÀÇ Hierarchy ¸¦ º¼ ¼ö ÀÖ´Ù.
 
+ -. Ctrl + O   : ÇØ´ç ¼Ò½ºÀÇ ¸Þ¼Òµå ¸®½ºÆ®¸¦ È®ÀÎÇÏ·Á ÇÒ¶§
+ -. Ctrl + Shift + Down : Java Editor¿¡¼­ ´ÙÀ½ member·Î ÀÌµ¿
 
- -. Ctrl + Left / Right Arrow  : ë¬¸ìžì—´ ì´ë™
- -. Ctrl + Shift + Left / Right Arrow  : ë¬¸ìžì—´ ì„ íƒ
- -. Shift + Alt + Left / Right Arrow : ë¸”ë¡ ì„ íƒ (Up/ Downì€ ë‹¤ë¥¸ ê¸°ëŠ¥)
+ -. Ctrl + Space       :  ÄÁÅÙÆ® ¾î½Ã½ºÆ®
 
+ -. Ctrl + Shift + M : Æ¯Á¤ Å¬·¡½º Import
+ -. Ctrl + Shift + O : ÀÚµ¿À¸·Î Import  => Ctrl + P ·Î º¯°æ
 
- -. Shift + Alt + a : ë¸”ë¡ ë³µì‚¬ => ë§ˆìš°ìŠ¤ê°€ ì‹­ìžê°€ë¡œ ë°”ë€œ
+ -. Ctrl + I : ¼±ÅÃ ºí·Ï ÄÚµå ÀÚµ¿ Á¤¸®
+ -. Ctrl + Shift + F : ÀüÃ¼ ÄÚµå ÀÚµ¿ Á¤¸® 
 
+ -. Ctrl + Shift + W : ¿¡µðÅÍÃ¢ ¸ðµÎ ´Ý±â 
+ -. Alt + Q  : ¿¡µðÅÍÃ¢ ¸ðµÎ ´Ý±â(´ÜÃàÅ° °³ÀÎ µî·Ï, In Windows)
+ -. Alt + Z  : ÇöÀç ¿¡µðÅÍÃ¢ Á¦¿Ü ¸ðµÎ ´Ý±â(´ÜÃàÅ° °³ÀÎ µî·Ï, In Windows)
 
- -. Ctrl + F : í˜„ìž¬ íŒŒì¼ì—ì„œ íŠ¹ì • ë¬¸ìžë¥¼ ì°¾ê±°ë‚˜ ì°¾ì€ ë¬¸ìžë¥¼ êµì²´í•˜ëŠ” ë°©ë²•
-
- -. Ctrl + Shift + R : í”„ë¡œì íŠ¸ì— í¬í•¨ëœ ë¦¬ì†ŒìŠ¤(ì—¬ê¸°ì„œëŠ” íŒŒì¼)ì¤‘ì— ì°¾ëŠ” ë°©ë²•
-
- -. Ctrl + Shift + G : í˜„ìž¬ íŒ¨í‚¤ì§€ì— í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•˜ëŠ” ìœ„ì¹˜ë¥¼ ëª¨ë‘ ì°¾ì•„ì¤€ë‹¤.
-
-
-
- -. í´ë”© ì„¤ì • : Window > Preference > Java > Editor > Folding
- -. Ctrl + Numpad(-) : í•´ë‹¹ì†ŒìŠ¤ í´ë”© ë‹«ê¸°
- -. Ctrl + Numpad(+) : í•´ë‹¹ì†ŒìŠ¤ í´ë”© ì—´ê¸°
-
- -. Ctrl + Numpad(/) : ì „ì²´ í´ë”© ë‹«ê¸°
- -. Ctrl + Numpad(*) : ì „ì²´ í´ë”© ì—´ê¸°
+ -. Ctrl + /           :  ÁÖ¼® Åä±Û
+ -. Ctrl + Shift + /   :  ºí·Ï ÁÖ¼® Ãß°¡
+ -. Ctrl + Shift + \   :  ºí·Ï ÁÖ¼® »èÁ¦
 
 
 
- -. Ctrl + H ë‹¨ì¶•í‚¤ë¥¼ Open Search Dialogì—´ë¦´ë•Œ ê¸°ë³¸ íƒ­ìœ¼ë¡œ File Searchë¡œ ë³€ê²½ :
+ -. Alt + Left / Right Arrow  : ÀÌÀü ¼Ò½º À§Ä¡·Î Ä¿¼­ ÀÌµ¿
+ -. Alt + Up / Down Arrow   : ¼±ÅÃÇÑ ¼Ò½º À§Ä¡ º¯°æ
 
-    Open Search Dialog ë‹¨ì¶•í‚¤ëŠ” ê·¸ëŒ€ë¡œ ë‘ê³  File Search ë‹¨ì¶•í‚¤ë¥¼ Ctrl + H ì¶”ê°€
+
+ -. Ctrl + Left / Right Arrow  : ¹®ÀÚ¿­ ÀÌµ¿
+ -. Ctrl + Shift + Left / Right Arrow  : ¹®ÀÚ¿­ ¼±ÅÃ
+ -. Shift + Alt + Left / Right Arrow : ºí·Ï ¼±ÅÃ (Up/ DownÀº ´Ù¸¥ ±â´É)
+
+
+ -. Shift + Alt + a : ºí·Ï º¹»ç => ¸¶¿ì½º°¡ ½ÊÀÚ°¡·Î ¹Ù²ñ
+
+
+ -. Ctrl + F : ÇöÀç ÆÄÀÏ¿¡¼­ Æ¯Á¤ ¹®ÀÚ¸¦ Ã£°Å³ª Ã£Àº ¹®ÀÚ¸¦ ±³Ã¼ÇÏ´Â ¹æ¹ý
+
+ -. Ctrl + Shift + R : ÇÁ·ÎÁ§Æ®¿¡ Æ÷ÇÔµÈ ¸®¼Ò½º(¿©±â¼­´Â ÆÄÀÏ)Áß¿¡ Ã£´Â ¹æ¹ý
+
+ -. Ctrl + Shift + G : ÇöÀç ÆÐÅ°Áö¿¡ ÇÔ¼ö¸¦ È£ÃâÇÏ´Â À§Ä¡¸¦ ¸ðµÎ Ã£¾ÆÁØ´Ù.
+
+
+
+ -. Æúµù ¼³Á¤ : Window > Preference > Java > Editor > Folding
+ -. Ctrl + Numpad(-) : ÇØ´ç¼Ò½º Æúµù ´Ý±â
+ -. Ctrl + Numpad(+) : ÇØ´ç¼Ò½º Æúµù ¿­±â
+
+ -. Ctrl + Numpad(/) : ÀüÃ¼ Æúµù ´Ý±â
+ -. Ctrl + Numpad(*) : ÀüÃ¼ Æúµù ¿­±â
+
+
+
+ -. Ctrl + H ´ÜÃàÅ°¸¦ Open Search Dialog¿­¸±¶§ ±âº» ÅÇÀ¸·Î File Search·Î º¯°æ :
+
+    Open Search Dialog ´ÜÃàÅ°´Â ±×´ë·Î µÎ°í File Search ´ÜÃàÅ°¸¦ Ctrl + H Ãß°¡
     
-    Open Search Dialog ê¸°ë³¸ ì •ë³´ : Binding(Ctrl + H), When(In Windows)
+    Open Search Dialog ±âº» Á¤º¸ : Binding(Ctrl + H), When(In Windows)
     
 
 
-========================= ì‹¤í–‰ ë° ë””ë²„ê¹… =========================
+========================= ½ÇÇà ¹× µð¹ö±ë =========================
 
- -. Ctrl + Shift + B : í˜„ ì»¤ì„œì˜ ìœ„ì¹˜ì— ë¸Œë ˆì´í¬ í¬ì¸í„° ì„¤ì •/í•´ì œ
+ -. Ctrl + Shift + B : Çö Ä¿¼­ÀÇ À§Ä¡¿¡ ºê·¹ÀÌÅ© Æ÷ÀÎÅÍ ¼³Á¤/ÇØÁ¦
 
- -. F11 : ë””ë²„ê¹… ì‹œìž‘
+ -. F11 : µð¹ö±ë ½ÃÀÛ
 
- -. F8 : ë””ë²„ê¹… ê³„ì†
+ -. F8 : µð¹ö±ë °è¼Ó
 
- -. F6 : í•œ ì¤„ì”© ì‹¤í–‰(Step Over)
+ -. F6 : ÇÑ ÁÙ¾¿ ½ÇÇà(Step Over)
 
- -. F5 : í•œ ì¤„ì”© ì‹¤í–‰í•˜ë˜ í•¨ìˆ˜ì¼ ê²½ìš° ê·¸ í•¨ìˆ˜ ë‚´ë¶€ë¡œ ë“¤ì–´ê°(Step Into)
+ -. F5 : ÇÑ ÁÙ¾¿ ½ÇÇàÇÏµÇ ÇÔ¼öÀÏ °æ¿ì ±× ÇÔ¼ö ³»ºÎ·Î µé¾î°¨(Step Into)
 
- -. Ctrl + R : ë””ë²„ê±° ì¤‘ í˜„ìž¬ ë¼ì¸ê¹Œì§€ ì‹¤í–‰(Run to Line)
+ -. Ctrl + R : µð¹ö°Å Áß ÇöÀç ¶óÀÎ±îÁö ½ÇÇà(Run to Line)
 
- -. Ctrl + F11 : Run íŒŒì¼ ì‹¤í–‰
+ -. Ctrl + F11 : Run ÆÄÀÏ ½ÇÇà
  
- -. Ctrl + R : í˜„ìž¬ ë¼ì¸ê¹Œì§€ ì‹¤í–‰(Run to Line)
+ -. Ctrl + R : ÇöÀç ¶óÀÎ±îÁö ½ÇÇà(Run to Line)
 
- -. F12 : ì—ë””í„° í™œì„±í™”
+ -. F12 : ¿¡µðÅÍ È°¼ºÈ­
 
- -. F12 : ì»´íŒŒì¼ ì¤‘ ì—ëŸ¬ë“±ìœ¼ë¡œ í¬ì»¤ìŠ¤ê°€ ë‹¤ë¥¸ë°ë¡œ ê°”ì„ ë•Œ Editor ë¡œ ì»¤ì„œ ì´ë™
+ -. F12 : ÄÄÆÄÀÏ Áß ¿¡·¯µîÀ¸·Î Æ÷Ä¿½º°¡ ´Ù¸¥µ¥·Î °¬À» ¶§ Editor ·Î Ä¿¼­ ÀÌµ¿
 
 
-========================= ì½”ë“œ í…œí”Œë¦¿ ì‚¬ìš©í•˜ê¸° =========================
+========================= ÄÚµå ÅÛÇÃ¸´ »ç¿ëÇÏ±â =========================
 
-1. Classì— ì£¼ì„ ë„£ê¸°
+1. Class¿¡ ÁÖ¼® ³Ö±â
 
    Window > Preferences > Java > Code Style > 
-            Code Templates > Comments > Types > Edit ë²„íŠ¼ í´ë¦­
+            Code Templates > Comments > Types > Edit ¹öÆ° Å¬¸¯
 
-   ë‚´ìš© ìˆ˜ì •
+   ³»¿ë ¼öÁ¤
    
 /**
  * <pre>
@@ -556,37 +557,37 @@ File => Import => General => Existing Projects into WorkSpace => Browse(í´ë”ì„
  * ${tags}
  */ 
 
-Refactoring ë‹¨ì¶•í‚¤
-Alt + Shift + T : Refactor Quick Menu - ë¦¬íŽ™í† ë§ ë©”ë‰´ ë°”ë¡œê°€ê¸°
-Alt + Shift + R: ì´ë¦„ ë³€ê²½(Rename)
-Alt + Shift + V : ì´ë™(Move)
+Refactoring ´ÜÃàÅ°
+Alt + Shift + T : Refactor Quick Menu - ¸®ÆåÅä¸µ ¸Þ´º ¹Ù·Î°¡±â
+Alt + Shift + R: ÀÌ¸§ º¯°æ(Rename)
+Alt + Shift + V : ÀÌµ¿(Move)
 Alt + Shift + C : Change Method Signature
 Alt + Shift + M : Extract Method
 Alt + Shift + L : Extract Local Variable
 Alt + Shift + I : Inline
 
-ì¶œì²˜: http://fuzzy.tistory.com/171 [í¼ì§€ê¸°ëŠ¥ì˜ ë§‰ê°€ëŠ” ë¸”ë¡œê·¸]
+ÃâÃ³: http://fuzzy.tistory.com/171 [ÆÛÁö±â´ÉÀÇ ¸·°¡´Â ºí·Î±×]
 
 
 ========================= Refactoring =========================
     
 
- @ Setters and Getters ìžë™ ì¶”ê°€
+ @ Setters and Getters ÀÚµ¿ Ãß°¡
 
     Context Menu > Source > Generate Setters and Getters
 
 
- @ Super Class ë§Œë“¤ê¸°
+ @ Super Class ¸¸µé±â
 
    Context Menu > Refactor > Extract SuperClass  => Generalization
 
  
- @ ê¸°ë³¸ Overiding ë§Œë“¤ê¸°
+ @ ±âº» Overiding ¸¸µé±â
 
-   í´ëž˜ìŠ¤ íŒŒì¼ì—ì„œ Ctrl + Space í•œ í›„ ì˜¤ë²„ë¼ì´ë”©í•  ë©”ì„œë“œ ì„ íƒ
+   Å¬·¡½º ÆÄÀÏ¿¡¼­ Ctrl + Space ÇÑ ÈÄ ¿À¹ö¶óÀÌµùÇÒ ¸Þ¼­µå ¼±ÅÃ
 
 
- @ toString(), hashCode(), equals() ì˜¤ë²„ë¼ì´ë”© ë§Œë“¤ê¸°
+ @ toString(), hashCode(), equals() ¿À¹ö¶óÀÌµù ¸¸µé±â
 
    Context Menu > Source > Generate toString()
 
@@ -609,15 +610,15 @@ http://tomcat.apache.org/
 
 
 @ Codebook
-ë§ˆí¬ë‹¤ìš´ : //  =>  //:   
+¸¶Å©´Ù¿î : //  =>  //:   
 
-@ ê°€ë³€ ë©”ì†Œë“œ
+@ °¡º¯ ¸Þ¼Òµå
     static void sum(int... values) {
         int s = 0;
         for (int v : values) {
             s += v;
         }
-        System.out.printf("í•©ê³„: %d\n", s);
+        System.out.printf("ÇÕ°è: %d\n", s);
     }
 
 
@@ -641,7 +642,7 @@ http://tomcat.apache.org/
 =================================================================================
 
 
-@ Java Window í”„ë¡œê·¸ëž¨
+@ Java Window ÇÁ·Î±×·¥
 
 
         AWT
@@ -659,241 +660,241 @@ http://tomcat.apache.org/
 =============================================================================
 
 
- -. í´ëž˜ìŠ¤ í…ŒìŠ¤íŠ¸ í•  ê²½ìš° main í•¨ìˆ˜ë¥¼ ë§Œë“¤ì–´ì„œ í…ŒìŠ¤íŠ¸í•œë‹¤.
+ -. Å¬·¡½º Å×½ºÆ® ÇÒ °æ¿ì main ÇÔ¼ö¸¦ ¸¸µé¾î¼­ Å×½ºÆ®ÇÑ´Ù.
 
- -. í…ŒìŠ¤íŠ¸ í•œ í›„ main ì‚­ì œí•˜ê³  run í•˜ë©´ í˜„ìž¬ í´ëž˜ìŠ¤ë¡œ ì‹¤í–‰ëœë‹¤.
+ -. Å×½ºÆ® ÇÑ ÈÄ main »èÁ¦ÇÏ°í run ÇÏ¸é ÇöÀç Å¬·¡½º·Î ½ÇÇàµÈ´Ù.
 
- -. main ì´ ìžˆëŠ” ì†ŒìŠ¤ë¡œ ì´ë™í•´ì„œ runì„ í•´ì•¼í•œë‹¤.
+ -. main ÀÌ ÀÖ´Â ¼Ò½º·Î ÀÌµ¿ÇØ¼­ runÀ» ÇØ¾ßÇÑ´Ù.
 
 
 =============================================================================
 
 
-@ í´ëž˜ìŠ¤ ë¡œë”©ë˜ëŠ” ì‹œì 
+@ Å¬·¡½º ·ÎµùµÇ´Â ½ÃÁ¡
 
-// 1) í´ëž˜ìŠ¤ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•  ë•Œ 
+// 1) Å¬·¡½º º¯¼ö¸¦ »ç¿ëÇÒ ¶§ 
 //MyClass2.v1 = 200;
 
-// 2) í´ëž˜ìŠ¤ ë©”ì„œë“œë¥¼ ì‚¬ìš©í•  ë•Œ 
+// 2) Å¬·¡½º ¸Þ¼­µå¸¦ »ç¿ëÇÒ ¶§ 
 //MyClass2.m1();
 
-// 3) new ì—°ì‚°ìžë¥¼ ì‚¬ìš©í•  ë•Œ
+// 3) new ¿¬»êÀÚ¸¦ »ç¿ëÇÒ ¶§
 //new MyClass2(); 
         
-// ì£¼ì˜!
-// => ë ˆí¼ëŸ°ìŠ¤ ë³€ìˆ˜ë¥¼ ì„ ì–¸í•  ë•ŒëŠ” í´ëž˜ìŠ¤ê°€ ë¡œë”©ë˜ì§€ ì•ŠëŠ”ë‹¤.
+// ÁÖÀÇ!
+// => ·¹ÆÛ·±½º º¯¼ö¸¦ ¼±¾ðÇÒ ¶§´Â Å¬·¡½º°¡ ·ÎµùµÇÁö ¾Ê´Â´Ù.
 // MyClass2 obj1 = null;
 
 
 public class MyClass2 {
     // static member
     
-    // ìŠ¤íƒœí‹± ë³€ìˆ˜ = í´ëž˜ìŠ¤ ë³€ìˆ˜
-    // => í´ëž˜ìŠ¤ ì´ë¦„ìœ¼ë¡œ ì‚¬ìš©í•˜ê³ , í´ëž˜ìŠ¤ì— ì†Œì†ëœ ë³€ìˆ˜ë¼ê³  í•´ì„œ
-    //    "í´ëž˜ìŠ¤ ë³€ìˆ˜"ë¼ ë¶€ë¥¸ë‹¤.
-    static int v1 = 100; // ìŠ¤íƒœí‹± ë³€ìˆ˜ = í´ëž˜ìŠ¤ ë³€ìˆ˜
-    static void m1() { // ìŠ¤íƒœí‹± ë©”ì„œë“œ = í´ëž˜ìŠ¤ ë©”ì„œë“œ
+    // ½ºÅÂÆ½ º¯¼ö = Å¬·¡½º º¯¼ö
+    // => Å¬·¡½º ÀÌ¸§À¸·Î »ç¿ëÇÏ°í, Å¬·¡½º¿¡ ¼Ò¼ÓµÈ º¯¼ö¶ó°í ÇØ¼­
+    //    "Å¬·¡½º º¯¼ö"¶ó ºÎ¸¥´Ù.
+    static int v1 = 100; // ½ºÅÂÆ½ º¯¼ö = Å¬·¡½º º¯¼ö
+    static void m1() { // ½ºÅÂÆ½ ¸Þ¼­µå = Å¬·¡½º ¸Þ¼­µå
         System.out.println("MyClass2.m1()");
     }
     
     
     // instance member
-    int v2 = 200; // ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜
-    void m2() { // ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ
-        System.out.println("ì¸ìŠ¤í„´ìŠ¤.m2()");
+    int v2 = 200; // ÀÎ½ºÅÏ½º º¯¼ö
+    void m2() { // ÀÎ½ºÅÏ½º ¸Þ¼­µå
+        System.out.println("ÀÎ½ºÅÏ½º.m2()");
     }
     
 }
 
-===================== ë©”ëª¨ë¦¬ ìƒì„± ë° í•´ì œ =============================
+===================== ¸Þ¸ð¸® »ý¼º ¹× ÇØÁ¦ =============================
 
 
- í´ëž˜ìŠ¤ static ë³€ìˆ˜ëŠ” Method Areaì— ìƒì„±ëœë‹¤.
+ Å¬·¡½º static º¯¼ö´Â Method Area¿¡ »ý¼ºµÈ´Ù.
 
 
- ìŠ¤íƒœí‹± ë³€ìˆ˜ëŠ” JVM ì¢…ë£Œí•  ë•Œ ë©”ëª¨ë¦¬ì—ì„œ í•´ì œ
- ìŠ¤íƒœí‹± ë³€ìˆ˜ëŠ” JVM ì¢…ë£Œí•  ë•Œ ë©”ëª¨ë¦¬ì—ì„œ í•´ì œí•˜ê¸° ë•Œë¬¸ì— ë©”ëª¨ë¦¬ë¥¼ ë§Žì´ ì°¨ì§€
+ ½ºÅÂÆ½ º¯¼ö´Â JVM Á¾·áÇÒ ¶§ ¸Þ¸ð¸®¿¡¼­ ÇØÁ¦
+ ½ºÅÂÆ½ º¯¼ö´Â JVM Á¾·áÇÒ ¶§ ¸Þ¸ð¸®¿¡¼­ ÇØÁ¦ÇÏ±â ¶§¹®¿¡ ¸Þ¸ð¸®¸¦ ¸¹ÀÌ Â÷Áö
 
 
- newë¡œ ì„ ì–¸ëœ ë³€ìˆ˜ëŠ” ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜ëŠ” ë¬´ì¡°ê±´ Heapì— ë§Œë“¤ì–´ì§„ë‹¤.
- Heapì— ìžˆëŠ” ë³€ìˆ˜ëŠ” ê°€ë¹„ì§€ ì»¬ë ‰í„°ê°€ ë©”ëª¨ë¦¬ë¥¼ í•´ì œí•œë‹¤.
+ new·Î ¼±¾ðµÈ º¯¼ö´Â ÀÎ½ºÅÏ½ºº¯¼ö´Â ¹«Á¶°Ç Heap¿¡ ¸¸µé¾îÁø´Ù.
+ Heap¿¡ ÀÖ´Â º¯¼ö´Â °¡ºñÁö ÄÃ·ºÅÍ°¡ ¸Þ¸ð¸®¸¦ ÇØÁ¦ÇÑ´Ù.
 
 
- ê·¸ì™¸ëŠ” Local ë³€ìˆ˜, ë¡œì»¬ì— ì„ ì–¸ëœ ë ˆí¼ëŸ°ìŠ¤ ë³€ìˆ˜ëŠ” Stackì— ë§Œë“¤ì–´ì§„ë‹¤.
+ ±×¿Ü´Â Local º¯¼ö, ·ÎÄÃ¿¡ ¼±¾ðµÈ ·¹ÆÛ·±½º º¯¼ö´Â Stack¿¡ ¸¸µé¾îÁø´Ù.
 
 
- ì¸ìŠ¤í„´ìŠ¤ëŠ” ë°°ì—´ì„ ë§Œë“¤ì§€ ëª»í•˜ê³  ë ˆí¼ëŸ°ìŠ¤ ë°°ì—´ì„ ë§Œë“ ë‹¤.
+ ÀÎ½ºÅÏ½º´Â ¹è¿­À» ¸¸µéÁö ¸øÇÏ°í ·¹ÆÛ·±½º ¹è¿­À» ¸¸µç´Ù.
 
- í´ëž˜ìŠ¤ ë°°ì—´ì„ ì •ì˜(StatClass[] statclass3 = new StatClass[3];) í•˜ë©´ statck ë©”ëª¨ë¦¬ì— ìƒì„±
+ Å¬·¡½º ¹è¿­À» Á¤ÀÇ(StatClass[] statclass3 = new StatClass[3];) ÇÏ¸é statck ¸Þ¸ð¸®¿¡ »ý¼º
 
- ë©”ì„œë“œë§Œ ì‚¬ìš©í•  ê²½ìš° ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜( statclass3[0] = new StatClass(); )ë¥¼ ì„ ì–¸í•˜ì§€ ì•Šì•„ë„ ëœë‹¤.
+ ¸Þ¼­µå¸¸ »ç¿ëÇÒ °æ¿ì ÀÎ½ºÅÏ½º º¯¼ö( statclass3[0] = new StatClass(); )¸¦ ¼±¾ðÇÏÁö ¾Ê¾Æµµ µÈ´Ù.
 
- statclass3[0] = new StatClass(); ì •ì˜í•˜ë©´ instance ë©”ëª¨ë¦¬ì— ë°°ì—´ì˜ ê°’ì´ ì €ìž¥ë  ì¸ìŠ¤í„´ìŠ¤ ë©”ëª¨ë¦¬ê°€ ìƒì„±ëœë‹¤.
+ statclass3[0] = new StatClass(); Á¤ÀÇÇÏ¸é instance ¸Þ¸ð¸®¿¡ ¹è¿­ÀÇ °ªÀÌ ÀúÀåµÉ ÀÎ½ºÅÏ½º ¸Þ¸ð¸®°¡ »ý¼ºµÈ´Ù.
 
 
 
- static ë³€ìˆ˜ëŠ” thisì„ ë¶™ì—¬ë„ ë˜ë‚˜ êµ³ì´ ë¶™ì¼ í•„ìš”ê°€ ì—†ë‹¤.
+ static º¯¼ö´Â thisÀ» ºÙ¿©µµ µÇ³ª ±»ÀÌ ºÙÀÏ ÇÊ¿ä°¡ ¾ø´Ù.
 
 
 
 =======================================================================
 
 
-// ìŠ¤íƒœí‹± ë³€ìˆ˜ ìŠ¤íƒœí‹± ë©”ì„œë“œ : ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ
+// ½ºÅÂÆ½ º¯¼ö ½ºÅÂÆ½ ¸Þ¼­µå : ÀÎ½ºÅÏ½º º¯¼ö ÀÎ½ºÅÏ½º ¸Þ¼­µå
 package bitcamp.java100.ch06.ex6;
 
 import bitcamp.java100.ch06.ex5.Score2;
 
 public class Test9 {
     
-    // main(static method) í•¨ìˆ˜ì—ì„œ instance variable ì‚¬ìš© ë¶ˆê°€
-    // static class ì—ì„œ instance variable ì‚¬ìš© ê°€ëŠ¥
+    // main(static method) ÇÔ¼ö¿¡¼­ instance variable »ç¿ë ºÒ°¡
+    // static class ¿¡¼­ instance variable »ç¿ë °¡´É
     int ginstvar;
     
-    // main(static method) í•¨ìˆ˜ì—ì„œ static variable ì‚¬ìš© ê°€ëŠ¥
-    // static class ì—ì„œ static variable ì‚¬ìš© ê°€ëŠ¥
+    // main(static method) ÇÔ¼ö¿¡¼­ static variable »ç¿ë °¡´É
+    // static class ¿¡¼­ static variable »ç¿ë °¡´É
     static int gstatvar;
     
-    // main(static method) í•¨ìˆ˜ì—ì„œ instance method í˜¸ì¶œ ë¶ˆê°€
+    // main(static method) ÇÔ¼ö¿¡¼­ instance method È£Ãâ ºÒ°¡
     void ginstMethod() {
-        // instance variable ì‚¬ìš© ê°€ëŠ¥
+        // instance variable »ç¿ë °¡´É
         ginstvar += 100;
         
-        // static variable ì‚¬ìš© ê°€ëŠ¥
+        // static variable »ç¿ë °¡´É
         gstatvar += 100;
         
         System.out.println("ginstMethod() ginstvar = " + ginstvar);
         System.out.println("ginstMethod() gstatvar = " + gstatvar);
         
-        // instance methodì—ì„œ static method í˜¸ì¶œ ê°€ëŠ¥
+        // instance method¿¡¼­ static method È£Ãâ °¡´É
         gstatMethod();
         
 
-        // instance variable / method  ì„ ì–¸
+        // instance variable / method  ¼±¾ð
         StatClass statclass = new StatClass();
         
-        // instance.instance ì‚¬ìš© ê°€ëŠ¥
+        // instance.instance »ç¿ë °¡´É
         statclass.instvar += 100;
         statclass.instMethod();
 
-        // instance.static ì‚¬ìš© ê°€ëŠ¥ : ê¶Œìž¥í•˜ì§€ ì•ŠìŒ
-        // classnaem.static ìœ¼ë¡œ ì‚¬ìš© ê¶Œìž¥
+        // instance.static »ç¿ë °¡´É : ±ÇÀåÇÏÁö ¾ÊÀ½
+        // classnaem.static À¸·Î »ç¿ë ±ÇÀå
         statclass.statvar += 100;
         statclass.statMethod();
         
         
-        // classname.instance ì‚¬ìš© ë¶ˆê°€
-        //StatClass.instvar += 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜!
-        //StatClass.instMethod();    // ì»´íŒŒì¼ ì˜¤ë¥˜!
+        // classname.instance »ç¿ë ºÒ°¡
+        //StatClass.instvar += 100;  // ÄÄÆÄÀÏ ¿À·ù!
+        //StatClass.instMethod();    // ÄÄÆÄÀÏ ¿À·ù!
         
-        // classname.static ì‚¬ìš© ê°€ëŠ¥(static method)
+        // classname.static »ç¿ë °¡´É(static method)
         StatClass.statvar += 100;
         StatClass.statMethod();
     }
     
-    // main í•¨ìˆ˜ì—ì„œ static methodì—ì„œ í˜¸ì¶œ ê°€ëŠ¥
-    // static classì—ì„œ í˜¸ì¶œê°€ëŠ¥
+    // main ÇÔ¼ö¿¡¼­ static method¿¡¼­ È£Ãâ °¡´É
+    // static class¿¡¼­ È£Ãâ°¡´É
     static void gstatMethod() {
-        // static methodì—ì„œ instance variable ì‚¬ìš© ë¶ˆê°€
-        //ginstvar = 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜
+        // static method¿¡¼­ instance variable »ç¿ë ºÒ°¡
+        //ginstvar = 100;  // ÄÄÆÄÀÏ ¿À·ù
         
-        // static methodì—ì„œ static variable ì‚¬ìš© ê°€ëŠ¥
+        // static method¿¡¼­ static variable »ç¿ë °¡´É
         gstatvar += 100;
         
-        //System.out.println("ginstMethod() ginstvar = " + ginstvar);  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+        //System.out.println("ginstMethod() ginstvar = " + ginstvar);  // ÄÄÆÄÀÏ ¿À·ù!
         System.out.println("gstatMethod() gstatvar = " + gstatvar);
         
-        // static methodì—ì„œ instance method í˜¸ì¶œ ë¶ˆê°€
-        //ginstMethod();  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+        // static method¿¡¼­ instance method È£Ãâ ºÒ°¡
+        //ginstMethod();  // ÄÄÆÄÀÏ ¿À·ù!
         
-        // instance variable / method  ì„ ì–¸
+        // instance variable / method  ¼±¾ð
         StatClass statclass = new StatClass();
         
-        // instance.instance ì‚¬ìš© ê°€ëŠ¥
+        // instance.instance »ç¿ë °¡´É
         statclass.instvar += 100;
         statclass.instMethod();
 
-        // instance.static ì‚¬ìš© ê°€ëŠ¥ : ê¶Œìž¥í•˜ì§€ ì•ŠìŒ
-        // classname.static ìœ¼ë¡œ ì‚¬ìš© ê¶Œìž¥
+        // instance.static »ç¿ë °¡´É : ±ÇÀåÇÏÁö ¾ÊÀ½
+        // classname.static À¸·Î »ç¿ë ±ÇÀå
         statclass.statvar += 100;
         statclass.statMethod();
         
         
-        // classname.instance ì‚¬ìš© ë¶ˆê°€
-        //StatClass.instvar += 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜!
-        //StatClass.instMethod();    // ì»´íŒŒì¼ ì˜¤ë¥˜!
+        // classname.instance »ç¿ë ºÒ°¡
+        //StatClass.instvar += 100;  // ÄÄÆÄÀÏ ¿À·ù!
+        //StatClass.instMethod();    // ÄÄÆÄÀÏ ¿À·ù!
         
-        // classname.static ì‚¬ìš© ê°€ëŠ¥(static method)
+        // classname.static »ç¿ë °¡´É(static method)
         StatClass.statvar += 100;
         StatClass.statMethod();
     }
     
     
     // ***********************************************************
-    // non-public, non-static class ì„ ì–¸ê°€ëŠ¥í•˜ë‚˜ ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ
-    //class NonStatClass {     // ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ
+    // non-public, non-static class ¼±¾ð°¡´ÉÇÏ³ª »ç¿ëÇÒ ¼ö ¾øÀ½
+    //class NonStatClass {     // »ç¿ëÇÒ ¼ö ¾øÀ½
     //}
     // ***********************************************************
     
     
     static class StatClass {
-        // instance variable ì´ˆê¸°ê°’ì€ '0'
+        // instance variable ÃÊ±â°ªÀº '0'
         int instvar;
 
-        // static variable ì´ˆê¸°ê°’ì€ '0'
+        // static variable ÃÊ±â°ªÀº '0'
         static int statvar;
         
-        // instance method(non-static method)ëŠ” thisë¥¼ ë‚´ìž¥í•˜ê³  ìžˆë‹¤.
+        // instance method(non-static method)´Â this¸¦ ³»ÀåÇÏ°í ÀÖ´Ù.
         void instMethod() {
             this.instvar += 100;
             
-            // static variableëŠ” thisì‚¬ìš© ê°€ëŠ¥ : ê¶Œìž¥í•˜ì§€ ì•ŠìŒ
-            // this ìƒëžµ ê¶Œìž¥
+            // static variable´Â this»ç¿ë °¡´É : ±ÇÀåÇÏÁö ¾ÊÀ½
+            // this »ý·« ±ÇÀå
             this.statvar += 100;
             
-            // instance method ì—ì„œ class ë°–ì— ìžˆëŠ” instance method í˜¸ì¶œ ë¶ˆê°€
-            //ginstMethod();    // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // instance method ¿¡¼­ class ¹Û¿¡ ÀÖ´Â instance method È£Ãâ ºÒ°¡
+            //ginstMethod();    // ÄÄÆÄÀÏ ¿À·ù!
             
-            // instance method ì—ì„œ class ë°–ì— ìžˆëŠ” static method í˜¸ì¶œ ê°€ëŠ¥
-            // ë‹¨, ì˜ˆì œì²˜ëŸ¼ gstatMethod í•¨ìˆ˜ì—ì„œ StatClass ê°ì²´ë‚˜ ì¸ìŠ¤í„´ìŠ¤ ì‚¬ìš©í•˜ë©´ ì»´íŒŒì¼ ì˜¤ë¥˜
-            //gstatMethod();  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // instance method ¿¡¼­ class ¹Û¿¡ ÀÖ´Â static method È£Ãâ °¡´É
+            // ´Ü, ¿¹Á¦Ã³·³ gstatMethod ÇÔ¼ö¿¡¼­ StatClass °´Ã¼³ª ÀÎ½ºÅÏ½º »ç¿ëÇÏ¸é ÄÄÆÄÀÏ ¿À·ù
+            //gstatMethod();  // ÄÄÆÄÀÏ ¿À·ù!
             
             //instMethod();
-            // instance method ì—ì„œ static method í˜¸ì¶œ ê°€ëŠ¥
+            // instance method ¿¡¼­ static method È£Ãâ °¡´É
             statMethod();
             
             System.out.println("instMethod() instvar = " + this.instvar);
             
-            // static variableëŠ” thisì‚¬ìš© ê°€ëŠ¥ : ê¶Œìž¥í•˜ì§€ ì•ŠìŒ
-            // this ìƒëžµ ê¶Œìž¥
+            // static variable´Â this»ç¿ë °¡´É : ±ÇÀåÇÏÁö ¾ÊÀ½
+            // this »ý·« ±ÇÀå
             System.out.println("instMethod() statvar = " + this.statvar); 
         }
         
-        // static method(class method) ì—ì„œ this ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
+        // static method(class method) ¿¡¼­ this »ç¿ëÇÒ ¼ö ¾ø´Ù.
         static void statMethod() {
-            // static methodì—ì„œ instance ë‚´ìž¥ë³€ìˆ˜ this ì‚¬ìš© ë¶ˆê°€
-            //this.instvar += 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜!
-            //this.statvar += 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // static method¿¡¼­ instance ³»Àåº¯¼ö this »ç¿ë ºÒ°¡
+            //this.instvar += 100;  // ÄÄÆÄÀÏ ¿À·ù!
+            //this.statvar += 100;  // ÄÄÆÄÀÏ ¿À·ù!
             
-            // static classì—ì„œ class ë°–ì— ìžˆëŠ” instance method í˜¸ì¶œ ë¶ˆê°€
-            //ginstMethod();    // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // static class¿¡¼­ class ¹Û¿¡ ÀÖ´Â instance method È£Ãâ ºÒ°¡
+            //ginstMethod();    // ÄÄÆÄÀÏ ¿À·ù!
             
-            // instance method ì—ì„œ class ë°–ì— ìžˆëŠ” static method í˜¸ì¶œ ê°€ëŠ¥
-            // ë‹¨, ì˜ˆì œì²˜ëŸ¼ gstatMethod í•¨ìˆ˜ì—ì„œ StatClass ê°ì²´ë‚˜ ì¸ìŠ¤í„´ìŠ¤ ì‚¬ìš©í•˜ë©´ ì»´íŒŒì¼ ì˜¤ë¥˜
-            //gstatMethod();  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // instance method ¿¡¼­ class ¹Û¿¡ ÀÖ´Â static method È£Ãâ °¡´É
+            // ´Ü, ¿¹Á¦Ã³·³ gstatMethod ÇÔ¼ö¿¡¼­ StatClass °´Ã¼³ª ÀÎ½ºÅÏ½º »ç¿ëÇÏ¸é ÄÄÆÄÀÏ ¿À·ù
+            //gstatMethod();  // ÄÄÆÄÀÏ ¿À·ù!
             
             
-            // static methodì—ì„œ instance method í˜¸ì¶œ ë¶ˆê°€
-            //instMethod();  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // static method¿¡¼­ instance method È£Ãâ ºÒ°¡
+            //instMethod();  // ÄÄÆÄÀÏ ¿À·ù!
             
-            // static methodì—ì„œ instance variable ì‚¬ìš© ë¶ˆê°€
-            //instvar += 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            // static method¿¡¼­ instance variable »ç¿ë ºÒ°¡
+            //instvar += 100;  // ÄÄÆÄÀÏ ¿À·ù!
             
-            // static methodì—ì„œ static variable ì‚¬ìš© ê°€ëŠ¥
+            // static method¿¡¼­ static variable »ç¿ë °¡´É
             statvar += 100;
             
-            // static methodì—ì„œ instance variable ì‚¬ìš© ë¶ˆê°€
-            //System.out.println("m2() instvar = " + instvar);  // ì»´íŒŒì¼ ì˜¤ë¥˜
+            // static method¿¡¼­ instance variable »ç¿ë ºÒ°¡
+            //System.out.println("m2() instvar = " + instvar);  // ÄÄÆÄÀÏ ¿À·ù
             System.out.println("m2() statvar = " + statvar);
         }
     }
@@ -901,11 +902,11 @@ public class Test9 {
     public static void main(String[] args) {
         //A a = null;
         
-        // main(static method) ì—ì„œ instance variable / method ì‚¬ìš© ë¶ˆê°€
-        //ginstvar += 100;   // ì»´íŒŒì¼ ì˜¤ë¥˜!
-        //ginstMethod();      // ì»´íŒŒì¼ ì˜¤ë¥˜!
+        // main(static method) ¿¡¼­ instance variable / method »ç¿ë ºÒ°¡
+        //ginstvar += 100;   // ÄÄÆÄÀÏ ¿À·ù!
+        //ginstMethod();      // ÄÄÆÄÀÏ ¿À·ù!
         
-        // main(static method) ì—ì„œ static variable / method ì‚¬ìš© ê°€ëŠ¥
+        // main(static method) ¿¡¼­ static variable / method »ç¿ë °¡´É
         gstatvar += 100;
         gstatMethod();
 
@@ -913,68 +914,68 @@ public class Test9 {
         
         
         //######################################################################################
-        // instance reference ë³€ìˆ˜ ì„ ì–¸ê³¼ ë™ì‹œì— í´ëž˜ìŠ¤(ë³€ìˆ˜, ë©”ì„œë“œ)ê°€ Method Areaì— ë¡œë”©ëœë‹¤.
-        // Heapì— ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ë§Œ ë©”ëª¨ë¦¬ ìƒì„±ë˜ê³  ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œëŠ” ìƒì„±ë˜ì§€ ì•ŠìŒ.
-        // (í´ëž˜ìŠ¤ ë©”ì„œë“œ ì¦‰ Method Areaì— ìžˆëŠ” í•¨ìˆ˜ë¥¼ í˜¸ì¶œ)
+        // instance reference º¯¼ö ¼±¾ð°ú µ¿½Ã¿¡ Å¬·¡½º(º¯¼ö, ¸Þ¼­µå)°¡ Method Area¿¡ ·ÎµùµÈ´Ù.
+        // Heap¿¡ ÀÎ½ºÅÏ½º º¯¼ö¸¸ ¸Þ¸ð¸® »ý¼ºµÇ°í ÀÎ½ºÅÏ½º ¸Þ¼­µå´Â »ý¼ºµÇÁö ¾ÊÀ½.
+        // (Å¬·¡½º ¸Þ¼­µå Áï Method Area¿¡ ÀÖ´Â ÇÔ¼ö¸¦ È£Ãâ)
         //######################################################################################
 
-        // ì¸ìŠ¤í„´ìŠ¤ì€ í´ëž˜ìŠ¤ ë©”ì„œë“œ(Method Area)ë¥¼ í˜¸ì¶œí•œë‹¤.   
-        // static ë¶™ì€ ë©”ì„œë“œëŠ” í´ëž˜ìŠ¤ëª….ë©”ì„œë“œëª…()
-        // static ì—†ëŠ” ë©”ì„œë“œëŠ” ì¸ìŠ¤í„´ìŠ¤ëª….ë©”ì„œë“œëª…()
+        // ÀÎ½ºÅÏ½ºÀº Å¬·¡½º ¸Þ¼­µå(Method Area)¸¦ È£ÃâÇÑ´Ù.   
+        // static ºÙÀº ¸Þ¼­µå´Â Å¬·¡½º¸í.¸Þ¼­µå¸í()
+        // static ¾ø´Â ¸Þ¼­µå´Â ÀÎ½ºÅÏ½º¸í.¸Þ¼­µå¸í()
         
-        // newë¥¼ ì‚¬ìš©í•´ì„œ instance variable ë¥¼ ê³„ì† ì„ ì–¸í•˜ë©´ íž™ì— ê³„ì†í•´ì„œ ì¸ìŠ¤í„´ìŠ¤ ë©”ëª¨ë¦¬ê°€ ìƒì„±
+        // new¸¦ »ç¿ëÇØ¼­ instance variable ¸¦ °è¼Ó ¼±¾ðÇÏ¸é Èü¿¡ °è¼ÓÇØ¼­ ÀÎ½ºÅÏ½º ¸Þ¸ð¸®°¡ »ý¼º
         StatClass statclass1 = new StatClass();
         StatClass statclass2 = new StatClass();
         
 
-        // instance.instance ì‚¬ìš© ê°€ëŠ¥
+        // instance.instance »ç¿ë °¡´É
         statclass1.instvar += 100;
         statclass1.instMethod();
         
         System.out.println("statclass1.instvar = " + statclass1.instvar);
 
-        // instance.static ì‚¬ìš© ê°€ëŠ¥ : ê¶Œìž¥í•˜ì§€ ì•ŠìŒ
-        // classname.static ìœ¼ë¡œ ì‚¬ìš© ê¶Œìž¥
+        // instance.static »ç¿ë °¡´É : ±ÇÀåÇÏÁö ¾ÊÀ½
+        // classname.static À¸·Î »ç¿ë ±ÇÀå
         statclass2.statvar += 100;
         statclass2.statMethod();
         
         System.out.println("statclass2.statvar = " + statclass2.statvar);
         
-        // classname.instance ì‚¬ìš© ë¶ˆê°€
-        //StatClass.instvar += 100;  // ì»´íŒŒì¼ ì˜¤ë¥˜!
-        //StatClass.instMethod();    // ì»´íŒŒì¼ ì˜¤ë¥˜!
+        // classname.instance »ç¿ë ºÒ°¡
+        //StatClass.instvar += 100;  // ÄÄÆÄÀÏ ¿À·ù!
+        //StatClass.instMethod();    // ÄÄÆÄÀÏ ¿À·ù!
 
-        // classname.static ì‚¬ìš© ê°€ëŠ¥
+        // classname.static »ç¿ë °¡´É
         StatClass.statvar += 100;
         StatClass.statMethod();
         
         System.out.println("StatClass.statvar = " + StatClass.statvar);
         
-        // í´ëž˜ìŠ¤ ë°°ì—´ : ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë°°ì—´ë¡œ ë§Œë“¤ìˆ˜ ì—†ìŒ
-        // ë°°ì—´ì„ ì¸ìŠ¤í„´ìŠ¤ë¡œ ì •ì˜í•´ì•¼ í•œë‹¤.
-        StatClass[] statclass3 = new StatClass[3];  // ê°ì²´ ì£¼ì†Œë¥¼ ì €ìž¥í•  Stack ë©”ëª¨ë¦¬ ìƒì„±
-        statclass3[0] = new StatClass();            // ë°ì´í„°ë¥¼ ì €ìž¥í•  Heap ë©”ëª¨ë¦¬ ìƒì„± 
+        // Å¬·¡½º ¹è¿­ : ÀÎ½ºÅÏ½º¸¦ ¹è¿­·Î ¸¸µé¼ö ¾øÀ½
+        // ¹è¿­À» ÀÎ½ºÅÏ½º·Î Á¤ÀÇÇØ¾ß ÇÑ´Ù.
+        StatClass[] statclass3 = new StatClass[3];  // °´Ã¼ ÁÖ¼Ò¸¦ ÀúÀåÇÒ Stack ¸Þ¸ð¸® »ý¼º
+        statclass3[0] = new StatClass();            // µ¥ÀÌÅÍ¸¦ ÀúÀåÇÒ Heap ¸Þ¸ð¸® »ý¼º 
         statclass3[1] = new StatClass();
         statclass3[2] = new StatClass();
         
-        // classarray.instance ì‚¬ìš© ê°€ëŠ¥
+        // classarray.instance »ç¿ë °¡´É
         statclass3[0].instvar = 100;
         statclass3[0].instMethod();
         
         System.out.println("statclasss[0].instvar = " + statclass3[0].instvar);
 
-        // classarray.static ì‚¬ìš© ê°€ëŠ¥ : ê¶Œìž¥í•˜ì§€ ì•ŠìŒ
-        // classname.static ìœ¼ë¡œ ì‚¬ìš© ê¶Œìž¥
+        // classarray.static »ç¿ë °¡´É : ±ÇÀåÇÏÁö ¾ÊÀ½
+        // classname.static À¸·Î »ç¿ë ±ÇÀå
         statclass3[0].statvar = 100;
         statclass3[0].statMethod();
         
         System.out.println("statclass3[0].statvar = " + statclass3[0].statvar);
         
-        // í´ëž˜ìŠ¤ ë°°ì—´ : ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë°°ì—´ë¡œ ë§Œë“¤ìˆ˜ ì—†ìŒ
+        // Å¬·¡½º ¹è¿­ : ÀÎ½ºÅÏ½º¸¦ ¹è¿­·Î ¸¸µé¼ö ¾øÀ½
         StatClass[] statclass4 = new StatClass[3];
 
-        // statclass1ì˜ ì£¼ì†Œë¥¼ statclass4[0] ì— ì €ìž¥
-	// statclass4[0] = new StatClass(); ê°€ í•„ìš” ì—†ë‹¤.
+        // statclass1ÀÇ ÁÖ¼Ò¸¦ statclass4[0] ¿¡ ÀúÀå
+	// statclass4[0] = new StatClass(); °¡ ÇÊ¿ä ¾ø´Ù.
         statclass4[0] = statclass1;  
         
         System.out.println("statclass4[0].instvar = " + statclass4[0].instvar);
@@ -986,210 +987,210 @@ public class Test9 {
 
 
 
-================================== í´ëž˜ìŠ¤ ìƒì„±ìž =============================================
+================================== Å¬·¡½º »ý¼ºÀÚ =============================================
         
 
- @ ìƒì„±ìž : ë©”ëª¨ë¦¬ë¥¼ ë§Œë“ í›„ ìµœì†Œí•œì˜ ìƒíƒœë¥¼ ë§Œë“œëŠ”ê²ƒ
+ @ »ý¼ºÀÚ : ¸Þ¸ð¸®¸¦ ¸¸µçÈÄ ÃÖ¼ÒÇÑÀÇ »óÅÂ¸¦ ¸¸µå´Â°Í
 
-   - ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì‚¬ìš© ê°€ëŠ¥í•˜ë„ë¡ ìœ íš¨í•œ ìƒíƒœë¡œ ë§Œë“œëŠ” ê²ƒ
+   - ÀÎ½ºÅÏ½º¸¦ »ç¿ë °¡´ÉÇÏµµ·Ï À¯È¿ÇÑ »óÅÂ·Î ¸¸µå´Â °Í
 
-   - ì¦‰ ë³€ìˆ˜ì˜ ì´ˆê¸°ê°’ ì„¤ì •ê³¼ ë°°ì—´ì˜ ì´ˆê¸° ìƒíƒœì„ ë§Œë“¤ê¸° ìœ„í•´ì„œ ì‚¬ìš©
+   - Áï º¯¼öÀÇ ÃÊ±â°ª ¼³Á¤°ú ¹è¿­ÀÇ ÃÊ±â »óÅÂÀ» ¸¸µé±â À§ÇØ¼­ »ç¿ë
 
 
-   - ìƒì„±ìžëŠ” í´ëž˜ìŠ¤ëª…ê³¼ ê°™ë‹¤(ìƒëžµ ê°€ëŠ¥í•˜ë©°, ì»´íŒŒì¼ëŸ¬ê°€ ìžë™ ì¶”ê°€)
+   - »ý¼ºÀÚ´Â Å¬·¡½º¸í°ú °°´Ù(»ý·« °¡´ÉÇÏ¸ç, ÄÄÆÄÀÏ·¯°¡ ÀÚµ¿ Ãß°¡)
      classname () {}
 
-   - ìˆ˜í¼í´ëž˜ìŠ¤ì˜ ìƒì„±ìž(ìƒëžµ ê°€ëŠ¥í•˜ë©°, ì»´íŒŒì¼ëŸ¬ê°€ ìžë™ ì¶”ê°€)
+   - ¼öÆÛÅ¬·¡½ºÀÇ »ý¼ºÀÚ(»ý·« °¡´ÉÇÏ¸ç, ÄÄÆÄÀÏ·¯°¡ ÀÚµ¿ Ãß°¡)
      super();
   
 
-    //ìƒì„±ìž : ë©”ëª¨ë¦¬ë¥¼ ë§Œë“ í›„ ìµœì†Œí•œì˜ ìƒíƒœë¥¼ ë§Œë“œëŠ”ê²ƒ
-    //ì¦‰ ë°°ì—´ì˜ ì´ˆê¸° ìƒíƒœì„ ë§Œë“¬
+    //»ý¼ºÀÚ : ¸Þ¸ð¸®¸¦ ¸¸µçÈÄ ÃÖ¼ÒÇÑÀÇ »óÅÂ¸¦ ¸¸µå´Â°Í
+    //Áï ¹è¿­ÀÇ ÃÊ±â »óÅÂÀ» ¸¸µë
 
     Score() {
      this.subjects = new int[3];
     }
     
     
-    Score(String name, int kor, int eng, int math) {  // ê°€ë³€ íŒŒë¼ë¯¸í„°
-     this.name = name;        // this.name(instance variable) ê³¼ name(local variable, method parameter)
+    Score(String name, int kor, int eng, int math) {  // °¡º¯ ÆÄ¶ó¹ÌÅÍ
+     this.name = name;        // this.name(instance variable) °ú name(local variable, method parameter)
      //this.subjects[0] = kor;
      //this.subjects[1] = eng;
      //this.subjects[2] = math;
      
-     this.subjects = new int[] {kor, eng, math}; // ì´ˆê¸°ê°’ í• ë‹¹ê³¼ êµ¬ë¶„
+     this.subjects = new int[] {kor, eng, math}; // ÃÊ±â°ª ÇÒ´ç°ú ±¸ºÐ
      
      this.compute();
     }
 
 
 
-================================== í´ëž˜ìŠ¤ ìƒì†(Inheritance) ====================================
+================================== Å¬·¡½º »ó¼Ó(Inheritance) ====================================
 
 
-  class í´ëž˜ìŠ¤ëª… extends ê¸°ì¡´í´ëž˜ìŠ¤ëª… {...}
+  class Å¬·¡½º¸í extends ±âÁ¸Å¬·¡½º¸í {...}
 
-  ìƒì†ì„ í•´ì£¼ëŠ” í´ëž˜ìŠ¤ë¥¼ "ìˆ˜í¼(super)/ë¶€ëª¨(parent) í´ëž˜ìŠ¤"ë¼ê³  ë¶€ë¥¸ë‹¤.
+  »ó¼ÓÀ» ÇØÁÖ´Â Å¬·¡½º¸¦ "¼öÆÛ(super)/ºÎ¸ð(parent) Å¬·¡½º"¶ó°í ºÎ¸¥´Ù.
 
-  ìƒì†ì„ ë°›ëŠ” í´ëž˜ìŠ¤ë¥¼ "ì„œë²„(sub)/ìžì‹(child) í´ëž˜ìŠ¤"ë¼ê³  ë¶€ë¥¸ë‹¤.
+  »ó¼ÓÀ» ¹Þ´Â Å¬·¡½º¸¦ "¼­¹ö(sub)/ÀÚ½Ä(child) Å¬·¡½º"¶ó°í ºÎ¸¥´Ù.
 
-  ìµœìƒìœ„ ìˆ˜í¼í´ëž˜ìŠ¤ëŠ” Object í´ëž˜ìŠ¤ì´ë‹¤.
+  ÃÖ»óÀ§ ¼öÆÛÅ¬·¡½º´Â Object Å¬·¡½ºÀÌ´Ù.
 
-  ê¸°ì¡´ í´ëž˜ìŠ¤ì˜ ë§í¬ ì •ë³´ë¥¼ ë“±ë¡í•˜ì—¬ ìˆ˜í¼í´ëž˜ìŠ¤ì˜ ë©¤ë²„(í•„ë“œ, ë©”ì„œë“œ)ë¥¼ ìƒì† ë°›ëŠ”ë‹¤.
+  ±âÁ¸ Å¬·¡½ºÀÇ ¸µÅ© Á¤º¸¸¦ µî·ÏÇÏ¿© ¼öÆÛÅ¬·¡½ºÀÇ ¸â¹ö(ÇÊµå, ¸Þ¼­µå)¸¦ »ó¼Ó ¹Þ´Â´Ù.
 
-  ìˆ˜í¼í´ëž˜ìŠ¤ì˜ ë©¤ë²„(ë³€ìˆ˜, ë©”ì„œë“œ)ë¥¼ ìƒì†ë°›ì•„ ìƒˆë¡œìš´ ë³€ìˆ˜ ë° ê¸°ëŠ¥ì„ ì¶”ê°€í•œë‹¤.
+  ¼öÆÛÅ¬·¡½ºÀÇ ¸â¹ö(º¯¼ö, ¸Þ¼­µå)¸¦ »ó¼Ó¹Þ¾Æ »õ·Î¿î º¯¼ö ¹× ±â´ÉÀ» Ãß°¡ÇÑ´Ù.
 
-  ìˆ˜í¼í´ëž˜ìŠ¤ ì½”ë“œì— ë¬¸ì œê°€ ìžˆìœ¼ë©´ ê·¸ ì½”ë“œë¥¼ ìˆ˜ì •í•˜ë©´ ì¦‰ì‹œ ì„œë¸Œ í´ëž˜ìŠ¤ë“¤ì€ ìˆ˜ì •ëœ ì½”ë“œë¥¼ ì‚¬ìš©í•˜ê²Œ ëœë‹¤.
+  ¼öÆÛÅ¬·¡½º ÄÚµå¿¡ ¹®Á¦°¡ ÀÖÀ¸¸é ±× ÄÚµå¸¦ ¼öÁ¤ÇÏ¸é Áï½Ã ¼­ºê Å¬·¡½ºµéÀº ¼öÁ¤µÈ ÄÚµå¸¦ »ç¿ëÇÏ°Ô µÈ´Ù.
 
   
-  @ ìƒì†ì˜ ì¢…ë¥˜
+  @ »ó¼ÓÀÇ Á¾·ù
 
     1) Specialization
 
-       - ìˆ˜í¼ í´ëž˜ìŠ¤ë¥¼ ìƒì† ë°›ì•„ ê¸°ëŠ¥ì„ ì¶”ê°€í•˜ì—¬ ë” íŠ¹ë³„í•œ ì„œë¸Œ í´ëž˜ìŠ¤ë¥¼ ë§Œë“œëŠ” ê²ƒ.
+       - ¼öÆÛ Å¬·¡½º¸¦ »ó¼Ó ¹Þ¾Æ ±â´ÉÀ» Ãß°¡ÇÏ¿© ´õ Æ¯º°ÇÑ ¼­ºê Å¬·¡½º¸¦ ¸¸µå´Â °Í.
 
     2) Generalization
 
-       - ì„œë¸Œ í´ëž˜ìŠ¤ë“¤ì˜ ê³µí†µ ë³€ìˆ˜ë‚˜ ê³µí†µ ë©”ì„œë“œë¥¼ ì¶”ì¶œí•˜ì—¬ ìˆ˜í¼ í´ëž˜ìŠ¤ë¥¼ ì •ì˜í•˜ëŠ” ê²ƒ.
+       - ¼­ºê Å¬·¡½ºµéÀÇ °øÅë º¯¼ö³ª °øÅë ¸Þ¼­µå¸¦ ÃßÃâÇÏ¿© ¼öÆÛ Å¬·¡½º¸¦ Á¤ÀÇÇÏ´Â °Í.
 
        - Context Menu > Refactor > Extract SuperClass  => Generalization
 
 
 
-================================== í´ëž˜ìŠ¤ ìº¡ìŠí™”(Encapsulation) ================================
+================================== Å¬·¡½º Ä¸½¶È­(Encapsulation) ================================
 
 
- í´ëž˜ìŠ¤ ë©¤ë²„(í•„ë“œ, ë©”ì„œë“œ)ì— ì ‘ê·¼ì„ ì œì–´í•˜ëŠ” ê¸°ë²•
+ Å¬·¡½º ¸â¹ö(ÇÊµå, ¸Þ¼­µå)¿¡ Á¢±ÙÀ» Á¦¾îÇÏ´Â ±â¹ý
 
- - public    : ê°™ì€ íŒ¨í‚¤ì§€ì™€ ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì— ëª¨ë‘ ê³µê°œ
- - protected : ê°™ì€ íŒ¨í‚¤ì§€ì™€ ë‹¤ë¥¸ íŒ¨í‚¤ì§€ì— ìžˆëŠ” ìžì† í´ëž˜ìŠ¤ì—ê²Œ ê³µê°œ
- - (default) : ê°™ì€ íŒ¨í‚¤ì§€ì— ì†Œì†ëœ í´ëž˜ìŠ¤ì—ê²Œë§Œ ê³µê°œ
- - private   : ë¹„ê³µê°œ
+ - public    : °°Àº ÆÐÅ°Áö¿Í ´Ù¸¥ ÆÐÅ°Áö¿¡ ¸ðµÎ °ø°³
+ - protected : °°Àº ÆÐÅ°Áö¿Í ´Ù¸¥ ÆÐÅ°Áö¿¡ ÀÖ´Â ÀÚ¼Õ Å¬·¡½º¿¡°Ô °ø°³
+ - (default) : °°Àº ÆÐÅ°Áö¿¡ ¼Ò¼ÓµÈ Å¬·¡½º¿¡°Ô¸¸ °ø°³
+ - private   : ºñ°ø°³
 
    public > protected > default > private
 
 
- - íŒ¨í‚¤ì§€ ë©¤ë²„ í´ëž˜ìŠ¤ëŠ” public, default ë§Œ ê°€ëŠ¥í•˜ë©°, 
-   íŒ¨í‚¤ì§€ì— ì„ ì–¸ë˜ì—ˆê¸° ë•Œë¬¸ì— ê°™ì€ íŒ¨í‚¤ì§€ë§Œ ê³µê°œí•˜ë©´ ëœë‹¤.
+ - ÆÐÅ°Áö ¸â¹ö Å¬·¡½º´Â public, default ¸¸ °¡´ÉÇÏ¸ç, 
+   ÆÐÅ°Áö¿¡ ¼±¾ðµÇ¾ú±â ¶§¹®¿¡ °°Àº ÆÐÅ°Áö¸¸ °ø°³ÇÏ¸é µÈ´Ù.
 
 
- - í´ëž˜ìŠ¤ ì•ˆì— ì„ ì–¸ëœ í´ëž˜ìŠ¤ë¥¼ "ì¤‘ì²©(nested) í´ëž˜ìŠ¤"ë¼ ë¶€ë¥¸ë‹¤.
+ - Å¬·¡½º ¾È¿¡ ¼±¾ðµÈ Å¬·¡½º¸¦ "ÁßÃ¸(nested) Å¬·¡½º"¶ó ºÎ¸¥´Ù.
 
- - ìº¡ìŠí™”ì˜ ì¡´ìž¬ ì´ìœ  : ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì— ë¬´íš¨í•œ ê°’ì´ ì €ìž¥ë˜ëŠ” ê²ƒì„ ë°©ì§€í•¨ìœ¼ë¡œì¨ ì¶”ìƒí™”ê°€ ë¬´ë„ˆì§€ëŠ” ê²ƒì„ ë§‰ëŠ”ë‹¤.
+ - Ä¸½¶È­ÀÇ Á¸Àç ÀÌÀ¯ : ÀÎ½ºÅÏ½º º¯¼ö¿¡ ¹«È¿ÇÑ °ªÀÌ ÀúÀåµÇ´Â °ÍÀ» ¹æÁöÇÔÀ¸·Î½á Ãß»óÈ­°¡ ¹«³ÊÁö´Â °ÍÀ» ¸·´Â´Ù.
 
- - ì¶”ìƒí™”(Abstraction) : ì‚¬ë¬¼ì´ë‚˜ ì‚¬ëžŒ, ì—…ë¬´ ë“±ì„ ë°ì´í„°ì™€ ë©”ì„œë“œë¡œ í‘œí˜„í•˜ëŠ” ê²ƒ
+ - Ãß»óÈ­(Abstraction) : »ç¹°ÀÌ³ª »ç¶÷, ¾÷¹« µîÀ» µ¥ÀÌÅÍ¿Í ¸Þ¼­µå·Î Ç¥ÇöÇÏ´Â °Í
 
- - í•„ë“œ(ì£¼ë¡œ ê°’ì˜ ìž…ë ¥)ë¥¼ ì ‘ê·¼ ì œí•œí•˜ë©´ í•„ë“œì˜ ê°’ì„ ì„¤ì •í•˜ëŠ” ë©”ì„œë“œ(Setter, Getter)ëŠ” ì „ì²´ ê³µê°œë¥¼ í•´ì•¼í•˜ê³ , 
-   ì™¸ë¶€ì—ì„œ í•„ìš”ì—†ëŠ” ë©”ì„œë“œ(ê³„ì‚°ì²˜ë¦¬)ëŠ” ì ‘ê·¼ ì œí•œí•œë‹¤.
+ - ÇÊµå(ÁÖ·Î °ªÀÇ ÀÔ·Â)¸¦ Á¢±Ù Á¦ÇÑÇÏ¸é ÇÊµåÀÇ °ªÀ» ¼³Á¤ÇÏ´Â ¸Þ¼­µå(Setter, Getter)´Â ÀüÃ¼ °ø°³¸¦ ÇØ¾ßÇÏ°í, 
+   ¿ÜºÎ¿¡¼­ ÇÊ¿ä¾ø´Â ¸Þ¼­µå(°è»êÃ³¸®)´Â Á¢±Ù Á¦ÇÑÇÑ´Ù.
   
 
 
-=============================== ë‹¤í˜•ì  ë³€ìˆ˜ (Polymorphism) ========================================
+=============================== ´ÙÇüÀû º¯¼ö (Polymorphism) ========================================
 
- ìˆ˜í¼ í´ëž˜ìŠ¤ì˜ ë ˆí¼ëŸ°ìŠ¤ëŠ” ì„œë¸Œ í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ì£¼ì†Œë¥¼ ì €ìž¥í•  ìˆ˜ ìžˆë‹¤.
+ ¼öÆÛ Å¬·¡½ºÀÇ ·¹ÆÛ·±½º´Â ¼­ºê Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º¸¦ ÁÖ¼Ò¸¦ ÀúÀåÇÒ ¼ö ÀÖ´Ù.
 
- ì„œë¸Œ í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ëŠ” ë¬´ì¡°ê±´ ìˆ˜í¼ í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ëª¨ë‘ ê°–ê³  ìžˆê¸° ë•Œë¬¸ì´ë‹¤.
+ ¼­ºê Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º´Â ¹«Á¶°Ç ¼öÆÛ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º¸¦ ¸ðµÎ °®°í ÀÖ±â ¶§¹®ÀÌ´Ù.
 
- ì´ë ‡ê²Œ ìƒì† ê´€ê³„ì— ë”°ë¼ í•œ ë ˆí¼ëŸ°ìŠ¤ì— ë‹¤ì–‘í•œ í´ëž˜ìŠ¤ì˜ ê°ì²´ ì£¼ì†Œë¥¼ ì €ìž¥í•  ìˆ˜ ìžˆë‹¤ê³  í•´ì„œ "ë‹¤í˜•ì  ë³€ìˆ˜" ë¼ê³  ë¶€ë¥¸ë‹¤.
+ ÀÌ·¸°Ô »ó¼Ó °ü°è¿¡ µû¶ó ÇÑ ·¹ÆÛ·±½º¿¡ ´Ù¾çÇÑ Å¬·¡½ºÀÇ °´Ã¼ ÁÖ¼Ò¸¦ ÀúÀåÇÒ ¼ö ÀÖ´Ù°í ÇØ¼­ "´ÙÇüÀû º¯¼ö" ¶ó°í ºÎ¸¥´Ù.
 
- êµ¬ì²´ì ì¸ íƒ€ìž…ì„ ì§€ì •í•˜ê¸° ë³´ë‹¤ëŠ” ê·¸ê²ƒì˜ ìƒìœ„ íƒ€ìž…ì„ ì§€ì •í•¨ìœ¼ë¡œì¨ 
- ê·¸ ìžë¦¬ì— ë‹¤ì–‘í•œ íƒ€ìž…ì˜ ê°ì²´ë¥¼ ë„£ì„ ìˆ˜ ìžˆë‹¤.
+ ±¸Ã¼ÀûÀÎ Å¸ÀÔÀ» ÁöÁ¤ÇÏ±â º¸´Ù´Â ±×°ÍÀÇ »óÀ§ Å¸ÀÔÀ» ÁöÁ¤ÇÔÀ¸·Î½á 
+ ±× ÀÚ¸®¿¡ ´Ù¾çÇÑ Å¸ÀÔÀÇ °´Ã¼¸¦ ³ÖÀ» ¼ö ÀÖ´Ù.
  
  public class Car extends Vehicle {}
  public class Truck extends Car {}
  c = new Car();
- c = new Truck();  // Carì˜ ë©¤ë²„ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+ c = new Truck();  // CarÀÇ ¸â¹ö¸¦ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
 
- Sedan c2 = (Sedan)c;  // ëª…ì‹œì  í˜•ë³€í™˜ì„ í•´ì£¼ë©´ Carì˜ ë©¤ë²„ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
-
-
-
-======================= ì˜¤ë²„ë¼ì´ë”© Overrigind(Polymorphism) =====================================
+ Sedan c2 = (Sedan)c;  // ¸í½ÃÀû Çüº¯È¯À» ÇØÁÖ¸é CarÀÇ ¸â¹ö¸¦ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
 
 
-@ ì˜¤ë²„ë¼ì´ë”©ì˜ ë©”ì„œë“œ í˜¸ì¶œ
 
-  ìˆ˜í¼í´ëž˜ìŠ¤ì˜ ë©”ì„œë“œë¥¼ ìƒì†ë°›ì•„ ë©”ì„œë“œ ê¸°ëŠ¥ì„ ìž¬ì •ì˜
-
-  @Overrideì„ ë©”ì„œë“œëª… ì•žì— ë¶™ì—¬ ì—ëŸ¬ë¥¼ ë°©ì§€í•œë‹¤.
+======================= ¿À¹ö¶óÀÌµù Overrigind(Polymorphism) =====================================
 
 
-  ì˜¤ë²„ë¼ì´ë”© ê·œì¹™ 
-    => ì ‘ê·¼ ë²”ìœ„ : ê°™ê±°ë‚˜ í™•ìž¥ (private < default < protected < public)
-    => ì ‘ê·¼ ë²”ìœ„ ì¶•ì†Œí•˜ë©´ ì»´íŒŒì¼ ì˜¤ë¥˜
+@ ¿À¹ö¶óÀÌµùÀÇ ¸Þ¼­µå È£Ãâ
 
-    => ë¦¬í„´ íƒ€ìž… : ë°˜ë“œì‹œ ì¼ì¹˜
-    => ë©”ì„œë“œëª…  : ë°˜ë“œì‹œ ì¼ì¹˜
-    => íŒŒë¼ë¯¸í„° íƒ€ìž… ë° ê°œìˆ˜ ë° ìˆœì„œ : ë°˜ë“œì‹œ ì¼ì¹˜
-    => íŒŒë¼ë¯¸í„°ëª… : ìƒê´€ì—†ìŒ
+  ¼öÆÛÅ¬·¡½ºÀÇ ¸Þ¼­µå¸¦ »ó¼Ó¹Þ¾Æ ¸Þ¼­µå ±â´ÉÀ» ÀçÁ¤ÀÇ
 
-    => ë©”ì„œë“œëª…ì€ ê°™ì§€ë§Œ íŒŒë¼ë¯¸í„°ì˜ íƒ€ìž…ì´ ë‹¤ë¥´ê±°ë‚˜ ê°¯ìˆ˜, ìˆœì„œê°€ ë‹¤ë¥¸ ê²½ìš° ìƒˆ ë©”ì„œë“œë¥¼ ì¶”ê°€í•œê²ƒ
+  @OverrideÀ» ¸Þ¼­µå¸í ¾Õ¿¡ ºÙ¿© ¿¡·¯¸¦ ¹æÁöÇÑ´Ù.
+
+
+  ¿À¹ö¶óÀÌµù ±ÔÄ¢ 
+    => Á¢±Ù ¹üÀ§ : °°°Å³ª È®Àå (private < default < protected < public)
+    => Á¢±Ù ¹üÀ§ Ãà¼ÒÇÏ¸é ÄÄÆÄÀÏ ¿À·ù
+
+    => ¸®ÅÏ Å¸ÀÔ : ¹Ýµå½Ã ÀÏÄ¡
+    => ¸Þ¼­µå¸í  : ¹Ýµå½Ã ÀÏÄ¡
+    => ÆÄ¶ó¹ÌÅÍ Å¸ÀÔ ¹× °³¼ö ¹× ¼ø¼­ : ¹Ýµå½Ã ÀÏÄ¡
+    => ÆÄ¶ó¹ÌÅÍ¸í : »ó°ü¾øÀ½
+
+    => ¸Þ¼­µå¸íÀº °°Áö¸¸ ÆÄ¶ó¹ÌÅÍÀÇ Å¸ÀÔÀÌ ´Ù¸£°Å³ª °¹¼ö, ¼ø¼­°¡ ´Ù¸¥ °æ¿ì »õ ¸Þ¼­µå¸¦ Ãß°¡ÇÑ°Í
   
 
-  í˜„ìž¬ í´ëž˜ìŠ¤ì— ë©”ì„œë“œê°€ ì •ì˜ë˜ì—ˆëŠ”ì§€ í™•ì¸í•˜ê³ , ì—†ìœ¼ë©´ ìˆ˜í¼ í´ëž˜ìŠ¤ì—ì„œ ì •ì´ ë˜ì—ˆëŠ”ì§€ í™•ì¸
+  ÇöÀç Å¬·¡½º¿¡ ¸Þ¼­µå°¡ Á¤ÀÇµÇ¾ú´ÂÁö È®ÀÎÇÏ°í, ¾øÀ¸¸é ¼öÆÛ Å¬·¡½º¿¡¼­ Á¤ÀÌ µÇ¾ú´ÂÁö È®ÀÎ
   this.compute();   
 
 
-  í˜„ìž¬ í´ëž˜ìŠ¤ê°€ ì•„ë‹ˆë¼ ìˆ˜í¼í´ëž˜ìŠ¤ì—ì„œ ì •ì˜ë˜ì—ˆëŠ”ì§€ í™•ì¸
+  ÇöÀç Å¬·¡½º°¡ ¾Æ´Ï¶ó ¼öÆÛÅ¬·¡½º¿¡¼­ Á¤ÀÇµÇ¾ú´ÂÁö È®ÀÎ
   super.compute();
 
 
 
-  ì˜¤ë²„ë¼ì´ë”© ëœ ë©”ì„œë“œëŠ” í˜¸ì¶œë˜ëŠ” ê²ƒì€ í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ì£¼ì†Œì— ë”°ë¼ì„œ ê²°ì •
+  ¿À¹ö¶óÀÌµù µÈ ¸Þ¼­µå´Â È£ÃâµÇ´Â °ÍÀº Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º ÁÖ¼Ò¿¡ µû¶ó¼­ °áÁ¤
 
 
-  HashSetì€ ArrayList ë‚˜ MashMap, HashTable ì²˜ëŸ¼ ê°ì²´ì˜ ì£¼ì†Œë¥¼ ë³´ê´€
+  HashSetÀº ArrayList ³ª MashMap, HashTable Ã³·³ °´Ã¼ÀÇ ÁÖ¼Ò¸¦ º¸°ü
 
-  HashSetëŠ” ê°œì²´ì˜ ì£¼ì†Œë¥¼ ì¤‘ë³µí•´ì„œ ë³´ê´€í•˜ì§€ ì•ŠëŠ”ë‹¤.
+  HashSet´Â °³Ã¼ÀÇ ÁÖ¼Ò¸¦ Áßº¹ÇØ¼­ º¸°üÇÏÁö ¾Ê´Â´Ù.
 
 
-  Objectì—ì„œ ìƒì†ë°›ì€ toString(), hashCode(), equals() í•¨ìˆ˜ë¥¼ ì˜¤ë²„ë¼ì´ë”© í•´ì„œ ì‚¬ìš©
+  Object¿¡¼­ »ó¼Ó¹ÞÀº toString(), hashCode(), equals() ÇÔ¼ö¸¦ ¿À¹ö¶óÀÌµù ÇØ¼­ »ç¿ë
   
-  toString() : ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì˜ ê°’ì„ í™•ì¸
+  toString() : ÀÎ½ºÅÏ½º º¯¼öÀÇ °ªÀ» È®ÀÎ
 
-  hashCode(), equals() : ì¸ìŠ¤í„´ìŠ¤ì˜ ë³€ìˆ˜ì˜ ê°’ì´ ê°™ì€ì§€ í™•ì¸
-
-
-  StringBufferëŠ” equals()ë¥¼ ìž¬ì •ì˜í•˜ì§€ ì•Šì•˜ê¸° ë•Œë¬¸ì— Objectì˜ equals()ë¥¼ ê·¸ëŒ€ë¡œ ì‚¬ìš©í•œë‹¤.
-
-  hashê°’ : ê° ì¸ìŠ¤í„´ìŠ¤ë¥¼ êµ¬ë¶„í•  ë•Œ ì‚¬ìš©í•  ë””ì§€í„¸ ì§€ë¬¸!
+  hashCode(), equals() : ÀÎ½ºÅÏ½ºÀÇ º¯¼öÀÇ °ªÀÌ °°ÀºÁö È®ÀÎ
 
 
+  StringBuffer´Â equals()¸¦ ÀçÁ¤ÀÇÇÏÁö ¾Ê¾Ò±â ¶§¹®¿¡ ObjectÀÇ equals()¸¦ ±×´ë·Î »ç¿ëÇÑ´Ù.
 
-========================= ì˜¤ë²„ë¡œë”© Overloading(Polymorphism) =================================
-
-
-  íŒŒë¼ë¯¸í„°ì˜ ê°¯ìˆ˜, íƒ€ìž…, ìˆœì„œê°€ ë‹¤ë¥´ë”ë¼ë„ ê°™ì€ ê¸°ëŠ¥ì„ ìˆ˜í–‰í•˜ëŠ” ë©”ì„œë“œì— 
-  ê°™ì€ ì´ë¦„ì„ ë¶€ì—¬í•˜ì—¬ ì‚¬ìš©í•  ìˆ˜ ìžˆê²Œí•˜ëŠ” ë¬¸ë²•
-
-  ë©”ì„œë“œ í˜¸ì¶œ êµ¬ë¶„ì€ ê°¯ìˆ˜, íƒ€ìž…, ìˆœì„œë¡œ êµ¬ë¶„í•œë‹¤. 
-
-  ë¦¬í„´ ê°’ì„ ë°›ëŠëƒ ì•ˆ ë°›ëŠëƒë¡œ í˜¸ì¶œí•  ë©”ì„œë“œë¥¼ êµ¬ë¶„í•  ìˆ˜ ì—†ë‹¤.
-
-  ë¦¬í„´ íƒ€ìž…ë§Œ ë‹¤ë¥¸ ë©”ì„œë“œëŠ” ì¶”ê°€í•  ìˆ˜ ì—†ê³ , íŒŒë¼ë¯¸í„°ì˜ ê°¯ìˆ˜, íƒ€ìž…, ìˆœì„œê°€ ë‹¤ë¥´ê²Œ í•´ì•¼í•œë‹¤.
-
-  íŒŒë¼ë¯¸í„° íƒ€ìž…ì´ ë©”ì„œë“œì™€ ë‹¤ë¥¼ ë•ŒëŠ” ì•”ì‹œì  íƒ€ìž… ìºìŠ¤íŒ…ìœ¼ë¡œ ê°€ëŠ¥í•œ ë©”ì„œë“œë¥¼ í˜¸ì¶œí•œë‹¤.
-
-  ìˆ˜í¼ í´ëž˜ìŠ¤ì—ì„œ ìƒì† ë°›ì€ ë©”ì„œë“œì™€ ì´ë¦„ì€ ê°™ì§€ë§Œ íŒŒë¼ë¯¸í„°ê°€ ë‹¤ë¥¸ ë©”ì„œë“œë¥¼ ì¶”ê°€í•˜ë©´ ì˜¤ë²„ë¡œë”©ì´ë‹¤.
+  hash°ª : °¢ ÀÎ½ºÅÏ½º¸¦ ±¸ºÐÇÒ ¶§ »ç¿ëÇÒ µðÁöÅÐ Áö¹®!
 
 
 
-
-======================================= ì œë„¤ë¦­(Generic) =====================================
-
-  ì œí…Œë¦­ì´ ì ìš©ëœ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ë©´ ì—¬ëŸ¬ ê°œì˜ í´ëž˜ìŠ¤ë¥¼ ë§Œë“¤ í•„ìš”ê°€ ì—†ì´
-
-  í•˜ë‚˜ì˜ í´ëž˜ìŠ¤ë¡œ ì—¬ëŸ¬ íƒ€ìž…ì˜ ê°ì²´ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+========================= ¿À¹ö·Îµù Overloading(Polymorphism) =================================
 
 
-  ì œë„¤ë¦­ì„ ì‚¬ìš©í•˜ëŠ” ì´ìœ ëŠ” íƒ€ìž…ì˜ ì•ˆì •ì„±ì„ ì œê³µí•˜ê³ , íƒ€ìž…ì²´í¬ì™€ í˜•ë³€í™˜ì„ ìƒëžµí•˜ì—¬ ì½”ë“œê°€ ê°„ê²°í•˜ë‹¤.
+  ÆÄ¶ó¹ÌÅÍÀÇ °¹¼ö, Å¸ÀÔ, ¼ø¼­°¡ ´Ù¸£´õ¶óµµ °°Àº ±â´ÉÀ» ¼öÇàÇÏ´Â ¸Þ¼­µå¿¡ 
+  °°Àº ÀÌ¸§À» ºÎ¿©ÇÏ¿© »ç¿ëÇÒ ¼ö ÀÖ°ÔÇÏ´Â ¹®¹ý
 
-  ì„ ì–¸í•  ìˆ˜ ìžˆëŠ” íƒ€ìž…ì€ ê°ì²´ íƒ€ìž…ê³¼, wrapper(primitive ë³€ìˆ˜ì˜ ê°ì²´) í´ëž˜ìŠ¤ë§Œ ê°€ëŠ¥í•˜ë‹¤
+  ¸Þ¼­µå È£Ãâ ±¸ºÐÀº °¹¼ö, Å¸ÀÔ, ¼ø¼­·Î ±¸ºÐÇÑ´Ù. 
+
+  ¸®ÅÏ °ªÀ» ¹Þ´À³Ä ¾È ¹Þ´À³Ä·Î È£ÃâÇÒ ¸Þ¼­µå¸¦ ±¸ºÐÇÒ ¼ö ¾ø´Ù.
+
+  ¸®ÅÏ Å¸ÀÔ¸¸ ´Ù¸¥ ¸Þ¼­µå´Â Ãß°¡ÇÒ ¼ö ¾ø°í, ÆÄ¶ó¹ÌÅÍÀÇ °¹¼ö, Å¸ÀÔ, ¼ø¼­°¡ ´Ù¸£°Ô ÇØ¾ßÇÑ´Ù.
+
+  ÆÄ¶ó¹ÌÅÍ Å¸ÀÔÀÌ ¸Þ¼­µå¿Í ´Ù¸¦ ¶§´Â ¾Ï½ÃÀû Å¸ÀÔ Ä³½ºÆÃÀ¸·Î °¡´ÉÇÑ ¸Þ¼­µå¸¦ È£ÃâÇÑ´Ù.
+
+  ¼öÆÛ Å¬·¡½º¿¡¼­ »ó¼Ó ¹ÞÀº ¸Þ¼­µå¿Í ÀÌ¸§Àº °°Áö¸¸ ÆÄ¶ó¹ÌÅÍ°¡ ´Ù¸¥ ¸Þ¼­µå¸¦ Ãß°¡ÇÏ¸é ¿À¹ö·ÎµùÀÌ´Ù.
 
 
-  í´ëž˜ìŠ¤ê°€ ì–´ë–¤ ë°ì´í„° íƒ€ìž…ì„ ì‚¬ìš©í•  ê²ƒì¸ì§€ íƒ€ìž…ëª…ì„ ë°›ëŠ”ë‹¤
+
+
+======================================= Á¦³×¸¯(Generic) =====================================
+
+  Á¦Å×¸¯ÀÌ Àû¿ëµÈ Å¬·¡½º¸¦ »ç¿ëÇÏ¸é ¿©·¯ °³ÀÇ Å¬·¡½º¸¦ ¸¸µé ÇÊ¿ä°¡ ¾øÀÌ
+
+  ÇÏ³ªÀÇ Å¬·¡½º·Î ¿©·¯ Å¸ÀÔÀÇ °´Ã¼¸¦ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+
+
+  Á¦³×¸¯À» »ç¿ëÇÏ´Â ÀÌÀ¯´Â Å¸ÀÔÀÇ ¾ÈÁ¤¼ºÀ» Á¦°øÇÏ°í, Å¸ÀÔÃ¼Å©¿Í Çüº¯È¯À» »ý·«ÇÏ¿© ÄÚµå°¡ °£°áÇÏ´Ù.
+
+  ¼±¾ðÇÒ ¼ö ÀÖ´Â Å¸ÀÔÀº °´Ã¼ Å¸ÀÔ°ú, wrapper(primitive º¯¼öÀÇ °´Ã¼) Å¬·¡½º¸¸ °¡´ÉÇÏ´Ù
+
+
+  Å¬·¡½º°¡ ¾î¶² µ¥ÀÌÅÍ Å¸ÀÔÀ» »ç¿ëÇÒ °ÍÀÎÁö Å¸ÀÔ¸íÀ» ¹Þ´Â´Ù
   
-  Typeì˜ ì•½ìžì¸ Të¥¼ ì£¼ë¡œ ì‚¬ìš©
+  TypeÀÇ ¾àÀÚÀÎ T¸¦ ÁÖ·Î »ç¿ë
 
   E - Element (used extensively by the Java Collections Framework)
   K - Key
@@ -1200,11 +1201,11 @@ public class Test9 {
 
 
   Stack<Contact> contacts = new Stack<>();
-  contacts.push(new Contact("í™ê¸¸ë™", "hong@test.com", "1111-1111"));  // Contact ìƒì„±ìž
+  contacts.push(new Contact("È«±æµ¿", "hong@test.com", "1111-1111"));  // Contact »ý¼ºÀÚ
 
   public class Stack<T> {
     
-    // ê·¸ë¦¬ê³  ì‚¬ìš©ìžê°€ ì „ë‹¬í•œ íƒ€ìž…ì˜ ì´ë¦„ì„ ì½”ë“œ ê³³ê³³ì— ì§€ì •í•˜ë©´ ëœë‹¤.
+    // ±×¸®°í »ç¿ëÀÚ°¡ Àü´ÞÇÑ Å¸ÀÔÀÇ ÀÌ¸§À» ÄÚµå °÷°÷¿¡ ÁöÁ¤ÇÏ¸é µÈ´Ù.
     private class Box {
         T value;
         Box next;
@@ -1217,19 +1218,19 @@ public class Test9 {
     }
     
     public void push(T value) {
-        // ìƒˆ ìƒìžë¥¼ ë§Œë“¤ì–´ ê°’ì„ ì €ìž¥í•œë‹¤.
+        // »õ »óÀÚ¸¦ ¸¸µé¾î °ªÀ» ÀúÀåÇÑ´Ù.
         Box box = new Box(value);
     }
   }
 
-  Iterator<ì œë„¤ë¦­ íƒ€ìž…> interator = list.iterator();
+  Iterator<Á¦³×¸¯ Å¸ÀÔ> interator = list.iterator();
 
-  ex) List ê³„ì—´, Set ê³„ì—´
+  ex) List °è¿­, Set °è¿­
       ArrayList<Score> list = new ArrayList<>();
       Iterator<Score> iterator = list.iterator();
 
      
-  ex) Map ê³„ì—´
+  ex) Map °è¿­
       HashMap<String, Contact> map = new HashMap<>();
       Iterator<Contact> iterator = map.values().iterator();
 
@@ -1238,8 +1239,9 @@ public class Test9 {
           iterator.remove();
       }
 
-
-=========================== @SuppressWarnings Annotation ========================================
+//==============================================================================================
+//* @SuppressWarnings Annotation
+//==============================================================================================
 
   
 
@@ -1252,20 +1254,20 @@ public class Test9 {
     }
 
     return (T)this.list[index]; => 
-      => ì œë„¤ë¦­ í•˜ë©´ì„œ íƒ€ìž… ìºìŠ¤íŒ…ì— í™•ì‹ ì´ ì—†ì„ ë•Œ 
-         ì»¤ì„œë¥¼ ì†ŒìŠ¤ìœ„ì— ì˜¬ë¦¬ê³ (ë‹¨ì¶•í‚¤ F2)  add @SuppressWarnings("unchecked") ì¶”ê°€
+      => Á¦³×¸¯ ÇÏ¸é¼­ Å¸ÀÔ Ä³½ºÆÃ¿¡ È®½ÅÀÌ ¾øÀ» ¶§ 
+         Ä¿¼­¸¦ ¼Ò½ºÀ§¿¡ ¿Ã¸®°í(´ÜÃàÅ° F2)  add @SuppressWarnings("unchecked") Ãß°¡
 
 
-    1. all : ëª¨ë“  ê²½ê³ ë¥¼ ì–µì œ
-    2. cast : ìºìŠ¤íŠ¸ ì—°ì‚°ìž ê´€ë ¨ ê²½ê³  ì–µì œ
-    3. dep-ann : ì‚¬ìš©í•˜ì§€ ë§ì•„ì•¼ í•  ì£¼ì„ ê´€ë ¨ ê²½ê³  ì–µì œ
-    4. deprecation : ì‚¬ìš©í•˜ì§€ ë§ì•„ì•¼ í•  ë©”ì†Œë“œ ê´€ë ¨ ê²½ê³  ì–µì œ
-    5. fallthrough : switchë¬¸ì—ì„œì˜ break ëˆ„ë½ ê´€ë ¨ ê²½ê³  ì–µì œ
-    6. finally : ë°˜í™˜í•˜ì§€ ì•ŠëŠ” finally ë¸”ëŸ­ ê´€ë ¨ ê²½ê³  ì–µì œ
-    7. null : null ë¶„ì„ ê´€ë ¨ ê²½ê³  ì–µì œ
-    8. rawtypes : ì œë„¤ë¦­ì„ ì‚¬ìš©í•˜ëŠ” í´ëž˜ìŠ¤ ë§¤ê°œ ë³€ìˆ˜ê°€ ë¶ˆíŠ¹ì •ì¼ ë•Œì˜ ê²½ê³  ì–µì œ
-    9. unchecked : ê²€ì¦ë˜ì§€ ì•Šì€ ì—°ì‚°ìž ê´€ë ¨ ê²½ê³  ì–µì œ
-    10. unused : ì‚¬ìš©í•˜ì§€ ì•ŠëŠ” ì½”ë“œ ê´€ë ¨ ê²½ê³  ì–µì œ
+    1. all : ¸ðµç °æ°í¸¦ ¾ïÁ¦
+    2. cast : Ä³½ºÆ® ¿¬»êÀÚ °ü·Ã °æ°í ¾ïÁ¦
+    3. dep-ann : »ç¿ëÇÏÁö ¸»¾Æ¾ß ÇÒ ÁÖ¼® °ü·Ã °æ°í ¾ïÁ¦
+    4. deprecation : »ç¿ëÇÏÁö ¸»¾Æ¾ß ÇÒ ¸Þ¼Òµå °ü·Ã °æ°í ¾ïÁ¦
+    5. fallthrough : switch¹®¿¡¼­ÀÇ break ´©¶ô °ü·Ã °æ°í ¾ïÁ¦
+    6. finally : ¹ÝÈ¯ÇÏÁö ¾Ê´Â finally ºí·° °ü·Ã °æ°í ¾ïÁ¦
+    7. null : null ºÐ¼® °ü·Ã °æ°í ¾ïÁ¦
+    8. rawtypes : Á¦³×¸¯À» »ç¿ëÇÏ´Â Å¬·¡½º ¸Å°³ º¯¼ö°¡ ºÒÆ¯Á¤ÀÏ ¶§ÀÇ °æ°í ¾ïÁ¦
+    9. unchecked : °ËÁõµÇÁö ¾ÊÀº ¿¬»êÀÚ °ü·Ã °æ°í ¾ïÁ¦
+    10. unused : »ç¿ëÇÏÁö ¾Ê´Â ÄÚµå °ü·Ã °æ°í ¾ïÁ¦
 
 
 
@@ -1273,52 +1275,52 @@ public class Test9 {
 ============================== @Deprecated Annotation ====================================
 
     
- -. @Deprecated : ê¸°ì¡´ì— ë§Œë“  ë©”ì„œë“œëŠ” í˜„ìž¬ ì—¬ëŸ¬ê³³ì— ì‚¬ìš©ì¤‘ì´ê¸° ë•Œë¬¸ì— ê·¸ëŒ€ë¡œ ë‘ê³ 
+ -. @Deprecated : ±âÁ¸¿¡ ¸¸µç ¸Þ¼­µå´Â ÇöÀç ¿©·¯°÷¿¡ »ç¿ëÁßÀÌ±â ¶§¹®¿¡ ±×´ë·Î µÎ°í
 
-    ë©”ì„œë“œ ì‚¬ìš©í•˜ì§€ ì•Šë„ë¡ ê²½ê³ í•˜ê³  ê¸°ëŠ¥ì´ ê°™ì€ ë©”ì„œë“œë¥¼ êµ¬í˜„í•´ì„œ ì‚¬ìš©í•˜ë„ë¡í•œë‹¤.
+    ¸Þ¼­µå »ç¿ëÇÏÁö ¾Êµµ·Ï °æ°íÇÏ°í ±â´ÉÀÌ °°Àº ¸Þ¼­µå¸¦ ±¸ÇöÇØ¼­ »ç¿ëÇÏµµ·ÏÇÑ´Ù.
 
     @Deprecated
     public void move() {
-        // moveì˜ ê¸°ëŠ¥ì„ run()ìœ¼ë¡œ ì˜®ê¸°ê³ , ì—¬ê¸°ì„œëŠ” run()ì„ í˜¸ì¶œí•œë‹¤.
+        // moveÀÇ ±â´ÉÀ» run()À¸·Î ¿Å±â°í, ¿©±â¼­´Â run()À» È£ÃâÇÑ´Ù.
         this.run();
         
-        // ì¦‰ move() ë©”ì„œë“œëŠ” ì˜ˆì „ì— ë§Œë“  í”„ë¡œì íŠ¸ë¥¼ ìœ„í•´ run()ì˜ ê»ë°ê¸° ì—­í• ì„ í•œë‹¤.
+        // Áï move() ¸Þ¼­µå´Â ¿¹Àü¿¡ ¸¸µç ÇÁ·ÎÁ§Æ®¸¦ À§ÇØ run()ÀÇ ²®µ¥±â ¿ªÇÒÀ» ÇÑ´Ù.
     }
     
-    // ì‹ ê·œ í”„ë¡œì íŠ¸ì—ì„œëŠ” run()ì„ ì‚¬ìš©í•´ì•¼ í•˜ê¸° ë•Œë¬¸ì— 
-    // ìˆ˜í¼í´ëž˜ìŠ¤ì—ì„œ ìƒì† ë°›ì€ê²½ìš° run()ì„ ì˜¤ë²„ë¼ì´ë”©í•œë‹¤.
+    // ½Å±Ô ÇÁ·ÎÁ§Æ®¿¡¼­´Â run()À» »ç¿ëÇØ¾ß ÇÏ±â ¶§¹®¿¡ 
+    // ¼öÆÛÅ¬·¡½º¿¡¼­ »ó¼Ó ¹ÞÀº°æ¿ì run()À» ¿À¹ö¶óÀÌµùÇÑ´Ù.
     @Override
     public void run() {
-        System.out.println("ê°„ë‹¤.");
+        System.out.println("°£´Ù.");
     }
 
 
-======================================= ì»¬ë ‰ì…˜ í”„ë ˆìž„ì›Œí¬ =====================================
+======================================= ÄÃ·º¼Ç ÇÁ·¹ÀÓ¿öÅ© =====================================
 
-  ì»¬ë ‰ì…˜ì¦ˆ í”„ëž˜ìž„ì›Œí¬ë¼ëŠ” ê²ƒì€ ë‹¤ë¥¸ ë§ë¡œëŠ” ì»¨í…Œì´ë„ˆë¼ê³ ë„ ë¶€ë¥¸ë‹¤. 
-  ì¦‰ ê°’ì„ ë‹´ëŠ” ê·¸ë¦‡ì´ë¼ëŠ” ì˜ë¯¸ì´ë‹¤. ê·¸ëŸ°ë° ê·¸ ê°’ì˜ ì„±ê²©ì— ë”°ë¼ì„œ ì»¨í…Œì´ë„ˆì˜ ì„±ê²©ì´ ì¡°ê¸ˆì”© ë‹¬ë¼ì§„ë‹¤. 
-  ìžë°”ì—ì„œëŠ” ë‹¤ì–‘í•œ ìƒí™©ì—ì„œ ì‚¬ìš©í•  ìˆ˜ ìžˆëŠ” ë‹¤ì–‘í•œ ì»¨í…Œì´ë„ˆë¥¼ ì œê³µí•˜ëŠ”ë° 
-  ì´ê²ƒì„ ì»¬ë ‰ì…˜ì¦ˆ í”„ëž˜ìž„ì›Œí¬ë¼ê³  ë¶€ë¥¸ë‹¤.
+  ÄÃ·º¼ÇÁî ÇÁ·¡ÀÓ¿öÅ©¶ó´Â °ÍÀº ´Ù¸¥ ¸»·Î´Â ÄÁÅ×ÀÌ³Ê¶ó°íµµ ºÎ¸¥´Ù. 
+  Áï °ªÀ» ´ã´Â ±×¸©ÀÌ¶ó´Â ÀÇ¹ÌÀÌ´Ù. ±×·±µ¥ ±× °ªÀÇ ¼º°Ý¿¡ µû¶ó¼­ ÄÁÅ×ÀÌ³ÊÀÇ ¼º°ÝÀÌ Á¶±Ý¾¿ ´Þ¶óÁø´Ù. 
+  ÀÚ¹Ù¿¡¼­´Â ´Ù¾çÇÑ »óÈ²¿¡¼­ »ç¿ëÇÒ ¼ö ÀÖ´Â ´Ù¾çÇÑ ÄÁÅ×ÀÌ³Ê¸¦ Á¦°øÇÏ´Âµ¥ 
+  ÀÌ°ÍÀ» ÄÃ·º¼ÇÁî ÇÁ·¡ÀÓ¿öÅ©¶ó°í ºÎ¸¥´Ù.
 
   
-  List : ìˆœì„œê°€ ìžˆëŠ” ë°ì´í„°ì˜ ì§‘í•©, ë°ì´í„°ì˜ ì¤‘ë³µì„ í—ˆìš©í•œë‹¤.
+  List : ¼ø¼­°¡ ÀÖ´Â µ¥ÀÌÅÍÀÇ ÁýÇÕ, µ¥ÀÌÅÍÀÇ Áßº¹À» Çã¿ëÇÑ´Ù.
          ArrayList, LinkedList, Stack, Queue
 
 
-  Set : ìˆœì„œë¥¼ ìœ ì§€í•˜ì§€ ì•ŠëŠ” ë°ì´í„°ì˜ ì§‘í•©, ë°ì´í„°ì˜ ì¤‘ë³µì„ í—ˆìš©í•˜ì§€ ì•ŠëŠ”ë‹¤.
+  Set : ¼ø¼­¸¦ À¯ÁöÇÏÁö ¾Ê´Â µ¥ÀÌÅÍÀÇ ÁýÇÕ, µ¥ÀÌÅÍÀÇ Áßº¹À» Çã¿ëÇÏÁö ¾Ê´Â´Ù.
         HashSet, TreeSet
 
 
-  Map : í‚¤ì™€ ê°’ì˜ ìŒìœ¼ë¡œ ì´ë£¨ì–´ì§„ ë°ì´í„°ì˜ ì§‘í•©. 
-        ìˆœì„œëŠ” ìœ ì§€ë˜ì§€ ì•Šìœ¼ë©°, í‚¤ëŠ”ì¤‘ë³µì„ í—ˆìš©í•˜ì§€ ì•Šê³ , ê°’ì„ ì¤‘ë³µì„ í—ˆìš©í•œë‹¤. 
+  Map : Å°¿Í °ªÀÇ ½ÖÀ¸·Î ÀÌ·ç¾îÁø µ¥ÀÌÅÍÀÇ ÁýÇÕ. 
+        ¼ø¼­´Â À¯ÁöµÇÁö ¾ÊÀ¸¸ç, Å°´ÂÁßº¹À» Çã¿ëÇÏÁö ¾Ê°í, °ªÀ» Áßº¹À» Çã¿ëÇÑ´Ù. 
         HashMap, Hashtable, TreeMap,
    
   toArray
-        ê°’ì„ ë°°ì—´ë¡œ êº¼ë‚´ê³  ì‹¶ë‹¤ë©´, ê°’ì„ ëª¨ë‘ ë‹´ì„ ìˆ˜ ìžˆëŠ” ë°°ì—´ì„ ë§Œë“  ë‹¤ìŒì—,
-        toArray()ì˜ íŒŒë¼ë¯¸í„°ë¡œ ë°°ì—´ ì£¼ì†Œë¥¼ ë„˜ê²¨ë¼!
-        ê·¸ëŸ¬ë©´ ë°°ì—´ì— ê°ì²´ë“¤ì˜ ì£¼ì†Œë¥¼ ë‹´ì•„ì¤„ ê²ƒì´ë‹¤.
-        ë§Œì•½ íŒŒë¼ë¯¸í„°ë¡œ ì œê³µëœ ë°°ì—´ì„ í¬ê¸°ê°€ HashSetì— ë³´ê´€ëœ ê°ì²´ë“¤ì˜ ìˆ˜ ë³´ë‹¤ ìž‘ë‹¤ë©´,
-        ë”°ë¡œ ë°°ì—´ì„ ìƒˆë¡œ ë§Œë“  ë‹¤ìŒì— ê·¸ ë°°ì—´ì˜ ì£¼ì†Œë¥¼ ë¦¬í„´í•  ê²ƒì´ë‹¤.
+        °ªÀ» ¹è¿­·Î ²¨³»°í ½Í´Ù¸é, °ªÀ» ¸ðµÎ ´ãÀ» ¼ö ÀÖ´Â ¹è¿­À» ¸¸µç ´ÙÀ½¿¡,
+        toArray()ÀÇ ÆÄ¶ó¹ÌÅÍ·Î ¹è¿­ ÁÖ¼Ò¸¦ ³Ñ°Ü¶ó!
+        ±×·¯¸é ¹è¿­¿¡ °´Ã¼µéÀÇ ÁÖ¼Ò¸¦ ´ã¾ÆÁÙ °ÍÀÌ´Ù.
+        ¸¸¾à ÆÄ¶ó¹ÌÅÍ·Î Á¦°øµÈ ¹è¿­À» Å©±â°¡ HashSet¿¡ º¸°üµÈ °´Ã¼µéÀÇ ¼ö º¸´Ù ÀÛ´Ù¸é,
+        µû·Î ¹è¿­À» »õ·Î ¸¸µç ´ÙÀ½¿¡ ±× ¹è¿­ÀÇ ÁÖ¼Ò¸¦ ¸®ÅÏÇÒ °ÍÀÌ´Ù.
 	
         HashSet<String> set = new HashSet<>();
 
@@ -1340,7 +1342,7 @@ public class Test9 {
         Iterator<Contact> iterator = map.values().iterator();
 
     
-        // ê°’ ì¶œë ¥
+        // °ª Ãâ·Â
         while(iterator.hasNext()) {
             System.out.println(iterator.next());
         }
@@ -1352,9 +1354,9 @@ public class Test9 {
 
 
 
-========================== ì´í„°ë ˆì´í„°(Iterator) ì¸í„°íŽ˜ì´ìŠ¤ ê°ì²´ ==========================
+========================== ÀÌÅÍ·¹ÀÌÅÍ(Iterator) ÀÎÅÍÆäÀÌ½º °´Ã¼ ==========================
 
-- ëª¨ë“  ì»¬ë ‰ì…˜(Collection)ìœ¼ë¡œ ë¶€í„° ì •ë³´ë¥¼ ì–»ì„ ìˆ˜ ìžˆëŠ” ì¸í„°íŽ˜ì´ìŠ¤ ìž…ë‹ˆë‹¤.
+- ¸ðµç ÄÃ·º¼Ç(Collection)À¸·Î ºÎÅÍ Á¤º¸¸¦ ¾òÀ» ¼ö ÀÖ´Â ÀÎÅÍÆäÀÌ½º ÀÔ´Ï´Ù.
 
   public interface Iterator {
     boolean hasNext();
@@ -1367,36 +1369,36 @@ public class Test9 {
  ArrayList<String> list = new ArrayList<>();
  Iterator<String> iterator = list.iterator();
 
- - iterator() ë©”ì„œë“œì˜ ì˜ë¯¸?
-   => iterator()ëŠ” Iterator ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ ì–´ë–¤ í´ëž˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ë§Œë“¤ì–´ ë¦¬í„´í•œë‹¤.
-   => iterator()ëŠ” Iterator ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ ì–´ë–¤ í´ëž˜ìŠ¤ì˜ ê°ì²´ë¥¼ ë¦¬í„´í•œë‹¤.
-   => iterator()ëŠ” Iterator ì¸í¼íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ ê°ì²´ë¥¼ ë¦¬í„´í•œë‹¤.
-   => iterator()ëŠ” Iterator êµ¬í˜„ì²´ë¥¼ ë¦¬í„´í•œë‹¤.
-   => iterator()ëŠ” Iterator ê°ì²´ë¥¼ ë¦¬í„´í•œë‹¤.
+ - iterator() ¸Þ¼­µåÀÇ ÀÇ¹Ì?
+   => iterator()´Â Iterator ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ ¾î¶² Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º¸¦ ¸¸µé¾î ¸®ÅÏÇÑ´Ù.
+   => iterator()´Â Iterator ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ ¾î¶² Å¬·¡½ºÀÇ °´Ã¼¸¦ ¸®ÅÏÇÑ´Ù.
+   => iterator()´Â Iterator ÀÎÆÛÆäÀÌ½º¸¦ ±¸ÇöÇÑ °´Ã¼¸¦ ¸®ÅÏÇÑ´Ù.
+   => iterator()´Â Iterator ±¸ÇöÃ¼¸¦ ¸®ÅÏÇÑ´Ù.
+   => iterator()´Â Iterator °´Ã¼¸¦ ¸®ÅÏÇÑ´Ù.
 
 
 
-======================================= ì¶”ìƒí´ëž˜ìŠ¤ ======================================
+======================================= Ãß»óÅ¬·¡½º ======================================
 
--. ì„œë¸Œ í´ëž˜ìŠ¤ê°€ ì‚¬ìš©í•  í•„ë“œì™€ ë©”ì„œë“œë¥¼ ë¬¼ë ¤ì£¼ëŠ” ì—­í• ì„ í•œë‹¤.
+-. ¼­ºê Å¬·¡½º°¡ »ç¿ëÇÒ ÇÊµå¿Í ¸Þ¼­µå¸¦ ¹°·ÁÁÖ´Â ¿ªÇÒÀ» ÇÑ´Ù.
 
--. ì¶”ìƒ í´ëž˜ìŠ¤ë¡œ ì„ ì–¸í•˜ë©´ ì§ì ‘ ì¸ìŠ¤í„´ìŠ¤ë¥¼ ìƒì„±í•  ìˆ˜ ì—†ë‹¤.(//Car car = new Car(); // ì»´íŒŒì¼ ì˜¤ë¥˜!)
+-. Ãß»ó Å¬·¡½º·Î ¼±¾ðÇÏ¸é Á÷Á¢ ÀÎ½ºÅÏ½º¸¦ »ý¼ºÇÒ ¼ö ¾ø´Ù.(//Car car = new Car(); // ÄÄÆÄÀÏ ¿À·ù!)
 
 
-    # ì¶”ìƒí´ëž˜ìŠ¤ì™€ ì¶”ìƒë©”ì„œë“œ
+    # Ãß»óÅ¬·¡½º¿Í Ãß»ó¸Þ¼­µå
     
     public abstract class Car {
         
-        // ì¶”ìƒí´ëž˜ìŠ¤ì—ëŠ” ê¸°ë³¸ì ì¸ í•„ë“œì™€ ë©”ì„œë“œë¥¼ ì„ ì–¸
+        // Ãß»óÅ¬·¡½º¿¡´Â ±âº»ÀûÀÎ ÇÊµå¿Í ¸Þ¼­µå¸¦ ¼±¾ð
         String model;
         int cc;
         
         public void stop() {
-            System.out.println("ë©ˆì¶˜ë‹¤.");
+            System.out.println("¸ØÃá´Ù.");
         }
         
-        // Carì˜ ëª¨ë“  ì„œë¸Œ í´ëž˜ìŠ¤ëŠ” ë°˜ë“œì‹œ ì¶”ìƒë©”ì„œë“œë¥¼ êµ¬í˜„í•´ì•¼í•œë‹¤.
-        // ì¶”ìƒí´ëž˜ìŠ¤(ìˆ˜í¼í´ëž˜ìŠ¤)ì—ì„œëŠ” êµ¬í˜„í•˜ë©´ ì•ˆëœë‹¤.
+        // CarÀÇ ¸ðµç ¼­ºê Å¬·¡½º´Â ¹Ýµå½Ã Ãß»ó¸Þ¼­µå¸¦ ±¸ÇöÇØ¾ßÇÑ´Ù.
+        // Ãß»óÅ¬·¡½º(¼öÆÛÅ¬·¡½º)¿¡¼­´Â ±¸ÇöÇÏ¸é ¾ÈµÈ´Ù.
         public abstract void run();
     }
     
@@ -1405,27 +1407,27 @@ public class Test9 {
         
         boolean isOpen;
         
-        // ì˜¤ë²„ë¼ì´ë”© í•˜ëŠ” ë©”ì„œë“œëŠ” ê°€ëŠ¥í•œ ì• ë…¸í…Œì´ì…˜ì„ ë¶™ì¸ë‹¤.
-        // ìžë™ ìƒì„± : Sedanì— ì»¤ì„œ ì´ë™í•˜ì—¬ F2í‚¤ë¥¼ ëˆ„ë¥´ê³  'add unimplemented methods' í´ë¦­
+        // ¿À¹ö¶óÀÌµù ÇÏ´Â ¸Þ¼­µå´Â °¡´ÉÇÑ ¾Ö³ëÅ×ÀÌ¼ÇÀ» ºÙÀÎ´Ù.
+        // ÀÚµ¿ »ý¼º : Sedan¿¡ Ä¿¼­ ÀÌµ¿ÇÏ¿© F2Å°¸¦ ´©¸£°í 'add unimplemented methods' Å¬¸¯
         @Override
         public void run() {
             if (isOpen) {
-                System.out.println("ì‹œì›í•˜ê²Œ ë‹¬ë¦°ë‹¤.");
+                System.out.println("½Ã¿øÇÏ°Ô ´Þ¸°´Ù.");
             }
         }
         
         public void openSunroof() {
-            System.out.println("ì¬ë£¨í”„ ì—°ë‹¤.");
+            System.out.println("½ã·çÇÁ ¿¬´Ù.");
         }
         
         public void closeSunroof() {
-            System.out.println("ì¬ë£¨í”„ ë‹«ëŠ”ë‹¤.");
+            System.out.println("½ã·çÇÁ ´Ý´Â´Ù.");
         }
     }
 
 
 
-    # ì¶”ìƒë©”ì„œë“œì™€ ì¸ìŠ¤í„´ìŠ¤ ë©”ì„œë“œ ì‚¬ìš©
+    # Ãß»ó¸Þ¼­µå¿Í ÀÎ½ºÅÏ½º ¸Þ¼­µå »ç¿ë
     
     public abstract class A {
         int v1;
@@ -1446,23 +1448,23 @@ public class Test9 {
     
     public class Test {
         public static void main(String[] args) {
-            // ì¶”ìƒ í´ëž˜ìŠ¤ì˜ ì„œë¸Œ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•œë‹¤.
+            // Ãß»ó Å¬·¡½ºÀÇ ¼­ºê Å¬·¡½º¸¦ »ç¿ëÇÑ´Ù.
             B obj = new B();
             obj.m1();
             obj.m2();
             
             System.out.println("----------------------------");
             
-            // ë¬¼ë¡  ë ˆí¼ëŸ°ìŠ¤ë¥¼ ë§Œë“¤ ë•ŒëŠ” ì¶”ìƒ í´ëž˜ìŠ¤ë„ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+            // ¹°·Ð ·¹ÆÛ·±½º¸¦ ¸¸µé ¶§´Â Ãß»ó Å¬·¡½ºµµ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
             A obj2 = new B();
             
-            // ë‹¤ë§Œ obj2ë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆëŠ” ë©”ì„œë“œëŠ”
-            // obj2 íƒ€ìž…ì— ì œí•œëœë‹¤.
+            // ´Ù¸¸ obj2·Î »ç¿ëÇÒ ¼ö ÀÖ´Â ¸Þ¼­µå´Â
+            // obj2 Å¸ÀÔ¿¡ Á¦ÇÑµÈ´Ù.
             obj2.m1();
-            //obj2.m2(); // ì»´íŒŒì¼ ì˜¤ë¥˜!
+            //obj2.m2(); // ÄÄÆÄÀÏ ¿À·ù!
             
-            // obj2ì—ëŠ” ì‹¤ì œ B ê°ì²´(ì˜ ì£¼ì†Œ)ê°€ ì €ìž¥ë˜ì–´ ìžˆë‹¤.
-            // Bì˜ ì›ëž˜ ê¸°ëŠ¥ì„ ì“°ê³  ì‹¶ë‹¤ë©´, í˜•ë³€í™˜í•˜ë¼!
+            // obj2¿¡´Â ½ÇÁ¦ B °´Ã¼(ÀÇ ÁÖ¼Ò)°¡ ÀúÀåµÇ¾î ÀÖ´Ù.
+            // BÀÇ ¿ø·¡ ±â´ÉÀ» ¾²°í ½Í´Ù¸é, Çüº¯È¯ÇÏ¶ó!
             ((B)obj2).m2();
             
             B obj3 = (B)obj2;
@@ -1473,35 +1475,35 @@ public class Test9 {
 
 
 
-======================================= ì¸í„°íŽ˜ì´ìŠ¤ ======================================
+======================================= ÀÎÅÍÆäÀÌ½º ======================================
 
 
- -. ì¸í„°íŽ˜ì´ìŠ¤ëŠ” ì‚¬ìš©ìž(caller)ì™€ ì‚¬ìš©ë˜ëŠ”ìž(callee) ì‚¬ì´ì˜ í˜¸ì¶œ ê·œì¹™ì„ ì •ì˜í•  ë•Œ ì‚¬ìš©í•˜ëŠ” ë¬¸ë²•ì´ë‹¤.
+ -. ÀÎÅÍÆäÀÌ½º´Â »ç¿ëÀÚ(caller)¿Í »ç¿ëµÇ´ÂÀÚ(callee) »çÀÌÀÇ È£Ãâ ±ÔÄ¢À» Á¤ÀÇÇÒ ¶§ »ç¿ëÇÏ´Â ¹®¹ýÀÌ´Ù.
 
 
     public interface Protocol{
-	// í•„ë“œëŠ” ìƒìˆ˜ë§Œ ê°€ëŠ¥
+	// ÇÊµå´Â »ó¼ö¸¸ °¡´É
         public static final float PI = 3.14159f;
         
-        // => public ì„ ìƒëžµí•  ìˆ˜ ìžˆë‹¤.
+        // => public À» »ý·«ÇÒ ¼ö ÀÖ´Ù.
         static final int AA = 100;
         
-        // => static ì„ ìƒëžµí•  ìˆ˜ ìžˆë‹¤.
+        // => static À» »ý·«ÇÒ ¼ö ÀÖ´Ù.
         final int BB = 200;
         
-        // => finalì„ ìƒëžµí•  ìˆ˜ ìžˆë‹¤.
+        // => finalÀ» »ý·«ÇÒ ¼ö ÀÖ´Ù.
         int CC = 300;
 
 
-        // í˜¸ì¶œ ê·œì¹™ì´ë¼í•¨ì€ ë©”ì„œë“œë¥¼ ì˜ë¯¸í•œë‹¤.
-        // ì¶”ìƒë©”ì„œë“œì´ê³ , abstractê°€ ìƒëžµí•´ë„ ì»´íŒŒì¼ëŸ¬ê°€ ìžë™ ìƒì„±    
+        // È£Ãâ ±ÔÄ¢ÀÌ¶óÇÔÀº ¸Þ¼­µå¸¦ ÀÇ¹ÌÇÑ´Ù.
+        // Ãß»ó¸Þ¼­µåÀÌ°í, abstract°¡ »ý·«ÇØµµ ÄÄÆÄÀÏ·¯°¡ ÀÚµ¿ »ý¼º    
         /*public abstract*/ void m1();
         void m2();
     }
 
     public class Callee implements Protocol {
-	// ì¸í„°íŽ˜ì´ìŠ¤ì— ì„ ì–¸ëœ ëª¨ë“  ì¶”ìƒ ë©”ì„œë“œë¥¼ ë°˜ë“œì‹œ êµ¬í˜„
-    	// ìžë™ ìƒì„± : Callee ì— ì»¤ì„œ ì´ë™í•˜ì—¬ F2í‚¤ë¥¼ ëˆ„ë¥´ê³  'add unimplemented methods' í´ë¦­
+	// ÀÎÅÍÆäÀÌ½º¿¡ ¼±¾ðµÈ ¸ðµç Ãß»ó ¸Þ¼­µå¸¦ ¹Ýµå½Ã ±¸Çö
+    	// ÀÚµ¿ »ý¼º : Callee ¿¡ Ä¿¼­ ÀÌµ¿ÇÏ¿© F2Å°¸¦ ´©¸£°í 'add unimplemented methods' Å¬¸¯
         @Override
         public void m1() {
             System.out.println("m1()...");
@@ -1511,14 +1513,14 @@ public class Test9 {
         public void m2() {
             System.out.println("m2()...");
 
-            // ì¸í„°íŽ˜ì´ìŠ¤ì˜ ìƒìˆ˜ ê°’ì„ ì§ì ‘ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+            // ÀÎÅÍÆäÀÌ½ºÀÇ »ó¼ö °ªÀ» Á÷Á¢ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
             System.out.println(Protocol3.AA);
         }
     }
 
 
 
- -. ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ í´ëž˜ìŠ¤ë¥¼ ìƒì† ë°›ì€ ëª¨ë“  ìžì† í´ëž˜ìŠ¤ë“¤ì€ ê·¸ ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ ê²ƒì´ ëœë‹¤.
+ -. ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ Å¬·¡½º¸¦ »ó¼Ó ¹ÞÀº ¸ðµç ÀÚ¼Õ Å¬·¡½ºµéÀº ±× ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ °ÍÀÌ µÈ´Ù.
 
     public class Test extends Callee  {
         void m3() {
@@ -1528,48 +1530,48 @@ public class Test9 {
 
 
 
- -. í´ëž˜ìŠ¤ëŠ” ë‹¤ì¤‘ ìƒì†ì€ ë¶ˆê°€ëŠ¥í•˜ì§€ë§Œ ë‹¤ì¤‘ êµ¬í˜„ì€ ê°€ëŠ¥í•˜ë‹¤.
+ -. Å¬·¡½º´Â ´ÙÁß »ó¼ÓÀº ºÒ°¡´ÉÇÏÁö¸¸ ´ÙÁß ±¸ÇöÀº °¡´ÉÇÏ´Ù.
 
 
     public class Test3 implements A, C {
         
-        // Aì˜ m1()ê³¼ Cì˜ m1()ì„ ë™ì‹œì— ë§Œì¡±ì‹œí‚¨ë‹¤.
+        // AÀÇ m1()°ú CÀÇ m1()À» µ¿½Ã¿¡ ¸¸Á·½ÃÅ²´Ù.
         @Override public void m1() {System.out.println("m1()");}
         
-        // Cì˜ m3()ë¥¼ êµ¬í˜„í•œ ê²ƒì´ë‹¤. 
+        // CÀÇ m3()¸¦ ±¸ÇöÇÑ °ÍÀÌ´Ù. 
         @Override public void m3() {System.out.println("m3()");}
         
     }
 
 
- -. ì¸í„°íŽ˜ì´ìŠ¤ì—ì„œ ë‹¤ì¤‘ ìƒì†ì´ ë¶ˆê°€ëŠ¥í•œ ê²½ìš°
+ -. ÀÎÅÍÆäÀÌ½º¿¡¼­ ´ÙÁß »ó¼ÓÀÌ ºÒ°¡´ÉÇÑ °æ¿ì
 
    public interface Test4 extends A, E {
 
 
- -. ì¸í„°íŽ˜ì´ìŠ¤ì—ì„œ ë‹¤ì¤‘ êµ¬í˜„ì´ ë¶ˆê°€ëŠ¥í•œ ê²½ìš°
+ -. ÀÎÅÍÆäÀÌ½º¿¡¼­ ´ÙÁß ±¸ÇöÀÌ ºÒ°¡´ÉÇÑ °æ¿ì
 
 
 
 
 
- -. default ë¬¸ë²• (JDK 8ì—ì„œ ì¶”ê°€)
+ -. default ¹®¹ý (JDK 8¿¡¼­ Ãß°¡)
 
-    // ê°ì²´ ì‚¬ìš©í•˜ê¸° ì „ì— ì¤€ë¹„ ì‹œí‚¤ëŠ” ë©”ì„œë“œ
+    // °´Ã¼ »ç¿ëÇÏ±â Àü¿¡ ÁØºñ ½ÃÅ°´Â ¸Þ¼­µå
     default void init() {};
     
-    // í”„ë¡œê·¸ëž¨ì„ ì¢…ë£Œí•˜ê¸° ì „ì— ê°ì²´ì—ê²Œ ë§ˆë¬´ë¦¬ ìž‘ì—…ì„ ì‹œí‚¤ëŠ” ë©”ì„œë“œ
+    // ÇÁ·Î±×·¥À» Á¾·áÇÏ±â Àü¿¡ °´Ã¼¿¡°Ô ¸¶¹«¸® ÀÛ¾÷À» ½ÃÅ°´Â ¸Þ¼­µå
     default void destroy() {};
     
-    // default : ì¸í„°íŽ˜ì´ìŠ¤ì— ìƒˆ ê·œì¹™ì´ ì¶”ê°€ë  ê²½ìš° ê¸°ì¡´ ì†ŒìŠ¤ëŠ” ì—ëŸ¬ê°€ ë°œìƒí•˜ë¯€ë¡œ,
-		 ìƒˆê·œì¹™ì„ ì¶”ê°€í•˜ë ¤ë©´ ìˆ˜ì • ìž‘ì—…ì´ ë§Žì•„ì§€ë¯€ë¡œ,
-                 ê·œì¹™ì„ ë”°ë¥´ì§€ ì•Šê²Œ í•˜ê¸° ìœ„í•´ì„œ default ë¬¸ë²•ì„ ë„ìž…
+    // default : ÀÎÅÍÆäÀÌ½º¿¡ »õ ±ÔÄ¢ÀÌ Ãß°¡µÉ °æ¿ì ±âÁ¸ ¼Ò½º´Â ¿¡·¯°¡ ¹ß»ýÇÏ¹Ç·Î,
+		 »õ±ÔÄ¢À» Ãß°¡ÇÏ·Á¸é ¼öÁ¤ ÀÛ¾÷ÀÌ ¸¹¾ÆÁö¹Ç·Î,
+                 ±ÔÄ¢À» µû¸£Áö ¾Ê°Ô ÇÏ±â À§ÇØ¼­ default ¹®¹ýÀ» µµÀÔ
 
 
 
 
 
-======================================= ì˜ˆì™¸ ì²˜ë¦¬ ======================================
+======================================= ¿¹¿Ü Ã³¸® ======================================
 
 
     Object - Throwable - Error - LinkageError, ThreadDeath, VirtualMachineError
@@ -1586,20 +1588,20 @@ public class Test9 {
 
 
 
- ì˜ˆì™¸ì˜ ì¢…ë¥˜: 
- 1) try...catch... ì‚¬ìš©ì„ ê°•ì œí•˜ì§€ ì•ŠëŠ” ì˜ˆì™¸
-    => Errorì™€ RuntimeException(Exceptionì˜ ì„œë¸Œ í´ëž˜ìŠ¤) ê³„ì—´ì˜ ì˜ˆì™¸
-    => try...catch...ë¡œ ì˜ˆì™¸ë¥¼ ì²˜ë¦¬í•˜ì§€ ì•Šë”ë¼ë„ ì»´íŒŒì¼ ì˜¤ë¥˜ëŠ” ì•„ë‹ˆë‹¤!
+ ¿¹¿ÜÀÇ Á¾·ù: 
+ 1) try...catch... »ç¿ëÀ» °­Á¦ÇÏÁö ¾Ê´Â ¿¹¿Ü
+    => Error¿Í RuntimeException(ExceptionÀÇ ¼­ºê Å¬·¡½º) °è¿­ÀÇ ¿¹¿Ü
+    => try...catch...·Î ¿¹¿Ü¸¦ Ã³¸®ÇÏÁö ¾Ê´õ¶óµµ ÄÄÆÄÀÏ ¿À·ù´Â ¾Æ´Ï´Ù!
  
- 2) try...catch... ì‚¬ìš©ì„ ê°•ì œí•˜ëŠ” ì˜ˆì™¸
-    => Exception ê³„ì—´ì˜ ì˜ˆì™¸ 
-    => ì¦‰ try...catchë¡œ ì˜ˆì™¸ë¥¼ ì²˜ë¦¬í•˜ì§€ ì•Šìœ¼ë©´ ì»´íŒŒì¼ ì˜¤ë¥˜ ë°œìƒ!
+ 2) try...catch... »ç¿ëÀ» °­Á¦ÇÏ´Â ¿¹¿Ü
+    => Exception °è¿­ÀÇ ¿¹¿Ü 
+    => Áï try...catch·Î ¿¹¿Ü¸¦ Ã³¸®ÇÏÁö ¾ÊÀ¸¸é ÄÄÆÄÀÏ ¿À·ù ¹ß»ý!
 
 
  3) try...catch...finally
-    -. finally ë¸”ë¡ì€ try ë¸”ë¡ì„ ë‚˜ê°€ê¸° ì „ì— ë°˜ë“œì‹œ ì‹¤í–‰í•œë‹¤.
-    -. catch ë¸”ë¡ ì—†ì´ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
-    -. ì‚¬ìš©í•œ ìžì›ì„ ìžë™ìœ¼ë¡œ í•´ì œì‹œí‚¬ë•Œ ì‚¬ìš©
+    -. finally ºí·ÏÀº try ºí·ÏÀ» ³ª°¡±â Àü¿¡ ¹Ýµå½Ã ½ÇÇàÇÑ´Ù.
+    -. catch ºí·Ï ¾øÀÌ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+    -. »ç¿ëÇÑ ÀÚ¿øÀ» ÀÚµ¿À¸·Î ÇØÁ¦½ÃÅ³¶§ »ç¿ë
 
     PrintWriter out = null;
     try {
@@ -1613,16 +1615,16 @@ public class Test9 {
     }
 
 
- 4) try-with-resources (JDK 7 ì¶”ê°€ë¬¸ë²•)
+ 4) try-with-resources (JDK 7 Ãß°¡¹®¹ý)
 
         try (
-            // java.lang.AutoCloseable ê·œì¹™ì— ë”°ë¼ ë§Œë“  í´ëž˜ìŠ¤ì˜ ê°ì²´ì—¬ì•¼ í•œë‹¤.
-            // AutoCloseable ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ í´ëž˜ìŠ¤ëŠ” ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
-            // ( class MyClass implements AutoCloseable {   =>  ë¸”ë¡ì— close() ë©”ì„œë“œ ì˜¤ë²„ë¼ì´ë”© )
-            // FileWriter AutoCloseable êµ¬í˜„ì²´( AutoCloseable ê·œì¹™ì— ë”°ë¼ close() ë©”ì„œë“œê°€ ìžˆë‹¤)
+            // java.lang.AutoCloseable ±ÔÄ¢¿¡ µû¶ó ¸¸µç Å¬·¡½ºÀÇ °´Ã¼¿©¾ß ÇÑ´Ù.
+            // AutoCloseable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ Å¬·¡½º´Â »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+            // ( class MyClass implements AutoCloseable {   =>  ºí·Ï¿¡ close() ¸Þ¼­µå ¿À¹ö¶óÀÌµù )
+            // FileWriter AutoCloseable ±¸ÇöÃ¼( AutoCloseable ±ÔÄ¢¿¡ µû¶ó close() ¸Þ¼­µå°¡ ÀÖ´Ù)
              MyClass obj = new MyClass()
         ) {
-            System.out.println("try ë¸”ë¡ ì‹¤í–‰");
+            System.out.println("try ºí·Ï ½ÇÇà");
             
             switch (str) {
             case "a": throw new Exception();
@@ -1633,34 +1635,34 @@ public class Test9 {
             
             System.out.println(str);  
         } catch (IOException|SQLException e) {
-            // íŒŒë¼ë¯¸í„°ë¥¼ ì„ ì–¸í•  ë•Œ ìžì‹ í´ëž˜ìŠ¤ë¶€í„° ë‚˜ì—´
-            // í˜•ì œ ê´€ê³„ì˜ ì˜ˆì™¸ í´ëž˜ìŠ¤ëŠ” ì´ë ‡ê²Œ OR ì—°ì‚°ìžë¥¼ ì‚¬ìš©í•˜ì—¬
-            // íŒŒë¼ë¯¸í„° íƒ€ìž…ì„ ë‚˜ì—´í•  ìˆ˜ ìžˆë‹¤.
-            System.out.println("IOException|SQLException ì˜ˆì™¸ ì²˜ë¦¬");
+            // ÆÄ¶ó¹ÌÅÍ¸¦ ¼±¾ðÇÒ ¶§ ÀÚ½Ä Å¬·¡½ººÎÅÍ ³ª¿­
+            // ÇüÁ¦ °ü°èÀÇ ¿¹¿Ü Å¬·¡½º´Â ÀÌ·¸°Ô OR ¿¬»êÀÚ¸¦ »ç¿ëÇÏ¿©
+            // ÆÄ¶ó¹ÌÅÍ Å¸ÀÔÀ» ³ª¿­ÇÒ ¼ö ÀÖ´Ù.
+            System.out.println("IOException|SQLException ¿¹¿Ü Ã³¸®");
             
         } catch (Exception e) {
-            // ì˜ˆì™¸ í´ëž˜ìŠ¤ ì¤‘ì—ì„œ ìˆ˜í¼ í´ëž˜ëŠ” ì´ë ‡ê²Œ ë³„ë„ë¡œ ì„ ì–¸í•œë‹¤.
-            System.out.println("Exception ì˜ˆì™¸ ì²˜ë¦¬");
+            // ¿¹¿Ü Å¬·¡½º Áß¿¡¼­ ¼öÆÛ Å¬·¡´Â ÀÌ·¸°Ô º°µµ·Î ¼±¾ðÇÑ´Ù.
+            System.out.println("Exception ¿¹¿Ü Ã³¸®");
         }
 
 
 
- 5) ì»¤ìŠ¤í…€ ì˜ˆì™¸ í´ëž˜ìŠ¤ë¥¼ ì´ìš©í•˜ì—¬ ì˜ˆì™¸ë¥¼ êµ¬ë¶„í•˜ê¸°
+ 5) Ä¿½ºÅÒ ¿¹¿Ü Å¬·¡½º¸¦ ÀÌ¿ëÇÏ¿© ¿¹¿Ü¸¦ ±¸ºÐÇÏ±â
 
 
-    // íŠ¹ë³„í•œ ì˜ˆì™¸ í´ëž˜ìŠ¤ë¥¼ ì •ì˜í•œë‹¤.
+    // Æ¯º°ÇÑ ¿¹¿Ü Å¬·¡½º¸¦ Á¤ÀÇÇÑ´Ù.
     public class EmptyStringException extends Exception {
         public EmptyStringException() {
-            super(); // ê·¸ëƒ¥ ìˆ˜í¼ í´ëž˜ìŠ¤ì˜ ê¸°ë³¸ ìƒì„±ìžë¥¼ í˜¸ì¶œí•œë‹¤.
+            super(); // ±×³É ¼öÆÛ Å¬·¡½ºÀÇ ±âº» »ý¼ºÀÚ¸¦ È£ÃâÇÑ´Ù.
         }
     
         public EmptyStringException(String message) {
-            super(message); // ê·¸ëƒ¥ ìˆ˜í¼ í´ëž˜ìŠ¤ì˜ ë©”ì‹œì§€ë¥¼ ë°›ëŠ” ìƒì„±ìžë¥¼ í˜¸ì¶œí•œë‹¤.
+            super(message); // ±×³É ¼öÆÛ Å¬·¡½ºÀÇ ¸Þ½ÃÁö¸¦ ¹Þ´Â »ý¼ºÀÚ¸¦ È£ÃâÇÑ´Ù.
         }
     
-        // ê·¸ ë°–ì— í•„ë“œë‚˜ ë©”ì„œë“œë¥¼ ì¶”ê°€í•  í•„ìš”ê°€ ì—†ë‹¤.
-        // ì´ í´ëž˜ìŠ¤ì˜ ëª©ì ì€ í´ëž˜ìŠ¤ íƒ€ìž…ìœ¼ë¡œ ì˜ˆì™¸ë¥¼ êµ¬ë¶„í•˜ê¸° ìœ„í•¨ì´ë‹¤.
-        // ë‹¨ ê°„ë‹¨í•œ ë©”ì‹œì§€ëŠ” ì €ìž¥í•  ìˆ˜ ìžˆë„ë¡ ìƒì„±ìžë¥¼ ì •ì˜í•˜ë¼!
+        // ±× ¹Û¿¡ ÇÊµå³ª ¸Þ¼­µå¸¦ Ãß°¡ÇÒ ÇÊ¿ä°¡ ¾ø´Ù.
+        // ÀÌ Å¬·¡½ºÀÇ ¸ñÀûÀº Å¬·¡½º Å¸ÀÔÀ¸·Î ¿¹¿Ü¸¦ ±¸ºÐÇÏ±â À§ÇÔÀÌ´Ù.
+        // ´Ü °£´ÜÇÑ ¸Þ½ÃÁö´Â ÀúÀåÇÒ ¼ö ÀÖµµ·Ï »ý¼ºÀÚ¸¦ Á¤ÀÇÇÏ¶ó!
     
     }
 
@@ -1668,18 +1670,18 @@ public class Test9 {
     static void input() throws Exception {
         Score score = new Score();
         
-        System.out.print("ì´ë¦„? ");
+        System.out.print("ÀÌ¸§? ");
         score.name = keyScan.nextLine();
         
         if (score.name.length() == 0) {
-            // ì˜ˆì™¸ ê°ì²´ë¥¼ ë˜ì§„ë‹¤.
-            throw new EmptyStringException("ì´ë¦„ì´ ë¹ˆ ë¬¸ìžì—´ìž…ë‹ˆë‹¤.");
+            // ¿¹¿Ü °´Ã¼¸¦ ´øÁø´Ù.
+            throw new EmptyStringException("ÀÌ¸§ÀÌ ºó ¹®ÀÚ¿­ÀÔ´Ï´Ù.");
         }
         
-        System.out.print("êµ­ì–´? ");
+        System.out.print("±¹¾î? ");
         score.kor = Integer.parseInt(keyScan.nextLine());
         if (score.kor < 0 || score.kor > 100)
-            // ì˜ˆì™¸ ê°ì²´ë¥¼ ë˜ì§„ë‹¤.
+            // ¿¹¿Ü °´Ã¼¸¦ ´øÁø´Ù.
             throw new ScoreOutOfBoundsException();
         
         list.add(score);
@@ -1688,25 +1690,25 @@ public class Test9 {
 
     public static void main(String[] args) {
         while (true) {
-            // input()ì—ì„œ ì˜ˆì™¸ í´ëž˜ìŠ¤ë¥¼ ì´ìš©í•˜ì—¬ ì˜ˆì™¸ ìƒí™©ì„ ì „ë‹¬í•˜ê¸° ë•Œë¬¸ì— 
-            // input()ì„ í˜¸ì¶œí•˜ëŠ” ìª½ì—ì„œëŠ” catch ë¸”ë¡ìœ¼ë¡œ ì˜ˆì™¸ë¥¼ ì‰½ê²Œ êµ¬ë¶„í•  ìˆ˜ ìžˆë‹¤.
+            // input()¿¡¼­ ¿¹¿Ü Å¬·¡½º¸¦ ÀÌ¿ëÇÏ¿© ¿¹¿Ü »óÈ²À» Àü´ÞÇÏ±â ¶§¹®¿¡ 
+            // input()À» È£ÃâÇÏ´Â ÂÊ¿¡¼­´Â catch ºí·ÏÀ¸·Î ¿¹¿Ü¸¦ ½±°Ô ±¸ºÐÇÒ ¼ö ÀÖ´Ù.
             try {
                 input();
-                // ë‹¤ìŒê³¼ ê°™ì´ ì˜ˆì™¸ê°€ ë°œìƒí•  ë•Œ í´ëž˜ìŠ¤ íƒ€ìž…ìœ¼ë¡œ êµ¬ë¶„í•˜ê¸° ë•Œë¬¸ì—
-                // ì½”ë“œë¥¼ í•´ì„í•˜ê¸° ì‰½ë‹¤. ì¦‰ ìœ ì§€ë³´ìˆ˜ê°€ ì‰½ë‹¤.
+                // ´ÙÀ½°ú °°ÀÌ ¿¹¿Ü°¡ ¹ß»ýÇÒ ¶§ Å¬·¡½º Å¸ÀÔÀ¸·Î ±¸ºÐÇÏ±â ¶§¹®¿¡
+                // ÄÚµå¸¦ ÇØ¼®ÇÏ±â ½±´Ù. Áï À¯Áöº¸¼ö°¡ ½±´Ù.
             } catch (EmptyStringException e) {
-                System.out.println("ìž…ë ¥ ë¬¸ìžì—´ì´ ë¹„ì–´ ìžˆìŠµë‹ˆë‹¤.");
+                System.out.println("ÀÔ·Â ¹®ÀÚ¿­ÀÌ ºñ¾î ÀÖ½À´Ï´Ù.");
                 
             } catch (ScoreOutOfBoundsException e) {
-                System.out.println("ì ìˆ˜ì˜ ë²”ìœ„ë¥¼ ë²—ì–´ë‚¬ìŠµë‹ˆë‹¤.");
+                System.out.println("Á¡¼öÀÇ ¹üÀ§¸¦ ¹þ¾î³µ½À´Ï´Ù.");
                 
             } catch (NumberFormatException e) {
-                System.out.println("ìˆ«ìž í˜•ì‹ì´ ì•„ë‹™ë‹ˆë‹¤.");
+                System.out.println("¼ýÀÚ Çü½ÄÀÌ ¾Æ´Õ´Ï´Ù.");
                 
             } catch (Exception e) {
-                // ê¸°íƒ€ ì˜ˆì™¸ëŠ” ì–´ë–¤ ìƒí™©ì¸ì§€ ìœ ì¶”í•˜ê¸° íž˜ë“¤ë‹¤.
-                // ì´ëŸ° ê²½ìš° ì–´ë””ì—ì„œ ì˜ˆì™¸ê°€ ë°œìƒí–ˆëŠ”ì§€ ìƒì„¸í•˜ê²Œ ì¡°ì‚¬í•  í•„ìš”ê°€ ìžˆë‹¤.
-                // ì´ë•Œ ì‚¬ìš©í•˜ëŠ”ê²Œ í˜¸ì¶œ ë‹¨ê³„ë¥¼ ì¶œë ¥í•´ ë³´ëŠ” ê²ƒì´ë‹¤.
+                // ±âÅ¸ ¿¹¿Ü´Â ¾î¶² »óÈ²ÀÎÁö À¯ÃßÇÏ±â Èûµé´Ù.
+                // ÀÌ·± °æ¿ì ¾îµð¿¡¼­ ¿¹¿Ü°¡ ¹ß»ýÇß´ÂÁö »ó¼¼ÇÏ°Ô Á¶»çÇÒ ÇÊ¿ä°¡ ÀÖ´Ù.
+                // ÀÌ¶§ »ç¿ëÇÏ´Â°Ô È£Ãâ ´Ü°è¸¦ Ãâ·ÂÇØ º¸´Â °ÍÀÌ´Ù.
                 e.printStackTrace();
             }
         }
@@ -1716,15 +1718,15 @@ public class Test9 {
 
 
 
-======================================= ìµëª…í´ëž˜ìŠ¤ ======================================
+======================================= ÀÍ¸íÅ¬·¡½º ======================================
 
-  ì¸í„°íŽ˜ì´ìŠ¤ í´ëž˜ìŠ¤ êµ¬í˜„ì²´ > ì¤‘ì²© í´ëž˜ìŠ¤ > ë¡œì»¬ í´ëž˜ìŠ¤ 
-                           > ìµëª… í´ëž˜ìŠ¤(ì¸í„°íŽ˜ì´ìŠ¤, ìˆ˜í¼í´ëž˜ìŠ¤ ìƒì„±ìž) > ìµëª…í´ëž˜ë¥¼ í•¨ìˆ˜ì•ˆì— ì¶”ê°€
+  ÀÎÅÍÆäÀÌ½º Å¬·¡½º ±¸ÇöÃ¼ > ÁßÃ¸ Å¬·¡½º > ·ÎÄÃ Å¬·¡½º 
+                           > ÀÍ¸í Å¬·¡½º(ÀÎÅÍÆäÀÌ½º, ¼öÆÛÅ¬·¡½º »ý¼ºÀÚ) > ÀÍ¸íÅ¬·¡¸¦ ÇÔ¼ö¾È¿¡ Ãß°¡
 
 
  
 
-  1) FileNameFilterì„ MyFileNameFilter í´ëž˜ìŠ¤ë¡œ êµ¬í˜„
+  1) FileNameFilterÀ» MyFileNameFilter Å¬·¡½º·Î ±¸Çö
 
         
     public class Test5_1 {
@@ -1733,15 +1735,15 @@ public class Test9 {
             
             File file = new File(".");
     
-            // ë””ë ‰í† ë¦¬ì— ë“¤ì–´ ìžˆëŠ” íŒŒì¼ì´ë‚˜ ë””ë ‰í† ë¦¬ ì´ë¦„ì„ ì•Œì•„ë‚¼ ë•Œ 
-            // íŠ¹ì • ì¡°ê±´ì— ë¶€í•©í•˜ëŠ” ì´ë¦„ë§Œ êº¼ë‚´ê³  ì‹¶ì„ ë•Œê°€ ìžˆë‹¤.
-            // ê·¸ëŸ´ ë•Œ list()ì˜ íŒŒë¼ë¯¸í„°ë¡œ í•„í„° ê¸°ëŠ¥ì„ ìˆ˜í–‰í•˜ëŠ” ê°ì²´ë¥¼ 
-            // ì „ë‹¬í•˜ë¼! ì´ë¦„ì„ êº¼ë‚¼ ë•Œ ê·¸ í•„í„°ë¥¼ ì‚¬ìš©í•˜ì—¬
-            // ë¦¬í„´í•˜ëŠ” ë°°ì—´ì— í¬í•¨í• ì§€ ì—¬ë¶€ë¥¼ ê²°ì •í•œë‹¤.
+            // µð·ºÅä¸®¿¡ µé¾î ÀÖ´Â ÆÄÀÏÀÌ³ª µð·ºÅä¸® ÀÌ¸§À» ¾Ë¾Æ³¾ ¶§ 
+            // Æ¯Á¤ Á¶°Ç¿¡ ºÎÇÕÇÏ´Â ÀÌ¸§¸¸ ²¨³»°í ½ÍÀ» ¶§°¡ ÀÖ´Ù.
+            // ±×·² ¶§ list()ÀÇ ÆÄ¶ó¹ÌÅÍ·Î ÇÊÅÍ ±â´ÉÀ» ¼öÇàÇÏ´Â °´Ã¼¸¦ 
+            // Àü´ÞÇÏ¶ó! ÀÌ¸§À» ²¨³¾ ¶§ ±× ÇÊÅÍ¸¦ »ç¿ëÇÏ¿©
+            // ¸®ÅÏÇÏ´Â ¹è¿­¿¡ Æ÷ÇÔÇÒÁö ¿©ºÎ¸¦ °áÁ¤ÇÑ´Ù.
             //
-            // ver 1: list()ì—ì„œ ì‚¬ìš©í•  í•„í„° í´ëž˜ìŠ¤ëŠ” íŒ¨í‚¤ì§€ ë©¤ë²„ë¡œ ë§Œë“ ë‹¤.
-            // => ì˜¤ì§ ì´ í´ëž˜ìŠ¤ì—ì„œë§Œ ì‚¬ìš©í•˜ëŠ” í´ëž˜ìŠ¤ì¸ë°
-            //    êµ³ì´ íŒ¨í‚¤ì§€ ë©¤ë²„ë¡œ ë§Œë“¤ í•„ìš”ê°€ ìžˆì„ê¹Œ?
+            // ver 1: list()¿¡¼­ »ç¿ëÇÒ ÇÊÅÍ Å¬·¡½º´Â ÆÐÅ°Áö ¸â¹ö·Î ¸¸µç´Ù.
+            // => ¿ÀÁ÷ ÀÌ Å¬·¡½º¿¡¼­¸¸ »ç¿ëÇÏ´Â Å¬·¡½ºÀÎµ¥
+            //    ±»ÀÌ ÆÐÅ°Áö ¸â¹ö·Î ¸¸µé ÇÊ¿ä°¡ ÀÖÀ»±î?
             String[] filenames = file.list(new MyFilenameFilter());
             
             for (String name : filenames) {
@@ -1766,12 +1768,12 @@ public class Test9 {
 
 
 
-  2) ì¤‘ì²©í´ëž˜ìŠ¤
+  2) ÁßÃ¸Å¬·¡½º
 
     
     public class Test5_2 {
     
-        // íŒŒì¼ë§Œ ê±¸ëŸ¬ë‚´ëŠ” í•„í„°
+        // ÆÄÀÏ¸¸ °É·¯³»´Â ÇÊÅÍ
         static class MyFilenameFilter implements FilenameFilter {
             @Override
             public boolean accept(File dir, String name) {
@@ -1787,8 +1789,8 @@ public class Test9 {
             
             File file = new File(".");
 
-            // ver 2: list()ì—ì„œ ì‚¬ìš©í•  í•„í„° í´ëž˜ìŠ¤ë¥¼ ì¤‘ì²© í´ëž˜ìŠ¤ë¡œ ë§Œë“ ë‹¤.
-            // => ì˜¤ì§ ì´ í´ëž˜ìŠ¤ì—ì„œë§Œ ì‚¬ìš©í•˜ëŠ” í´ëž˜ìŠ¤ë¡œ ì„ ì–¸í•œë‹¤.
+            // ver 2: list()¿¡¼­ »ç¿ëÇÒ ÇÊÅÍ Å¬·¡½º¸¦ ÁßÃ¸ Å¬·¡½º·Î ¸¸µç´Ù.
+            // => ¿ÀÁ÷ ÀÌ Å¬·¡½º¿¡¼­¸¸ »ç¿ëÇÏ´Â Å¬·¡½º·Î ¼±¾ðÇÑ´Ù.
             String[] filenames = file.list(new MyFilenameFilter());
             
             for (String name : filenames) {
@@ -1800,14 +1802,14 @@ public class Test9 {
 
 
 
-  3) ë¡œì»¬ í´ëž˜ìŠ¤
+  3) ·ÎÄÃ Å¬·¡½º
 
     
     public class Test5_3 {
     
         public static void main(String[] args) {
-            // íŒŒì¼ëª…ì´ë‚˜ ë””ë ‰í† ë¦¬ëª…ì´ .ìœ¼ë¡œ ì‹œìž‘í•˜ëŠ” ê²½ìš°ëŠ” 
-            // ê²°ê³¼ì—ì„œ ì œì™¸í•˜ìž!
+            // ÆÄÀÏ¸íÀÌ³ª µð·ºÅä¸®¸íÀÌ .À¸·Î ½ÃÀÛÇÏ´Â °æ¿ì´Â 
+            // °á°ú¿¡¼­ Á¦¿ÜÇÏÀÚ!
             class MyFilenameFilter implements FilenameFilter {
                 @Override
                 public boolean accept(File dir, String name) {
@@ -1820,8 +1822,8 @@ public class Test9 {
             
             File file = new File(".");
 
-            // ver 3: list()ì—ì„œ ì‚¬ìš©í•  í•„í„° í´ëž˜ìŠ¤ë¥¼ ë¡œì»¬ í´ëž˜ìŠ¤ë¡œ ë§Œë“ ë‹¤.
-            // => ì˜¤ì§ ì´ í´ëž˜ìŠ¤ì˜ main()ì—ì„œë§Œ ì‚¬ìš©í•˜ëŠ” í´ëž˜ìŠ¤ë¡œ ì„ ì–¸í•œë‹¤.
+            // ver 3: list()¿¡¼­ »ç¿ëÇÒ ÇÊÅÍ Å¬·¡½º¸¦ ·ÎÄÃ Å¬·¡½º·Î ¸¸µç´Ù.
+            // => ¿ÀÁ÷ ÀÌ Å¬·¡½ºÀÇ main()¿¡¼­¸¸ »ç¿ëÇÏ´Â Å¬·¡½º·Î ¼±¾ðÇÑ´Ù.
             String[] filenames = file.list(new MyFilenameFilter());
             
             for (String name : filenames) {
@@ -1835,12 +1837,12 @@ public class Test9 {
 
 
 
-  4) ìµëª… í´ëž˜ìŠ¤(ì¸í„°íŽ˜ì´ìŠ¤, ìˆ˜í¼í´ëž˜ìŠ¤ ìƒì„±ìž)
+  4) ÀÍ¸í Å¬·¡½º(ÀÎÅÍÆäÀÌ½º, ¼öÆÛÅ¬·¡½º »ý¼ºÀÚ)
     
     public class Test5_4 {
     
         public static void main(String[] args) {
-            // .ìœ¼ë¡œ ì‹œìž‘í•˜ëŠ” íŒŒì¼ì´ë‚˜ ë””ë ‰í† ë¦¬ë§Œ ê²°ê³¼ì— í¬í•¨ì‹œí‚¨ë‹¤.
+            // .À¸·Î ½ÃÀÛÇÏ´Â ÆÄÀÏÀÌ³ª µð·ºÅä¸®¸¸ °á°ú¿¡ Æ÷ÇÔ½ÃÅ²´Ù.
             FilenameFilter filter = new FilenameFilter() {
                 @Override
                 public boolean accept(File dir, String name) {
@@ -1853,9 +1855,9 @@ public class Test9 {
             
             File file = new File(".");
 
-            // ver 4: list()ì—ì„œ ì‚¬ìš©í•  í•„í„° í´ëž˜ìŠ¤ë¥¼ ìµëª… í´ëž˜ìŠ¤ë¡œ ë§Œë“ ë‹¤.
-            // => ì˜¤ì§ í•œ ê°œì˜ ê°ì²´ë§Œ ìƒì„±í•  í´ëž˜ìŠ¤ë¼ë©´ ìµëª… í´ëž˜ìŠ¤ë¡œ 
-            //    ë§Œë“¤ì–´ë„ ëœë‹¤.
+            // ver 4: list()¿¡¼­ »ç¿ëÇÒ ÇÊÅÍ Å¬·¡½º¸¦ ÀÍ¸í Å¬·¡½º·Î ¸¸µç´Ù.
+            // => ¿ÀÁ÷ ÇÑ °³ÀÇ °´Ã¼¸¸ »ý¼ºÇÒ Å¬·¡½º¶ó¸é ÀÍ¸í Å¬·¡½º·Î 
+            //    ¸¸µé¾îµµ µÈ´Ù.
             String[] filenames = file.list(filter);
             
             for (String name : filenames) {
@@ -1868,7 +1870,7 @@ public class Test9 {
 
 
 
-  5) ìµëª…í´ëž˜ë¥¼ í•¨ìˆ˜ì•ˆì— ì¶”ê°€(ì•ˆë“œë¡œì´ë“œì—ì„œ ì£¼ë¡œ ì‚¬ìš©)
+  5) ÀÍ¸íÅ¬·¡¸¦ ÇÔ¼ö¾È¿¡ Ãß°¡(¾Èµå·ÎÀÌµå¿¡¼­ ÁÖ·Î »ç¿ë)
 
     
     public class Test5_5 {
@@ -1876,9 +1878,9 @@ public class Test9 {
         public static void main(String[] args) {
             File file = new File(".");
 
-            // ver 5: list()ì—ì„œ ì‚¬ìš©í•  í•„í„° í´ëž˜ìŠ¤ë¥¼ ìµëª… í´ëž˜ìŠ¤ë¡œ ë§Œë“ ë‹¤.
-            // => ë‹¨ ì € ìœ„ì— ë©€ë¦¬ ìµëª… í´ëž˜ìŠ¤ì˜ ì½”ë“œë¥¼ ë‘ì§€ ë§ê³ ,
-            //    ê·¸ ìµëª… í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ëŠ” ì½”ë“œ ê°€ê¹Œì´ì— ë‘ì–´ë¼.
+            // ver 5: list()¿¡¼­ »ç¿ëÇÒ ÇÊÅÍ Å¬·¡½º¸¦ ÀÍ¸í Å¬·¡½º·Î ¸¸µç´Ù.
+            // => ´Ü Àú À§¿¡ ¸Ö¸® ÀÍ¸í Å¬·¡½ºÀÇ ÄÚµå¸¦ µÎÁö ¸»°í,
+            //    ±× ÀÍ¸í Å¬·¡½º¸¦ »ç¿ëÇÏ´Â ÄÚµå °¡±îÀÌ¿¡ µÎ¾î¶ó.
             //
             String[] filenames = file.list(new FilenameFilter() {
                 @Override
@@ -1900,73 +1902,73 @@ public class Test9 {
 
 
 
-======================================= íŒŒì¼ êµ¬ë¶„ ======================================
+======================================= ÆÄÀÏ ±¸ºÐ ======================================
 
 
 
-     íŒŒì¼ ì“°ê¸°: Byte ìŠ¤íŠ¸ë¦¼ ì‚¬ìš© => ë°”ì´ë„ˆë¦¬ íŒŒì¼ ì“°ê¸°
-     ë°”ì´ë„ˆë¦¬ íŒŒì¼
-     - ë©”ëª¨ìž¥ê³¼ ê°™ì€ í…ìŠ¤íŠ¸ íŽ¸ì§‘ê¸°ë¡œ ìœ íš¨í•œ íŽ¸ì§‘í•  ìˆ˜ ì—†ëŠ” íŒŒì¼ 
-     - ì „ìš© íŽ¸ì§‘ê¸°ê°€ í•„ìš”í•˜ë‹¤.
-     - ì˜ˆ) .hwp, .doc, .xls, .ppt, .avi, .mp3, .exe, .class, .psd,
-           .gif, .jpeg, .tiff ë“±
+     ÆÄÀÏ ¾²±â: Byte ½ºÆ®¸² »ç¿ë => ¹ÙÀÌ³Ê¸® ÆÄÀÏ ¾²±â
+     ¹ÙÀÌ³Ê¸® ÆÄÀÏ
+     - ¸Þ¸ðÀå°ú °°Àº ÅØ½ºÆ® ÆíÁý±â·Î À¯È¿ÇÑ ÆíÁýÇÒ ¼ö ¾ø´Â ÆÄÀÏ 
+     - Àü¿ë ÆíÁý±â°¡ ÇÊ¿äÇÏ´Ù.
+     - ¿¹) .hwp, .doc, .xls, .ppt, .avi, .mp3, .exe, .class, .psd,
+           .gif, .jpeg, .tiff µî
      
-     í…ìŠ¤íŠ¸ íŒŒì¼
-     - ë©”ëª¨ìž¥ê³¼ ê°™ì€ ë‹¨ìˆœ í…ìŠ¤íŠ¸ íŽ¸ì§‘ê¸°ë¡œ íŽ¸ì§‘í•  ìˆ˜ ìžˆëŠ” íŒŒì¼
-     - ë¬¸ìžì§‘í•©ì— ë”°ë¼ ì¸ì½”ë”©ëœ ë°”ì´íŠ¸ ë°ì´í„°ì´ë‹¤.
-     - ì˜ˆ) .txt, .csv, .html, .css, .js, .c, .cpp, .rtf, .bat, .sh ë“±
+     ÅØ½ºÆ® ÆÄÀÏ
+     - ¸Þ¸ðÀå°ú °°Àº ´Ü¼ø ÅØ½ºÆ® ÆíÁý±â·Î ÆíÁýÇÒ ¼ö ÀÖ´Â ÆÄÀÏ
+     - ¹®ÀÚÁýÇÕ¿¡ µû¶ó ÀÎÄÚµùµÈ ¹ÙÀÌÆ® µ¥ÀÌÅÍÀÌ´Ù.
+     - ¿¹) .txt, .csv, .html, .css, .js, .c, .cpp, .rtf, .bat, .sh µî
      
-     ì¸ì½”ë”©(encoding)
-     - ì–´ë–¤ ê·œì¹™ì— ë”°ë¼ íŠ¹ì • ë°”ì´íŠ¸ ê°’ìœ¼ë¡œ ë³€í™˜í•˜ëŠ” ê²ƒ.
-     - ì˜ˆ) ì•„ë‚ ë¡œê·¸ë¡œ ìž…ë ¥ëœ ì†Œë¦¬ ==> .wav íŒŒì¼ ìƒì„±
-       ì˜ˆ) ì¼ë°˜ ë°ì´í„°ë¥¼ ==> ì•”í˜¸í™”ë°ì´í„° 
-       ì˜ˆ) .bmp ==> .jpeg
+     ÀÎÄÚµù(encoding)
+     - ¾î¶² ±ÔÄ¢¿¡ µû¶ó Æ¯Á¤ ¹ÙÀÌÆ® °ªÀ¸·Î º¯È¯ÇÏ´Â °Í.
+     - ¿¹) ¾Æ³¯·Î±×·Î ÀÔ·ÂµÈ ¼Ò¸® ==> .wav ÆÄÀÏ »ý¼º
+       ¿¹) ÀÏ¹Ý µ¥ÀÌÅÍ¸¦ ==> ¾ÏÈ£È­µ¥ÀÌÅÍ 
+       ¿¹) .bmp ==> .jpeg
     
-     ë””ì½”ë”©(decoding)
-     - ì–´ë–¤ ê·œì¹™ì— ë”°ë¼ ì›ëž˜ì˜ ê°’ìœ¼ë¡œ ë³€í™˜í•˜ëŠ” ê²ƒ.
-     - ì˜ˆ) .jpeg ==> .bmp
-       ì˜ˆ) ì•”í˜¸í™”ëœ ë°ì´í„° ==> ì›ëž˜ ë°ì´í„°
+     µðÄÚµù(decoding)
+     - ¾î¶² ±ÔÄ¢¿¡ µû¶ó ¿ø·¡ÀÇ °ªÀ¸·Î º¯È¯ÇÏ´Â °Í.
+     - ¿¹) .jpeg ==> .bmp
+       ¿¹) ¾ÏÈ£È­µÈ µ¥ÀÌÅÍ ==> ¿ø·¡ µ¥ÀÌÅÍ
     
 
 
 
 
-======================================= íŒŒì¼ ìž…ì¶œë ¥ ======================================
+======================================= ÆÄÀÏ ÀÔÃâ·Â ======================================
 
 
 
 
 
- ìž…ì¶œë ¥ì„ ë‹¤ë£¨ëŠ” í´ëž˜ìŠ¤ì˜ ë¶„ë¥˜
- 1) Data Sink Stream í´ëž˜ìŠ¤
- => ë°ì´í„°ë¥¼ ì €ìž¥ì†Œì— ì§ì ‘ ì €ìž¥í•˜ê³  ì½ëŠ” í´ëž˜ìŠ¤ì´ë‹¤.
+ ÀÔÃâ·ÂÀ» ´Ù·ç´Â Å¬·¡½ºÀÇ ºÐ·ù
+ 1) Data Sink Stream Å¬·¡½º
+ => µ¥ÀÌÅÍ¸¦ ÀúÀå¼Ò¿¡ Á÷Á¢ ÀúÀåÇÏ°í ÀÐ´Â Å¬·¡½ºÀÌ´Ù.
 
- => ë°”ì´ë„ˆë¦¬ ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ ì˜ˆ)  InputStream / OutputStream ì˜ ì„œë¸Œ í´ëž˜ìŠ¤ë“¤
-    - 2 ë°”ì´íŠ¸ ìœ ë‹ˆì½”ë“œ ê°’ìœ¼ë¡œ ë³€í™˜
+ => ¹ÙÀÌ³Ê¸® ½ºÆ®¸² Å¬·¡½º ¿¹)  InputStream / OutputStream ÀÇ ¼­ºê Å¬·¡½ºµé
+    - 2 ¹ÙÀÌÆ® À¯´ÏÄÚµå °ªÀ¸·Î º¯È¯
 
-    - FileInputStream/FileOutputStream => íŒŒì¼    ë°”ì´íŠ¸ ë‹¨ìœ„ë¡œ ë°ì´í„°ë¥¼ ì½ëŠ”ë‹¤
-    - ByteArrayInputStream/ByteArrayOutputStream => ë©”ëª¨ë¦¬
-    - PipedInputStream/PipedOutputStream => ë‹¤ë¥¸ í”„ë¡œê·¸ëž¨(í”„ë¡œì„¸ìŠ¤)
+    - FileInputStream/FileOutputStream => ÆÄÀÏ    ¹ÙÀÌÆ® ´ÜÀ§·Î µ¥ÀÌÅÍ¸¦ ÀÐ´Â´Ù
+    - ByteArrayInputStream/ByteArrayOutputStream => ¸Þ¸ð¸®
+    - PipedInputStream/PipedOutputStream => ´Ù¸¥ ÇÁ·Î±×·¥(ÇÁ·Î¼¼½º)
 
- => ìºë¦­í„° ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ ì˜ˆ)  Reader / Writer ì¢…ë¥˜
-    - ë³€í™˜ê³¼ì • ì—†ì´ ë°”ì´íŠ¸ ê°’ìœ¼ë¡œ ì¶œë ¥(File Foramtìœ¼ë¡œ ë°ì´íƒ€ ë¶„ì„)
+ => Ä³¸¯ÅÍ ½ºÆ®¸² Å¬·¡½º ¿¹)  Reader / Writer Á¾·ù
+    - º¯È¯°úÁ¤ ¾øÀÌ ¹ÙÀÌÆ® °ªÀ¸·Î Ãâ·Â(File ForamtÀ¸·Î µ¥ÀÌÅ¸ ºÐ¼®)
 
-    - FileReader/FileWriter => íŒŒì¼ 
-    - CharArrayReader/CharArrayWriter => ë©”ëª¨ë¦¬ 
-    - StringReader/StringWriter => ë©”ëª¨ë¦¬ 
-    - PipedReader/PipedWriter => ë‹¤ë¥¸ í”„ë¡œê·¸ëž¨(í”„ë¡œì„¸ìŠ¤)
+    - FileReader/FileWriter => ÆÄÀÏ 
+    - CharArrayReader/CharArrayWriter => ¸Þ¸ð¸® 
+    - StringReader/StringWriter => ¸Þ¸ð¸® 
+    - PipedReader/PipedWriter => ´Ù¸¥ ÇÁ·Î±×·¥(ÇÁ·Î¼¼½º)
  
 
- 2) Data Processing Stream í´ëž˜ìŠ¤ 
- => ì½ì€ ë°ì´í„° ë˜ëŠ” ì¶œë ¥í•  ë°ì´í„°ë¥¼ ê°€ê³µí•˜ëŠ” í´ëž˜ìŠ¤ì´ë‹¤.
+ 2) Data Processing Stream Å¬·¡½º 
+ => ÀÐÀº µ¥ÀÌÅÍ ¶Ç´Â Ãâ·ÂÇÒ µ¥ÀÌÅÍ¸¦ °¡°øÇÏ´Â Å¬·¡½ºÀÌ´Ù.
 
- => ë°”ì´ë„ˆë¦¬ ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ ì˜ˆ)    InputStream / OutputStream ì˜ ì„œë¸Œ í´ëž˜ìŠ¤ë“¤
+ => ¹ÙÀÌ³Ê¸® ½ºÆ®¸² Å¬·¡½º ¿¹)    InputStream / OutputStream ÀÇ ¼­ºê Å¬·¡½ºµé
     - BufferedInputStream/BufferedOutputStream
     - DataInputStream/DataOutputStream
     - ObjectInputStream/ObjectOutputStream
     - PrintStream
  
- => ìºë¦­í„° ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ ì˜ˆ)     Reader / Writer ì¢…ë¥˜
+ => Ä³¸¯ÅÍ ½ºÆ®¸² Å¬·¡½º ¿¹)     Reader / Writer Á¾·ù
     - BufferedReader/BufferedWriter
     - LineNumberReader
     - FilterReader/FilterWriter
@@ -1975,56 +1977,56 @@ public class Test9 {
 
 
 
- 1) Data Sink Stream í´ëž˜ìŠ¤
+ 1) Data Sink Stream Å¬·¡½º
 
-        // 1) ë°”ì´íŠ¸ ë‹¨ìœ„ë¡œ ë°ì´í„°ë¥¼ ì½ì–´ì£¼ëŠ” ê°ì²´ ì¤€ë¹„
+        // 1) ¹ÙÀÌÆ® ´ÜÀ§·Î µ¥ÀÌÅÍ¸¦ ÀÐ¾îÁÖ´Â °´Ã¼ ÁØºñ
         FileInputStream in = new FileInputStream(
                                     new File("sample/a.jpg"));
         
-        // 2) ë°”ì´íŠ¸ ë‹¨ìœ„ë¡œ ë°ì´í„°ë¥¼ ì¶œë ¥í•  ê°ì²´ ì¤€ë¹„
+        // 2) ¹ÙÀÌÆ® ´ÜÀ§·Î µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÒ °´Ã¼ ÁØºñ
         FileOutputStream out = new FileOutputStream(
                                     new File("sample/a2.jpg"));
                 
         
-        // 3) ë°”ì´íŠ¸ë¥¼ ì½ì–´ì„œ ê·¸ëŒ€ë¡œ ì¶œë ¥í•œë‹¤.
+        // 3) ¹ÙÀÌÆ®¸¦ ÀÐ¾î¼­ ±×´ë·Î Ãâ·ÂÇÑ´Ù.
         int b; 
         while ((b = in.read()) != -1) {
             out.write(b);
         }
         
-        // 4) í•­ìƒ ì‚¬ìš©ì„ ë§ˆì¹œ ìžì›ì€ í•´ì œì‹œí‚¨ë‹¤.
+        // 4) Ç×»ó »ç¿ëÀ» ¸¶Ä£ ÀÚ¿øÀº ÇØÁ¦½ÃÅ²´Ù.
         in.close();
         out.close();
         
 
 
 
-// ë°ì½”ë ˆì´í„°(Decorator)
+// µ¥ÄÚ·¹ÀÌÅÍ(Decorator)
 
 
-    // ìƒì†ì„ ì´ìš©í•˜ì—¬ ê¸°ëŠ¥ì„ í™•ìž¥í•˜ëŠ” ëŒ€ì‹ ì—
-    // ê¸°ì¡´ ê°ì²´ë¥¼ í¬í•¨í•˜ê³  ì—¬ê¸°ì— ê¸°ëŠ¥ì„ ë§ë¶™ì´ëŠ” í˜•íƒœ! 
+    // »ó¼ÓÀ» ÀÌ¿ëÇÏ¿© ±â´ÉÀ» È®ÀåÇÏ´Â ´ë½Å¿¡
+    // ±âÁ¸ °´Ã¼¸¦ Æ÷ÇÔÇÏ°í ¿©±â¿¡ ±â´ÉÀ» µ¡ºÙÀÌ´Â ÇüÅÂ! 
     public class MyBufferedInputStream2 {
         
-        // ì™œ InputStream ë ˆí¼ëŸ°ìŠ¤ë¥¼ ì„ ì–¸í–ˆëŠ”ê°€?
-        // => InputStream ë ˆí¼ëŸ°ìŠ¤ëŠ” FileInputStream ì™¸ì—ë„ 
-        //    ê·¸ í•˜ìœ„ í´ëž˜ìŠ¤ì˜ ëª¨ë“  ê°ì²´ë¥¼ ê°€ë¦¬í‚¬ ìˆ˜ ìžˆê¸° ë•Œë¬¸ì´ë‹¤.
-        // => ì¦‰ ë” ë§Žì€ ì¢…ë¥˜ì˜ ê°ì²´ë¥¼ í¬í•¨í•˜ê¸° ìœ„í•´ì„œ ì´ íƒ€ìž…ìœ¼ë¡œ ì„ ì–¸í–ˆë‹¤.
+        // ¿Ö InputStream ·¹ÆÛ·±½º¸¦ ¼±¾ðÇß´Â°¡?
+        // => InputStream ·¹ÆÛ·±½º´Â FileInputStream ¿Ü¿¡µµ 
+        //    ±× ÇÏÀ§ Å¬·¡½ºÀÇ ¸ðµç °´Ã¼¸¦ °¡¸®Å³ ¼ö ÀÖ±â ¶§¹®ÀÌ´Ù.
+        // => Áï ´õ ¸¹Àº Á¾·ùÀÇ °´Ã¼¸¦ Æ÷ÇÔÇÏ±â À§ÇØ¼­ ÀÌ Å¸ÀÔÀ¸·Î ¼±¾ðÇß´Ù.
         InputStream worker;
         
         byte[] buf = new byte[8192];
-        int len; // ë²„í¼ì— ì €ìž¥í•œ ë°”ì´íŠ¸ ê°œìˆ˜
-        int cursor; // ë²„í¼ì—ì„œ ì½ì„ ë°”ì´íŠ¸ ìœ„ì¹˜
+        int len; // ¹öÆÛ¿¡ ÀúÀåÇÑ ¹ÙÀÌÆ® °³¼ö
+        int cursor; // ¹öÆÛ¿¡¼­ ÀÐÀ» ¹ÙÀÌÆ® À§Ä¡
         
         public MyBufferedInputStream2(InputStream worker) {
             this.worker = worker;
         }
         
         public int read() throws IOException {
-            if (cursor >= len) { // ë²„í¼ê°€ ë¹„ì—ˆìœ¼ë©´ ë‹¤ì‹œ ë²„í¼ë¥¼ ì±„ìš´ë‹¤.
-                cursor = 0; // ì»¤ì„œëŠ” ë‹¤ì‹œ 0ìœ¼ë¡œ ì´ˆê¸°í™”ì‹œí‚¨ë‹¤.
+            if (cursor >= len) { // ¹öÆÛ°¡ ºñ¾úÀ¸¸é ´Ù½Ã ¹öÆÛ¸¦ Ã¤¿î´Ù.
+                cursor = 0; // Ä¿¼­´Â ´Ù½Ã 0À¸·Î ÃÊ±âÈ­½ÃÅ²´Ù.
                 len = worker.read(buf);
-                if (len == -1) // íŒŒì¼ì—ì„œ ì½ì„ ë°ì´í„°ê°€ ì—†ë‹¤ë©´ 
+                if (len == -1) // ÆÄÀÏ¿¡¼­ ÀÐÀ» µ¥ÀÌÅÍ°¡ ¾ø´Ù¸é 
                     return -1;
             }
             
@@ -2038,22 +2040,22 @@ public class Test9 {
     public class Test2_5 {
         public static void main(String[] args) throws Exception {
             
-            // ë°ì´í„° ì¤€ë¹„ 
-            // => ëžœë¤ ë©”ì„œë“œë¥¼ ì‚¬ìš©í•˜ì—¬ ìž„ì˜ì˜ ê°’ì„ 400ë§Œê°œë¥¼ ì¤€ë¹„í•œë‹¤.
+            // µ¥ÀÌÅÍ ÁØºñ 
+            // => ·£´ý ¸Þ¼­µå¸¦ »ç¿ëÇÏ¿© ÀÓÀÇÀÇ °ªÀ» 400¸¸°³¸¦ ÁØºñÇÑ´Ù.
             int[] data = new int[4000000];
             
             for (int i = 0; i < data.length; i++) {
                 data[i] = (int)(Math.random() * 100000);
             }
             
-            // íŒŒì¼ì— ì¶œë ¥í•  ê°ì²´ ìƒì„±
+            // ÆÄÀÏ¿¡ Ãâ·ÂÇÒ °´Ã¼ »ý¼º
             FileOutputStream out = new FileOutputStream("./test3.dat");
             
-            // ì¤‘ê°„ì—ì„œ ë²„í¼ ê¸°ëŠ¥ì„ ì œê³µí•  ê°ì²´ ìƒì„±
-            // ì‹¤ì œ ì¶œë ¥í•˜ëŠ” ì¼ì€ ìœ„ì—ì„œ ìƒì„±í•œ FileOutputStreamì´ í•  ê²ƒì´ë‹¤.
+            // Áß°£¿¡¼­ ¹öÆÛ ±â´ÉÀ» Á¦°øÇÒ °´Ã¼ »ý¼º
+            // ½ÇÁ¦ Ãâ·ÂÇÏ´Â ÀÏÀº À§¿¡¼­ »ý¼ºÇÑ FileOutputStreamÀÌ ÇÒ °ÍÀÌ´Ù.
             MyBufferedOutputStream2 out2 = new MyBufferedOutputStream2(out);
             
-            // 4ë°±ë§Œê°œì˜ ë°ì´í„°ë¥¼ ì¶œë ¥í•´ë³´ê³ , ê±¸ë¦° ì‹œê°„ì„ ì•Œì•„ë³´ìž!
+            // 4¹é¸¸°³ÀÇ µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇØº¸°í, °É¸° ½Ã°£À» ¾Ë¾Æº¸ÀÚ!
             
             long start = System.currentTimeMillis();
             
@@ -2061,11 +2063,11 @@ public class Test9 {
                 out2.write(b);
             }
             
-            // ë²„í¼ì— ë‚¨ì€ ë§ˆì§€ë§‰ ì°Œë„ëŸ¬ê¸° ì¶œë ¥í•˜ê¸°
+            // ¹öÆÛ¿¡ ³²Àº ¸¶Áö¸· Âî²ô·¯±â Ãâ·ÂÇÏ±â
             out2.flush();
             
             long end = System.currentTimeMillis();
-            System.out.printf("ê±¸ë¦°ì‹œê°„ = %d\n", end - start);
+            System.out.printf("°É¸°½Ã°£ = %d\n", end - start);
             
             out.close();
             
@@ -2078,7 +2080,7 @@ public class Test9 {
 
 
 
-// Data Processing Stream ìºë¦­í„° ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ ì‚¬ìš©ë²• 
+// Data Processing Stream Ä³¸¯ÅÍ ½ºÆ®¸² Å¬·¡½º »ç¿ë¹ý 
 
       
 
@@ -2088,40 +2090,40 @@ public class Test9 {
       public class Test3_4 {
         public static void main(String[] args) throws Exception {
             
-            // FileInputStream ê°ì²´ë¥¼ ë³„ë„ ë ˆí¼ëŸ°ìŠ¤ì— ì €ìž¥í•˜ì§€ ì•Šê³ 
-            // ë°”ë¡œ BufferedInputStreamì— ì „ë‹¬í•œë‹¤.
+            // FileInputStream °´Ã¼¸¦ º°µµ ·¹ÆÛ·±½º¿¡ ÀúÀåÇÏÁö ¾Ê°í
+            // ¹Ù·Î BufferedInputStream¿¡ Àü´ÞÇÑ´Ù.
             BufferedInputStream in = new BufferedInputStream(
                     new FileInputStream(new File("sample/jls9.pdf")));
             
-            // FileOutputStream ê°ì²´ë¥¼ ë³„ë„ì˜ ë ˆí¼ëŸ°ìŠ¤ì— ì €ìž¥í•˜ì§€ ì•Šê³ 
-            // ë°”ë¡œ BufferedOutputStreamì— ì „ë‹¬í•œë‹¤.
+            // FileOutputStream °´Ã¼¸¦ º°µµÀÇ ·¹ÆÛ·±½º¿¡ ÀúÀåÇÏÁö ¾Ê°í
+            // ¹Ù·Î BufferedOutputStream¿¡ Àü´ÞÇÑ´Ù.
             BufferedOutputStream out = new BufferedOutputStream(
                     new FileOutputStream(new File("sample/jls9-4.pdf")));
             
             
-            // ë°ì´í„°ë¥¼ ì½ì–´ì„œ ì¶œë ¥í•œë‹¤.
+            // µ¥ÀÌÅÍ¸¦ ÀÐ¾î¼­ Ãâ·ÂÇÑ´Ù.
             int b;
             long start = System.currentTimeMillis();
             
             while ((b = in.read()) != -1) {
-                // ë‚´ë¶€ì ìœ¼ë¡œ ë²„í¼ì— ì½ê³ , ë²„í¼ì˜ ë‚´ìš©ì„ ì¶œë ¥í•œë‹¤.
+                // ³»ºÎÀûÀ¸·Î ¹öÆÛ¿¡ ÀÐ°í, ¹öÆÛÀÇ ³»¿ëÀ» Ãâ·ÂÇÑ´Ù.
                 out.write(b);
             }
             
-            // ë²„í¼ì— ë‚¨ì€ ìž”ì—¬ ë°ì´í„°ë¥¼ ì¶œë ¥í•´ì•¼ í•œë‹¤.
+            // ¹öÆÛ¿¡ ³²Àº ÀÜ¿© µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇØ¾ß ÇÑ´Ù.
             out.flush();
             
             long end = System.currentTimeMillis();
-            System.out.printf("ê±¸ë¦°ì‹œê°„ = %d\n", end - start);
+            System.out.printf("°É¸°½Ã°£ = %d\n", end - start);
             
-            // í•­ìƒ ì‚¬ìš©ì„ ë§ˆì¹œ ìžì›ì€ í•´ì œì‹œí‚¨ë‹¤.
-            // BufferedInputStreamì„ close() í•˜ë©´ 
-            // ì´ í´ëž˜ìŠ¤ê°€ ì˜ì¡´í•˜ëŠ” FileInputStreamë„ í•¨ê»˜ close() ëœë‹¤.
-            // BufferedOutputStreamë„ ë§ˆì°¬ê°€ì§€ì´ë‹¤.
+            // Ç×»ó »ç¿ëÀ» ¸¶Ä£ ÀÚ¿øÀº ÇØÁ¦½ÃÅ²´Ù.
+            // BufferedInputStreamÀ» close() ÇÏ¸é 
+            // ÀÌ Å¬·¡½º°¡ ÀÇÁ¸ÇÏ´Â FileInputStreamµµ ÇÔ²² close() µÈ´Ù.
+            // BufferedOutputStreamµµ ¸¶Âù°¡ÁöÀÌ´Ù.
             in.close();
             out.close();
             
-            System.out.println("íŒŒì¼ ë³µì‚¬ ì™„ë£Œí–ˆìŒ!");
+            System.out.println("ÆÄÀÏ º¹»ç ¿Ï·áÇßÀ½!");
         }
     }
 
@@ -2134,22 +2136,22 @@ public class Test9 {
     public class Test2_6 {
         public static void main(String[] args) throws Exception {
             
-            // ë°ì´í„° ì¤€ë¹„ 
-            // => ëžœë¤ ë©”ì„œë“œë¥¼ ì‚¬ìš©í•˜ì—¬ ìž„ì˜ì˜ ê°’ì„ 400ë§Œê°œë¥¼ ì¤€ë¹„í•œë‹¤.
+            // µ¥ÀÌÅÍ ÁØºñ 
+            // => ·£´ý ¸Þ¼­µå¸¦ »ç¿ëÇÏ¿© ÀÓÀÇÀÇ °ªÀ» 400¸¸°³¸¦ ÁØºñÇÑ´Ù.
             int[] data = new int[4000000];
             
             for (int i = 0; i < data.length; i++) {
                 data[i] = (int)(Math.random() * 100000);
             }
             
-            // íŒŒì¼ì— ì¶œë ¥í•  ê°ì²´ ìƒì„±
+            // ÆÄÀÏ¿¡ Ãâ·ÂÇÒ °´Ã¼ »ý¼º
             FileOutputStream out = new FileOutputStream("./test3.dat");
             
-            // ì¤‘ê°„ì—ì„œ ë²„í¼ ê¸°ëŠ¥ì„ ì œê³µí•  ê°ì²´ ìƒì„±
-            // ì‹¤ì œ ì¶œë ¥í•˜ëŠ” ì¼ì€ ìœ„ì—ì„œ ìƒì„±í•œ FileOutputStreamì´ í•  ê²ƒì´ë‹¤.
+            // Áß°£¿¡¼­ ¹öÆÛ ±â´ÉÀ» Á¦°øÇÒ °´Ã¼ »ý¼º
+            // ½ÇÁ¦ Ãâ·ÂÇÏ´Â ÀÏÀº À§¿¡¼­ »ý¼ºÇÑ FileOutputStreamÀÌ ÇÒ °ÍÀÌ´Ù.
             BufferedOutputStream out2 = new BufferedOutputStream(out);
             
-            // 4ë°±ë§Œê°œì˜ ë°ì´í„°ë¥¼ ì¶œë ¥í•´ë³´ê³ , ê±¸ë¦° ì‹œê°„ì„ ì•Œì•„ë³´ìž!
+            // 4¹é¸¸°³ÀÇ µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇØº¸°í, °É¸° ½Ã°£À» ¾Ë¾Æº¸ÀÚ!
             
             long start = System.currentTimeMillis();
             
@@ -2157,11 +2159,11 @@ public class Test9 {
                 out2.write(b);
             }
             
-            // ë²„í¼ì— ë‚¨ì€ ë§ˆì§€ë§‰ ì°Œë„ëŸ¬ê¸° ì¶œë ¥í•˜ê¸°
+            // ¹öÆÛ¿¡ ³²Àº ¸¶Áö¸· Âî²ô·¯±â Ãâ·ÂÇÏ±â
             out2.flush();
             
             long end = System.currentTimeMillis();
-            System.out.printf("ê±¸ë¦°ì‹œê°„ = %d\n", end - start);
+            System.out.printf("°É¸°½Ã°£ = %d\n", end - start);
             
             out.close();
             
@@ -2169,58 +2171,58 @@ public class Test9 {
     }
     
     // BufferedOutputStream
-    // => ì¤‘ê°„ì—ì„œ ì¶œë ¥í•  ë°ì´í„°ë¥¼ ë²„í¼ì— ë³´ê´€í•˜ê³  ìžˆë‹¤ê°€
-    //    ë²„í¼ê°€ ì°¨ë©´ ì¶œë ¥ ê°ì²´ë¥¼ í†µí•´ ì¶œë ¥í•˜ëŠ” ì¼ì„ í•œë‹¤.
-    // => ì´ë ‡ê²Œ ì¤‘ê°„ì—ì„œ ê°€ê³µí•˜ëŠ” ì¼ì„ í•˜ëŠ” í´ëž˜ìŠ¤ë¥¼
-    //    "Data Processing Stream Class"ë¼ê³  ë¶€ë¥¸ë‹¤.
-    // => ë°ì½”ë ˆì´í„° íŒ¨í„´ì—ì„œ "ë°ì½”ë ˆì´í„°(Decorator)" ì—­í• ì„ ìˆ˜í–‰í•œë‹¤.
+    // => Áß°£¿¡¼­ Ãâ·ÂÇÒ µ¥ÀÌÅÍ¸¦ ¹öÆÛ¿¡ º¸°üÇÏ°í ÀÖ´Ù°¡
+    //    ¹öÆÛ°¡ Â÷¸é Ãâ·Â °´Ã¼¸¦ ÅëÇØ Ãâ·ÂÇÏ´Â ÀÏÀ» ÇÑ´Ù.
+    // => ÀÌ·¸°Ô Áß°£¿¡¼­ °¡°øÇÏ´Â ÀÏÀ» ÇÏ´Â Å¬·¡½º¸¦
+    //    "Data Processing Stream Class"¶ó°í ºÎ¸¥´Ù.
+    // => µ¥ÄÚ·¹ÀÌÅÍ ÆÐÅÏ¿¡¼­ "µ¥ÄÚ·¹ÀÌÅÍ(Decorator)" ¿ªÇÒÀ» ¼öÇàÇÑ´Ù.
     // 
 
 
 
 
 
-// íŒŒì¼ ë³µì‚¬í•˜ê¸°  Byte ìŠ¤íŠ¸ë¦¼ ì‘ìš©
+// ÆÄÀÏ º¹»çÇÏ±â  Byte ½ºÆ®¸² ÀÀ¿ë
 
 
 
     public class Test3_4 {
         public static void main(String[] args) throws Exception {
             
-            // FileInputStream ê°ì²´ë¥¼ ë³„ë„ ë ˆí¼ëŸ°ìŠ¤ì— ì €ìž¥í•˜ì§€ ì•Šê³ 
-            // ë°”ë¡œ BufferedInputStreamì— ì „ë‹¬í•œë‹¤.
+            // FileInputStream °´Ã¼¸¦ º°µµ ·¹ÆÛ·±½º¿¡ ÀúÀåÇÏÁö ¾Ê°í
+            // ¹Ù·Î BufferedInputStream¿¡ Àü´ÞÇÑ´Ù.
             BufferedInputStream in = new BufferedInputStream(
                     new FileInputStream(new File("sample/jls9.pdf")));
             
-            // FileOutputStream ê°ì²´ë¥¼ ë³„ë„ì˜ ë ˆí¼ëŸ°ìŠ¤ì— ì €ìž¥í•˜ì§€ ì•Šê³ 
-            // ë°”ë¡œ BufferedOutputStreamì— ì „ë‹¬í•œë‹¤.
+            // FileOutputStream °´Ã¼¸¦ º°µµÀÇ ·¹ÆÛ·±½º¿¡ ÀúÀåÇÏÁö ¾Ê°í
+            // ¹Ù·Î BufferedOutputStream¿¡ Àü´ÞÇÑ´Ù.
             BufferedOutputStream out = new BufferedOutputStream(
                     new FileOutputStream(new File("sample/jls9-4.pdf")));
             
             
-            // ë°ì´í„°ë¥¼ ì½ì–´ì„œ ì¶œë ¥í•œë‹¤.
+            // µ¥ÀÌÅÍ¸¦ ÀÐ¾î¼­ Ãâ·ÂÇÑ´Ù.
             int b;
             long start = System.currentTimeMillis();
             
             while ((b = in.read()) != -1) {
-                // ë‚´ë¶€ì ìœ¼ë¡œ ë²„í¼ì— ì½ê³ , ë²„í¼ì˜ ë‚´ìš©ì„ ì¶œë ¥í•œë‹¤.
+                // ³»ºÎÀûÀ¸·Î ¹öÆÛ¿¡ ÀÐ°í, ¹öÆÛÀÇ ³»¿ëÀ» Ãâ·ÂÇÑ´Ù.
                 out.write(b);
             }
             
-            // ë²„í¼ì— ë‚¨ì€ ìž”ì—¬ ë°ì´í„°ë¥¼ ì¶œë ¥í•´ì•¼ í•œë‹¤.
+            // ¹öÆÛ¿¡ ³²Àº ÀÜ¿© µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇØ¾ß ÇÑ´Ù.
             out.flush();
             
             long end = System.currentTimeMillis();
-            System.out.printf("ê±¸ë¦°ì‹œê°„ = %d\n", end - start);
+            System.out.printf("°É¸°½Ã°£ = %d\n", end - start);
             
-            // í•­ìƒ ì‚¬ìš©ì„ ë§ˆì¹œ ìžì›ì€ í•´ì œì‹œí‚¨ë‹¤.
-            // BufferedInputStreamì„ close() í•˜ë©´ 
-            // ì´ í´ëž˜ìŠ¤ê°€ ì˜ì¡´í•˜ëŠ” FileInputStreamë„ í•¨ê»˜ close() ëœë‹¤.
-            // BufferedOutputStreamë„ ë§ˆì°¬ê°€ì§€ì´ë‹¤.
+            // Ç×»ó »ç¿ëÀ» ¸¶Ä£ ÀÚ¿øÀº ÇØÁ¦½ÃÅ²´Ù.
+            // BufferedInputStreamÀ» close() ÇÏ¸é 
+            // ÀÌ Å¬·¡½º°¡ ÀÇÁ¸ÇÏ´Â FileInputStreamµµ ÇÔ²² close() µÈ´Ù.
+            // BufferedOutputStreamµµ ¸¶Âù°¡ÁöÀÌ´Ù.
             in.close();
             out.close();
             
-            System.out.println("íŒŒì¼ ë³µì‚¬ ì™„ë£Œí–ˆìŒ!");
+            System.out.println("ÆÄÀÏ º¹»ç ¿Ï·áÇßÀ½!");
         }
     }
 
@@ -2231,7 +2233,7 @@ public class Test9 {
 
 
 
-// Data Processing Stream ë°”ì´ë„ˆë¦¬ í´ëž˜ìŠ¤ ì‚¬ìš©ë²• - DataInputStream ì‚¬ìš©í•˜ê¸°
+// Data Processing Stream ¹ÙÀÌ³Ê¸® Å¬·¡½º »ç¿ë¹ý - DataInputStream »ç¿ëÇÏ±â
 
 
         DataInputStream in = new DataInputStream(
@@ -2242,7 +2244,7 @@ public class Test9 {
 
 
 
-// Data Processing Stream ë°”ì´ë„ˆë¦¬ í´ëž˜ìŠ¤ ì‚¬ìš©ë²• - DataOutputStream ì‚¬ìš©í•˜ê¸°
+// Data Processing Stream ¹ÙÀÌ³Ê¸® Å¬·¡½º »ç¿ë¹ý - DataOutputStream »ç¿ëÇÏ±â
 
    DataOutputStream out = new DataOutputStream(
                                     new FileOutputStream("test3.dat"));
@@ -2255,19 +2257,19 @@ public class Test9 {
 
 
 
-// FileWriterì™€ FileInputStreamì˜ ì°¨ì´ì 
+// FileWriter¿Í FileInputStreamÀÇ Â÷ÀÌÁ¡
 
 
     // FileWriter
 
     public static void main(String[] args) throws Exception {
         // FileReader 
-        // => í…ìŠ¤íŠ¸ ë°ì´í„°ë¥¼ ì½ì„ ë•Œ ì‚¬ìš©í•œë‹¤.
-        // => read()ë¥¼ í˜¸ì¶œí•˜ë©´ í…ìŠ¤íŠ¸ì˜ í˜•ì‹ì— ë”°ë¼ 
-        //    1 ~ 4ë°”ì´íŠ¸ë¥¼ ì½ì–´ì„œ ìœ ë‹ˆì½”ë“œ 2ë°”ì´íŠ¸ë¡œ ë³€í™˜í•˜ì—¬ ë¦¬í„´í•œë‹¤.
-        // => ë³€í™˜ê·œì¹™
-        //    ì˜ì–´ : 1ë°”ì´íŠ¸ --> 2ë°”ì´íŠ¸ ìœ ë‹ˆì½”ë“œ
-        //    UTF-8: 1 ~ 4ë°”ì´íŠ¸ --> 2ë°”ì´íŠ¸ ìœ ë‹ˆì½”ë“œ 
+        // => ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ ÀÐÀ» ¶§ »ç¿ëÇÑ´Ù.
+        // => read()¸¦ È£ÃâÇÏ¸é ÅØ½ºÆ®ÀÇ Çü½Ä¿¡ µû¶ó 
+        //    1 ~ 4¹ÙÀÌÆ®¸¦ ÀÐ¾î¼­ À¯´ÏÄÚµå 2¹ÙÀÌÆ®·Î º¯È¯ÇÏ¿© ¸®ÅÏÇÑ´Ù.
+        // => º¯È¯±ÔÄ¢
+        //    ¿µ¾î : 1¹ÙÀÌÆ® --> 2¹ÙÀÌÆ® À¯´ÏÄÚµå
+        //    UTF-8: 1 ~ 4¹ÙÀÌÆ® --> 2¹ÙÀÌÆ® À¯´ÏÄÚµå 
         
         FileReader in = new FileReader("test.txt");
 
@@ -2286,8 +2288,8 @@ public class Test9 {
 
     public static void main(String[] args) throws Exception {
         // FileInputStream 
-        // => ë°”ì´ë„ˆë¦¬ ë°ì´í„°ë¥¼ ì½ì„ ë•Œ ì‚¬ìš©í•œë‹¤.
-        // => read()ë¥¼ í˜¸ì¶œí•˜ë©´ 1ë°”ì´íŠ¸ë¥¼ ì½ì–´ ë¦¬í„´í•œë‹¤.
+        // => ¹ÙÀÌ³Ê¸® µ¥ÀÌÅÍ¸¦ ÀÐÀ» ¶§ »ç¿ëÇÑ´Ù.
+        // => read()¸¦ È£ÃâÇÏ¸é 1¹ÙÀÌÆ®¸¦ ÀÐ¾î ¸®ÅÏÇÑ´Ù.
         
         FileInputStream in = new FileInputStream("test.txt");
 
@@ -2304,7 +2306,7 @@ public class Test9 {
 
 
 
-// FileWriterì™€ FileOutputStreamì˜ ì°¨ì´ì 
+// FileWriter¿Í FileOutputStreamÀÇ Â÷ÀÌÁ¡
 
 
 
@@ -2312,27 +2314,27 @@ public class Test9 {
 
     public static void main(String[] args) throws Exception {
         
-        // FileWriterë¡œ í…ìŠ¤íŠ¸ë¥¼ ì¶œë ¥í•´ë³´ìž!
+        // FileWriter·Î ÅØ½ºÆ®¸¦ Ãâ·ÂÇØº¸ÀÚ!
         
         FileWriter out = new FileWriter("test3.txt");
         
-        String str = "ABCê°€ê°";
+        String str = "ABC°¡°¢";
         
-        // String ê°ì²´ì˜ ë°ì´í„°ë¥¼ íŒŒì¼ë¡œ ì¶œë ¥í•  ë•Œ
-        // ìžë°”ì˜ 2ë°”ì´íŠ¸ ìœ ë‹ˆì½”ë“œ ê°’ì„ 
-        // JVM ì‹¤í–‰ ì˜µì…˜ì¸ "file.encoding"ì˜ ê°’ìœ¼ë¡œ ì„¤ì •ëœ
-        // ë¬¸ìž ì§‘í•©ì˜ ê·œì¹™ì— ë”°ë¼ ë³€í™˜í•˜ì—¬ ì¶œë ¥í•œë‹¤.
-        // ê·¸ëƒ¥ ì¶œë ¥í•˜ëŠ” ê²ƒì´ ì•„ë‹ˆë‹¤.
-        // ì¸ì½”ë”©ì˜ ê¸°ì¤€ì€ JVMì˜ file.encodingì— ì„¤ì •ëœ ê°’ì„ ì‚¬ìš©í•œë‹¤.
-        // Windows OS => ê¸°ë³¸ì´ MS949
-        // MacOS, Linux => ê¸°ë³¸ì´ UTF-8
-        // ì‹¤í–‰í•  ë•Œ ì¸ì½”ë”©ì„ ëª…ì‹œí•˜ëŠ” ë°©ë²•
-        // => java -cp bin -Dfile.encoding=UTF-8 í´ëž˜ìŠ¤ëª…
+        // String °´Ã¼ÀÇ µ¥ÀÌÅÍ¸¦ ÆÄÀÏ·Î Ãâ·ÂÇÒ ¶§
+        // ÀÚ¹ÙÀÇ 2¹ÙÀÌÆ® À¯´ÏÄÚµå °ªÀ» 
+        // JVM ½ÇÇà ¿É¼ÇÀÎ "file.encoding"ÀÇ °ªÀ¸·Î ¼³Á¤µÈ
+        // ¹®ÀÚ ÁýÇÕÀÇ ±ÔÄ¢¿¡ µû¶ó º¯È¯ÇÏ¿© Ãâ·ÂÇÑ´Ù.
+        // ±×³É Ãâ·ÂÇÏ´Â °ÍÀÌ ¾Æ´Ï´Ù.
+        // ÀÎÄÚµùÀÇ ±âÁØÀº JVMÀÇ file.encoding¿¡ ¼³Á¤µÈ °ªÀ» »ç¿ëÇÑ´Ù.
+        // Windows OS => ±âº»ÀÌ MS949
+        // MacOS, Linux => ±âº»ÀÌ UTF-8
+        // ½ÇÇàÇÒ ¶§ ÀÎÄÚµùÀ» ¸í½ÃÇÏ´Â ¹æ¹ý
+        // => java -cp bin -Dfile.encoding=UTF-8 Å¬·¡½º¸í
         out.write(str);
         
         out.close();
         
-        System.out.println("ì¶œë ¥í–ˆìŠµë‹ˆë‹¤!");
+        System.out.println("Ãâ·ÂÇß½À´Ï´Ù!");
 
     }
 
@@ -2341,60 +2343,60 @@ public class Test9 {
 
     public static void main(String[] args) throws Exception {
         
-        // FileOutputStreamìœ¼ë¡œ í…ìŠ¤íŠ¸ë¥¼ ì¶œë ¥í•´ë³´ìž!
+        // FileOutputStreamÀ¸·Î ÅØ½ºÆ®¸¦ Ãâ·ÂÇØº¸ÀÚ!
         
         FileOutputStream out = new FileOutputStream("test2.txt");
         
-        String str = "ABCê°€ê°";
+        String str = "ABC°¡°¢";
         
-        // ë¬¸ìžì—´ì„ ì¶œë ¥í•˜ë ¤ë©´ ê°œë°œìžê°€ ì§ì ‘ ë°”ì´íŠ¸ ë°°ì—´ì„ ë§Œë“¤ì–´ì•¼ í•œë‹¤.
+        // ¹®ÀÚ¿­À» Ãâ·ÂÇÏ·Á¸é °³¹ßÀÚ°¡ Á÷Á¢ ¹ÙÀÌÆ® ¹è¿­À» ¸¸µé¾î¾ß ÇÑ´Ù.
         byte[] bytes = str.getBytes("UTF-8");
         
         out.write(bytes);
         
         out.close();
         
-        System.out.println("ì¶œë ¥í–ˆìŠµë‹ˆë‹¤!");
+        System.out.println("Ãâ·ÂÇß½À´Ï´Ù!");
 
     }
 
 
 
 
-     Character ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ì™€ Binary ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤
-     1) ìºë¦­í„° ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤
-        - Reader/Writerì˜ ì„œë¸Œ í´ëž˜ìŠ¤ë“¤.
-        - ë³´í†µ í´ëž˜ìŠ¤ ì´ë¦„ì´ Reader/Writerë¡œ ëë‚œë‹¤.
-        - ì¶œë ¥í•  ë•Œ ìžë°”ì˜ ìœ ë‹ˆì½”ë“œ ë°ì´í„°ë¥¼ ì§€ì •í•œ ë¬¸ìžì§‘í•©ì˜ ë°”ì´íŠ¸ë¡œ 
-          ë³€í™˜í•˜ì—¬ ì¶œë ¥í•œë‹¤.
-        - ì½ì–´ë“¤ì¼ ë•Œ ë°”ì´íŠ¸ì˜ ê°’ë“¤ì„ ìžë°”ì˜ 2ë°”ì´íŠ¸ ìœ ë‹ˆì½”ë“œ ê°’ìœ¼ë¡œ 
-          ë³€í™˜í•˜ì—¬ ë¦¬í„´í•œë‹¤.
-        - ì£¼ì˜!
-          ì´ë¯¸ì§€ íŒŒì¼ê³¼ ê°™ì€ ë°”ì´ë„ˆë¦¬ íŒŒì¼ì„ ì´ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ì½ìœ¼ë©´
-          ë¬¸ìžë¡œ ê°„ì£¼í•˜ì—¬ ìœ ë‹ˆì½”ë“œë¡œ ë³€í™˜í•œ ê°’ì„ ë¦¬í„´í•˜ê¸° ë•Œë¬¸ì—
-          ì›ëž˜ì˜ ë°ì´í„°ê°€ ê¹¨ì§€ëŠ” ë¬¸ì œê°€ ë°œìƒí•œë‹¤.
-          ì ˆëŒ€ë¡œ ì´ í´ëž˜ìŠ¤ë¡œ ë°”ì´ë„ˆë¦¬ ë°ì´í„°ë¥¼ ì½ì–´ì„œëŠ” ì•ˆëœë‹¤.
+     Character ½ºÆ®¸² Å¬·¡½º¿Í Binary ½ºÆ®¸² Å¬·¡½º
+     1) Ä³¸¯ÅÍ ½ºÆ®¸² Å¬·¡½º
+        - Reader/WriterÀÇ ¼­ºê Å¬·¡½ºµé.
+        - º¸Åë Å¬·¡½º ÀÌ¸§ÀÌ Reader/Writer·Î ³¡³­´Ù.
+        - Ãâ·ÂÇÒ ¶§ ÀÚ¹ÙÀÇ À¯´ÏÄÚµå µ¥ÀÌÅÍ¸¦ ÁöÁ¤ÇÑ ¹®ÀÚÁýÇÕÀÇ ¹ÙÀÌÆ®·Î 
+          º¯È¯ÇÏ¿© Ãâ·ÂÇÑ´Ù.
+        - ÀÐ¾îµéÀÏ ¶§ ¹ÙÀÌÆ®ÀÇ °ªµéÀ» ÀÚ¹ÙÀÇ 2¹ÙÀÌÆ® À¯´ÏÄÚµå °ªÀ¸·Î 
+          º¯È¯ÇÏ¿© ¸®ÅÏÇÑ´Ù.
+        - ÁÖÀÇ!
+          ÀÌ¹ÌÁö ÆÄÀÏ°ú °°Àº ¹ÙÀÌ³Ê¸® ÆÄÀÏÀ» ÀÌ Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ÀÐÀ¸¸é
+          ¹®ÀÚ·Î °£ÁÖÇÏ¿© À¯´ÏÄÚµå·Î º¯È¯ÇÑ °ªÀ» ¸®ÅÏÇÏ±â ¶§¹®¿¡
+          ¿ø·¡ÀÇ µ¥ÀÌÅÍ°¡ ±úÁö´Â ¹®Á¦°¡ ¹ß»ýÇÑ´Ù.
+          Àý´ë·Î ÀÌ Å¬·¡½º·Î ¹ÙÀÌ³Ê¸® µ¥ÀÌÅÍ¸¦ ÀÐ¾î¼­´Â ¾ÈµÈ´Ù.
      
-     2) ë°”ì´ë„ˆë¦¬ ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤
-        - InputStream/OutputStream ì˜ ì„œë¸Œ í´ëž˜ìŠ¤ë“¤.
-        - ë³´í†µ í´ëž˜ìŠ¤ ì´ë¦„ì´ InputStream/OutputStream ìœ¼ë¡œ ëë‚œë‹¤.
-        - ë°ì´í„°ë¥¼ ì¶œë ¥í•˜ê±°ë‚˜ ì½ì–´ë“¤ì¼ ë•Œ ë³„ë„ì˜ ë³€í™˜ê³¼ì • ì—†ì´
-          ë°”ì´íŠ¸ ë‹¨ìœ„ ê·¸ëŒ€ë¡œ ì¶œë ¥í•˜ê³  ì½ëŠ”ë‹¤.
-        - ì´ í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ í…ìŠ¤íŠ¸ ë°ì´í„°ë¥¼ ì½ì„ ìˆ˜ ìžˆì§€ë§Œ,
-          ì½ì€ ë°ì´í„°ë¥¼ ìœ ë‹ˆì½”ë“œë¡œ ë³€í™˜í•˜ëŠ” ê³¼ì •ì„ ì½”ë”©í•´ì•¼ í•œë‹¤.
-          ë¶ˆíŽ¸í•˜ë‹¤.
+     2) ¹ÙÀÌ³Ê¸® ½ºÆ®¸² Å¬·¡½º
+        - InputStream/OutputStream ÀÇ ¼­ºê Å¬·¡½ºµé.
+        - º¸Åë Å¬·¡½º ÀÌ¸§ÀÌ InputStream/OutputStream À¸·Î ³¡³­´Ù.
+        - µ¥ÀÌÅÍ¸¦ Ãâ·ÂÇÏ°Å³ª ÀÐ¾îµéÀÏ ¶§ º°µµÀÇ º¯È¯°úÁ¤ ¾øÀÌ
+          ¹ÙÀÌÆ® ´ÜÀ§ ±×´ë·Î Ãâ·ÂÇÏ°í ÀÐ´Â´Ù.
+        - ÀÌ Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ÅØ½ºÆ® µ¥ÀÌÅÍ¸¦ ÀÐÀ» ¼ö ÀÖÁö¸¸,
+          ÀÐÀº µ¥ÀÌÅÍ¸¦ À¯´ÏÄÚµå·Î º¯È¯ÇÏ´Â °úÁ¤À» ÄÚµùÇØ¾ß ÇÑ´Ù.
+          ºÒÆíÇÏ´Ù.
 
 
 
 
-// ë°ì´í„° í”„ë¡œì„¸ì‹± ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ ì‚¬ìš©ë²• - ObjectInputStream / ObjectOutputStream ì‚¬ìš©í•˜ê¸°
+// µ¥ÀÌÅÍ ÇÁ·Î¼¼½Ì ½ºÆ®¸² Å¬·¡½º »ç¿ë¹ý - ObjectInputStream / ObjectOutputStream »ç¿ëÇÏ±â
 
 
 
     public static void main(String[] args) throws Exception {
         
-        // ObjectInputStream í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬
-        // íŒŒì¼ì— ì €ìž¥ëœ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì˜ ê°’ì„ ì½ì–´ ë³´ìž!
+        // ObjectInputStream Å¬·¡½º¸¦ »ç¿ëÇÏ¿©
+        // ÆÄÀÏ¿¡ ÀúÀåµÈ ÀÎ½ºÅÏ½º º¯¼öÀÇ °ªÀ» ÀÐ¾î º¸ÀÚ!
         ObjectInputStream in = new ObjectInputStream(
                                     new FileInputStream("test1.dat"));
         
@@ -2408,29 +2410,29 @@ public class Test9 {
 
     public static void main(String[] args) throws Exception {
         
-        Score s = new Score("í™ê¸¸ë™", 800, 900, 1000);
+        Score s = new Score("È«±æµ¿", 800, 900, 1000);
         
-        // ObjectOutputStream í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì˜ ê°’ì„ 
-        // ì¶œë ¥í•´ë³´ìž!
+        // ObjectOutputStream Å¬·¡½º¸¦ »ç¿ëÇÏ¿© ÀÎ½ºÅÏ½º º¯¼öÀÇ °ªÀ» 
+        // Ãâ·ÂÇØº¸ÀÚ!
         ObjectOutputStream out = new ObjectOutputStream(
                                     new FileOutputStream("test0.dat"));
         
-        // ObjectOutputStreamì€ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì˜ ê°’ì„ 
-        // ë°”ì´íŠ¸ ë°°ì—´ë¡œ ë§Œë“¤ì–´ ì¶œë ¥í•œë‹¤.
-        // => "ì§ë ¬í™”(serialization)"ì´ë¼ ë¶€ë¥¸ë‹¤.
+        // ObjectOutputStreamÀº ÀÎ½ºÅÏ½º º¯¼öÀÇ °ªÀ» 
+        // ¹ÙÀÌÆ® ¹è¿­·Î ¸¸µé¾î Ãâ·ÂÇÑ´Ù.
+        // => "Á÷·ÄÈ­(serialization)"ÀÌ¶ó ºÎ¸¥´Ù.
         // 
-        // ì¡°ê±´
-        // => serializationì„ í—ˆë½í•´ì•¼ë§Œ ì§ë ¬í™”ë¥¼ ìˆ˜í–‰í•  ìˆ˜ ìžˆë‹¤.
+        // Á¶°Ç
+        // => serializationÀ» Çã¶ôÇØ¾ß¸¸ Á÷·ÄÈ­¸¦ ¼öÇàÇÒ ¼ö ÀÖ´Ù.
         //
-        // í—ˆë½í•˜ëŠ” ë°©ë²•?
-        // => í´ëž˜ìŠ¤ ì„ ì–¸ë¶€ì— java.io.Serializable ê·œì¹™ì„ ë”°ë¥¸ë‹¤ê³  ì„ ì–¸!
+        // Çã¶ôÇÏ´Â ¹æ¹ý?
+        // => Å¬·¡½º ¼±¾ðºÎ¿¡ java.io.Serializable ±ÔÄ¢À» µû¸¥´Ù°í ¼±¾ð!
         //
-        out.writeObject(s); // Score í´ëž˜ìŠ¤ëŠ” ì§ë ¬í™”ë¥¼ í—ˆë½í•˜ì§€ ì•Šì•˜ê¸° 
-                            // ë•Œë¬¸ì— ì‹¤í–‰ ì˜¤ë¥˜ê°€ ë°œìƒí•œë‹¤!
+        out.writeObject(s); // Score Å¬·¡½º´Â Á÷·ÄÈ­¸¦ Çã¶ôÇÏÁö ¾Ê¾Ò±â 
+                            // ¶§¹®¿¡ ½ÇÇà ¿À·ù°¡ ¹ß»ýÇÑ´Ù!
         
         out.close();
         
-        System.out.println("ì¶œë ¥ì„ ì™„ë£Œí–ˆìŠµë‹ˆë‹¤.");
+        System.out.println("Ãâ·ÂÀ» ¿Ï·áÇß½À´Ï´Ù.");
     }
 
 
@@ -2440,52 +2442,52 @@ public class Test9 {
 ======================================= serialize  ======================================
 
 
-// ìŠ¤íŠ¸ë¦¼ í´ëž˜ìŠ¤ê°€ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ì˜ ê°’ì„ serialize í•  ìˆ˜ ìžˆë„ë¡ í—ˆë½í•œë‹¤.
-// => java.io.Serializable ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•˜ë©´ ëœë‹¤.
-// => Serializable ì¸í„°íŽ˜ì´ìŠ¤ì—ëŠ” ì•„ë¬´ëŸ° ë©”ì„œë“œê°€ ì—†ë‹¤.
-//    ì´ ì¸í„°íŽ˜ì´ìŠ¤ì˜ ëª©ì ì€ ë‹¨ì§€ ì–´ë–¤ í´ëž˜ìŠ¤ì— ëŒ€í•´ 
-//    ì§ë ¬í™”ë¥¼ í—ˆìš©í•  ê²ƒì¸ì§€ ì—¬ë¶€ë¥¼ ì§€ì •í•˜ê¸° ìœ„í•´ 
-//    í‘œì‹œí•˜ëŠ” ìš©ë„ë¡œ ì‚¬ìš©í•œë‹¤.
+// ½ºÆ®¸² Å¬·¡½º°¡ ÀÎ½ºÅÏ½º º¯¼öÀÇ °ªÀ» serialize ÇÒ ¼ö ÀÖµµ·Ï Çã¶ôÇÑ´Ù.
+// => java.io.Serializable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÏ¸é µÈ´Ù.
+// => Serializable ÀÎÅÍÆäÀÌ½º¿¡´Â ¾Æ¹«·± ¸Þ¼­µå°¡ ¾ø´Ù.
+//    ÀÌ ÀÎÅÍÆäÀÌ½ºÀÇ ¸ñÀûÀº ´ÜÁö ¾î¶² Å¬·¡½º¿¡ ´ëÇØ 
+//    Á÷·ÄÈ­¸¦ Çã¿ëÇÒ °ÍÀÎÁö ¿©ºÎ¸¦ ÁöÁ¤ÇÏ±â À§ÇØ 
+//    Ç¥½ÃÇÏ´Â ¿ëµµ·Î »ç¿ëÇÑ´Ù.
 
-// serialVersionUID ë³€ìˆ˜ì˜ ìš©ë„
-// => java.io.Serializable ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ í´ëž˜ìŠ¤ëŠ” 
-//    ìžë™ìœ¼ë¡œ ìƒì„±ë˜ëŠ” ë³€ìˆ˜ì´ë‹¤.
-// => ë§Œì•½ ê°œë°œìžê°€ serialVersionUIDë¥¼ ì§€ì •í•˜ì§€ ì•ŠëŠ”ë‹¤ë©´ 
-//    ì»´íŒŒì¼í•  ë•Œ ì»´íŒŒì¼ëŸ¬ê°€ ìž„ì˜ì˜ ê°’ìœ¼ë¡œ ì„¤ì •í•œë‹¤.
-// => serialize ë°ì´í„°ì˜ ë²„ì „ì„ êµ¬ë¶„í•˜ê¸° ìœ„í•´ ì‚¬ìš©í•œë‹¤.
-// => ë°ì´í„°ë¥¼ ì½ëŠ” ìª½ì—ì„œëŠ” ë°ì´í„°ì— ê¸°ë¡ëœ í´ëž˜ìŠ¤ì˜ ë²„ì „ê³¼ 
-//    ìžì‹ ì´ ê°–ê³  ìžˆëŠ” í´ëž˜ìŠ¤ì˜ ë²„ì „ì„ ë¹„êµí•˜ì—¬  
-//    ë‹¤ë¥´ë‹¤ë©´ ì˜ˆì™¸ë¥¼ ë°œìƒì‹œí‚´ìœ¼ë¡œì¨ 
-//    ë°ì´í„°ë¥¼ ìž˜ëª» ì½ëŠ” ê²ƒì„ ë°©ì§€í•œë‹¤.
+// serialVersionUID º¯¼öÀÇ ¿ëµµ
+// => java.io.Serializable ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ Å¬·¡½º´Â 
+//    ÀÚµ¿À¸·Î »ý¼ºµÇ´Â º¯¼öÀÌ´Ù.
+// => ¸¸¾à °³¹ßÀÚ°¡ serialVersionUID¸¦ ÁöÁ¤ÇÏÁö ¾Ê´Â´Ù¸é 
+//    ÄÄÆÄÀÏÇÒ ¶§ ÄÄÆÄÀÏ·¯°¡ ÀÓÀÇÀÇ °ªÀ¸·Î ¼³Á¤ÇÑ´Ù.
+// => serialize µ¥ÀÌÅÍÀÇ ¹öÀüÀ» ±¸ºÐÇÏ±â À§ÇØ »ç¿ëÇÑ´Ù.
+// => µ¥ÀÌÅÍ¸¦ ÀÐ´Â ÂÊ¿¡¼­´Â µ¥ÀÌÅÍ¿¡ ±â·ÏµÈ Å¬·¡½ºÀÇ ¹öÀü°ú 
+//    ÀÚ½ÅÀÌ °®°í ÀÖ´Â Å¬·¡½ºÀÇ ¹öÀüÀ» ºñ±³ÇÏ¿©  
+//    ´Ù¸£´Ù¸é ¿¹¿Ü¸¦ ¹ß»ý½ÃÅ´À¸·Î½á 
+//    µ¥ÀÌÅÍ¸¦ Àß¸ø ÀÐ´Â °ÍÀ» ¹æÁöÇÑ´Ù.
 // 
-// => í´ëž˜ìŠ¤ë¥¼ ë°”ê¾¼ í›„ serialize í•œ ë°ì´í„°ë¥¼ 
-//    ë°”ê¾¸ê¸° ì „ í´ëž˜ìŠ¤ë¡œ ì½ì„ ìˆ˜ ìžˆê²Œ í•˜ë ¤ë©´,
-//    serialVersionUID ë³€ìˆ˜ì˜ ê°’ì„ ì¼ì¹˜ì‹œí‚¤ë©´ ëœë‹¤.
+// => Å¬·¡½º¸¦ ¹Ù²Û ÈÄ serialize ÇÑ µ¥ÀÌÅÍ¸¦ 
+//    ¹Ù²Ù±â Àü Å¬·¡½º·Î ÀÐÀ» ¼ö ÀÖ°Ô ÇÏ·Á¸é,
+//    serialVersionUID º¯¼öÀÇ °ªÀ» ÀÏÄ¡½ÃÅ°¸é µÈ´Ù.
 // 
 
-// ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ ì¤‘ì—ëŠ” serialize ëŒ€ìƒì´ ë˜ëŠ” í•„ë“œê°€ ìžˆê³ ,
-// êµ³ì´ serialize í•  í•„ìš”ê°€ ì—†ëŠ” í•„ë“œê°€ ìžˆë‹¤.
-// ì˜ˆ) 
-// music í•„ë“œë¥¼ ì¶”ê°€í•œ í›„ Score3ì˜ ê°’ì„ íŒŒì¼ë¡œ ì¶œë ¥í•˜ì˜€ë‹¤.
-// ë°ì´í„°ë¥¼ ì½ëŠ” ìª½ì—ì„œëŠ” Score3 í´ëž˜ìŠ¤ì— ì•„ì§ music í•„ë“œê°€ 
-// ì¶”ê°€ë˜ì§€ ì•Šì€ ìƒíƒœì˜€ë‹¤.
-// ê·¸ëŸ¬ë‚˜ ë°ì´í„°ë¥¼ ì½ì–´ ì¶œë ¥í•´ë³´ë©´ í•©ê³„ì™€ í‰ê· ì€ 
-// music ë°ì´í„° ê°’ì„ í¬í•¨í•œ ê³„ì‚° ê°’ì´ì—ˆë‹¤. 
-// ì™œ ì´ëŸ° ë¬¸ì œê°€ ë°œìƒí•˜ì˜€ëŠ”ê°€?
-// êµ­,ì˜,ìˆ˜,ìŒ ì™¸ì— í•©ê³„ì™€ í‰ê· ë„ ì¶œë ¥í–ˆê¸° ë•Œë¬¸ì—
-// ì‚¬ì‹¤ í•©ê³„ì™€ í‰ê· ì€ ê³¼ëª© ì ìˆ˜ë¥¼ ê³„ì‚°í•˜ì—¬ ë‚˜ì˜¨ ê°’ì´ë‹¤.
-// ì´ëŸ° ê°’ì„ ì¶œë ¥í•˜ê²Œ ë˜ë©´ 
-// ì½ëŠ” ìª½ì—ì„œ ìž˜ëª»ëœ ê²°ê³¼ë¥¼ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
-// ì´ë¥¼ ë°©ì§€í•˜ê¸° ìœ„í•´ì„œ ìžë°”ì—ì„œëŠ” 
-// serialize ëŒ€ìƒì—ì„œ í•„ë“œë¥¼ ì œì™¸ì‹œí‚¤ëŠ” ë¬¸ë²•ì„ ì œê³µí•œë‹¤.
-// => transient modifier ì´ë‹¤. 
-// => transientì˜ ì‚¬ì „ì  ì˜ë¯¸ë¥¼ ë³´ë©´ "ì¼ì‹œì ì¸", "ìž ê¹ ë¨¸ë¬´ë¥´ëŠ”"ì˜ 
-//    ëœ»ì„ ê°–ê³  ìžˆë‹¤.
-// => ì§ë ¬í™” ëŒ€ìƒì—ì„œ ì œì™¸í•˜ê³  ì‹¶ì€ í•„ë“œê°€ ìžˆë‹¤ë©´ 
-//    transientë¥¼ ë¶™ì—¬ë¼!
-//    ê·¸ëŸ¬ë©´ ì§ë ¬í™”í•  ë•Œ ê·¸ ê°’ì€ ì œì™¸ëœë‹¤.
-//    íŠ¹ížˆ sumì´ë‚˜ aver í•„ë“œì²˜ëŸ¼ ë‹¤ë¥¸ í•„ë“œì˜ ê°’ì„ ê°€ì§€ê³  
-//    ë„ì¶œí•˜ëŠ” ê°’ì¸ ê²½ìš° transientë¥¼ ë¶™ì´ë„ë¡ í•˜ë¼!
+// ÀÎ½ºÅÏ½º º¯¼ö Áß¿¡´Â serialize ´ë»óÀÌ µÇ´Â ÇÊµå°¡ ÀÖ°í,
+// ±»ÀÌ serialize ÇÒ ÇÊ¿ä°¡ ¾ø´Â ÇÊµå°¡ ÀÖ´Ù.
+// ¿¹) 
+// music ÇÊµå¸¦ Ãß°¡ÇÑ ÈÄ Score3ÀÇ °ªÀ» ÆÄÀÏ·Î Ãâ·ÂÇÏ¿´´Ù.
+// µ¥ÀÌÅÍ¸¦ ÀÐ´Â ÂÊ¿¡¼­´Â Score3 Å¬·¡½º¿¡ ¾ÆÁ÷ music ÇÊµå°¡ 
+// Ãß°¡µÇÁö ¾ÊÀº »óÅÂ¿´´Ù.
+// ±×·¯³ª µ¥ÀÌÅÍ¸¦ ÀÐ¾î Ãâ·ÂÇØº¸¸é ÇÕ°è¿Í Æò±ÕÀº 
+// music µ¥ÀÌÅÍ °ªÀ» Æ÷ÇÔÇÑ °è»ê °ªÀÌ¾ú´Ù. 
+// ¿Ö ÀÌ·± ¹®Á¦°¡ ¹ß»ýÇÏ¿´´Â°¡?
+// ±¹,¿µ,¼ö,À½ ¿Ü¿¡ ÇÕ°è¿Í Æò±Õµµ Ãâ·ÂÇß±â ¶§¹®¿¡
+// »ç½Ç ÇÕ°è¿Í Æò±ÕÀº °ú¸ñ Á¡¼ö¸¦ °è»êÇÏ¿© ³ª¿Â °ªÀÌ´Ù.
+// ÀÌ·± °ªÀ» Ãâ·ÂÇÏ°Ô µÇ¸é 
+// ÀÐ´Â ÂÊ¿¡¼­ Àß¸øµÈ °á°ú¸¦ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+// ÀÌ¸¦ ¹æÁöÇÏ±â À§ÇØ¼­ ÀÚ¹Ù¿¡¼­´Â 
+// serialize ´ë»ó¿¡¼­ ÇÊµå¸¦ Á¦¿Ü½ÃÅ°´Â ¹®¹ýÀ» Á¦°øÇÑ´Ù.
+// => transient modifier ÀÌ´Ù. 
+// => transientÀÇ »çÀüÀû ÀÇ¹Ì¸¦ º¸¸é "ÀÏ½ÃÀûÀÎ", "Àá±ñ ¸Ó¹«¸£´Â"ÀÇ 
+//    ¶æÀ» °®°í ÀÖ´Ù.
+// => Á÷·ÄÈ­ ´ë»ó¿¡¼­ Á¦¿ÜÇÏ°í ½ÍÀº ÇÊµå°¡ ÀÖ´Ù¸é 
+//    transient¸¦ ºÙ¿©¶ó!
+//    ±×·¯¸é Á÷·ÄÈ­ÇÒ ¶§ ±× °ªÀº Á¦¿ÜµÈ´Ù.
+//    Æ¯È÷ sumÀÌ³ª aver ÇÊµåÃ³·³ ´Ù¸¥ ÇÊµåÀÇ °ªÀ» °¡Áö°í 
+//    µµÃâÇÏ´Â °ªÀÎ °æ¿ì transient¸¦ ºÙÀÌµµ·Ï ÇÏ¶ó!
 //  
 
 public class Score4 implements Serializable {
@@ -2495,9 +2497,9 @@ public class Score4 implements Serializable {
     private int kor;
     private int eng;
     private int math;
-    private int music;// ì´ í•„ë“œë¥¼ ì¶”ê°€í•œë‹¤.
+    private int music;// ÀÌ ÇÊµå¸¦ Ãß°¡ÇÑ´Ù.
     
-    // transientê°€ ë¶™ì€ í•„ë“œì˜ ê°’ì„ serialize ë˜ì§€ ì•ŠëŠ”ë‹¤.
+    // transient°¡ ºÙÀº ÇÊµåÀÇ °ªÀ» serialize µÇÁö ¾Ê´Â´Ù.
     transient private int sum;
     private transient float aver;
 
@@ -2509,118 +2511,118 @@ public class Score4 implements Serializable {
 
 
 
-Amazon Web Services  ì„œë²„   https://aws.amazon.com  ë¬´ë£Œ ê³„ì • ìƒì„±
+Amazon Web Services  ¼­¹ö   https://aws.amazon.com  ¹«·á °èÁ¤ »ý¼º
 
 
 
-ëª¨ë“  ì„œë¹„ìŠ¤ > EC2
+¸ðµç ¼­ºñ½º > EC2
 
 
-ë‹¨ê³„ 1 : Amazon Machine Image ì„ íƒ  : Amazon Linux AMI 2017.09 (HVM)  ì„ íƒ
+´Ü°è 1 : Amazon Machine Image ¼±ÅÃ  : Amazon Linux AMI 2017.09 (HVM)  ¼±ÅÃ
 
 
-ë‹¨ê³„ 2 : General purpose   t2.micro   ì˜¤ë¥¸ìª½ ìƒë‹¨ì—ì„œ ì„œìš¸ ì„ íƒ  > ê²€í†  ë° ì‹œìž‘
+´Ü°è 2 : General purpose   t2.micro   ¿À¸¥ÂÊ »ó´Ü¿¡¼­ ¼­¿ï ¼±ÅÃ  > °ËÅä ¹× ½ÃÀÛ
 
 
-ë‹¨ê³„ 7 : ì‹œìž‘ í´ë¦­
+´Ü°è 7 : ½ÃÀÛ Å¬¸¯
 
 
-    ê¸°ì¡´ í‚¤ íŽ˜ì–´ ì„ íƒ ë˜ëŠ” ìƒˆí‚¤ íŽ˜ì–´ ìƒì„± : ìƒˆ í‚¤íŽ˜ì–´ ìƒì„±
+    ±âÁ¸ Å° Æä¾î ¼±ÅÃ ¶Ç´Â »õÅ° Æä¾î »ý¼º : »õ Å°Æä¾î »ý¼º
     
-    í‚¤íŽ˜ì–´ ì´ë¦„ : seoul-amazon
+    Å°Æä¾î ÀÌ¸§ : seoul-amazon
 
-    í‚¤íŽ˜ì–´ ë‹¤ìš´ë¡œë“œ    seoul-amazon.pem ë‹¤ìš´ë¡œë“œ
-
-
-    ì¸ìŠ¤í„´ìŠ¤ ì‹œìž‘ í´ë¦­
+    Å°Æä¾î ´Ù¿î·Îµå    seoul-amazon.pem ´Ù¿î·Îµå
 
 
-
-ì‹œìž‘ ìƒíƒœ
-
-  ì„œë¹„ìŠ¤ > EC2 > ì‹¤í–‰ì¤‘ì¸ ì¸ìŠ¤í„´ìŠ¤
-
-    í¼ë¸”ë¦­ IP í™•ì¸
-
-
-   @ seoul-amazon.pem seoul-amazon.ppk ë³€í™˜
-
-     Parameters > Type of key to generate ì—ì„œ     RSA ì„ íƒ
-
-     puttygen ìœ¼ë¡œ ë³€í™˜  Load í´ë¦­í•´ì„œ seoul-amazon.pem ì„ íƒí•´ì„œ ë³€í™˜
+    ÀÎ½ºÅÏ½º ½ÃÀÛ Å¬¸¯
 
 
 
+½ÃÀÛ »óÅÂ
 
-  @ putty 0.7 ì—°ê²°
+  ¼­ºñ½º > EC2 > ½ÇÇàÁßÀÎ ÀÎ½ºÅÏ½º
+
+    ÆÛºí¸¯ IP È®ÀÎ
+
+
+   @ seoul-amazon.pem seoul-amazon.ppk º¯È¯
+
+     Parameters > Type of key to generate ¿¡¼­     RSA ¼±ÅÃ
+
+     puttygen À¸·Î º¯È¯  Load Å¬¸¯ÇØ¼­ seoul-amazon.pem ¼±ÅÃÇØ¼­ º¯È¯
+
+
+
+
+  @ putty 0.7 ¿¬°á
 
   https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-     MSI (â€˜Windows Installerâ€™)   putty-64bit-0.70-installer.msi ë‹¤ìš´ë¡œë“œ
+     MSI (¡®Windows Installer¡¯)   putty-64bit-0.70-installer.msi ´Ù¿î·Îµå
 
 
-  í™˜ê²½ì„¤ì •
+  È¯°æ¼³Á¤
 
-  - Session > Putty Host Nameì—  í¼ë¸”ë¦­ IP  ìž…ë ¥
+  - Session > Putty Host Name¿¡  ÆÛºí¸¯ IP  ÀÔ·Â
 
-              saved sessions : IP ê·¸ëƒ¥ ìž…ë ¥
-
-
-
- - connection > ssh > auth > private key file for auther ì—ì„œ seoul-amazon.ppk íŒŒì¼ ê²½ë¡œ ì„ íƒ
-
-   open í´ë¦­ í•˜ê³  ì˜ˆ(yes) í´ë¦­
-
-
- - puttyì—ì„œ  login as : ec2-user              ì•„ë§ˆì¡´ ìœ ì € ë¡œê·¸ì¸
+              saved sessions : IP ±×³É ÀÔ·Â
 
 
 
+ - connection > ssh > auth > private key file for auther ¿¡¼­ seoul-amazon.ppk ÆÄÀÏ °æ·Î ¼±ÅÃ
 
-  ê²€ìƒ‰ : ec2 apache install    http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/install-LAMP.html
+   open Å¬¸¯ ÇÏ°í ¿¹(yes) Å¬¸¯
+
+
+ - putty¿¡¼­  login as : ec2-user              ¾Æ¸¶Á¸ À¯Àú ·Î±×ÀÎ
+
+
+
+
+  °Ë»ö : ec2 apache install    http://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/install-LAMP.html
 
   
-  @ Apache Web Server ì„¤ì¹˜
+  @ Apache Web Server ¼³Ä¡
 
 
   [ec2-user ~]$ sudo yum update -y                  sudo (super user do)
 
 
-  [ec2-user ~]$ sudo yum install -y httpd24 php70 mysql56-server php70-mysqlnd    => LAMP  Apache ì›¹ ì„œë²„, MySQL, PHP
+  [ec2-user ~]$ sudo yum install -y httpd24 php70 mysql56-server php70-mysqlnd    => LAMP  Apache À¥ ¼­¹ö, MySQL, PHP
 
 
-  [ec2-user ~]$ sudo service httpd start           Apache ì›¹ ì„œë²„ë¥¼ ì‹œìž‘
+  [ec2-user ~]$ sudo service httpd start           Apache À¥ ¼­¹ö¸¦ ½ÃÀÛ
 
 
-  [ec2-user ~]$ sudo chkconfig httpd on           Apache ì›¹ ì„œë²„ê°€ ë§¤ë²ˆ ì‹œìŠ¤í…œì´ ë¶€íŒ…í•  ë•Œë§ˆë‹¤ ì‹œìž‘ë˜ë„ë¡ í•©ë‹ˆë‹¤
+  [ec2-user ~]$ sudo chkconfig httpd on           Apache À¥ ¼­¹ö°¡ ¸Å¹ø ½Ã½ºÅÛÀÌ ºÎÆÃÇÒ ¶§¸¶´Ù ½ÃÀÛµÇµµ·Ï ÇÕ´Ï´Ù
     
 
   [ec2-user ~]$ chkconfig --list httpd
 
 
-  [ec2-user ~]$ runlevel                         linux run level í™•ì¸
+  [ec2-user ~]$ runlevel                         linux run level È®ÀÎ
 
 
-  ì¸ìŠ¤í„´ìŠ¤ì—ì„œ ë³´ì•ˆê·¸ë£¹ ìƒì„± í™•ì¸  >   ì¸ë°”ìš´ë“œ 22 port 
+  ÀÎ½ºÅÏ½º¿¡¼­ º¸¾È±×·ì »ý¼º È®ÀÎ  >   ÀÎ¹Ù¿îµå 22 port 
 
-  íŽ¸ì§‘ > ê·œì¹™ ì¶”ê°€ > HTTP ì„ íƒ ì €ìž¥  80 port ì—´ê¸°    80 port ì—´ë©´ ë¸Œë¼ìš°ì €ë¡œ ì—°ê²°ë¨
+  ÆíÁý > ±ÔÄ¢ Ãß°¡ > HTTP ¼±ÅÃ ÀúÀå  80 port ¿­±â    80 port ¿­¸é ºê¶ó¿ìÀú·Î ¿¬°áµÊ
 
-  ë¸Œë¼ìš°ì €ì—ì„œ í¼ë¸”ë¦­ IP ìž…ë ¥ 
+  ºê¶ó¿ìÀú¿¡¼­ ÆÛºí¸¯ IP ÀÔ·Â 
 
 
   [ec2-user ~]$ cd /var     [ec2-user ~]$ cd www    [ec2-user ~]$ ls   [ec2-user ~]$ cd html    [ec2-user ~]$ ls -al
 
 
-  [ec2-user ~]$ sudo usermod -a -G apache ec2-user            ec2-user ì•„íŒŒì¹˜ ê·¸ë£¹ì— ì¶”ê°€
+  [ec2-user ~]$ sudo usermod -a -G apache ec2-user            ec2-user ¾ÆÆÄÄ¡ ±×·ì¿¡ Ãß°¡
 
  
-  [ec2-user ~]$ exit         ec2-user ì•„íŒŒì¹˜ ê·¸ë£¹ì¶”ê°€ í›„ ë¡œê·¸ì•„ì›ƒ
+  [ec2-user ~]$ exit         ec2-user ¾ÆÆÄÄ¡ ±×·ìÃß°¡ ÈÄ ·Î±×¾Æ¿ô
 
   
-  [ec2-user ~]$ ec2-user     ë‹¤ì‹œ ë¡œê·¸ì¸
+  [ec2-user ~]$ ec2-user     ´Ù½Ã ·Î±×ÀÎ
 
 
-  [ec2-user ~]$ groups               ec2-user wheel apache ê·¸ë£¹ì— ì†í•´ìžˆìŒ
+  [ec2-user ~]$ groups               ec2-user wheel apache ±×·ì¿¡ ¼ÓÇØÀÖÀ½
 
 
   [ec2-user ~]$ sudo chown -R ec2-user:apache /var/www    
@@ -2629,13 +2631,13 @@ Amazon Web Services  ì„œë²„   https://aws.amazon.com  ë¬´ë£Œ ê³„ì • ìƒì„±
   [ec2-user ~]$ ls -al /var/www
 
 
-  ê·¸ë£¹ ì“°ê¸° ê¶Œí•œì„ ì¶”ê°€í•˜ì—¬ ë‚˜ì¤‘ì— í•˜ìœ„ ë””ë ‰í„°ë¦¬ì— ëŒ€í•œ ê·¸ë£¹ IDë¥¼ ì„¤ì •í•˜ë ¤ë©´ 
-  /var/wwwì™€ ê·¸ í•˜ìœ„ ë””ë ‰í„°ë¦¬ì˜ ë””ë ‰í„°ë¦¬ ê¶Œí•œì„ ë³€ê²½í•©ë‹ˆë‹¤.
+  ±×·ì ¾²±â ±ÇÇÑÀ» Ãß°¡ÇÏ¿© ³ªÁß¿¡ ÇÏÀ§ µð·ºÅÍ¸®¿¡ ´ëÇÑ ±×·ì ID¸¦ ¼³Á¤ÇÏ·Á¸é 
+  /var/www¿Í ±× ÇÏÀ§ µð·ºÅÍ¸®ÀÇ µð·ºÅÍ¸® ±ÇÇÑÀ» º¯°æÇÕ´Ï´Ù.
   [ec2-user ~]$ sudo chmod 2775 /var/www
   [ec2-user ~]$ find /var/www -type d -exec sudo chmod 2775 {} \;
 
 
-  ê·¸ë£¹ ì“°ê¸° ê¶Œí•œì„ ì¶”ê°€í•˜ë ¤ë©´ /var/www ë° ê·¸ í•˜ìœ„ ë””ë ‰í„°ë¦¬ì˜ íŒŒì¼ ê¶Œí•œì„ ë°˜ë³µí•˜ì—¬ ë³€ê²½
+  ±×·ì ¾²±â ±ÇÇÑÀ» Ãß°¡ÇÏ·Á¸é /var/www ¹× ±× ÇÏÀ§ µð·ºÅÍ¸®ÀÇ ÆÄÀÏ ±ÇÇÑÀ» ¹Ýº¹ÇÏ¿© º¯°æ
   [ec2-user ~]$ find /var/www -type f -exec sudo chmod 0664 {} \;
 
 
@@ -2646,18 +2648,18 @@ Amazon Web Services  ì„œë²„   https://aws.amazon.com  ë¬´ë£Œ ê³„ì • ìƒì„±
   [ec2-user ~]$ cat /var/www/html/phpinfo.php
 
 
-  ë¸Œë¼ìš°ì €ì—ì„œ í¼ë¸”ë¦­IP/var/www/html/phpinfo.phs ìž…ë ¥
+  ºê¶ó¿ìÀú¿¡¼­ ÆÛºí¸¯IP/var/www/html/phpinfo.phs ÀÔ·Â
 
   
-  var/www/html ë£¨íŠ¸ ë””ë ‰í† ë¦¬ë¥¼ ì‚­ì œí•˜ê³  ìž…ë ¥  > html í•˜ìœ„ë§Œ ë³¼ ìˆ˜ ìžˆìŒ
+  var/www/html ·çÆ® µð·ºÅä¸®¸¦ »èÁ¦ÇÏ°í ÀÔ·Â  > html ÇÏÀ§¸¸ º¼ ¼ö ÀÖÀ½
 
-  ë¸Œë¼ìš°ì €ì—ì„œ í¼ë¸”ë¦­IP/phpinfo.phs ìž…ë ¥
+  ºê¶ó¿ìÀú¿¡¼­ ÆÛºí¸¯IP/phpinfo.phs ÀÔ·Â
 
 
   [ec2-user ~]$ cd var/www/html
 
 
-  [ec2-user ~]$ nano index.html       nano edit ì‹¤í–‰í•´ì„œ index.html íŽ¸ì§‘
+  [ec2-user ~]$ nano index.html       nano edit ½ÇÇàÇØ¼­ index.html ÆíÁý
 
       <html>
       <head>
@@ -2674,52 +2676,52 @@ Amazon Web Services  ì„œë²„   https://aws.amazon.com  ë¬´ë£Œ ê³„ì • ìƒì„±
 
      ctrl + x       exit
 
-     ë¦¬í”Œë ˆì‰¬
+     ¸®ÇÃ·¹½¬
 
 
 
-  [ec2-user ~]$ cat index.html      íŒŒì¼ í™•ì¸
-
-
-
-
-  https://www.gabia.com/  ë„ë©”ì¸ ë“±ë¡     ê°€ë¹„ì•ˆ ì„ íƒ   ì›¹í˜¸ìŠ¤íŒ… ì„ íƒ ì•ˆí•¨
-
-
-  ìƒë‹¨ mygabia  ë¶€ê°€ì„œë¹„ìŠ¤ ì„¤ì • > DNS ë ˆì½”ë“œ ì„¤ì • > ì‹ ì²­
-
-     www.abc.xyz    ê³µì¸ì•„ì´í”¼
-         abc.xyz    ê³µì¸ì•„ì´í”¼   ì ìš©
+  [ec2-user ~]$ cat index.html      ÆÄÀÏ È®ÀÎ
 
 
 
 
-======================================= ì†Œì¼“ í†µì‹  ======================================
+  https://www.gabia.com/  µµ¸ÞÀÎ µî·Ï     °¡ºñ¾È ¼±ÅÃ   À¥È£½ºÆÃ ¼±ÅÃ ¾ÈÇÔ
+
+
+  »ó´Ü mygabia  ºÎ°¡¼­ºñ½º ¼³Á¤ > DNS ·¹ÄÚµå ¼³Á¤ > ½ÅÃ»
+
+     www.abc.xyz    °øÀÎ¾ÆÀÌÇÇ
+         abc.xyz    °øÀÎ¾ÆÀÌÇÇ   Àû¿ë
 
 
 
-Serverì—ì„œëŠ” ê°œë°œìžê°€ port ë²ˆí˜¸ ê²°ì •   1024ë²ˆ ~ 49151ë²ˆ: ë“±ë¡ëœ í¬íŠ¸ (registered port)
 
-Clientì€ OS ê°€ port ë²ˆí˜¸ ê²°ì •   49152ë²ˆ ~ 65535ë²ˆ: ë™ì  í¬íŠ¸ (dynamic port)
-
-
-ëŒ€ê¸°ì—´(Queue Length)ì€ ì†Œì¼“ ìƒì„± ê°œìˆ˜ê°€ ì•„ë‹ˆë‹¤.
+======================================= ¼ÒÄÏ Åë½Å ======================================
 
 
 
-- Network í”„ë¡œê·¸ëž¨ì˜ ìš´ì˜ìˆœì„œ
+Server¿¡¼­´Â °³¹ßÀÚ°¡ port ¹øÈ£ °áÁ¤   1024¹ø ~ 49151¹ø: µî·ÏµÈ Æ÷Æ® (registered port)
 
-. Server : ServerSocket ìƒì„±
+ClientÀº OS °¡ port ¹øÈ£ °áÁ¤   49152¹ø ~ 65535¹ø: µ¿Àû Æ÷Æ® (dynamic port)
 
-. Server : í¬íŠ¸ê°ì‹œ ì‹œìž‘, Clientì˜ ì ‘ì†ì„ ê¸°ë‹¤ë¦¼
 
-. Client : Socket ìƒì„±ì‹œì— ì¸ìž ê°’ìœ¼ë¡œ ì„œë²„ì˜ IP, PORTë¥¼ ì§€ì •, ì„œë²„ì— ì ‘ì† ìš”êµ¬
+´ë±â¿­(Queue Length)Àº ¼ÒÄÏ »ý¼º °³¼ö°¡ ¾Æ´Ï´Ù.
 
-. Server : Clientì˜ ìš”êµ¬ë¥¼ ë°›ì•„ Socket ê°ì²´ ìƒì„±
 
-. Server : ìƒì„±ëœ Socket ê°ì²´ë¥¼ ì´ìš©í•´ Clientì—ê²Œ ë°ì´í„°ë¥¼ ë³´ëƒ„
 
-. Client : Socketê°ì²´ë¡œ ë°ì´í„°ë¥¼ ë°›ê³  í•„ìš”í•œ ë°ì´í„°ë¥¼ ë‹¤ì‹œ ì„œë²„ë¡œ ì „ì†¡í•¨
+- Network ÇÁ·Î±×·¥ÀÇ ¿î¿µ¼ø¼­
+
+. Server : ServerSocket »ý¼º
+
+. Server : Æ÷Æ®°¨½Ã ½ÃÀÛ, ClientÀÇ Á¢¼ÓÀ» ±â´Ù¸²
+
+. Client : Socket »ý¼º½Ã¿¡ ÀÎÀÚ °ªÀ¸·Î ¼­¹öÀÇ IP, PORT¸¦ ÁöÁ¤, ¼­¹ö¿¡ Á¢¼Ó ¿ä±¸
+
+. Server : ClientÀÇ ¿ä±¸¸¦ ¹Þ¾Æ Socket °´Ã¼ »ý¼º
+
+. Server : »ý¼ºµÈ Socket °´Ã¼¸¦ ÀÌ¿ëÇØ Client¿¡°Ô µ¥ÀÌÅÍ¸¦ º¸³¿
+
+. Client : Socket°´Ã¼·Î µ¥ÀÌÅÍ¸¦ ¹Þ°í ÇÊ¿äÇÑ µ¥ÀÌÅÍ¸¦ ´Ù½Ã ¼­¹ö·Î Àü¼ÛÇÔ
 
 
 
@@ -2764,21 +2766,21 @@ Clientì€ OS ê°€ port ë²ˆí˜¸ ê²°ì •   49152ë²ˆ ~ 65535ë²ˆ: ë™ì  í¬íŠ¸ (dynami
 
 
 
-UMLê³¼ íŒ¨í„´ì˜ ì ìš©   ë¶„ì„ ì„¤ê³„
+UML°ú ÆÐÅÏÀÇ Àû¿ë   ºÐ¼® ¼³°è
 
 
 @ UML(Unified Modeling Language)
 
-ë‹¤ë¥¸ ì‚¬ëžŒë“¤ê³¼ì˜ ì˜ì‚¬ì†Œí†µ ë˜ëŠ” ì„¤ê³„ ë…¼ì˜
-ì „ì²´ ì‹œìŠ¤í…œì˜ êµ¬ì¡° ë° í´ëž˜ìŠ¤ì˜ ì˜ì¡´ì„± íŒŒì•…
-ìœ ì§€ë³´ìˆ˜ë¥¼ ìœ„í•œ ì„¤ê³„ì˜ back-end ë¬¸ì„œ
+´Ù¸¥ »ç¶÷µé°úÀÇ ÀÇ»ç¼ÒÅë ¶Ç´Â ¼³°è ³íÀÇ
+ÀüÃ¼ ½Ã½ºÅÛÀÇ ±¸Á¶ ¹× Å¬·¡½ºÀÇ ÀÇÁ¸¼º ÆÄ¾Ç
+À¯Áöº¸¼ö¸¦ À§ÇÑ ¼³°èÀÇ back-end ¹®¼­
 
-UML: í´ëž˜ìŠ¤ ë‹¤ì´ì–´ê·¸ëž¨ê³¼ ì†ŒìŠ¤ì½”ë“œ ë§¤í•‘ http://www.nextree.co.kr/p6753/
-
-
+UML: Å¬·¡½º ´ÙÀÌ¾î±×·¥°ú ¼Ò½ºÄÚµå ¸ÅÇÎ http://www.nextree.co.kr/p6753/
 
 
-The Art of Computer Programming    ë„ë„ë“œ ì»¤ëˆ„ìŠ¤
+
+
+The Art of Computer Programming    µµ³Îµå Ä¿´©½º
 
 
 https://github.com/samchon?tab=repositories
@@ -2791,15 +2793,15 @@ http://www.e-cartouche.ch/content_reg/cartouche/formats/en/html/Browser_learning
 
 
 
-@ ì•Œê³ ë¦¬ì¦˜ ì‚¬ì´íŠ¸
+@ ¾Ë°í¸®Áò »çÀÌÆ®
 https://visualgo.net/en
 
-@ ì‚¬ì´íŠ¸ ì´ë™ ê²½ë¡œ : breadcrumb
+@ »çÀÌÆ® ÀÌµ¿ °æ·Î : breadcrumb
 
-@ cache = Pooling ê¸°ë²•  = Lighting weight
+@ cache = Pooling ±â¹ý  = Lighting weight
 
 
-@ ê°€ìƒ ë¨¸ì‹  OSë³„ ì´ë¯¸ì§€
+@ °¡»ó ¸Ó½Å OSº° ÀÌ¹ÌÁö
 http://www.osboxes.org
 
 
@@ -2822,12 +2824,12 @@ High Cohesion
 
 
 
-í”„ë¡œê°€ ë˜ê¸° ìœ„í•œ ì›¹ê¸°ìˆ  ìž…ë¬¸
+ÇÁ·Î°¡ µÇ±â À§ÇÑ À¥±â¼ú ÀÔ¹®
 
 
-Serverì—ì„œëŠ” ê°œë°œìžê°€ port ë²ˆí˜¸ ê²°ì •   1024ë²ˆ ~ 49151ë²ˆ: ë“±ë¡ëœ í¬íŠ¸ (registered port)
+Server¿¡¼­´Â °³¹ßÀÚ°¡ port ¹øÈ£ °áÁ¤   1024¹ø ~ 49151¹ø: µî·ÏµÈ Æ÷Æ® (registered port)
 
-Clientì€ OS ê°€ port ë²ˆí˜¸ ê²°ì •   49152ë²ˆ ~ 65535ë²ˆ: ë™ì  í¬íŠ¸ (dynamic port)
+ClientÀº OS °¡ port ¹øÈ£ °áÁ¤   49152¹ø ~ 65535¹ø: µ¿Àû Æ÷Æ® (dynamic port)
 
 
 
@@ -2835,9 +2837,9 @@ Clientì€ OS ê°€ port ë²ˆí˜¸ ê²°ì •   49152ë²ˆ ~ 65535ë²ˆ: ë™ì  í¬íŠ¸ (dynami
 
 
   
-ìžë°” ë„íë©˜íŠ¸ ëª¨ìŒ 
+ÀÚ¹Ù µµÅ¥¸àÆ® ¸ðÀ½ 
 http://www.ith.kr/chair/index.html   
-http://changki.net/  í•œê¸€ ì‚¬ì´íŠ¸
+http://changki.net/  ÇÑ±Û »çÀÌÆ®
 
 
 
@@ -2856,10 +2858,10 @@ URI(Uniform Resource Identifier) -------URL(Uniform Resource Location)
 
 
 
-ë Œë”ë§ ì—”ì§„(rendering engine) ë˜ëŠ” ë ˆì´ì•„ì›ƒ ì—”ì§„(layout engine)ì€ ì›¹ ì½˜í…ì¸ (HTML, XML, ê·¸ë¦¼ íŒŒì¼ ë“±)ì™€ í¬ë§· ì •ë³´(CSS, XML ë“±)ë¥¼ ê°€ì ¸ ì™€ì„œ í™”ë©´ì— í•´ë‹¹ ì½˜í…ì¸ ë¥¼ ì •ë¦¬í•˜ì—¬ ë³´ì—¬ ì£¼ëŠ” ì†Œí”„íŠ¸ì›¨ì–´ë¥¼ ë§í•œë‹¤
+·»´õ¸µ ¿£Áø(rendering engine) ¶Ç´Â ·¹ÀÌ¾Æ¿ô ¿£Áø(layout engine)Àº À¥ ÄÜÅÙÃ÷(HTML, XML, ±×¸² ÆÄÀÏ µî)¿Í Æ÷¸Ë Á¤º¸(CSS, XML µî)¸¦ °¡Á® ¿Í¼­ È­¸é¿¡ ÇØ´ç ÄÜÅÙÃ÷¸¦ Á¤¸®ÇÏ¿© º¸¿© ÁÖ´Â ¼ÒÇÁÆ®¿þ¾î¸¦ ¸»ÇÑ´Ù
 
 
-ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì—”ì§„(JavaScript engine)ì€ ìžë°”ìŠ¤í¬ë¦½íŠ¸ ì½”ë“œë¥¼ ì‹¤í–‰í•˜ëŠ” í”„ë¡œê·¸ëž¨ ë˜ëŠ” ì¸í„°í”„ë¦¬í„°ì´ë‹¤. 
+ÀÚ¹Ù½ºÅ©¸³Æ® ¿£Áø(JavaScript engine)Àº ÀÚ¹Ù½ºÅ©¸³Æ® ÄÚµå¸¦ ½ÇÇàÇÏ´Â ÇÁ·Î±×·¥ ¶Ç´Â ÀÎÅÍÇÁ¸®ÅÍÀÌ´Ù. 
 
 
    
@@ -2878,29 +2880,29 @@ http://recoveryman.tistory.com/179?category=595002
 * gradle, maven
 
 
-=================================== ë¼ì´ë¸ŒëŸ¬ë¦¬ ì¶”ê°€ ë°©ë²• ================================
+=================================== ¶óÀÌºê·¯¸® Ãß°¡ ¹æ¹ý ================================
 
-1) eclipseì—ì„œ ì¶”ê°€í•˜ëŠ” ë°©ë²•
+1) eclipse¿¡¼­ Ãß°¡ÇÏ´Â ¹æ¹ý
 
- - Eclipseì˜ ìžë°”í”„ë¡œì íŠ¸ Propertyì—ì„œ Biuld Pathì˜ Libarayì—ì„œ mysql jdbcì— ì¶”ê°€í•œë‹¤.
+ - EclipseÀÇ ÀÚ¹ÙÇÁ·ÎÁ§Æ® Property¿¡¼­ Biuld PathÀÇ Libaray¿¡¼­ mysql jdbc¿¡ Ãß°¡ÇÑ´Ù.
 
 
 
-2) gradleì„ ì´ìš©í•˜ëŠ” ë°©ë²•
+2) gradleÀ» ÀÌ¿ëÇÏ´Â ¹æ¹ý
 
- - ë¼ì´ë¸ŒëŸ¬ë¦¬ ì •ë³´ëŠ” 
-   http://mvnrepository.com/ ì— http://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.44 ì— ìžˆë‹¤.
+ - ¶óÀÌºê·¯¸® Á¤º¸´Â 
+   http://mvnrepository.com/ ¿¡ http://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.44 ¿¡ ÀÖ´Ù.
    
-   // MySQL DBMSì˜ JDBC Driver
-   compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44' ì„
+   // MySQL DBMSÀÇ JDBC Driver
+   compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44' À»
 
-   build.gradle íŒŒì¼ì— dependencies {} ë¸”ë¡ì— ì¶”ê°€í•œë‹¤.
-
-
- - ì¶”ê°€í•œí›„ ëª…ë ¹ì°½ì—ì„œ  gradlew eclipse  ì‹¤í–‰
+   build.gradle ÆÄÀÏ¿¡ dependencies {} ºí·Ï¿¡ Ãß°¡ÇÑ´Ù.
 
 
-@ API ì‚¬ìš© ì˜ˆì œ
+ - Ãß°¡ÇÑÈÄ ¸í·ÉÃ¢¿¡¼­  gradlew eclipse  ½ÇÇà
+
+
+@ API »ç¿ë ¿¹Á¦
 
 http://java-school.net/
 
@@ -2936,38 +2938,38 @@ alter table jdbc_test
 
 
 
-IoC ìš©ì–´ ì •ë¦¬
+IoC ¿ë¾î Á¤¸®
 
 
 http://isstory83.tistory.com/91
 
-IoC ìš©ì–´ ì •ë¦¬
-bean - ìŠ¤í”„ë§ì—ì„œ ì œì–´ê¶Œì„ ê°€ì§€ê³  ì§ì ‘ ë§Œë“¤ê³  ê´€ê³„ë¥¼ ë¶€ì—¬í•˜ëŠ” ì˜¤ë¸Œì íŠ¸
-ìžë°”ë¹ˆ, EJBì˜ ë¹ˆê³¼ ë¹„ìŠ·í•œ ì˜¤ë¸Œì íŠ¸ ë‹¨ìœ„ì˜ ì• í”Œë¦¬ì¼€ì´ì…˜ ì»´í¬ë„ŒíŠ¸ë¥¼ ë§í•œë‹¤. í•˜ì§€ë§Œ ìŠ¤í”„ë§ì„ ì‚¬ìš©í•˜ëŠ” ì• í”Œë¦¬ì¼€ì´ì…˜ì—ì„œ ë§Œë“¤ì–´ì§€ëŠ” ëª¨ë“  ì˜¤ë¸Œì íŠ¸ê°€ ë¹ˆì€ì•„ë‹ˆë‹¤. ìŠ¤í”„ë§ì˜ ë¹ˆì€ ìŠ¤í”„ë§ ì»¨í…Œì´ë„ˆê°€ ìƒì„±ê³¼ ê´€ê³„ì„¤ì •, ì‚¬ìš©ë“±ì„ ì œì–´í•´ì£¼ëŠ” ì˜¤ë¸Œì íŠ¸ë¥¼ ê°€ë¦¬í‚¨ë‹¤.
+IoC ¿ë¾î Á¤¸®
+bean - ½ºÇÁ¸µ¿¡¼­ Á¦¾î±ÇÀ» °¡Áö°í Á÷Á¢ ¸¸µé°í °ü°è¸¦ ºÎ¿©ÇÏ´Â ¿ÀºêÁ§Æ®
+ÀÚ¹Ùºó, EJBÀÇ ºó°ú ºñ½ÁÇÑ ¿ÀºêÁ§Æ® ´ÜÀ§ÀÇ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ÄÄÆ÷³ÍÆ®¸¦ ¸»ÇÑ´Ù. ÇÏÁö¸¸ ½ºÇÁ¸µÀ» »ç¿ëÇÏ´Â ¾ÖÇÃ¸®ÄÉÀÌ¼Ç¿¡¼­ ¸¸µé¾îÁö´Â ¸ðµç ¿ÀºêÁ§Æ®°¡ ºóÀº¾Æ´Ï´Ù. ½ºÇÁ¸µÀÇ ºóÀº ½ºÇÁ¸µ ÄÁÅ×ÀÌ³Ê°¡ »ý¼º°ú °ü°è¼³Á¤, »ç¿ëµîÀ» Á¦¾îÇØÁÖ´Â ¿ÀºêÁ§Æ®¸¦ °¡¸®Å²´Ù.
 
-bean factory - ìŠ¤í”„ë§ì˜ IoCë¥¼ ë‹´ë‹¹í•˜ëŠ” í•µì‹¬ ì»¨í…Œì´ë„ˆ
-ë¹ˆì„ ë“±ë¡/ìƒì„±/ì¡°íšŒ/ë°˜í™˜/ê´€ë¦¬í•œë‹¤. ë³´í†µì€ bean factory ë¥¼ ë°”ë¡œ ì‚¬ìš©í•˜ì§€ ì•Šê³  ì´ë¥¼ í™•ìž¥í•œ application context ë¥¼ ì´ìš©í•œë‹¤. BeanFactory ëŠ” bean factory ê°€ êµ¬í˜„í•˜ëŠ” interface ì´ë‹¤. (getBean()ë“±ì˜ ë©”ì†Œë“œê°€ ì •ì˜ë˜ì–´ ìžˆìŒ)
+bean factory - ½ºÇÁ¸µÀÇ IoC¸¦ ´ã´çÇÏ´Â ÇÙ½É ÄÁÅ×ÀÌ³Ê
+ºóÀ» µî·Ï/»ý¼º/Á¶È¸/¹ÝÈ¯/°ü¸®ÇÑ´Ù. º¸ÅëÀº bean factory ¸¦ ¹Ù·Î »ç¿ëÇÏÁö ¾Ê°í ÀÌ¸¦ È®ÀåÇÑ application context ¸¦ ÀÌ¿ëÇÑ´Ù. BeanFactory ´Â bean factory °¡ ±¸ÇöÇÏ´Â interface ÀÌ´Ù. (getBean()µîÀÇ ¸Þ¼Òµå°¡ Á¤ÀÇµÇ¾î ÀÖÀ½)
  
-application context - bean factoryë¥¼ í™•ìž¥í•œ IoC ì»¨í…Œì´ë„ˆ
-ë¹ˆì˜ ë“±ë¡/ìƒì„±/ì¡°íšŒ/ë°˜í™˜/ê´€ë¦¬ì˜ ê¸°ëŠ¥ì€ bean factory ì™€ ê°™ì§€ë§Œ, ì—¬ê¸°ì— springì˜ ê°ì¢… ë¶€ê°€ ì„œë¹„ìŠ¤ë¥¼ ì¶”ê°€ë¡œ ì œê³µí•œë‹¤. ApplicationContextëŠ” application contextê°€ êµ¬í˜„í•´ì•¼ í•˜ëŠ” interfaceì´ì—¬, BeanFactory ë¥¼ ìƒì†í•œë‹¤.
+application context - bean factory¸¦ È®ÀåÇÑ IoC ÄÁÅ×ÀÌ³Ê
+ºóÀÇ µî·Ï/»ý¼º/Á¶È¸/¹ÝÈ¯/°ü¸®ÀÇ ±â´ÉÀº bean factory ¿Í °°Áö¸¸, ¿©±â¿¡ springÀÇ °¢Á¾ ºÎ°¡ ¼­ºñ½º¸¦ Ãß°¡·Î Á¦°øÇÑ´Ù. ApplicationContext´Â application context°¡ ±¸ÇöÇØ¾ß ÇÏ´Â interfaceÀÌ¿©, BeanFactory ¸¦ »ó¼ÓÇÑ´Ù.
  
-configuration metadata (ì„¤ì •ì •ë³´/ì„¤ì • ë©”íƒ€ì •ë³´)
-application context í˜¹ì€ bean factory ê°€ IoCë¥¼ ì ìš©í•˜ê¸° ìœ„í•´ ì‚¬ìš©í•˜ëŠ” ë©”íƒ€ì •ë³´
-ìŠ¤í”„ë§ì˜ ì„¤ì •ì •ë³´ëŠ” ì»¨í…Œì´ë„ˆì— ì–´ë–¤ ê¸°ëŠ¥ì„ ì„¸íŒ…í•˜ê±°ë‚˜ ì¡°ì •í•˜ëŠ” ê²½ìš°ì—ë„ ì‚¬ìš©í•˜ì§€ë§Œ ì£¼ë¡œ bean ì„ ìƒì„±/êµ¬ì„±í•˜ëŠ” ìš©ë„ë¡œ ì‚¬ìš©ëœë‹¤.
+configuration metadata (¼³Á¤Á¤º¸/¼³Á¤ ¸ÞÅ¸Á¤º¸)
+application context È¤Àº bean factory °¡ IoC¸¦ Àû¿ëÇÏ±â À§ÇØ »ç¿ëÇÏ´Â ¸ÞÅ¸Á¤º¸
+½ºÇÁ¸µÀÇ ¼³Á¤Á¤º¸´Â ÄÁÅ×ÀÌ³Ê¿¡ ¾î¶² ±â´ÉÀ» ¼¼ÆÃÇÏ°Å³ª Á¶Á¤ÇÏ´Â °æ¿ì¿¡µµ »ç¿ëÇÏÁö¸¸ ÁÖ·Î bean À» »ý¼º/±¸¼ºÇÏ´Â ¿ëµµ·Î »ç¿ëµÈ´Ù.
  
 container (IoC container)
-IoC ë°©ì‹ìœ¼ë¡œ beanì„ ê´€ë¦¬í•œë‹¤ëŠ” ì˜ë¯¸ì—ì„œ bean factory ë‚˜ application context ë¥¼ ê°€ë¦¬í‚¨ë‹¤. 
-(spring container = application context) application contextëŠ” ê·¸ ìžì²´ë¡œ ApplicationContext ì¸í„°íŽ˜ì´ìŠ¤ë¥¼ êµ¬í˜„í•œ ì˜¤ë¸Œì íŠ¸ë¥¼ ê°€ë¦¬í‚¤ê¸°ë„ í•˜ëŠ”ë°, í•˜ë‚˜ì˜ ì• í”Œë¦¬ì¼€ì´ì…˜ì— ë³´í†µ ì—¬ëŸ¬ê°œì˜ ApplicationContext Objectê°€ ë§Œë“¤ì–´ì§„ë‹¤. ì´ë¥¼ í†µì¹­í•´ì„œ strping containerë¼ê³  ë¶€ë¥¼ ìˆ˜ ìžˆë‹¤.
-ê°„ë‹¨í•˜ê²Œ, ê°ì²´ë¥¼ ê´€ë¦¬í•˜ëŠ” ì»¨í…Œì´ë„ˆì´ë‹¤, ì»¨í…Œì´ë„ˆì— ê°ì²´ë¥¼ ë‹´ì•„ ë‘ê³ , í•„ìš”í•  ë•Œì— ì»¨í…Œì´ë„ˆë¡œë¶€í„° ê°ì²´ë¥¼ ê°€ì ¸ì™€ ì‚¬ìš©í•  ìˆ˜ ìžˆë„ë¡ í•˜ê³  ìžˆë‹¤.
+IoC ¹æ½ÄÀ¸·Î beanÀ» °ü¸®ÇÑ´Ù´Â ÀÇ¹Ì¿¡¼­ bean factory ³ª application context ¸¦ °¡¸®Å²´Ù. 
+(spring container = application context) application context´Â ±× ÀÚÃ¼·Î ApplicationContext ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ ¿ÀºêÁ§Æ®¸¦ °¡¸®Å°±âµµ ÇÏ´Âµ¥, ÇÏ³ªÀÇ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç¿¡ º¸Åë ¿©·¯°³ÀÇ ApplicationContext Object°¡ ¸¸µé¾îÁø´Ù. ÀÌ¸¦ ÅëÄªÇØ¼­ strping container¶ó°í ºÎ¸¦ ¼ö ÀÖ´Ù.
+°£´ÜÇÏ°Ô, °´Ã¼¸¦ °ü¸®ÇÏ´Â ÄÁÅ×ÀÌ³ÊÀÌ´Ù, ÄÁÅ×ÀÌ³Ê¿¡ °´Ã¼¸¦ ´ã¾Æ µÎ°í, ÇÊ¿äÇÒ ¶§¿¡ ÄÁÅ×ÀÌ³Ê·ÎºÎÅÍ °´Ã¼¸¦ °¡Á®¿Í »ç¿ëÇÒ ¼ö ÀÖµµ·Ï ÇÏ°í ÀÖ´Ù.
  
-spring framework - IoC container, application context ë¥¼ í¬í•¨í•´ì„œ springì´ ì œê³µí•˜ëŠ” ëª¨ë“  ê¸°ëŠ¥ì„ í†µì¹­í•œë‹¤.
+spring framework - IoC container, application context ¸¦ Æ÷ÇÔÇØ¼­ springÀÌ Á¦°øÇÏ´Â ¸ðµç ±â´ÉÀ» ÅëÄªÇÑ´Ù.
 
 
 
 
 
 
-java log4j ì„¤ì •
+java log4j ¼³Á¤
 
 
 
@@ -2980,15 +2982,15 @@ http://tcpschool.com/java/java_intro_java8
 http://androphil.tistory.com/
 
 
-ë¼ì´ë¸ŒëŸ¬ë¦¬ ê²€ìƒ‰ ì‚¬ì´íŠ¸
+¶óÀÌºê·¯¸® °Ë»ö »çÀÌÆ®
 http://mvnrepository.com/
 
-reflection ì•„ë‹ˆê³  reflections ê²€ìƒ‰í•´ì„œ gradle
+reflection ¾Æ´Ï°í reflections °Ë»öÇØ¼­ gradle
 
 // https://mvnrepository.com/artifact/org.reflections/reflections
 compile group: 'org.reflections', name: 'reflections', version: '0.9.11'
 
-ì£¼ì†Œë¥¼ ê°€ì§€ê³  ì™€ì„œ build.gradle ì˜ propertiesì— ì¶”ê°€
+ÁÖ¼Ò¸¦ °¡Áö°í ¿Í¼­ build.gradle ÀÇ properties¿¡ Ãß°¡
 
 gradlew eclipse
 
@@ -3004,16 +3006,16 @@ https://mdn.mozilla.org/ko/
 
 
 
- * IoC ì»¨í…Œì´ë„ˆ   http://ooz.co.kr/170
-   ì–´ë– í•œ ê°ì²´ì˜ ëª…ì„¸ì„œë¥¼ ìž‘ì„±í•˜ê³ , ìŠ¤í”„ë§ ë¼ì´ë¸ŒëŸ¬ë¦¬ëŠ” í•´ë‹¹ ëª…ì„¸ëŒ€ë¡œ ê°ì²´ë¥¼ ìƒì„±. 
-   ìƒì„±ëœ ê°ì²´(ê·¸ë¦¬ê³  ë””íŽœë˜ì‹œ)ë“¤ì„ ë³´ê´€í•˜ëŠ” ê³µê°„ì„ ì˜ë¯¸.
+ * IoC ÄÁÅ×ÀÌ³Ê   http://ooz.co.kr/170
+   ¾î¶°ÇÑ °´Ã¼ÀÇ ¸í¼¼¼­¸¦ ÀÛ¼ºÇÏ°í, ½ºÇÁ¸µ ¶óÀÌºê·¯¸®´Â ÇØ´ç ¸í¼¼´ë·Î °´Ã¼¸¦ »ý¼º. 
+   »ý¼ºµÈ °´Ã¼(±×¸®°í µðÆæ´ø½Ã)µéÀ» º¸°üÇÏ´Â °ø°£À» ÀÇ¹Ì.
 
 
 
 
-* EJB : Enterprise Java Bean (ì—”í„°í”„ë¼ì´ì¦ˆ ìžë°”ë¹ˆ) 
- â€“ íš¨ìœ¨ì ìœ¼ë¡œ ì„œë²„ ê´€ë¦¬ë¥¼ í•´ì£¼ê³ , ë˜ í”„ë¡œê·¸ëž¨ ê´€ë ¨ ë¬¸ì œë“¤ì„ ì•Œì•„ì„œ ì²˜ë¦¬í•´ì¤€ë‹¤ëŠ” ê°œë….
-   (ì—°ê²° ê´€ê³„ê°€ ë³µìž¡í•˜ê³ , ë¬´ê²ê³ , ë…ë¦½ì ì´ì§€ ëª»í•˜ë‹¤)
+* EJB : Enterprise Java Bean (¿£ÅÍÇÁ¶óÀÌÁî ÀÚ¹Ùºó) 
+ ? È¿À²ÀûÀ¸·Î ¼­¹ö °ü¸®¸¦ ÇØÁÖ°í, ¶Ç ÇÁ·Î±×·¥ °ü·Ã ¹®Á¦µéÀ» ¾Ë¾Æ¼­ Ã³¸®ÇØÁØ´Ù´Â °³³ä.
+   (¿¬°á °ü°è°¡ º¹ÀâÇÏ°í, ¹«°Ì°í, µ¶¸³ÀûÀÌÁö ¸øÇÏ´Ù)
 
 
 * DL : Dependency Lookup 
@@ -3022,11 +3024,11 @@ https://mdn.mozilla.org/ko/
 
 
 * DI (Dependecy Injection) 
-  â€“ ê° class ì‚¬ì´ì˜ ì˜ì¡´ê´€ê³„ë¥¼ ë¹ˆ ì„¤ì • ì •ë³´ë¥¼ ë°”íƒ•ìœ¼ë¡œ 
-    containerê°€ ìžë™ì ìœ¼ë¡œ ì—°ê²°í•´ ì£¼ëŠ” ê²ƒì„ ë§í•¨. 
-    ë”°ë¼ì„œ lookupê³¼ ê´€ë ¨ëœ ì½”ë“œë“¤ì´ ì˜¤ë¸Œì íŠ¸ ë‚´ì—ì„œ ì™„ì „ížˆ ì‚¬ë¼ì§€ê³  
-    ì»¨í…Œì´ë„ˆì— ì˜ì¡´ì ì´ì§€ ì•Šì€ ì½”ë“œë¥¼ ìž‘ì„±í•  ìˆ˜ ìžˆìŒ.
-    ë‹¨ì§€ ë¹ˆ ì„¤ì • íŒŒì¼ì—ì„œ ì˜ì¡´ê´€ê³„ê°€ í•„ìš”í•˜ë‹¤ëŠ” ì •ë³´ë¥¼ ì¶”ê°€í•˜ë©´ ë¨.
+  ? °¢ class »çÀÌÀÇ ÀÇÁ¸°ü°è¸¦ ºó ¼³Á¤ Á¤º¸¸¦ ¹ÙÅÁÀ¸·Î 
+    container°¡ ÀÚµ¿ÀûÀ¸·Î ¿¬°áÇØ ÁÖ´Â °ÍÀ» ¸»ÇÔ. 
+    µû¶ó¼­ lookup°ú °ü·ÃµÈ ÄÚµåµéÀÌ ¿ÀºêÁ§Æ® ³»¿¡¼­ ¿ÏÀüÈ÷ »ç¶óÁö°í 
+    ÄÁÅ×ÀÌ³Ê¿¡ ÀÇÁ¸ÀûÀÌÁö ¾ÊÀº ÄÚµå¸¦ ÀÛ¼ºÇÒ ¼ö ÀÖÀ½.
+    ´ÜÁö ºó ¼³Á¤ ÆÄÀÏ¿¡¼­ ÀÇÁ¸°ü°è°¡ ÇÊ¿äÇÏ´Ù´Â Á¤º¸¸¦ Ãß°¡ÇÏ¸é µÊ.
 
 
 
@@ -3040,9 +3042,9 @@ https://mdn.mozilla.org/ko/
 
 
 1) Constructor Injection 
-   â€“ í´ëž˜ìŠ¤ ì‚¬ì´ì˜ ì˜ì¡´ê´€ê³„ë¥¼ ì—°ê²°ì‹œí‚¤ê¸° ìœ„í•˜ì—¬ constructorë¥¼ ì´ìš©í•˜ëŠ” ë°©ë²•. 
-     constructor-arg tag ì‚¬ìš©. 
-     <constructor-arg type="String" index="0" value="í™ê¸¸ë™"/>
+   ? Å¬·¡½º »çÀÌÀÇ ÀÇÁ¸°ü°è¸¦ ¿¬°á½ÃÅ°±â À§ÇÏ¿© constructor¸¦ ÀÌ¿ëÇÏ´Â ¹æ¹ý. 
+     constructor-arg tag »ç¿ë. 
+     <constructor-arg type="String" index="0" value="È«±æµ¿"/>
 
 
     <bean class="bitcamp.java100.ch20.ex2.MyClass3" 
@@ -3054,12 +3056,12 @@ https://mdn.mozilla.org/ko/
     </bean>
 
 2) Setter Injection 
-   - í´ëž˜ìŠ¤ ì‚¬ì´ì˜ ì˜ì¡´ê´€ê³„ë¥¼ ì—°ê²°ì‹œí‚¤ê¸° ìœ„í•˜ì—¬ setter ë©”ì†Œë“œë¥¼ ì´ìš©í•˜ëŠ” ë°©ë²•. 
-     property tag ì‚¬ìš©. 
-     <property name="name" value="ë¹„íŠ¸ì—”ì§„"/>
+   - Å¬·¡½º »çÀÌÀÇ ÀÇÁ¸°ü°è¸¦ ¿¬°á½ÃÅ°±â À§ÇÏ¿© setter ¸Þ¼Òµå¸¦ ÀÌ¿ëÇÏ´Â ¹æ¹ý. 
+     property tag »ç¿ë. 
+     <property name="name" value="ºñÆ®¿£Áø"/>
 
     <bean id="e1" class="bitcamp.java100.ch20.ex3.Engine"
-          p:name="ë¹„íŠ¸ì—”ì§„" p:cc="5000" p:valve="16"/>
+          p:name="ºñÆ®¿£Áø" p:cc="5000" p:valve="16"/>
 
 
     <bean id="c2" class="bitcamp.java100.ch20.ex3.Car">
@@ -3071,13 +3073,13 @@ https://mdn.mozilla.org/ko/
 
 
 3) Method Injection 
-   â€“ ì‹±ê¸€í†¤(Singleton) ì¸ìŠ¤í„´ìŠ¤ì™€ non singleton ì¸ìŠ¤í„´ìŠ¤ì˜ 
-     ì˜ì¡´ê´€ê³„ë¥¼ ì—°ê²°ì‹œí‚¬ í•„ìš”ê°€ ìžˆì„ ë•Œ ì‚¬ìš©í•˜ëŠ” ë°©ë²•.
+   ? ½Ì±ÛÅæ(Singleton) ÀÎ½ºÅÏ½º¿Í non singleton ÀÎ½ºÅÏ½ºÀÇ 
+     ÀÇÁ¸°ü°è¸¦ ¿¬°á½ÃÅ³ ÇÊ¿ä°¡ ÀÖÀ» ¶§ »ç¿ëÇÏ´Â ¹æ¹ý.
 
 
 
 
-    <!-- Map ì»¬ë ‰ì…˜ ê°ì²´ ì£¼ìž…í•˜ê¸° 
+    <!-- Map ÄÃ·º¼Ç °´Ã¼ ÁÖÀÔÇÏ±â 
         Car c1 = new Car();
         
         Map<String,String> map = new HashMap<>();
@@ -3106,13 +3108,123 @@ https://mdn.mozilla.org/ko/
 
 
 
+https://tomcat.apache.org/  ¿¡¼­ 
+
+
+
+
+apache-tomcat > logs > Æú´õ¿¡¼­ ¼­¹ö Á¢¼Ó log°¡ ³²°ÜÁ® ÀÖ´Ù.
+
+
+Tomcat log ÆÄÀÏ º¸´Â ¹ý   tail
+
+tapache-tomcat > logs > ·Î ÀÌµ¿ÇÏ¿©
+
+tail -f catalina.out
+¶Ç´Â ³¯ÀÚ¿¡ ÇØ´çÇÏ´Â .log¸¦ tail -f ***.log ¿Í °°Àº¹æ¹ýÀ¸·Î ¿­¸éµÈ´Ù
+
+ºüÁ®³ª¿À±â´Â ctrl + c
 
 
 
 
 
 
+//==============================================================================================
+//* ÅèÄ¹ ¼³Ä¡ ¹× ¼­¹ö ½ÇÇà
+//==============================================================================================
 
+ ±âÁ¸ ¹æ½ÄÀÇ ¹®Á¦Á¡
+ - HTTP ÇÁ·ÎÅäÄÝÀ» Á¤±³ÇÏ°Ô Á¦¾îÇÏÁö ¸øÇÑ´Ù.
+ - ±×·¡¼­ À¥ºê¶ó¿ìÀúÀÇ ÀÏ¹ÝÀûÀÎ ¿äÃ»À» Ã³¸®ÇÏÁö ¸øÇß´Ù.
+   ¿¹¸¦ µé¸é, favicon.icoÀÌ³ª ±âÅ¸ Á¤ÀûÀÎ HTML ¹®¼­¸¦ ¿äÃ»ÇÒ ¶§ 
+   ÀûÀýÇÏ°Ô Ã³¸®ÇÏÁö ¸øÇß´Ù.
+ - °¡Àå Áß¿äÇÑ ¹®Á¦´Â ÄÁÆ®·Ñ·Î¸¦ ¸¸µé ¶§ ÀÚÃ¼ ÀÎÅÍÆäÀÌ½º¸¦ Á¤ÀÇÇÏ¿© 
+   ¸¸µé¾ú±â ¶§¹®¿¡ ´Ù¸¥ ÇÁ·ÎÁ§Æ®³ª ´Ù¸¥ Á¦Ç°°ú È£È¯µÇÁö ¾Ê´Â´Ù.
+
+ ÇØ°á ¹æ¾È
+ - ÀÌ¹Ì °ËÁõµÇ°í ³Î¸® »ç¿ëµÇ´Â Ç¥ÁØ ±Ô°Ý¿¡ µû¶ó ÇÁ·Î±×·¥ ¸¸µé¾î 
+   ´Ù¾çÇÑ ÇÁ·ÎÁ§Æ®³ª ½Ã½ºÅÛ¿¡¼­µµ Àû¿ëµÉ ¼ö ÀÖ°Ô È£È¯¼ºÀ» È®º¸ÇÑ´Ù.
+ - ±×·¡¼­ JavaEEÀÇ Servlet ±â¼úÀ» µµÀÔÇÏ¿© Ã³¸®ÇÑ´Ù.
+ - º¯°æÄÚµå  
+   0) JavaEEÀÇ ¼­ºí¸´ ±â¼úÀ» ´Ù·ê ¼ö ÀÖµµ·Ï ¶óÀÌºê·¯¸®¸¦ °¡Á®¿Â´Ù. 
+      => mvnrepository.com¿¡¼­ servlet-api¸¦ Ã£´Â´Ù.
+      => build.gradle¿¡ ÀÇÁ¸ ¶óÀÌºê·¯¸® Á¤º¸¸¦ µî·ÏÇÑ´Ù.
+         - 'war' gradle ÇÃ·¯±×ÀÎ À» Ãß°¡ÇÑ´Ù.
+         - ÀÇÁ¸ ¶óÀÌºê·¯¸® Á¤º¸¸¦ Ãß°¡ÇÑ´Ù. 
+      => "gradlew eclipse"¸¦ ½ÇÇàÇÏ¿© ÀÌÅ¬¸³½º ¼³Á¤ ÆÄÀÏÀ» °»½ÅÇÑ´Ù. 
+      => ÀÌÅ¬¸³½º ÇÁ·ÎÁ§Æ®¸¦ "Refresh" ÇÑ´Ù.
+
+   1) App Å¬·¡½º º¯°æ
+      => App Å¬·¡½ºµµ "ÅèÄ¹" ¼­ºí¸´ ÄÁÅ×ÀÌ³Ê¿¡¼­ ½ÇÇàÇÏµµ·Ï ¸¸µç´Ù.
+         Áï Servlet ±ÔÄ¢¿¡ µû¶ó ¸¸µç´Ù.
+      => ÄÁÆ®·Ñ·¯¸¦ È£ÃâÇÏ´Â °ÍÀº "ÅèÄ¹" ¼­ºí¸´ ÄÁÅ×ÀÌ³Ê¿¡°Ô ¸Ã±ä´Ù.
+      => ´ë½Å ½ºÇÁ¸µ IoC ÄÁÅ×ÀÌ³Ê¸¦ ÀÌ¿ëÇÏ¿© DAO¿Í DB Ä¿ÅØ¼ÇÇ®À» ÁØºñÇÑ´Ù.
+
+   2) ÄÁÆ®·Ñ·¯¸¦ JavaEEÀÇ Servlet ±Ô°Ý¿¡ ¸ÂÃç º¯°æÇÑ´Ù.
+      => °¢ ÄÁÆ®·Ñ·¯ÀÇ ÀÌ¸§¿¡¼­ Á¢¹Ì»ç Controller ´ë½Å¿¡ ServletÀ¸·Î ¹Ù²Û´Ù.
+      => ¿ì¸®°¡ ¸¸µç Controller ÀÎÅÍÆäÀÌ½º ´ë½Å¿¡ 
+         JavaEE¿¡¼­ Á¦°øÇÏ´Â Servlet ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ´Ù.
+      => ÄÁÆ®·Ñ·¯¿¡ @WebServletÀ» ºÙ¿© ¼­ºí¸´ ÄÁÅ×ÀÌ³Ê°¡ ¾Ë¾Æ º¼ ¼ö ÀÖ°Ô ÇÑ´Ù.
+
+   3) ¼­ºí¸´ ÄÁÅ×ÀÌ³Ê Á¦Ç° Áß¿¡ ÇÏ³ªÀÎ "ÅèÄ¹"À» ´Ù¿î·Îµå ¹Þ´Â´Ù.
+      => tomcat.apache.org »çÀÌÆ®¿¡ °£´Ù.
+      => servlet 3.1 ±Ô°Ý¿¡ µû¶ó ¸¸µç 8.5.x ¹öÀüÀ» ´Ù¿î·Îµå ¹Þ´Â´Ù.
+      => window(c:\Users\»ç¿ëÀÚÆú´õ\ ¿¡ ¾ÐÃàÀ» Ç¬´Ù), linux/macOS(È¨Æú´õ¿¡ Ç¬´Ù)
+
+   4) ÅèÄ¹ À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç Æú´õ¿¡ ÀÌ ÇÁ·Î±×·¥À» ¹èÄ¡ÇÑ´Ù.
+      => $tomcat_home/webapps/bitcamp Æú´õ¸¦ »ý¼ºÇÑ´Ù.
+      => bitcamp/classes Æú´õ¸¦ »ý¼ºÇÑ´Ù.
+         ÀÌ Æú´õ¿¡ ¿ì¸®°¡ ¸¸µç Å¬·¡½º ÆÄÀÏ(.class)À» µÐ´Ù.
+      => bitcamp/lib Æú´õ¸¦ »ý¼ºÇÑ´Ù.
+         ÀÌ Æú´õ¿¡ ¿ì¸®°¡ »ç¿ëÇÑ ¶óÀÌºê·¯¸® ÆÄÀÏ(.jar)À» µÐ´Ù.
+      => ÀÌ ¸ðµç °ÍÀ» ÇÑ ¹æ¿¡ ¹èÄ¡ÇÒ ¼ö ÀÖ´Â ¹æ¹ýÀÌ ÀÖÀ¸´Ï,
+         gradle ºôµå µµ±¸¸¦ »ç¿ëÇÏ´Â °ÍÀÌ´Ù.
+         - "gradlew build"¸¦ ½ÇÇàÇÑ´Ù.
+         - ÇÁ·ÎÁ§Æ®Æú´õ/build/libs/ÇÁ·ÎÁ§Æ®¸í.war ÆÄÀÏÀÌ »ý¼ºµÇ¾úÀ» °ÍÀÌ´Ù.
+         - ÀÌ war(Web ARchive ÆÄÀÏ)¿¡ ¿ì¸®°¡ ¸¸µç Å¬·¡½ºµé°ú ¶óÀÌºê·¯¸® ÆÄÀÏµéÀÌ
+           ¹­¿©¼­ µé¾î ÀÖ´Ù.
+         - ÀÌ ÆÄÀÏÀ» $tomcat_home/webapps/ Æú´õ¿¡ º¹»çÇØ ³õÀ¸¸é µÈ´Ù.
+         - À¥ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ÀÌ¸§Àº .war ÆÄÀÏ¸íÀÌ µÉ °ÍÀÌ´Ù.
+
+   5) ÅèÄ¹ ¼­¹öÀÇ Æ÷Æ® ¹øÈ£¸¦ 8080¿¡¼­ 9999·Î º¯°æÇÑ´Ù.
+      => ÀÌÀ¯? 
+         ¿î¿µÃ¼Á¦¿¡ ÀÌ¹Ì 8080À» »ç¿ëÇÏ´Â ÇÁ·Î±×·¥ÀÌ ÀÖÀ» ¼ö ÀÖ´Ù.
+         Æ¯È÷ ¿À¶óÅ¬ DBMS¸¦ ¼³Ä¡ÇÏ¸é ¿À¶óÅ¬ ±âº» À¥¼­¹ö°¡ 8080À» »ç¿ëÇÑ´Ù.
+      => ÀÌ·± °æ¿ì¸¦ ¹æÁöÇÏ°íÀÚ ±×³É ¹«Á¶°Ç Æ÷Æ®¹øÈ£¸¦ 9999·Î ¹Ù²Û´Ù.
+      => ÅèÄ¹È¨/conf/server.xml ÆÄÀÏ¿¡¼­ 8080 Æ÷Æ® ºÎºÐÀ» Ã£¾Æ 9999·Î ¹Ù²Û´Ù.
+
+   6) ÅèÄ¹ ¼­¹ö¸¦ ½ÇÇàÇÑ´Ù.
+      => "echo %JAVA_HOME%"À» ½ÇÇàÇÏ¿© JDK Æú´õ°¡ Á¦´ë·Î ¼³Á¤µÇ¾ú´ÂÁö È®ÀÎÇÑ´Ù.
+         linux/macOS ´Â "echo $JAVA_HOME"À» ½ÇÇàÇÑ´Ù.
+      => "java -version" À» ½ÇÇàÇÏ¿© JDK ¹öÀü°ú ÀÏÄ¡ÇÏ´Â Áö È®ÀÎÇÑ´Ù.
+      => "javac -version" À» ½ÇÇàÇÏ¿© JDK ¹öÀü°ú ÀÏÄ¡ÇÏ´Â Áö È®ÀÎÇÑ´Ù.
+      => ÆÄÀÏ Å½»ö±â¿¡¼­ "ÅèÄ¹È¨/bin/startup.bat"¸¦ ½ÇÇàÇÑ´Ù.
+         linux/macOS
+         > cd ÅèÄ¹È¨/bin
+         > chmod 755 *.sh  ¸¦ ½ÇÇàÇÏ¿© ½©½ºÅ©¸³Æ® ÆÄÀÏÀ» ½ÇÇà°¡´ÉÇÑ »óÅÂ·Î ¸¸µç´Ù.
+         > ./startup.sh¸¦ ½ÇÇàÇÑ´Ù.
+
+
+   7) localhost:9999 ÀÔ·ÂÈÄ ÅèÄ¹ ¼­¹ö Manger AppÅ¬¸¯ÇØ¼­ Tomcat Web Application Manager¿¡¼­
+      ÅèÄ¹ÀÌ Á¤»óÀûÀ¸·Î ½ÇÇàµÇ´ÂÁö È®ÀÎ
+      => ·Î±×ÀÎÀº ÅèÄ¹È¨/conf/tomcat-users.xml ÆÄÀÏ¿¡ ¾Æ·¡¸¦ Ãß°¡ÇØ¼­ ¼öÁ¤
+
+           <role rolename="manager-gui"/>
+           <user username="tomcat" password="1111" roles="manager-gui"/>
+
+
+
+
+ ÀÛ¾÷
+ 1) App Å¬·¡½ºÀÇ ÀÌ¸§À» AppInitServlet Å¬·¡½º·Î º¯°æÇÑ´Ù.
+ 2) Servlet ±Ô°Ý¿¡ ¸ÂÃß¾î Å¬·¡½º¸¦ ¸¸µç´Ù.
+    - javax.servlet.Servlet ÀÎÅÍÆäÀÌ½º¸¦ ±¸ÇöÇÑ´Ù.
+    - Servlet ÀÎÅÍÆäÀÌ½º¿¡ ¼±¾ðµÈ ¸ðµç ¸Þ¼­µå¸¦ ±¸ÇöÇÑ´Ù.
+ 3) ÀÌ Å¬·¡½º¸¦ ¼­ºí¸´ ÄÁÅ×ÀÌ³Ê°¡ ¾Ë¾Æº¼ ¼ö ÀÖµµ·Ï 
+    @WebServlet ¾Ö³ëÅ×ÀÌ¼ÇÀ» ºÙÀÎ´Ù.
+    - name ¼Ó¼ºÀ» ÀÌ¿ëÇÏ¿© ¼­ºí¸´ÀÇ º°¸íÀ» ÁöÁ¤ÇÏ¶ó!
+    - »ç¿ëÀÚ°¡ ¿äÃ»ÇÏÁö ¾Ê¾Æµµ ÀÚµ¿À¸·Î »ý¼ºµÇ°Ô loadOnStartup ¼Ó¼ºÀ» Ãß°¡ÇÏ¶ó!
 
 
 
