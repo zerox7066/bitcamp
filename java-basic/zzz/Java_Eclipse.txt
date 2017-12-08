@@ -23,7 +23,8 @@ Agile Software Development, Principles, Patterns, and Practices - Robert C. Mart
 
 Clean Code 클린 코드: 애자일 소프트웨어 장인 정신 - Robert C. Martin
 
-
+강좌 모음
+https://www.inflearn.com/course-cat/development/programing-language/java/
 
 다음은 코드를 점진적으로 개선하고 좋은 설계로 바꿔 나가는데 도움을 주는 책이다.
 
@@ -66,7 +67,7 @@ JAVA_HOME :  C:\Program Files\Java\jdk1.8.0_144
  
 @ 이클립스설치
 
-  - Eclipse IDE for Java EE Developers 설치
+  - Eclipse IDE for JavaEE(Enterprise Edition)  Developers 설치
 
 
 
@@ -115,7 +116,7 @@ Perferences  =>  Java  =>  Installed JREs  =>  Add 버튼 클릭 =>  Standard VM 선�
 @ Run 할때 에러 메시지 처리 :  
  # Exception in thread "main" java.lang.Error: Unresolved compilation problem:
    - Bin 폴더 삭제
-   - Projcet => Clean
+   - Projcet => Clean 에서 해당 프로젝트만 Clean
 
 
 
@@ -184,12 +185,16 @@ Web  =>   CSs Files/Htm Files/JSP Files  =>  UTF-8 설정
 
 @ Project Import Gradle 사용
 
+    eclipse > eclipse.ini 파일 수정 확인   => 1.8로 복귀
+         --add-modules=ALL-SYSTEM  => 삭제
+         -Dosgi.requiredJavaVersion=9 => 삭제
+
 
 1) gradle 명령어 모음
 
 build.gradle             https://docs.gradle.org/4.2.1/userguide/eclipse_plugin.html
 
-apply plugin: 'eclipse'
+
 
 
 java-basic> gradle init --type java-application
@@ -216,6 +221,9 @@ java-basic> gradlew Eclipse
 java-basic> gradlew cleanEclipse
 
 
+* gradle 업데이트
+C:\workspace\java-web\gradle\wrapper    
+distributionUrl=https\://services.gradle.org/distributions/gradle-4.3.1-bin.zip
 
 
 2) build.gradle 수정해서 jdk9으로 설정
@@ -278,6 +286,8 @@ eclipse {
 
 3) gradle을 이용해서 .project 파일, .classpath파일과 org.eclipse.jdt.core.prefs 파일 생성
 
+java-basic> gradlew clean
+
 java-basic> gradlew cleanEclipse
 
 java-basic> gradlew Eclipse
@@ -291,6 +301,10 @@ java-basic> gradlew Eclipse
   org.eclipse.jdt.core.compiler.codegen.targetPlatform=9
   org.eclipse.jdt.core.compiler.source=9
   org.eclipse.jdt.core.compiler.compliance=9
+
+ - Eclipse
+    Project 메뉴 > Build Automatically 체크 확인
+    Project 메뉴 > clean 해서 해당 프로젝트만 Clean 클릭해서 청소
 
 
 4) eclipse 에 Import
@@ -342,10 +356,14 @@ File => Import => General => Existing Projects into WorkSpace => Browse(폴더선택
    
 
 
+* 파일명 변경
+ - 윈도우 대소문자 구분하지 않기 때문에 다른 문자를 붙이고 다시 정확하게 입력
 
 
 
-@@ Eclipse에서 Git 사용   https://backlog.com/git-tutorial/kr/
+
+
+@ Eclipse에서 Git 사용   https://backlog.com/git-tutorial/kr/
 
 
 @ Git Push 및 Pull
@@ -584,7 +602,9 @@ Alt + Shift + I : Inline
  
  @ 기본 Overiding 만들기
 
-   클래스 파일에서 Ctrl + Space 한 후 오버라이딩할 메서드 선택
+   방법1)   클래스 파일에서 Ctrl + Space 한 후 오버라이딩할 메서드 선택 
+   
+   방법2) 해당 클래스로 가서 F2를 누른후 Add unimplemented methods 클릭
 
 
  @ toString(), hashCode(), equals() 오버라이딩 만들기
@@ -599,9 +619,9 @@ Alt + Shift + I : Inline
 ================================================================
 
 
-Java SE : 
-Java ME : Embedded Java
-Java EE
+Java SE : Standard Edition
+Java ME : Embedded Edition
+Java EE : Enterprise Edition
 
 
 Public Key        Private Key
@@ -657,7 +677,7 @@ http://tomcat.apache.org/
 
 
 
-=============================================================================
+====================================================================
 
 
  -. 클래스 테스트 할 경우 main 함수를 만들어서 테스트한다.
@@ -667,7 +687,7 @@ http://tomcat.apache.org/
  -. main 이 있는 소스로 이동해서 run을 해야한다.
 
 
-=============================================================================
+=====================================================================
 
 
 @ 클래스 로딩되는 시점
@@ -1085,7 +1105,7 @@ public class Test9 {
   
 
 
-=============================== 다형적 변수 (Polymorphism) ========================================
+============== 다형적 변수 (Polymorphism) ================================
 
  수퍼 클래스의 레퍼런스는 서브 클래스의 인스턴스를 주소를 저장할 수 있다.
 
@@ -1378,7 +1398,7 @@ public class Test9 {
 
 
 
-======================================= 추상클래스 ======================================
+===================== 추상클래스 ====================================
 
 -. 서브 클래스가 사용할 필드와 메서드를 물려주는 역할을 한다.
 
@@ -2999,8 +3019,9 @@ https://github.com/ronmamo/reflections
 
 https://mdn.mozilla.org/ko/
 
-
-
+스프링 강좌
+http://wiki.gurubee.net/display/LECTURE/Home
+https://yangbongsoo.gitbooks.io/study/
 
 
 
@@ -3130,9 +3151,9 @@ tail -f catalina.out
 
 
 
-//==============================================================================================
+//==================================================================
 //* 톰캣 설치 및 서버 실행
-//==============================================================================================
+//==================================================================
 
  기존 방식의 문제점
  - HTTP 프로토콜을 정교하게 제어하지 못한다.
@@ -3227,9 +3248,35 @@ tail -f catalina.out
     - 사용자가 요청하지 않아도 자동으로 생성되게 loadOnStartup 속성을 추가하라!
 
 
+  
+  <!-- Login Test -->
+  <filter>
+    <filter-name>RequestLoggingFilter</filter-name>
+    <filter-class>login.RequestLoggingFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>RequestLoggingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+  
+  <filter>
+    <filter-name>AuthenticationFilter</filter-name>
+    <filter-class>login.AuthenticationFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>AuthenticationFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <!-- Login Test -->
 
 
 
+
+http://www.tutorialspoint.com/
+http://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 
 
 
