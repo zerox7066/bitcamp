@@ -3,6 +3,7 @@ package java100.app.servlet.board;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +16,7 @@ import java100.app.listener.ContextLoaderListener;
 
 
 @SuppressWarnings("serial")
-@WebServlet("/board/update")
+@WebServlet("/board/update1")
 public class BoardUpdateServlet extends HttpServlet {
     
     @Override
@@ -24,9 +25,23 @@ public class BoardUpdateServlet extends HttpServlet {
         
         BoardDao boardDao = ContextLoaderListener.iocContainer.getBean(BoardDao.class);
 
-        response.setContentType("text/plain;charset=UTF-8");
+        response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
-        out.println("[게시물 변경]");
+        
+        out.println("<!DOCTYPE html>");
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<title>게시물관리</title>");
+        out.println("<link rel='stylesheet' href='../node_modules/bootstrap/dist/css/bootstrap.min.css'>");
+        out.println("<link rel='stylesheet' href='../css/common.css'>");
+        out.println("</head>");
+        out.println("<body>");
+        out.println("<div class='container'>");
+        
+        RequestDispatcher rd = request.getRequestDispatcher("/header");
+        rd.include(request, response);
+        
+        out.println("<h1>게시물 변경</h1>");
         
         try {
             Board board = new Board();
@@ -35,15 +50,29 @@ public class BoardUpdateServlet extends HttpServlet {
             board.setContent(request.getParameter("content"));
             
             if (boardDao.update(board) > 0) {
-                out.println("변경하였습니다.");
+                out.println("<p>변경하였습니다.</p>");
             } else {
-                out.printf("'%d'번 게시물이 없습니다.\n", board.getNo());
+                out.printf("<p>'%s'의 게시물 정보가 없습니다.</p>\n", board.getNo());
             }
             
         } catch (Exception e) {
             e.printStackTrace(); // for developer
             out.println(e.getMessage()); // for user
         }
+        
+        out.println("<p><a href='list' class='btn btn-primary btn-sm'>목록</a></p>");    
+        
+        rd = request.getRequestDispatcher("/footer");
+        rd.include(request, response);
+        
+        out.println("</div>");
+        
+        out.println("<script src='../node_modules/jquery/dist/jquery.slim.min.js'></script>");
+        out.println("<script src='../node_modules/popper.js/dist/umd/popper.min.js'></script>");
+        out.println("<script src='../node_modules/bootstrap/dist/js/bootstrap.min.js'></script>");
+        
+        out.println("</body>");
+        out.println("</html>");
     }
 }
 

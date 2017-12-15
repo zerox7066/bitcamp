@@ -91,7 +91,7 @@ public class MemberDaoImpl implements MemberDao {
         try {
             con = ds.getConnection();
             pstmt = con.prepareStatement(
-                    "update ex_memb set name=?,email=?,pwd=password(?) where no=?");
+                    "update ex_memb set name=?, email=?, pwd=password(?) where no=?");
             
             pstmt.setString(1, member.getName());
             pstmt.setString(2, member.getEmail());
@@ -137,7 +137,7 @@ public class MemberDaoImpl implements MemberDao {
         try {
             con = ds.getConnection();
             pstmt = con.prepareStatement(
-                    "select no,name,email,regdt from ex_memb where no=?");
+                    "select no,name,email,regdt, pwd from ex_memb where no=?");
             
             pstmt.setInt(1, no);
             
@@ -151,6 +151,7 @@ public class MemberDaoImpl implements MemberDao {
                 member.setName(rs.getString("name"));
                 member.setEmail(rs.getString("email"));
                 member.setCreatedDate(rs.getDate("regdt"));
+                member.setPassword(rs.getString("pwd"));
                 
             } 
             

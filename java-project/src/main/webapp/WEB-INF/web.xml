@@ -18,5 +18,20 @@
         <listener-class>java100.app.listener.ContextLoaderListener</listener-class>
     </listener>
     
+    <!-- 필터 배치 -->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>java100.app.filter.CharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>*</url-pattern>
+    </filter-mapping>
+    
       
 </web-app>

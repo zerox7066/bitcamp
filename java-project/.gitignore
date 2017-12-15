@@ -1,2 +1,13 @@
-/.gradle/
-/build/
+**/node_modules
+**/.vscode
+**/bin
+**/build
+**/.gradle/
+**/.classpath
+**/temp/
+**/.class
+**/.log
+**/.DS_Store
+**/.settings
+**/.project
+!build.gradle
