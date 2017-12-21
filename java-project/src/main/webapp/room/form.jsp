@@ -14,12 +14,10 @@
 <body>
 <div class='container'>
 
-<header>
 <jsp:include page="../header.jsp"/>
-</header>
 
 <h1>새 강의실 정보</h1>
-<form action="add.jsp" method='post'>
+<form action="add.do" method='post'>
 <div class='form-group row'>
 <label for='location' class='col-sm-2 col-form-label'>지역</label>
 <div class='col-sm-10'>
@@ -44,10 +42,8 @@
 </div>
 </div>
 </form>
- 
-<footer>
- <jsp:include page="../footer.jsp"></jsp:include>
-</footer>
+
+<jsp:include page="../footer.jsp"></jsp:include>
 
 </div>
 

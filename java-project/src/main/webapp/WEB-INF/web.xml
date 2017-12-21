@@ -5,23 +5,11 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
   version="3.1"
   metadata-complete="false">
-
-
-    <!-- 컨텍스트 배치 -->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>java100.app.AppConfig</param-value>
-    </context-param>
-
-    <!-- 리스너 배치 -->
-    <listener>
-        <listener-class>java100.app.listener.ContextLoaderListener</listener-class>
-    </listener>
-    
+        
     <!-- 필터 배치 -->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
-        <filter-class>java100.app.filter.CharacterEncodingFilter</filter-class>
+        <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
         <init-param>
             <param-name>encoding</param-name>
             <param-value>UTF-8</param-value>
@@ -33,5 +21,33 @@
         <url-pattern>*</url-pattern>
     </filter-mapping>
     
-      
+    <!-- Dispatcher Servlet 배치 -->
+    <servlet>
+        <servlet-name>dispatch</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        
+        <!--  스프링 설정을 XML로 할 것인지 Java 객체로 할 것인지 지정한다.
+              기본 값은 XmlWebApplicationContext를 이용하여 
+              XML 파일로 설정 정보를 다룬다. -->
+        <init-param>
+            <param-name>contextClass</param-name>
+            <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
+        </init-param>
+        
+        <!-- 위에서 지정한 IoC 컨테이너가 사용할 설정 정보를 지정한다.
+             XmlWebApplicatioonContext인 경우 *.xml 파일의 경로를 지정한다.
+             AnnotationConfigWebApplicationContext인 경우
+             @Configuration 애노테이션이 붙은 자바 클래스 이름을 지정한다. -->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>java100.app.AppConfig</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatch</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+    
 </web-app>

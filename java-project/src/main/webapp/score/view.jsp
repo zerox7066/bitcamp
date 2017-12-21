@@ -1,13 +1,10 @@
-<%@page import="java.io.PrintWriter"%>
-<%@page import="java100.app.listener.ContextLoaderListener"%>
-<%@page import="java100.app.dao.ScoreDao"%>
 <%@page import="java100.app.domain.Score"%>
 <%@ page language="java" 
     contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
     trimDirectiveWhitespaces="true"%>
     
-
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,103 +14,77 @@
 </head>
 <body>
 <div class='container'>
-<header>
 
 <jsp:include page="../header.jsp"></jsp:include>
 
-</header>
 <h1>성적 상세 정보</h1>
+<c:if test="${not empty score}">
 
-        
-<%
-ScoreDao scoreDao = ContextLoaderListener.iocContainer.getBean(ScoreDao.class);
-
-try {
-    int no = Integer.parseInt(request.getParameter("no"));
-    Score score = scoreDao.selectOne(no);
-         
-    if (score != null) {
-%>
-
-	<form action='update.jsp' method='post'>
+	<form action='update.do' method='post'>
 	  
 	<div class='form-group row'>
 	<label for='no' class='col-sm-2 col-form-label'>번호</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' readonly id='no' type='number' name='no' value='<%=score.getNo()%>'>
+	  <input class='form-control' readonly id='no' type='number' name='no' value='${score.no}'>
 	</div>
 	</div>
 	
 	<div class='form-group row'>
 	<label for='name' class='col-sm-2 col-form-label'>이름</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' id='name' type='text' name='name' value='<%=score.getName()%>'>                
+	  <input class='form-control' id='name' type='text' name='name' value='${score.name}'>                
 	</div>
 	</div>
 	
 	<div class='form-group row'>
 	<label for='kor' class='col-sm-2 col-form-label'>국어</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' id='kor' type='number' name='kor' value='<%=score.getKor()%>'>                
+	  <input class='form-control' id='kor' type='number' name='kor' value='${score.kor}'>                
 	</div>
 	</div>
 	
 	<div class='form-group row'>
 	<label for='eng' class='col-sm-2 col-form-label'>영어</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' id='eng' type='number' name='eng' value='<%=score.getEng()%>'>                
+	  <input class='form-control' id='eng' type='number' name='eng' value='${score.eng}'>                
 	</div>
 	</div>
 	
 	<div class='form-group row'>
 	<label for='math' class='col-sm-2 col-form-label'>수학</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' id='math' type='number' name='math' value='<%=score.getMath()%>'>                
+	  <input class='form-control' id='math' type='number' name='math' value='${score.math}'>                
 	</div>
 	</div>
 	
 	<div class='form-group row'>
 	<label for='sum' class='col-sm-2 col-form-label'>합계</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' readonly id='sum' type='text' value='<%=score.getSum()%>'>                
+	  <input class='form-control' readonly id='sum' type='text' value='${score.sum}'>                
 	</div>
 	</div>
 	
 	<div class='form-group row'>
 	<label for='aver' class='col-sm-2 col-form-label'>평균</label>
 	<div class='col-sm-10'>
-	  <input class='form-control' readonly id='aver' type='text' value='<%=score.getAver()%>'>                
+	  <input class='form-control' readonly id='aver' type='text' value='${score.aver}'>                
 	   </div>
 	   </div>
 	     
 	<div class='form-group row'>
 	<div class='col-sm-10'>
 	<button class='btn btn-primary btn-sm'>변경</button>
-	  <a href='delete.jsp?no=<%=score.getNo()%>' class='btn btn-primary btn-sm'>삭제</a>             
+	  <a href='delete.do?no=${score.no}' class='btn btn-primary btn-sm'>삭제</a>             
 	</div>
 	</div>
 	</form>
-   
-<%     
-    } else {
-%>
+</c:if>
 
-'<%=no%>'의 성적 정보가 없습니다.
+<c:if test="${empty score}">
+    <p>'${param.no}'의 성적 정보가 없습니다.</p>
+</c:if>
 
-<% 
-    }
-
-} catch (Exception e) {
-    e.printStackTrace();
-%>
-    <%=e.getMessage()%>  
-<%
-}
-%>
- 
-<footer>
 <jsp:include page="../footer.jsp"></jsp:include>
-</footer>
 
 </div>
 

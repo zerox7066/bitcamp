@@ -3,8 +3,6 @@
     pageEncoding="UTF-8"
     trimDirectiveWhitespaces="true"%>
     
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,12 +13,10 @@
 <body>
 <div class='container'>
 
-<header>
 <jsp:include page="../header.jsp"/>
-</header>
 
 <h1>새 게시물</h1>
-<form action="add.jsp" method='post'>
+<form action="add.do" method='post'>
 <div class='form-group row'>
 <label for='title' class='col-sm-2 col-form-label'>제목</label>
 <div class='col-sm-10'>
@@ -40,9 +36,7 @@
 </div>
 </form>
  
-<footer>
 <jsp:include page="../footer.jsp"></jsp:include>
-</footer>
 
 </div>
 

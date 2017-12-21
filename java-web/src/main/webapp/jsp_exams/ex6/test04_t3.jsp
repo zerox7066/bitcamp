@@ -12,8 +12,7 @@
 <h1>jsp:getProperty</h1>
 겟터 호출하기
 setPropey를 사용하는 경우 new 명령을 사용하여 객체를 만든 후 PageContext에 담아 놓고,<br>
-그 객체를 PageContext에 담아 놓고 사용해도 문제가 없는데,<br>
-
+그 객체를 PageContext에 담아 놓고 사용해도 문제가 없다.<br>
 
 
 <jsp:useBean id="m" class="domain.Member">
