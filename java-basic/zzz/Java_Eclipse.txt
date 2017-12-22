@@ -40,6 +40,9 @@ http://www.tutorialspoint.com/design_pattern/factory_pattern.htm
 
 레거시 코드 활용 전략 - Michael Feathers
 
+정규 표현식 > 초보자를 위한 정규 표현식 가이드 (자바스크립트 기준)
+https://www.slideshare.net
+
 
 
 마지막으로 작성한 코드의 설계를 공유하거나 설계 초안을 만들 때 사용되는 다이어그램 작성 방법을 빠르게 익히고 싶다면 아래 책이 제격이다.
