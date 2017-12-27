@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/v02/test15")
 public class Test15 {
     
-    //http://localhost:9999/spring-webmvc/app/v02/test15/board/100
+    //http://localhost:9999/spring-webmvc/app/v02/test15/board/10
     
     @RequestMapping("/board/{no}")
     public String m1(@PathVariable("no") int no) {

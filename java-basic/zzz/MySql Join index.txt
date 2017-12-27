@@ -1,0 +1,375 @@
+﻿@ Join     https://zetawiki.com/wiki/MySQL_합집합,_교집합,_차집합,_대칭차
+
+ - A 만 Left Join (Left Outer Join)
+ 
+   select a.column, b.column
+   from TableA A
+   left join TableB b
+   on a.key = b.key
+
+
+ - 차집합
+ 
+   select a.column, b.column
+   from TableA A
+   left join TableB b
+   on a.key = b.key
+   where b.key is null
+
+
+   SELECT str FROM tableA WHERE str NOT IN (
+	SELECT DISTINCT str FROM tableB ); 
+
+
+
+
+ - 교집합 
+
+   SELECT <select_list> 
+   FROM TableA A
+   INNER JOIN TableA B
+   ON A.Key = B.Key 
+
+
+   SELECT a.str FROM tableA a, tableB b WHERE a.str = b.str;
+
+
+
+
+ - 합집합 : MySql에서는 Full Outer Join이 없음
+
+  SELECT str FROM tableA
+  UNION
+  SELECT str FROM tableB;
+
+
+
+ - 대칭차집합
+
+   SELECT str FROM (
+	SELECT str FROM tableA
+	UNION ALL
+	SELECT str FROM tableB
+   ) AS tmp
+   GROUP BY str HAVING COUNT(*)=1
+
+
+
+  SELECT str FROM tableA WHERE str NOT IN ( SELECT DISTINCT str FROM tableB )
+  UNION ALL
+  SELECT str FROM tableB WHERE str NOT IN ( SELECT DISTINCT str FROM tableA )
+
+
+
+
+index란?
+
+검색을 빠른 속도로 하기 위해서 사용됩니다.
+SQL 명령문의 처리 속도를 향상시키기 위해서 컬럼에 대해서 생성하는 오라클 객체임.
+
+--index 사용해야할 경우
+테이블에 행의 수가 많을때
+조건절인 where문에 해당 컬럼이 많이 사용될때
+검색 결과가 데이터의 2% ~ 4% 정도일때(적은 양의 컬럼을 가져올때)
+join에 자주 사용되는 컬럼
+NULL을 포함하는 컬럼이 많은 경우
+
+--index 사용하지 말아야 하는 경우
+테이블에 행의 수가 적을때
+where 문에 해당 컬럼이 자주 사용되지 않을 때
+검색 결과가 전체 데이터의 10% ~ 15% 이상 높을 때(많은 양의 컬럼을 가져올대)
+테이블에 DML 작업이 많은 경우(입력,수정,삭제 등이 자주 발생할때)
+
+--index 딕션너리
+USER_INDEXES :인덱스 이름 및 고유성을 포함
+USER_IND_COLUMNS : 인덱스 이름, 테이블 이름, 열 이름 포함
+
+--index 생성법
+create index index명 on table명(index걸어줄 table에 colum명);
+ex)create index idx_emp_ename on emp(ename);
+
+--index 제거
+drop index index명
+ex)drop index idx_emp_ename;
+
+--index 재생성
+alter index index명 rebuild;
+ex)alter index idx_emp_ename rebuild;
+
+--index 조회(index를 모두 보여준다.)
+select object_name, object_type
+from user_objects
+where object_type ='INDEX';
+
+효율성이 떨어지면 인덱스를 재 생성해 주어야 한다.
+컬럼의 데이터가 입력,수정,삭제될 경우 해당 컬럼에 의해 생성된 인덱스에 대해서 재구성 해야 된다.
+
+--index 종류
+Unique Index(고유 인덱스) - 유일한 값을 갖는 컬럼에 대해서 생성하는 인덱스
+NonUnique Index(비고유 인덱스) - 중복된 데이터를 갖는 컬럼에 대해서 생성하는 인덱스
+Single Index(단일 인덱스)
+Composite Index(결합 인덱스)
+ 결합 인덱스 우선순위
+ 1순위 - 컬럼이 사용한 연산자에 의한 인덱스 컬럼 선정
+ 2순위 - 랜덤 액세스를 고려한 인덱스 컬럼 선정
+ 3순위 - 정렬 제거를 위한 인덱스 컬럼 선정
+ 4순위 - 단일 컬럼의 분포도를 고려한 인덱스 컬럼 선정
+ 
+ 위의 우선순위 구성 규칙의 이유는 디스크 I/O를 가장 적게 발생시키기 위해서다.
+ 
+Function Based Index(함수 기반 인덱스)
+ 표현식을 기반으로 하는 인덱스
+ 인덱스 표현식은 테이블 열, 상수, SQL 함수 및 사용자가 정의한 함수로부터 생성
+
+
+
+1.컬럼의 중간 부분의 검색
+ create index from_loc_idx on orders(sbstr(ship_id,5,3));
+ create index repair_loc_idx on orders(substr(ship_id,3,2,),ord_date);
+
+ 2.조인 연결고리 컬럼이 대응하지 않는 경우의 해결
+ ...
+ from item_group x,items y
+ where x.class1||x.class2||x.class3 = y.group_cd....
+    ▽
+ ...
+ from item_group x, items y
+ where x.class1 = substr(y.group_cd,1,2)
+ and x.class2 = substr(y.group_cd,3,2)
+ and x.class3 = substr(y.group_cd,5,3)
+ ...
+    ▽ 
+ create index group_cd_idx_ on item_group(class1||class2||class3);
+
+ 3.일자 컬럼이 분활된 경우의 해결
+ where sal_yyyy >='2005' and sal_mm >='12' and sal_dd>='10' (x)
+   ▽
+ where sal_yyyy||sal_mm||sal_dd >='20051210' (o)
+   ▽
+ create index sal_date_idx on  sales(sal_yyyy||sal_mm||sal_dd);
+ 
+ 4.데이타 타입이 상이한 조인 컬럼
+ create index deptno_idx on emp(to_number(deptno));
+
+ 5.조인 컬럼이 경우에 따라 달라지는 경우
+ ...
+ from sales s, department d
+ where d.deptno = (case when sal_type = 1 then sal_dept else agent_no end)
+ and d.location = 'BUSAN'
+ '''
+     ▽
+ create index deptno_idx on sales(case when sal_type = 1 then sal_dept else agent_no end); 
+ 
+ 6.대/소문자나 공백이 혼재된 컬럼의 검색
+ create index ename_upper_ix on employees(upper(ename));(대문자)
+   
+ create index ename_upper_ix on employees(upper(replace(ename,''));(대문자/공백)
+ 
+ 7.NULL 값을 치환하여 검색
+ ...
+ where :input_date between start_date and nvl(end_date,'99991231');
+ ...
+    ▽
+ create index end_date_idx on account_history(nvl(end_date,'99991231'),start_date);
+ 
+ 8.복잡한 계산 결과의 검색
+ create index order_amount_idx on order_items(item_cd,(order_price - nvl(order_discount,0)) * order_count));
+    
+ select/*+index_desc(x order_amount_idx)*/ *
+ from ordero_items x
+ where item_cd =:b1
+ and rownum <= 100;
+ 
+ 9.기간, 컬럼 길이 검색
+ create index item_idx on activities (expire_date - start_date); (기간)
+ create index source_length_idx on print_media(text_length(source_text));(컬럼 길이)
+ 
+ 10.배타적 관계의 유일성 보장
+ create unique index official_id_idx on customers
+  (case when cust_type=1 then resident_id else business_id end);
+ 
+ select * from customers
+ where(case when cust_type=1 then resident_id else business_id end) =:b1;
+ 함수기반 인덱스는 버전에 따라 제약사항에 차이가 있으므로 관련 메뉴얼을 참조해야함.
+ 
+ex)DATE TYPE 과 함수기반인덱스 활용 예
+DATE TYPE으로 칼럼을 설계했을경우 일자만 비교하고 싶으면 TRUNC(DATE_COL)이렇게 하면됨
+그런데 이런 함수를 쓰면 INDEX를 사용할 수 없다.(해결방법 Function-Based index)
+
+create index ix_t on t(trunc(date_col)); (여기서 date_col은 date_type의 컬럼명)
+쿼리문
+select * from t
+where trunc(date_col) = '20091001';
+이렇게 하면 된다.
+ 
+trunc(date_col)이 부분을 간편하게 이용하려면 뷰를 이용
+
+create view v_t
+as
+select trunc(date_col) as date_col from t;
+이러면 , 쿼리문이
+select * from t
+where date_col = '20091001';
+
+
+
+[고유인덱스]-단일
+ create unique index idx_dept_deptno on dept(deptno);
+[비고유인덱스]-단일
+ create index idx_dept_loc on dept(loc);
+[결함 인덱스]
+ create index ind_dept_com on dept(deptno,loc);
+[함수기반 인덱스]
+
+ create table emp as select * from emp;
+ 검색 조건으로 sal*12 = 3600 을 지정하는 경우, 이럴경우 sal*12를 인덱스를 탈 수 없을수 있다.
+ 이럴때 구성하는 인덱스가 함수기반 인덱스 입니다.
+ create index idx_emp_annsal on emp(sal*12);(함수기반 인덱스 생성)
+ 
+ select index_name, column_name
+ from user_ind_columns
+ where table_name='emp'; (인덱스 생성 확인)
+
+--where 절의 사용에 따른 인덱스 활용
+ 점 조건 :IN,= -->해당 연산자는 하나의 점만을 의미
+ 선분 조건:LIKE,BETWEEN,<,> -->해당 조건을 만족하는 모든 실수를 의미
+
+ 조건에 사용된 연산자에 의해 액세스해야 하는 처리 범위 차이
+
+ 점 조건 + 점 조건 : 두 조건에 의해 처리 범위 감소
+ 점 조건 + 선분 조건 : 두 조건에 의해 처리 범위 감소
+ 선분 조건 + 선분 조건 : 앞의 선분 조건에 의해서만 처리 범위 감소
+ 선분 조건 + 점 조건 : 앞의 선분 조건에 의해서만 처리 범위 감소
+ 
+ 단일 인덱스보다는 결합 인덱스를 사용하고 점 조건을 우선적으로 인덱스 조건으로 해야 성향상을 기대할 수 있다.
+
+--index 사용/불가 예
+
+* 인덱스를 타지 않는 SQL
+1. 인덱스 컬럼 절의 변형
+2. 내부적인 데이터 변환
+3. NULL 조건의 사용
+4. 부정형 조건의 사용
+5. LIKE 연산자 사용
+6. 최적기가 판단
+
+1 - 인덱스 컬럼 절의 변형
+SQL> select ename from emp where sal * 2.1 > 950 --인덱스 사용불가
+SQL> select ename from emp where sal > 950 /2.1  --인덱스 사용가능
+SQL> select ename from emp where to_char(hiredate,'DDMMYY') = '250884' --인덱스 사용불가
+SQL> select ename from emp where hiredate = to_date('250884','DDMMYY') --인덱스 사용가능
+
+-> 인덱스 컬럼에 변형을 가하면은 사용할수 없습니다. 단 변형 가능하더라도 쓰고 싶다면은
+    말리지는 않겠지만 create index .... on emp to_char(hiredate,'DDMMYY') 이렇게 하시면 됩니다.
+
+2 - 내부적인 데이터 변환
+SQL> select * from emp where hiredate ='14-JAN-85' --인덱스 사용불가
+SQL> select * from emp hiredate = to_date('71-10-22','YY/DD/DD') --인덱스 사용가능
+SQL> select * from emp where empno = '7936' --인덱스 사용불가
+SQL> select * from emp where empno = to_number('7936') --인덱스 사용가능
+
+-> 내부적인 데이터변환에서 가장 많이 실수하는 부분은 문자값 데이터타입을 갖는 컬럼에
+    '값' -> 값 이렇게 하시는분이 많습니다. 딱맞는 데이터타입을 주세요 ^_^
+
+3 - NULL 조건의 사용
+SQL> select ename from emp where comm is null --인덱스 사용불가
+SQL> select ename from emp where comm is not null --인덱스 사용불가
+SQL> select ename from emp where ename > '' --인덱스 사용가능
+SQL> select ename from emp where comm >= 0 --인덱스 사용가능
+
+-> NULL조건으로 검색한다는 가정하에는 거의 인덱스 풀 스캔이 일어나겠죠. 적절히 사용합씨다.
+
+
+
+4 - 부정형 조건의 사용
+SQL> select ename from emp where deptno != 30 --인덱스 사용불가
+SQL> select ename from emp where deptno < 30 and deptno > 30 --인덱스 사용가능
+
+-> 논리적으로 부정형을 이용하여 인덱스를 사용하겠다는것은 말이 안되죠...
+    이 쿼리문도 적절히 사용합씨다.
+
+5 - Like 연산자 사용
+SQL> select * from emp where ename like 'S%' --인덱스 사용가능
+SQL> select * from emp where ename like '%S%' --인덱스 사용불가
+
+-> %S% 부분을 꼭 쓰고싶다면은 이렇게 하세요 앞에부분을 다 넣는거죠. AS%, BS%...
+    요즘 홈피를 보면 본문 찾기는 거의 없어져가고 있죠. 엔코아 경우 주제어를 검색을..
+
+
+6 - 최적기가 판단
+
+-> RBO경우 무조건 타죠 있으면은 이눔은 워낙 법을 좋아해서리..CBO는 통계값을 기준으로
+    하기 때문에 DBA가 잘 해야겠죠. 그럼 우리가 판단하게 할라면은 HINT를 써서 이눔들을
+    인도해야죠... 오늘도 전도를 ^____^
+
+
+마지막으로 인덱스를 이용한 sort 회피 방법에 대해서 알아보겠습니다.
+SQL> select empno, ename, job, comm from emp order by empno --sort 정렬
+SQL> select empno, ename, job, comm from emp where empno >= 0 --sort 정렬제거
+
+-> 인덱스는 값이 정렬되어 들어가있는 구조이기 때문에 처음부터 작은값 맨 끝값은
+    최대값이 있겠죠. 잘 사용하면 최고의 튜닝이 되겠죠.
+
+--Optimizer Hint Syntax(Hint 사용)
+
+-----> SELECT -----> /*+ hint 절*/ ------->
+DELETE
+UPDATE
+또는
+-----> SELECT -----> --+ hint 절 ------->
+DELETE
+UPDATE
+
+Hint 절에는 다음 조건들을 부여할 수 있다.
+
+1. FULL(table_name)
+: table을 full scan하길 원할 때 사용함.
+
+2. INDEX(table_name index_name[index])
+: 특정 index를 사용하도록 할 때 사용함.
+
+3. INDEX_ASC(table_name index_name[index])
+
+4. INDEX_DESC(table_name index_name[index])
+
+5. AND_EQUALS(table_name index_name index_name[index])
+
+6. ROWID(table_name)
+
+7. CLUSTER(table_name)
+
+8. HASH(table_name)
+
+9. ORDERED
+
+10. USE_MERGE(table_name)
+
+11. USE_NL(table_name)
+
+Hint를 사용하여 특정 index를 사용한 update의 예
+
+(이 결과는 7.3 이상에서 제공되는 auto trace를 사용하는 방법이나
+execution plan 또는 tkprof를 이용하여 확인할 수 있다.)
+
+Update /*+ INDEX (e1 e_job) */
+Emp e1
+SET sal =
+(SELECT --+ INDEX (e1 e_dept)
+(e1.sal + AVG(e2.sal))/2
+FROM emp e2
+WHERE e2.deptno = e1.deptno)
+WHERE job = 'CLERK'
+AND deptno BETWEEN 10 AND 40;
+
+
+
+
+
+
+
+
+
+
+
+
+
