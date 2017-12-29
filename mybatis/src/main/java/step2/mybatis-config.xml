@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+  
+  <environments default="development">
+    
+    <!-- DBMS 연결 정보 -->
+    <environment id="development">
+      <transactionManager type="JDBC"/>
+      <dataSource type="POOLED">
+        <property name="driver" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/studydb"/>
+        <property name="username" value="study"/>
+        <property name="password" value="1111"/>
+      </dataSource>
+    </environment>
+    
+  </environments>
+  
+  <!-- SQL문이 있는 위치정보를 가지고 있는 xml -->
+  <mappers>
+    <mapper resource="step2/jdbcTestMapper.xml"/>
+  </mappers>
+  
+</configuration>
