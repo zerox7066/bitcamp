@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="java100.app.dao.BoardDao">
+
+    <resultMap type="board" id="boardMap">
+        <id column="no" property="no"/>
+        
+        
+        <!-- <result column="title" property="title"/> -->
+        
+        <result column="conts" property="content"/>
+        <result column="regdt" property="regDate"/>
+        <result column="vwcnt" property="viewCount"/>
+    </resultMap>
+
+<!-- 
+    <sql id="select1">
+        select 
+            no, 
+            name, 
+            (kor + eng + math) as sum,
+            ((kor + eng + math) / 3) as aver
+    </sql>
+ -->
+ 
+    <select id="findAll" resultMap="boardMap" parameterType="map">
+        select 
+            no,
+            title,
+            regdt,
+            vwcnt 
+        from ex_board
+        
+        <if test="titles != null">
+	        <where>
+	            <foreach collection="titles" item="title">
+	                or title like '${title}%'
+	            </foreach>
+	        </where>
+        </if>
+        
+        order by
+        <choose>
+            <when test="orderColumn == 'vwcnt' and align == 'desc'">
+                vwcnt desc
+            </when>
+            <when test="orderColumn == 'vwcnt' and align == 'asc'">
+                vwcnt asc
+            </when>
+            <otherwise>
+                no asc
+            </otherwise>
+        </choose>
+    </select>
+    
+    <select id="findByNo" resultMap="boardMap" parameterType="int">
+        select 
+            no,
+            title,
+            conts,
+            regdt,
+            vwcnt 
+        from ex_board
+        where no=#{value}
+    </select>
+    
+    <update id="updateViewCount" parameterType="int">
+        update ex_board set 
+        vwcnt=vwcnt + 1
+        where no=#{value}
+    </update>
+    
+    <insert id="insert" parameterType="board">
+        insert into ex_board(title,conts,regdt)
+        values(#{title},#{content},now())
+    </insert>
+    
+    <update id="update" parameterType="board">
+        update ex_board set 
+        title=#{title}, conts=#{content}
+        where no=#{no}
+    </update>
+    
+    <delete id="delete" parameterType="int">
+        delete from ex_board 
+        where no=#{value}
+    </delete>
+
+</mapper>

@@ -5,8 +5,7 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
   version="3.1"
   metadata-complete="false">
-        
-    <!-- 필터 배치 -->
+    
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -21,33 +20,51 @@
         <url-pattern>*</url-pattern>
     </filter-mapping>
     
-    <!-- Dispatcher Servlet 배치 -->
     <servlet>
         <servlet-name>dispatch</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         
-        <!--  스프링 설정을 XML로 할 것인지 Java 객체로 할 것인지 지정한다.
-              기본 값은 XmlWebApplicationContext를 이용하여 
-              XML 파일로 설정 정보를 다룬다. -->
+        <!-- 스프링 WebMVC가 사용할 IoC 컨테이너를 설정한다.
+             지정하지 않으면 XmlWebApplicationContext가 사용된다.
+         -->
+        <!--  
         <init-param>
             <param-name>contextClass</param-name>
             <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
         </init-param>
+        -->
         
-        <!-- 위에서 지정한 IoC 컨테이너가 사용할 설정 정보를 지정한다.
-             XmlWebApplicatioonContext인 경우 *.xml 파일의 경로를 지정한다.
-             AnnotationConfigWebApplicationContext인 경우
-             @Configuration 애노테이션이 붙은 자바 클래스 이름을 지정한다. -->
+        <!--  
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>java100.app.AppConfig</param-value>
+        </init-param>
+        -->      
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>/WEB-INF/dispatch-servlet.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>dispatch</servlet-name>
-        <url-pattern>*.do</url-pattern>
+        <url-pattern>/app/*</url-pattern>
     </servlet-mapping>
     
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
+
+
+
+
+
+
+
+
+
+

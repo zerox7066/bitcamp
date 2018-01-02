@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 
 import java100.app.util.DataSource;
 
-@Configuration 
-@ComponentScan("java100.app") 
+//@Configuration 
+//@ComponentScan("java100.app") 
 public class AppConfig {
     
     @Bean 
