@@ -3746,3 +3746,29 @@ public class Test01 {
   </list>
  </property>
 </bean>
+
+
+
+
+* jsp 폼 캐시 문제
+
+  - bootstrap 버전 확인 
+ 
+  - css 파일 캐시 삭제
+
+  - 소스 보기에서 css 클릭해서 F5 클릭해서 리플레시
+
+ - 개발자 도구에서 네트워크에서 Disable cache 체크
+
+
+
+
+
+
+
+
+
+
+
+
+

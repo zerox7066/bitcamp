@@ -33,7 +33,7 @@
     <!-- 기본 ViewResolver를 교체한다. -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
-        <property name="prefix" value="/"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
     
@@ -57,9 +57,33 @@
     <context:property-placeholder location="classpath*:java100/app/jdbc.properties"/>
     
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-      <property name="basePackage" value="java100.app.dao" />
+        <property name="basePackage" value="java100.app.dao" />
     </bean>
+    
+    <mvc:interceptors>
+        <mvc:interceptor>
+             <mvc:mapping path="/**"/>
+             <mvc:exclude-mapping path="/auth/**"/>
+             <bean class="java100.app.web.interceptor.AuthInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

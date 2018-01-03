@@ -61,7 +61,6 @@
         </choose>
     </select>
     
-    
     <select id="findByNo" resultMap="memberMap" parameterType="int">
         select 
             no,
@@ -71,6 +70,17 @@
             pwd 
         from ex_memb
         where no=#{value}
+    </select>
+    
+    <select id="findByEmailAndPassword" resultMap="memberMap" parameterType="map">
+        select 
+            no,
+            name,
+            email,
+            regdt, 
+            pwd 
+        from ex_memb
+        where email=#{email} and pwd=password(#{password})
     </select>
     
     <insert id="insert" parameterType="member">

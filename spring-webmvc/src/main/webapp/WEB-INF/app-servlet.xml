@@ -13,7 +13,7 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     
     <!-- @Component, @Controller, @Service, @Repository -->
-    <context:component-scan base-package="java100.app.web.v03"/>
+    <context:component-scan base-package="java100.app.web.v04"/>
     
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
         <!-- webBindingInitializer 셋터 메서드 호출 -->
@@ -45,5 +45,14 @@
         <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    
+    <mvc:interceptors>
+        <bean class="java100.app.web.v04.Interceptor01"/>
+        <mvc:interceptor>
+            <mvc:mapping path="/v04/controller02/*"/>
+            <mvc:exclude-mapping path="/v04/controller02/m1"/>
+            <bean class="java100.app.web.v04.Interceptor02"/>
+        </mvc:interceptor>
+	</mvc:interceptors>
     
 </beans>
