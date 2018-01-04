@@ -1,0 +1,21 @@
+// Spring IoC(Inversion of Control) 컨테이너 사용
+
+package bitcamp.java100.ch20.ex17;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class Test1 {
+    
+    public static void main(String[] args) {
+        
+        AnnotationConfigApplicationContext appCtx = 
+                new AnnotationConfigApplicationContext(AppConfig.class);
+                
+        System.out.println("--------------------------------------------------------");
+        String[] names = appCtx.getBeanDefinitionNames();
+        for (String name : names) {
+            System.out.printf("%s => %s\n", name, appCtx.getBean(name));
+        }
+    }
+
+}
