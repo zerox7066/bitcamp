@@ -16,14 +16,15 @@ public class AuthInterceptor implements HandlerInterceptor {
             throws Exception {
         
         HttpSession session = request.getSession();
-        
-        if (session.getAttribute("loginUser") == null) {
-            response.sendRedirect(request.getServletContext().getContextPath() +
+
+        if (session.getAttribute("loginUser")  == null) {
+            response.sendRedirect(
+                    request.getServletContext().getContextPath() +
                     "/app/auth/login");
             return false;
         }
         
-        return HandlerInterceptor.super.preHandle(request, response, handler);
+        return true;
     }
 
 }

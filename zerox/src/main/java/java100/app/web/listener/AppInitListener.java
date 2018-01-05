@@ -10,6 +10,7 @@ public class AppInitListener implements ServletContextListener {
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
+        // 웹 애플리케이션이 시작될때 호출
         ServletContext ctx = sce.getServletContext();
         
         ctx.setAttribute("contextPath", ctx.getContextPath());
@@ -17,7 +18,7 @@ public class AppInitListener implements ServletContextListener {
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        // TODO Auto-generated method stub
+        // 웹 애플리케이션이 종료될때 호출
         
     }
 

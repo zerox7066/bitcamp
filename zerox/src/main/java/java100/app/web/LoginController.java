@@ -17,7 +17,6 @@ import org.springframework.web.bind.support.SessionStatus;
 import java100.app.dao.MemberDao;
 import java100.app.domain.Member;
 
-
 @Controller
 @RequestMapping("/auth")
 @SessionAttributes("loginUser")
@@ -30,12 +29,12 @@ public class LoginController {
         model.addAttribute("menuVisible", false);
         return "auth/loginform";
     }
-    
+
     @RequestMapping(value="login", method=RequestMethod.POST)
     public String login(
-            String email,
-            String password,
-            String saveEmail,
+            String email, 
+            String password, 
+            String saveEmail, 
             HttpServletResponse response,
             Model model) {
         HashMap<String,Object> params = new HashMap<>();
@@ -72,26 +71,8 @@ public class LoginController {
         
         return "redirect:login";
     }
-
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
