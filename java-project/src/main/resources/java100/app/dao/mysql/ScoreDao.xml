@@ -11,7 +11,7 @@
             no, 
             name,  
             (kor + eng + math) as sum,
-            (round((kor + eng + math) / 3 ,2)) as aver  
+            ((kor + eng + math) / 3) as aver
     </sql>
 
     <select id="findAll" resultType="score" parameterType="map">
@@ -41,6 +41,9 @@
                 no asc
             </otherwise>
         </choose>
+        
+        limit #{startIndex}, #{size}
+        
     </select>
     
     <select id="findByNo" resultType="score" parameterType="int">
@@ -50,6 +53,10 @@
             ,math
         from ex_score
         where no=#{value}
+    </select>
+    
+    <select id="countAll" resultType="int">
+        select count(*) from ex_score
     </select>
     
     <insert id="insert" parameterType="board">

@@ -59,6 +59,9 @@
                 no asc
             </otherwise>
         </choose>
+        
+        limit #{startIndex}, #{size}
+        
     </select>
     
     <select id="findByNo" resultMap="memberMap" parameterType="int">
@@ -70,6 +73,10 @@
             pwd 
         from ex_memb
         where no=#{value}
+    </select>
+    
+    <select id="countAll" resultType="int">
+        select count(*) from ex_memb
     </select>
     
     <select id="findByEmailAndPassword" resultMap="memberMap" parameterType="map">

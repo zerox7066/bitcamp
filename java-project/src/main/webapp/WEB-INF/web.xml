@@ -39,11 +39,13 @@
             <param-name>contextConfigLocation</param-name>
             <param-value>java100.app.AppConfig</param-value>
         </init-param>
-        -->      
+        -->
+        <!-- 
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>/WEB-INF/dispatch-servlet.xml</param-value>
         </init-param>
+         -->
         <load-on-startup>1</load-on-startup>
     </servlet>
 

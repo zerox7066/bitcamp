@@ -60,13 +60,15 @@
         <property name="basePackage" value="java100.app.dao" />
     </bean>
     
+    
     <mvc:interceptors>
         <mvc:interceptor>
              <mvc:mapping path="/**"/>
              <mvc:exclude-mapping path="/auth/**"/>
              <bean class="java100.app.web.interceptor.AuthInterceptor"/>
         </mvc:interceptor>
-    </mvc:interceptors>
+    </mvc:interceptors> 
+   
 </beans>
 
 

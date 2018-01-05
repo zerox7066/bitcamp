@@ -8,13 +8,14 @@
 
     <resultMap type="board" id="boardMap">
         <id column="no" property="no"/>
-        
-        
-        <!-- <result column="title" property="title"/> -->
-        
+        <result column="title" property="title"/>
         <result column="conts" property="content"/>
         <result column="regdt" property="regDate"/>
         <result column="vwcnt" property="viewCount"/>
+        <association property="writer" javaType="member">
+            <id column="m_no" property="no"/>
+            <result column="m_name" property="name"/>
+        </association>
     </resultMap>
 
 <!-- 
@@ -28,12 +29,15 @@
  -->
  
     <select id="findAll" resultMap="boardMap" parameterType="map">
-        select 
-            no,
-            title,
-            regdt,
-            vwcnt 
-        from ex_board
+        select
+            b.no,
+            b.title,
+            b.regdt,
+            b.vwcnt,
+            m.no as m_no,
+            m.name as m_name
+        from ex_board as b join ex_memb as m 
+          on b.mno=m.no
         
         <if test="titles != null">
 	        <where>
@@ -55,6 +59,9 @@
                 no asc
             </otherwise>
         </choose>
+        
+        limit #{startIndex}, #{size}
+        
     </select>
     
     <select id="findByNo" resultMap="boardMap" parameterType="int">
@@ -68,6 +75,10 @@
         where no=#{value}
     </select>
     
+    <select id="countAll" resultType="int">
+        select count(*) from ex_board
+    </select>
+    
     <update id="updateViewCount" parameterType="int">
         update ex_board set 
         vwcnt=vwcnt + 1
@@ -75,8 +86,8 @@
     </update>
     
     <insert id="insert" parameterType="board">
-        insert into ex_board(title,conts,regdt)
-        values(#{title},#{content},now())
+        insert into ex_board(title,conts,regdt,mno)
+        values(#{title},#{content},now(),#{writer.no})
     </insert>
     
     <update id="update" parameterType="board">
