@@ -38,7 +38,7 @@
 <input type="file" class="form-control-file" id="file1" name="file">
 </div>
 </div>
-<!-- 
+
 <div class='form-group row'>
 <label for='file2' class='col-sm-2 col-form-label'>파일2</label>
 <div class='col-sm-10'>
@@ -52,7 +52,7 @@
 <input type="file" class="form-control-file" id="file3" name="file">
 </div>
 </div>
- -->
+
 <div class='form-group row'>
 <div class='col-sm-10'>
 <button class='btn btn-primary btn-sm'>등록</button>

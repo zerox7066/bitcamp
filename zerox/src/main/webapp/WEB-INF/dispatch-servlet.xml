@@ -68,7 +68,7 @@
              <bean class="java100.app.web.interceptor.AuthInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors> 
-   
+    
 </beans>
 
 

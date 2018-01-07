@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java100.app.dao.BoardDao;
 import java100.app.domain.Board;
+import java100.app.domain.UploadFile;
 import java100.app.service.BoardService;
 
 @Service
@@ -46,8 +47,8 @@ public class BoardServiceImpl implements BoardService {
     }
     
     @Override
-    public int addFile(Board board) {
-        return boardDao.insertFile(board);
+    public int addFile(UploadFile uploadFile) {
+        return boardDao.insertFile(uploadFile);
     }
 
     @Override

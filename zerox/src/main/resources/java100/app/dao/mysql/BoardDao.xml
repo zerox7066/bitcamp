@@ -19,10 +19,25 @@
         
         <!-- http://noveloper.github.io/blog/spring/2015/05/31/mybatis-assocation-collection.html -->
         <collection property="files" javaType="list" ofType="UploadFile">
-            <id column="b_no" property="no"/>
-            <result column="b_name" property="filename"/>
+            <id column="bno" property="no"/>
+            <result column="filename" property="filename"/>
         </collection>
     </resultMap>
+
+    <resultMap type="uploadFile" id="UploadFileMap">
+        <id column="no" property="no"/>
+        <result column="filename" property="filename"/>
+    </resultMap>
+    
+    <insert id="insertFile" parameterType="uploadFile">
+        insert into ex_file(bno, filename)
+        values (#{no}, #{filename})
+    </insert>
+    
+    <insert id="insert" parameterType="board" useGeneratedKeys="true" keyColumn="no" keyProperty="no">
+        insert into ex_board(title,conts,regdt,mno)
+        values (#{title},#{content},now(),#{writer.no})
+    </insert>
  
     <select id="findAll" resultMap="boardMap" parameterType="map">
         select
@@ -80,16 +95,6 @@
         vwcnt=vwcnt + 1
         where no=#{value}
     </update>
-    
-    <insert id="insert" parameterType="board" useGeneratedKeys="true" keyColumn="no" keyProperty="no">
-        insert into ex_board(title,conts,regdt,mno)
-        values (#{title},#{content},now(),#{writer.no})
-    </insert>
-    
-    <insert id="insertFile" parameterType="board">
-        insert into ex_file(bno, filename)
-        values (#{files.b_no}, #{files.b_name})
-    </insert>
     
     <update id="update" parameterType="board">
         update ex_board set 

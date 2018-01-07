@@ -4,6 +4,11 @@ public class UploadFile {
     int no;
     String filename;
     
+    @Override
+    public String toString() {
+        return "UploadFile [no=" + no + ", filename=" + filename + "]";
+    }
+
     public int getNo() {
         return no;
     }

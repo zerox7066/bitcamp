@@ -11,6 +11,13 @@ public class Board {
     protected int viewCount;
     protected Member writer;
     protected List<UploadFile> files;
+    
+    
+    @Override
+    public String toString() {
+        return "Board [no=" + no + ", title=" + title + ", content=" + content + ", regDate=" + regDate + ", viewCount="
+                + viewCount + ", writer=" + writer + ", files=" + files + "]";
+    }
 
     public int getNo() {
         return no;
