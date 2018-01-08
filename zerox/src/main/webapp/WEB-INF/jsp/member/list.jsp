@@ -48,7 +48,7 @@
 </tbody>
 </table>
 
-<jsp:include page="../pasing.jsp"/>
+<jsp:include page="../paging.jsp"/>
 <jsp:include page="../footer.jsp"/>
 
 </div>

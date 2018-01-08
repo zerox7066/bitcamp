@@ -4,13 +4,19 @@
     xmlns:p="http://www.springframework.org/schema/p"
     xmlns:context="http://www.springframework.org/schema/context"
     xmlns:mvc="http://www.springframework.org/schema/mvc"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:aop="http://www.springframework.org/schema/aop"
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd
         http://www.springframework.org/schema/mvc
-        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
 
     <context:component-scan base-package="java100.app"/>
 
@@ -44,7 +50,8 @@
         <property name="typeAliasesPackage" value="java100.app.domain"/> 
     </bean>    
     
-    <!-- DB 커넥션 풀 역할을 수행할 DataSource 객체 -->
+    <!-- DB 커넥션 풀 역할을 수행할 DataSource 객체 -->    
+    <context:property-placeholder location="classpath*:java100/app/jdbc.properties"/>
     <bean id="dataSource" 
           class="org.apache.commons.dbcp2.BasicDataSource" 
           destroy-method="close">
@@ -54,7 +61,11 @@
         <property name="password" value="${jdbc.password}" />
     </bean>
     
-    <context:property-placeholder location="classpath*:java100/app/jdbc.properties"/>
+    <!-- 트랜잭션 관리자 추가 -->
+    <bean id="transactionManager" 
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
     
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="java100.app.dao" />
@@ -67,8 +78,25 @@
              <mvc:exclude-mapping path="/auth/**"/>
              <bean class="java100.app.web.interceptor.AuthInterceptor"/>
         </mvc:interceptor>
-    </mvc:interceptors> 
-   
+    </mvc:interceptors>
+    
+    
+    <!-- 트랜잭션 작업을 수행할 advice -->
+    <tx:advice id="txAdvice">
+        <tx:attributes>
+            <tx:method name="list*" read-only="true"/>
+            <!-- <tx:method name="get*" read-only="true"/> -->
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+    
+    <!-- 트랜잭션 advice를 적용할 대상을 지정 -->
+    <aop:config>
+        <aop:pointcut id="serviceOperation" 
+             expression="execution(* java100.app.service..*ServiceImpl.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation"/>
+    </aop:config>
+    
 </beans>
 
 

@@ -16,6 +16,10 @@
             <id column="m_no" property="no"/>
             <result column="m_name" property="name"/>
         </association>
+        <collection property="files" ofType="uploadFile">
+            <id      column="f_no"         property="no"/>
+            <result column="filename"     property="filename"/>
+        </collection>
     </resultMap>
 
 <!-- 
@@ -75,6 +79,25 @@
         where no=#{value}
     </select>
     
+    <select id="findByNo2" resultMap="boardMap" parameterType="int">
+        select 
+            b.no, 
+            b.title, 
+            b.conts, 
+            b.regdt, 
+            b.vwcnt, 
+            m.no as m_no, 
+            m.name, 
+            m.email,
+            f.no as f_no,
+            f.filename
+        from 
+            ex_board as b 
+            join ex_memb as m on b.mno=m.no
+            left join ex_file as f on b.no=f.bno
+        where b.no=#{value}
+    </select>
+    
     <select id="countAll" resultType="int">
         select count(*) from ex_board
     </select>
@@ -85,7 +108,8 @@
         where no=#{value}
     </update>
     
-    <insert id="insert" parameterType="board">
+    <insert id="insert" parameterType="board" 
+        useGeneratedKeys="true" keyColumn="no" keyProperty="no">
         insert into ex_board(title,conts,regdt,mno)
         values(#{title},#{content},now(),#{writer.no})
     </insert>

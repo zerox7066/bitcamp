@@ -3,8 +3,7 @@
     contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
     trimDirectiveWhitespaces="true"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>    
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,13 +18,7 @@
 
 <h1>강의실 목록</h1>
 
-<div class="toolbar">
-<form action="list" method="get" class="searchbox" style="float: right">
-<input type="text" name="word">
-<button>검색</button>
-</form>
-<a href='form' class='btn btn-primary btn-sm'>추가</a>
-</div>
+<jsp:include page="../listToolbar.jsp"/>
 
 <table class='table table-hover'>
 <thead>
@@ -48,7 +41,8 @@
 </tbody>
 </table>
 
-<jsp:include page="../pasing.jsp"/>
+<jsp:include page="../paging.jsp"/>
+
 <jsp:include page="../footer.jsp"/>
 
 </div>

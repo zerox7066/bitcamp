@@ -1,8 +1,73 @@
-/* 성적 정보 테이블 */
+
+
+/* Foreign Key 설정되어 있는 Child Table 자동 삭제 */
+show create table ex_file;
+
+
+alter table ex_file
+  drop foreign key ex_file_ibfk_1;
+  
+  
+alter table ex_file
+  add constraint foreign key (bno) references ex_board(no) on delete cascade;
+
+
+
+/* 조인할 테이블 조회 */
+select no, title, conts, regdt, vwcnt, mno
+from ex_board
+where no = 80;
+
+select no, name, email 
+from ex_memb
+where no=24;
+
+select no, filename
+from ex_file
+where bno=80;
+
+
+/* 게시물과 회원 조인하기 */
+select 
+    b.no, 
+    b.title, 
+    b.conts, 
+    b.regdt, 
+    b.vwcnt, 
+    m.no, 
+    m.name, 
+    m.email 
+from ex_board as b join ex_memb as m on b.mno=m.no
+where b.no = 80;
+
+/* 게시물과 회원과 파일 조인하기 */
+select 
+    b.no, 
+    b.title, 
+    b.conts, 
+    b.regdt, 
+    b.vwcnt, 
+    m.no, 
+    m.name, 
+    m.email,
+    f.no,
+    f.filename
+from 
+    ex_board as b 
+    join ex_memb as m on b.mno=m.no
+    left join ex_file as f on b.no=f.bno
+where b.no = 80;
+
+
+
+
+
+
 
 alter table ex_board
   add column mno int not null;
   
+delete from ex_board;
   
 alter table ex_board
   add constraint foreign key (mno) references ex_memb(no);

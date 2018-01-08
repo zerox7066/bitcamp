@@ -35,12 +35,12 @@
     <c:when test="${sessionScope.loginUser != null}">
         ${sessionScope.loginUser.name}
         <a href="${contextPath}/app/auth/logout" 
-             class='btn btn-light btn-sm' >로그아웃</a>
+           class='btn btn-light btn-sm'>로그아웃</a>
     </c:when>
-    
+
     <c:otherwise>
-        <a href="${contextPath}/app/auth/login" 
-             class='btn btn-primary btn-sm' >로그인</a>
+       <a href="${contextPath}/app/auth/login" 
+           class='btn btn-primary btn-sm'>로그인</a>
     </c:otherwise>
 </c:choose>
 
@@ -51,3 +51,7 @@
 </header>
 
 
+
+
+
+    
