@@ -1,9 +1,9 @@
 package java100.app.web;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import javax.servlet.ServletContext;
 
@@ -13,7 +13,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.multipart.MultipartFile;
@@ -84,35 +83,6 @@ public class BoardController {
 
         return "board/form";
     }
-       
-    
-    //@RequestMapping(value="add", method=RequestMethod.POST)
-    public String add_1(Board board,
-            UploadFile uploadFile,
-            @ModelAttribute("loginUser") Member loginUser,
-            @RequestParam("file") MultipartFile file) throws Exception {
-
-        board.setWriter(loginUser);
-        boardService.add(board);
-        
-        List<UploadFile> list = new ArrayList<>();
-
-        /*System.out.println(board.getNo());
-        System.out.println(file.getOriginalFilename());*/
-
-        uploadFile.setNo(board.getNo());
-        uploadFile.setFilename(file.getOriginalFilename());
-        
-        list.add(uploadFile);
-        board.setFiles(list);
-        
-        /*System.out.println(uploadFile.toString());
-        System.out.println(board.toString());*/
-        
-        boardService.addFile(uploadFile);
-        
-        return "redirect:list";
-    }
     
     @RequestMapping("update")
     public String update(Board board) throws Exception {
@@ -128,53 +98,54 @@ public class BoardController {
         return "redirect:list";
     }  
     
-    @RequestMapping(value="add", method=RequestMethod.POST)
-    public String add(Board board,
-            UploadFile uploadFile,
-            @ModelAttribute("loginUser") Member loginUser,
-            @RequestParam("file") MultipartFile[] files) throws Exception {
-
-        board.setWriter(loginUser);
-        boardService.add(board);
+    @RequestMapping("add")
+    public String add(
+            Board board,
+            MultipartFile[] files,
+            @ModelAttribute("loginUser") Member loginUser) throws Exception {
         
-        List<UploadFile> list = new ArrayList<>();
+        String uploadDir = servletContext.getRealPath("/download");
+        ArrayList<UploadFile> uploadFile = new ArrayList<>();
         
-        uploadFile.setNo(board.getNo());
-        
-        List<String> filenames = processMultipartFiles(files);
-        for ( String filename : filenames) {
-            if (filename.isEmpty()) continue;
-            uploadFile.setFilename(filename);
-            list.add(uploadFile);
-            //board.setFiles(list);
-            boardService.addFile(uploadFile);
+        for (MultipartFile part : files) {
+            if (part.isEmpty()) continue;
+            
+            String filename = this.writeUploadFile(part, uploadDir);
+            uploadFile.add(new UploadFile(filename));
         }
+        
+        board.setFiles(uploadFile);
+        
+        board.setWriter(loginUser);
+        
+        boardService.add(board);
         
         return "redirect:list";
     }
     
-    private List<String> processMultipartFiles(MultipartFile[] files) throws Exception {
-      ArrayList<String> list = new ArrayList<>();
-      for (MultipartFile file : files) {
-        if (file.isEmpty())
-          continue;       
-        
-        String filename = getNewFilename();  //날짜와 카운트로 새로운 파일명 생성
-        String exename = extractFileExtName(file.getOriginalFilename());  // 확장자 추출
-        file.transferTo(new File(servletContext.getRealPath("/file/" + filename + exename)));
-        list.add(filename + exename);
-      }
-      return list;
-    }
-    
+    long prevMillis = 0;
     int count = 0;
-    synchronized private String getNewFilename() {
-      if (count > 100) {
-        count = 0;
-      }
-      return String.format("%d_%d", System.currentTimeMillis(), ++count); 
+    
+    private String writeUploadFile(MultipartFile part, String path) throws IOException {
+        
+        String filename = getNewFilename(part.getOriginalFilename());
+        part.transferTo(new File(path + "/" + filename));
+        return filename;
     }
     
+    // 다른 클라이언트가 보낸 파일명과 중복되지 않도록 
+    // 서버에 파일을 저장할 때는 새 파일명을 만든다.
+    synchronized private String getNewFilename(String filename) {
+        long currMillis = System.currentTimeMillis();
+        if (prevMillis != currMillis) {
+            count = 0;
+            prevMillis = currMillis;
+        }
+        
+        return  currMillis + "_" + count++ + extractFileExtName(filename); 
+    }
+    
+    // 파일명에서 뒤의 확장자명을 추출한다.
     private String extractFileExtName(String filename) {
         int dotPosition = filename.lastIndexOf(".");
         

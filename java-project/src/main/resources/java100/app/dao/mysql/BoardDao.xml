@@ -60,7 +60,7 @@
                 vwcnt asc
             </when>
             <otherwise>
-                no asc
+                no desc
             </otherwise>
         </choose>
         

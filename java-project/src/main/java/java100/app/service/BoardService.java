@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import java100.app.domain.Board;
+import java100.app.domain.UploadFile;
 
 
 public interface BoardService {
@@ -14,5 +15,6 @@ public interface BoardService {
     int update(Board board);
     int updateViewCount(int no);
     int delete(int no);
+    void addFiles(List<UploadFile> files, int boardNo);
 
 }

@@ -78,6 +78,7 @@ public class BoardController {
         return "board/form";
     }
     
+    //@Transactional
     @RequestMapping("add")
     public String add(
             Board board,

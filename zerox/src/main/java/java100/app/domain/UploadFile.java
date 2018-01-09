@@ -3,6 +3,18 @@ package java100.app.domain;
 public class UploadFile {
     int no;
     String filename;
+    int boardNo;
+    
+    public UploadFile() {}
+    
+    public UploadFile(int no, String filename) {
+        this.no = no;
+        this.filename = filename;
+    }
+    
+    public UploadFile(String filename) {
+        this(0, filename);
+    }
     
     @Override
     public String toString() {
@@ -23,5 +35,13 @@ public class UploadFile {
     
     public void setFilename(String filename) {
         this.filename = filename;
+    }
+
+    public int getBoardNo() {
+        return boardNo;
+    }
+
+    public void setBoardNo(int boardNo) {
+        this.boardNo = boardNo;
     }
 }

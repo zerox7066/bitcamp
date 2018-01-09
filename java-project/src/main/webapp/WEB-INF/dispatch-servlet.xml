@@ -71,7 +71,7 @@
         <property name="basePackage" value="java100.app.dao" />
     </bean>
     
-    
+    <!-- 인터셉터 -->
     <mvc:interceptors>
         <mvc:interceptor>
              <mvc:mapping path="/**"/>

@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java100.app.dao.BoardDao;
+import java100.app.dao.FileDao;
 import java100.app.domain.Board;
 import java100.app.domain.UploadFile;
 import java100.app.service.BoardService;
@@ -16,6 +17,7 @@ import java100.app.service.BoardService;
 public class BoardServiceImpl implements BoardService {
     
     @Autowired BoardDao boardDao;
+    @Autowired FileDao fileDao;
 
     @Override
     public List<Board> list(int pageNo, int pageSize, Map<String, Object> options) {
@@ -43,12 +45,16 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     public int add(Board board) {
-        return boardDao.insert(board);
-    }
-    
-    @Override
-    public int addFile(UploadFile uploadFile) {
-        return boardDao.insertFile(uploadFile);
+        int count = boardDao.insert(board);
+        
+        List<UploadFile> files = board.getFiles();
+        
+        for (UploadFile file : files) {
+            file.setBoardNo(board.getNo());
+            fileDao.insert(file);
+        }
+        
+        return count;
     }
 
     @Override

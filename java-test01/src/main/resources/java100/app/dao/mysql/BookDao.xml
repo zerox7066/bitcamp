@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="java100.app.dao.BookDao">
+
+    <resultMap type="book" id="bookMap">
+        <id column="no" property="no"/>
+        <result column="bookname" property="bookName"/>
+        <result column="publisher" property="publisher"/>
+        <result column="publishdt" property="publishDate"/>
+        <result column="price" property="price"/>
+        <result column="comment" property="comment"/>
+        <result column="photo" property="photo"/>
+    </resultMap>
+ 
+    <select id="findAll" resultMap="bookMap" parameterType="map">
+        select
+            no,
+            bookname,
+            publisher,
+            publishdt,
+            price,
+            comment,
+            photo
+        from ex_book
+        
+        <if test="words != null">
+	        <where>
+	            <foreach collection="words" item="word">
+	                or bookname like '%${word}%'
+	            </foreach>
+	        </where>
+        </if>
+        
+        order by
+        <choose>
+            <when test="orderColumn == 'bookname' and align == 'desc'">
+                bookname desc
+            </when>
+            <when test="orderColumn == 'bookname' and align == 'asc'">
+                bookname asc
+            </when>
+            <otherwise>
+                no desc
+            </otherwise>
+        </choose>
+        
+        limit #{startIndex}, #{size}
+        
+    </select>
+    
+    <select id="findByNo" resultMap="bookMap" parameterType="int">
+        select 
+            no,
+            bookname,
+            publisher,
+            publishdt,
+            price,
+            comment,
+            photo
+        from ex_book
+        where no=#{value}
+    </select>
+    
+    <select id="findByNo2" resultMap="bookMap" parameterType="int">
+        select 
+            no,
+            bookname,
+            publisher,
+            publishdt,
+            price,
+            comment,
+            photo
+        from 
+            ex_book
+        where no=#{value}
+    </select>
+    
+    <select id="countAll" resultType="int">
+        select count(*) from ex_book
+    </select>
+    
+    <insert id="insert" parameterType="book" 
+        useGeneratedKeys="true" keyColumn="no" keyProperty="no">
+        insert into ex_book(bookname,publisher,publishdt,price,comment,photo)
+        values(#{bookName},#{publisher},#{publishDate},#{price},#{comment},#{photo})
+    </insert>
+    
+    <update id="update" parameterType="book">
+        update ex_book set 
+        bookname=#{bookName}, publisher=#{publisher}, publishdt=STR_TO_DATE(#{publishDate}, "%Y-%m-%d"), 
+        price=#{price}, comment=#{comment}, photo=#{photo}
+        where no=#{no}
+    </update>
+    
+    <delete id="delete" parameterType="int">
+        delete from ex_book 
+        where no=#{value}
+    </delete>
+
+</mapper>

@@ -18,9 +18,9 @@
         </association>
         
         <!-- http://noveloper.github.io/blog/spring/2015/05/31/mybatis-assocation-collection.html -->
-        <collection property="files" javaType="list" ofType="UploadFile">
-            <id column="bno" property="no"/>
-            <result column="filename" property="filename"/>
+        <collection property="files" ofType="uploadFile">
+            <id      column="f_no"        property="no"/>
+            <result column="filename"    property="filename"/>
         </collection>
     </resultMap>
 
