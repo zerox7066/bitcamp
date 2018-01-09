@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.util.HashMap;
 
 import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -62,9 +64,15 @@ public class BookController {
     
     
     @RequestMapping("{no}")
-    public String view(@PathVariable int no, Model model) throws Exception {
+    public String view(HttpServletRequest request, @PathVariable int no, Model model, Book book) throws Exception {
+        HttpSession session = request.getSession();
         
-        model.addAttribute("book", bookService.get(no));
+        book = bookService.get(no);
+
+        session.setAttribute("photoname", book.getPhoto());
+        model.addAttribute("book", book);
+        //model.addAttribute("book", bookService.get(no));
+        
         return "book/view";
     }
     
@@ -115,6 +123,8 @@ public class BookController {
     @RequestMapping("update")
     public String update(
             Book book, 
+            Model model,
+            HttpServletRequest request, 
             MultipartFile file) throws Exception {
         
         String uploadDir = servletContext.getRealPath("/download");
@@ -130,11 +140,19 @@ public class BookController {
             uploadFiles.add(new UploadFile(filename));
         }
         */
+        HttpSession session = request.getSession();
+
+        
+        String filename;
         if (!file.isEmpty()) {
-            String filename = this.writeUploadFile(file, uploadDir);
-            System.out.println(filename);
-            book.setPhoto(filename);
+            filename = this.writeUploadFile(file, uploadDir);
+            //System.out.println(filename);
+        } else {
+            filename = (String) session.getAttribute("photoname");
+            System.out.println(session.getAttribute("photoname"));
         }
+
+        book.setPhoto(filename);
         bookService.update(book);
         
         return "redirect:list";
